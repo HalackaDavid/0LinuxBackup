@@ -1,0 +1,12 @@
+delete[] //when removing new with []
+delete //when removing new without []
+
+
+//GOOD PRACTISES
+
+delete[] heap
+heap = NULL || heap = nullptr
+
+delete heap
+heap = NULL || heap = nullptr
+

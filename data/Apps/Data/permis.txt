@@ -1,0 +1,4 @@
+#!/usr/bin/zsh
+sudo -v || return 1;
+echo $UID;
+sudo service ssh start

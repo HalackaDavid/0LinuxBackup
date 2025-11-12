@@ -1,0 +1,28 @@
+#!/usr/bin/zsh
+
+#count arg
+echo $#
+
+#all arg
+echo $@
+
+#argv[1], argv[2], ...    argv[0] --> program name
+echo $1, $2, ...
+
+
+
+Func_Foo() {
+	echo $#; #count = 3 -> "str", 69.69, 1984
+
+	echo $@; # 0 = <program name> 
+			 # 1 = "str" 
+			 # 2 = 69.69 
+			 # 3 = 1984
+
+	echo $0, $1, $2, $3; # manual call of args
+						 # $0 -> <program name>
+						 # ...
+}
+
+Func_Foo "str" 69.69 1984;
+

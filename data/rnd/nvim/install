@@ -1,0 +1,1 @@
+MAKE_BUILD_TYPE=Release CMAKE_EXTRA_FLAGS="-          DCMAKE_INSTALL_PREFIX=$HOME/data/Apps/App/nvim" && make install

@@ -1,0 +1,58 @@
+#!/usr/bin/zsh
+
+tmux-code() {
+    local SESSION=C;
+
+    if ! tmux has-session -t $SESSION 2>/dev/null; then
+        # Otherwise create session with 3 windows
+        tmux new-session -d -s $SESSION -n Code;
+        tmux new-window -t $SESSION:2 -n Shell;
+        tmux new-window -t $SESSION:3 -n Whatever;
+
+        # Send nvim command to Code window
+        tmux send-keys -t $SESSION:1 'nvim .' C-m
+
+        # Focus on window 1 and attach
+        tmux select-window -t $SESSION:1;
+        tmux attach -t $SESSION;
+    else
+        tmux switch-client -n
+    fi
+}
+tmux-code;
+
+
+#tmux-code() {
+#    local SESSION=C;
+#    local UserI;
+#
+#    if tmux has-session -t $SESSION 2>/dev/null; then
+#        if [[ ${#1} > 0 ]]; then
+#            UserI=$1;
+#        else
+#            echo "tcode exists in"
+#            tmux list-panes -t C -F "#{pane_current_path}"
+#            echo -n "[k] Kill\n[a] Attach\n[d] Detach\n[*] Exit\n>> ";
+#            read UserI;
+#        fi
+#        case $UserI in
+#            k) tmux kill-session -t $SESSION; ;;
+#            a) tmux attach -t $SESSION; ;; 
+#            d) tmux detach; ;;
+#            *) ;;
+#        esac
+#    else
+#        # Otherwise create session with 3 windows
+#        tmux new-session -d -s $SESSION -n Code;
+#        tmux new-window -t $SESSION:2 -n Shell;
+#        tmux new-window -t $SESSION:3 -n Whatever;
+#
+#        # Send nvim command to Code window
+#        tmux send-keys -t $SESSION:1 'nvim .' C-m
+#
+#        # Focus on window 1 and attach
+#        tmux select-window -t $SESSION:1;
+#        tmux attach -t $SESSION;
+#    fi
+#}
+#tmux-code $1;

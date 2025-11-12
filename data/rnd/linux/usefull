@@ -1,0 +1,10 @@
+/etc/alternatives/desktop-theme/grub/
+
+LightDM GTK Greeter settings --> to change login screen
+
+1. change in /boot/grub/themes/kali/theme.txt --> desktop-image: "image.something" with yours but it must be in /boot/grub/themes/kali directory
+2. GRUB_BACKGROUND=<pathToImage> in /etc/default/grub 
+3. after done then sudo update-grub
+
+
+https://www.devdungeon.com/content/change-grub-bootloader-colors-image-timeout

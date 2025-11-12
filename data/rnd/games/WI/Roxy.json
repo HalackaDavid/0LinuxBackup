@@ -1,0 +1,129 @@
+{
+	"hairTypeIndex": 4,
+	"eyeColorRightIndex": 7,
+	"eyeColorLeftIndex": 7,
+	"skinTextureIndex": 3,
+	"makeupMaskIndex": 9,
+	"hairRootColor":
+	{
+		"r": 1,
+		"g": 0.75294220447540283,
+		"b": 0.50288647413253784,
+		"a": 1
+	},
+	"hairTipColor":
+	{
+		"r": 1,
+		"g": 0.75294220447540283,
+		"b": 0.54572445154190063,
+		"a": 1
+	},
+	"skinTint":
+	{
+		"r": 0.46207699179649353,
+		"g": 0.34191501140594482,
+		"b": 0.32314300537109375,
+		"a": 1
+	},
+	"makeupCOlor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"lipStickIntensity": 0,
+	"lipStickColor":
+	{
+		"r": 0.021219009533524513,
+		"g": 0.10702310502529144,
+		"b": 0.021219009533524513,
+		"a": 1
+	},
+	"tattooColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 1
+	},
+	"tattooOpacity": 2,
+	"pubicHairColor":
+	{
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 0
+	},
+	"pubicHairIndex": 0,
+	"currentMorphs":
+	{
+	},
+	"longTermMorphs":
+	{
+		"dezzi Head": 0,
+		"sylvian Head": 0,
+		"zoe Head": 0,
+		"ears Elf Long": 0,
+		"eyes Scale": 0.63223171234130859,
+		"eyes Height A": 0,
+		"eyes Asian A": 0,
+		"eyes Arched": 0,
+		"brows Height": -0.20969414710998535,
+		"brows Arch": -0.41890466213226318,
+		"nose Scale": 0,
+		"nose Curve Out": 0,
+		"mouth Small": 0.98992800712585449,
+		"mouth Scale": 0,
+		"lips Thin (Alt)": 0,
+		"jaw Height (Alt)": 0,
+		"jaw Corner Angle": 0,
+		"face Lower Widen": 0,
+		"face Lower Narrow": 0,
+		"face Length": 0,
+		"face Height": 0,
+		"chin Pointed": 0,
+		"chin Depth": 0,
+		"chin Cleft": 0,
+		"cheeks Define": 0,
+		"voluptuous": -0.00051653385162353516,
+		"bodybuilder Size": 0.017562031745910645,
+		"body Size": 0.0020661354064941406,
+		"body Tone": 1.5,
+		"slim HD": 0,
+		"waist Width": -1,
+		"glutes Size": 0,
+		"hip Size": 0,
+		"thighs Size": 0.47469043731689453,
+		"calves Size": -1,
+		"thighs Tone": 0.89824390411376953,
+		"sacral Dimples": 0.30184364318847656,
+		"iliac Line": 0,
+		"fitness Size": -1,
+		"breasts Size": 1.0996904373168945,
+		"breasts Diameter": 1.1022729873657227,
+		"breasts Natural": -1,
+		"breasts Small": -0.0030988454818725586,
+		"breasts Implants": 0.0046491622924804688,
+		"breasts Cleavage": 0.095041632652282715,
+		"areolae Diameter": 0.071932315826416016,
+		"nipples Diameter": 0,
+		"areolae Perk": 0.6204221248626709,
+		"head preset 1": 0,
+		"head preset 2": 0.030475497245788574,
+		"head preset 3": 0.40754163265228271,
+		"body athletic": 0.21771717071533203,
+		"body sacral dimples": 0.30184364318847656,
+		"body thighs tone": 0.72133302688598633,
+		"body waist Width": -0.21100175380706787,
+		"face eyes size": 0.63223171234130859,
+		"face brows height": -0.20969414710998535,
+		"face brows arch": -0.41890466213226318,
+		"face mouth small": 0.98992800712585449,
+		"breast areolae perk": 0.6204221248626709
+	},
+	"female": false,
+	"selectedTattoosState":
+	{
+	}
+}

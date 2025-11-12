@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Show unique user:group counts updating in real time
+
+declare -A count
+
+while IFS=: read -r user group; do
+    key="${user}:${group}"
+    ((count[$key]++))
+    printf "\033[2J\033[H"   # clear screen
+    echo "Current counts:"
+    for k in "${!count[@]}"; do
+        printf "%-20s %d\n" "$k" "${count[$k]}"
+    done
+done < <(find "$1" -printf '%u:%g\n' 2>/dev/null)
+

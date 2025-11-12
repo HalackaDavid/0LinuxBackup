@@ -1,0 +1,9 @@
+#!/usr/bin/zsh
+
+Main() {
+	local extension="langer";
+	local a=$(ls ~);
+	echo $a;
+}
+
+Main;

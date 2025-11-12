@@ -1,0 +1,136 @@
+
+/* MAKE GRID TEMPLATE */
+/* Kouknout se na Youtube script */
+
+html{
+    background-image: url(../../IMG/img_Discord_grey.png);
+    background-repeat: repeat;
+    scroll-behavior: smooth;
+    background-size: contain; /*when you zoom in same background*/
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.video-player {
+    z-index: 1;
+}
+nav{
+    box-sizing: border-box;
+    background-color: black;
+    z-index: 3;
+}
+nav li{
+    list-style: none;
+}
+.Content p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.Content a{
+    color: rgb(255, 0, 0);
+}
+.nav-top a{
+    color: rgb(219, 18, 186);
+    color: rgb(255, 72, 0);
+}
+.nav-side a{
+    color: rgb(241, 165, 0);
+}
+.profile_name{
+   color: black;
+}
+
+
+
+
+@media screen and (min-width: 528px){
+    .Content{
+        padding: 70px 0px 0px 120px; /*vw*/
+        padding: 3.755vw 0vw 0vw 6.438vw;
+        clear: both;
+    }
+    .nav-top ,.nav-side{
+        padding: 0.536vw; 
+        /* padding: 10px; */
+    }
+    .nav-top{  
+        position: fixed;
+        width: 100%;
+        float: left;
+    }
+    .nav-top a{
+        font-size: 2vw;
+        /* padding: 0px 5px;  */
+        padding: 0vw 0.026vw; /*vw*/
+    }
+    .nav-top li{
+        display: inline;
+    }
+    .nav-side{
+        position: fixed;
+        width: auto;
+        float: left;
+        /* padding-top: 60px; */
+        padding-top: 3.219vw;
+        height: 100%;  
+    }
+    .nav-side a{
+        font-size: 1.4vw;
+    }
+    .profile_name{
+        font-size: 3.3vw;
+    }
+    .profile_img{
+        height: 16.094vw;
+        width: 16.094vw;
+    }
+    .profile_video{
+        /* padding: 0px 0px 0px 10px; */
+        padding: 0vw 0vw 0vw 0.536vw;
+        /* height: 300px; */
+        height: 16.094vw;
+        width: auto;
+    }
+    .profile_social_img_twitter{
+        height: 1.985vw;
+        width: 2.414vw;
+    }
+    .profile_social_img_40px{
+        height: 2.146vw;
+        width: 2.146vw;
+    }
+}
+
+@media screen and (max-width: 527px){
+    
+    .Content{
+    padding: 1px 19px; /*vw*/
+    clear: both;
+    }
+    .nav-top ,.nav-side{
+        padding: 10px; /*vw*/
+    }
+    nav{
+        height: 35vw;
+    }
+    .nav-top{
+        width: 75%;
+        float: left;
+        text-align: center;
+    }
+    .nav-top a{ 
+        font-size: 5vw;
+    }
+    .nav-side{
+        width: 25%;
+        float: left;
+        text-align: center;
+    }
+    .nav-side a{
+        font-size: 5vw;
+    }
+}

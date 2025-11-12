@@ -1,0 +1,16 @@
+//in %APPDATA%\Code\User\settings.json
+
+{
+    "json.schemas": [
+    
+        
+    ],
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingComments": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.autoClosingDelete": "never",
+    "editor.autoIndent": "none"
+}

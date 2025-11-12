@@ -1,0 +1,10 @@
+#!/usr/bin/zsh
+Main() {
+	local var;
+	(
+		cd /sys/class/power_supply/battery;
+			echo "$(cat uevent)";
+	)
+}
+
+Main;

@@ -1,0 +1,35 @@
+source ~/.zshrc
+source
+nano ~/.zshenv
+nano ~/.zsh_history
+nano ~/.zshrc
+nano ~/.zsh
+nano
+lsblk --include 8
+lsblk
+chmod +x
+chmod
+tmux
+clear
+exit
+service ssh stop && service apache2 stop
+service ssh start && service apache2 start
+service apache2 stop && servuce ssh stop
+service apache2 start && service ssh start
+service apache2 start
+service apache2 stop
+service apache2 st
+service ssh start
+service ssh stop
+service ssh st
+service
+mount $myDeviceLocation/sd
+umount $myDeviceLocation/sd
+unset
+echo
+whoami
+whatis
+ifconfig
+du -h
+df -h
+exit

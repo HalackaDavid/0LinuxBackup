@@ -1,0 +1,4 @@
+#!/usr/bin/zsh
+array=(one two)
+
+echo $array[1];

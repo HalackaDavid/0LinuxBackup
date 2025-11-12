@@ -1,0 +1,67 @@
+##############
+### Global ###
+##############
+
+# ukazuje používaný shell
+echo $SHELL
+
+# kdo jsem
+whoami
+
+# list direcotires
+ls
+## se schovanýma soubory
+ls -a
+## windows style ls
+ls -l
+
+# textový editor
+## nemusí být specifikovaný soubor
+nano <arg1> ...
+
+# čte soubor
+## output bude zobrazen v terminálu
+## měl by být specifikovaný soubor jinak se v sobě zasekne jinak ctrl+c / ctrl+z
+cat <arg1> ...
+
+# hledá secifikovaný string v souboru
+grep <arg>
+cat <soubor> | grep <arg>
+
+# když má soubor dost řádků a nevejde se na terminál
+less
+cat <soubor> | less
+
+# IP ADDRESA
+ifconfig
+ip addr
+
+# práva souborů
+## 4 Read; 2 Write; 1 Execute;
+## 1 Číslo [User]
+## 2 Číslo [Group]
+## 3 Číslo [Others]
+chmod 777
+
+# ukaž místo na disku
+du
+df
+
+# manual
+man <arg>
+
+# enviroment variables
+env
+## doporučeno
+env | less
+
+##################
+### BASH SHELL ###
+##################
+
+# cesta základního nastavení terminálu
+~/.bashrc
+
+# ukázání historie
+## většinou specifikovaná cesta v ~/.bashrc základní by měla být ~/.bash_history
+history

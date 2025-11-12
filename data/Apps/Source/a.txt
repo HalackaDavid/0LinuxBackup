@@ -1,0 +1,7 @@
+add export path for disk
+
+and add some config to zshrc or zshenv to load it if terminal is lost
+
+ask for forcefull umount and if needed give more info
+
+if not in /dev then look in /dev/block

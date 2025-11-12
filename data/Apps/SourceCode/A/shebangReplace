@@ -1,0 +1,23 @@
+#!/usr/bin/zsh
+
+Main() {
+    (
+    # :s/^/#/
+    # :s:^\s\{-\}#::
+    
+        cd $myAppsPath;
+        arr=( Source/* NoneSource/* );
+        for i in $arr[@]; do
+            if [[ "$PWD/$i" != "$1" ]]; then
+                echo "$PWD/$i";
+                # Replace #!/usr/bin/zsh
+                sed -i '1s|.*|#!/usr/bin/zsh|' $i;
+            fi
+        done
+
+        unset count;
+        unset i;
+        unset arr;
+    )
+}
+Main $0;

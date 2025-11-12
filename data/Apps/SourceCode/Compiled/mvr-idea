@@ -1,0 +1,11 @@
+idea1() {
+	1. in cpp/c
+	2. cross platform (linux and win)
+
+	mv [array with file/ dirs] > [destination]
+	
+	mv [arr1 > d1] [arr2 > d2]
+	
+	mv file1 file2 > /root file3 file4 > /usr/bin 
+}
+

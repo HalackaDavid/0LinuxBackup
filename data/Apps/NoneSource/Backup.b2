@@ -1,0 +1,73 @@
+#!/usr/bin/zsh
+
+Print_line() {
+	for i in {1..$COLUMNS}; do
+		echo -n "=";
+	done
+	echo;
+    unset i;
+}
+
+Main() {
+    if [[ $1 ]]; then
+        if [[ "$1" == "." ]]; then
+            savePath=$PWD;
+        else
+            savePath=$1;
+        fi
+    else
+        savePath=$myData/LinuxBackup;
+    fi
+
+    (
+		cd /;
+
+        timedate=$(env TZ='Europe/Prague' date +"%Y-%m-%d-%Hh%Mm");
+		user=$(whoami);
+		
+		uncomplateDir=uncomplated-$user-$timedate;
+		compliateDir=$user-$timedate;
+		unset user;
+        unset timedate;
+        
+        EXCLUDES=(		
+			'*.swp'
+			$myData/LinuxBackup
+            $myFSPath
+            $HOME/.gnupg/S.gpg-agent*
+			$HOME/.cache/gvfsd
+            $HOME/.cache/thumbnails
+            $HOME/.dbus
+		)
+
+	    echo $EXCLUDES
+		TAR_ARGS=()
+		for EXCLUDE in "${EXCLUDES[@]}"; do
+		    TAR_ARGS+=(--exclude="$EXCLUDE")
+		done
+        unset EXCLUDE;
+        unset EXCLUDES;
+
+		tar \
+		"${TAR_ARGS[@]}" \
+		-c \
+		--verbose \
+		--gzip \
+		--preserve-permissions \
+		--same-owner \
+		-f \
+		$savePath/$uncomplateDir $HOME;
+        mv $savePath/$uncomplateDir $savePath/$compliateDir.tar.gz;
+        unset TAR_ARGS;
+        unset uncomplateDir;
+
+		echo "\n";
+		Print_line;
+		echo "Backup done in $savePath/$compliateDir.tar.gz";
+		Print_line;
+	)
+    unset complateDir;
+    unset savePath;
+}
+
+Main $1;

@@ -1,0 +1,11 @@
+IPGRB:
+    1. take info
+    2. send over internet or over usb
+    3. delete it self
+    4. optional: set remote host + detecting virtual machines
+
+DATABASER: 
+    1. store data
+    2. check if data are not in databaser already
+    3. sort data
+

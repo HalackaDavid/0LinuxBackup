@@ -1,0 +1,13 @@
+127.0.0.1
+
+1 = 1a
+2 = 2b
+7 = 7c
+. = .d
+0 = 0e
+. = .f
+0 = 0g
+. = .h
+1 = 1i
+
+cislo a pozice(abc) nebo code cisla a pozice(abc)

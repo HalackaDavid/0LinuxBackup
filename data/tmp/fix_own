@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+#
+# Fix ownership for files matching a specific user:group
+#
+# Usage:
+#   ./fix_ownership.sh olduser:oldgroup newuser:newgroup
+#
+# Example:
+#   ./fix_ownership.sh root:root myuser:myuser
+#
+# Notes:
+# - Runs only inside your home directory.
+# - Asks for confirmation before applying changes.
+# - Requires sudo if you don't own the files.
+
+set -euo pipefail
+
+# --- Argument check ---
+if [[ $# -ne 2 ]]; then
+    echo "Usage: $0 olduser:oldgroup newuser:newgroup"
+    exit 1
+fi
+
+old="$1"
+new="$2"
+
+old_user="${old%%:*}"
+old_group="${old##*:}"
+new_user="${new%%:*}"
+new_group="${new##*:}"
+
+echo "Scanning for files in \$HOME owned by ${old_user}:${old_group} ..."
+echo
+
+# --- Preview what will change ---
+mapfile -t targets < <(find "$HOME" -user "$old_user" -group "$old_group" 2>/dev/null)
+
+if [[ ${#targets[@]} -eq 0 ]]; then
+    echo "No files found with ownership ${old_user}:${old_group}"
+    exit 0
+fi
+
+echo "Found ${#targets[@]} files/directories with ${old_user}:${old_group} ownership."
+echo
+read -rp "Change ownership to ${new_user}:${new_group}? [y/N] " ans
+[[ "$ans" =~ ^[Yy]$ ]] || { echo "Aborted."; exit 0; }
+
+# --- Apply changes ---
+sudo chown -R "${new_user}:${new_group}" "${targets[@]}"
+
+echo
+echo "✅ Ownership changed from ${old_user}:${old_group} → ${new_user}:${new_group}"
+

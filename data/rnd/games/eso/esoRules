@@ -1,0 +1,28 @@
+| Definice | 
+============
+
+proc set {
+	zatim winner - > „Schopnost setu, která je po aktivaci po stanovenou dobu neměnná bez ohledu na to, zda je aktivní hlavní nebo vedlejší panel zbraní.“
+
+	„Účinek setové schopnosti zůstává po její aktivaci účinný po předem určenou dobu, přičemž přechod mezi hlavním a vedlejším zbraňovým panelem nemá na její trvání vliv.“
+
+	„Po aktivaci setové schopnosti zůstává její účinek po stanovenou dobu zachován, a to bez ohledu na přepnutí mezi primární a sekundární zbraňovou sadou.“
+
+	je proc (nekompletní)
+		Tank - sax, pa, warmachine
+		DD - Pillar of nirn, Aegis caller, Roar of alkosh, Warmahine, Master architect 
+		Healer - Roaring oportunist, Spell power Cure (SPC), Vestments of olorime, Mvaster architect, pillager
+		
+	neni proc (nekompletní)
+		Tank - Pearlescent ward, Lucent echoes
+		DD - Coral Riptide, Ansul's torment, Bahseis mania
+		Healer - jorvulds guidance
+}
+
+hotový build {
+	2 monster set + 2 krat 5 piece set (2 + 5 + 5)
+	1 piece monster set + mythic + 2 krat 5 piece set (1 + 1 + 5 + 5)
+	2 monster set + 2 + 1 mythic + 2 krat 5 piece proc set (2 + 1 + 5 + 5) (NEDOPORUČENO)
+}
+
+|  |

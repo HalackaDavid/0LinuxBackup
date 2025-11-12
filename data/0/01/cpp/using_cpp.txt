@@ -1,0 +1,2 @@
+g++ -o [your preferable name] [programs name].cpp (g++ -o myownname myprogram.cpp)
+in bash: ./myownprogram

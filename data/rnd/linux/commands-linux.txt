@@ -1,0 +1,93 @@
+wls {
+    nano /usr/lib/win-kex/xstartup && echo "change export SHELL=/bin/bash to export SHELL=/bin/zsh"
+}
+
+Commands {
+    source ~/.zshrc
+    chsh -s $(which zsh)
+    scp -r <file/dir> <ip:path where to upload> OR scp -r <ip:path where to download> <path where to upload> 
+    ss --> system manager's manual    
+	man --> manual
+	
+	grep {-v    invert match}
+	grep -rnw 'path' -e 'pattern'
+	chown --> change owner permission
+	chmod --> change file read/write/....
+
+	du - disk usage
+	df - display file system space
+
+	dd - conver and copy a file
+
+	fdisk
+	mkfs
+
+	useradd
+	userdel
+
+	lsmod
+}
+
+Programs {
+    nano {
+        **ctrl + d** --> just del key-button
+        **ctrl + space** --> ctrl + left arrow key
+        **ctrl + space** --> ctrl + right arrow key
+        **alt + a** --> mark set
+    }
+
+    tmux {
+        **ctrl + b** --> before every command
+        **"** --> split screen horizontaly
+        **%** --> split screen verticaly
+        **
+    }
+
+    ssh {
+        /etc/init.d/ssh
+        commands: 
+            service ssh start
+            service ssh stop
+            service ssh reload
+            service ssh force-reload
+            service ssh restart
+            service ssh try-restart
+            service ssh status
+
+            conecting wia:
+                wlan0
+    }
+        
+    apache2 {
+        commands:
+            service apache2 start
+            service apache2 stop
+            service apache2 restart
+
+        path to files:
+            /var/www/html
+
+        connecting wia:
+            1. localhost
+            2. wlan0 
+    }
+
+	tar {
+		tar -c -z -f <name>tar.gz <path where to be archieved> ---> tar -c -z -f /backup/home_backup.tar.gz /home/user
+		-c ---> create a new archive
+		-z ---> Compress the archive using gzip
+		-f <name>tar.gz ---> Specufues the name and location of the output archive
+
+
+		tar -x -z -f <name>tar.gz -C <Restor path> ---> tar -x -z -f /backup/home_backup.tar.gz -C /restore_directory
+		-x ---> extracts files from the archive
+		-z ---> Decompresses the archieve using gzip
+		-f ---> Specifies the archive to extract
+		-C <restor path> --->  Changes to <restor path> before extracting files. This ensures that the extracted files are placed in <restor path>.
+	}
+}
+
+sudo iw dev wlan0 scan | grep SSID
+
+ifdown eth0
+ifup eth0

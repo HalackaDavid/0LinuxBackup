@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+h2{
+    text-decoration: underline;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto
+                           auto
+                           auto
+                           auto
+                           auto
+                           auto
+                           auto
+                           auto
+                           auto
+                           auto
+                           auto
+                           auto;
+    grid-template-rows: auto
+                        auto
+                        auto
+                        auto
+                        auto
+                        auto
+                        auto
+                        auto
+                        auto
+                        auto
+                        auto
+                        auto;
+}
+.nav1{
+    display: grid;
+/*     grid-template-columns: ;
+    grid-template-rows: ; */
+}
+.nav2{
+    display: grid;
+/*     grid-template-columns: ;
+    grid-template-rows: ; */
+}

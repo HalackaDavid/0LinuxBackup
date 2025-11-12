@@ -1,0 +1,13 @@
+#!/usr/bin/zsh
+
+
+#1   tree -f -i --noreport $path > a.txt
+#2   for i in $(cat a.txt); do du $i; done
+#3   sort from low size directory or file
+#4   copy to destination
+
+Main() {
+
+}
+
+Main;

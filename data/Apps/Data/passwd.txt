@@ -1,0 +1,63 @@
+[+] WPS PIN: '54333918 '
+[+] WPA PSK: '704810071'
+[+] AP SSID: 'sofie111'
+
+[+] WPS PIN: '19243542'
+[+] WPA PSK: '328md238
+[+] AP SSID: 'DSL'
+
+[+] WPS PIN: '11206217'
+[+] WPA PSK: 'Sszmd291'
+[+] AP SSID: 'KameryTunel'
+
+[+] WPS PIN: '87828696'
+[+] WPA PSK: 'office3440100'
+[+] AP SSID: 'Office'
+
+[+] WPS PIN: '37438562'
+[+] WPA PSK: 'trubkar1'
+[+] AP SSID: 'Carnage'
+
+[+] WPS PIN: '91900418'
+[+] WPA PSK: '91900418'
+[+] AP SSID: 'TP-Link_FA62'
+
+[+] WPS PIN: '39623126'
+[+] WPA PSK: 'haladomazlice'
+[+] AP SSID: 'Hala'
+
+[+] WPS PIN: '73021056'
+[+] WPA PSK: 'Pw773595270'
+[+] AP SSID: 'Guldenerova68/3'
+
+[+] WPS PIN: '76855702'
+[+] WPA PSK: 'Nela1234'
+[+] AP SSID: 'Platzer'
+
+[+] WPS PIN: '22224033'
+[+] WPA PSK: '1234milan'
+[+] AP SSID: 'Obdrzalek'
+
+[+] WPS PIN: '66227892'
+[+] WPA PSK: 'masar183'
+[+] AP SSID: 'Vzorkovna'
+
+[+] WPS PIN: '62675659'
+[+] WPA PSK: '0745922e'
+[+] AP SSID: 'TP-Link'
+
+[+] WPS PIN: '24355506'
+[+] WPA PSK: '24355506'
+[+] AP SSID: 'TP-Link_8390'
+
+[+] WPS PIN: '45052316'
+[+] WPA PSK: 'kopretina'
+[+] AP SSID: 'SVPDO_vychovatelna'
+
+[+] WPS PIN: '83568008'
+[+] WPA PSK: 'ldmksldmks'
+[+] AP SSID: 'TP-LINK_52B2'
+
+[+] WPS PIN: '90270642'
+[+] WPA PSK: '90270642'
+[+] AP SSID: 'TP-LINK_B436'

@@ -1,0 +1,30 @@
+#!/usr/bin/zsh
+Main() {
+	local arr=(
+		gcc
+		g++
+		python3
+		tealdeer
+		fzf
+		defaul-jdk
+		neovim
+		webp-pixbuf-loader	
+	    gzip
+        tar
+        curl
+        wget
+        gtar
+        unzip
+        fdfind
+        ripgrep
+    )
+
+	local string;
+
+		apt install $arr[@]
+}
+
+Main;
+
+#ln -s $(which fdfind) ~/.local/bin/fd
+

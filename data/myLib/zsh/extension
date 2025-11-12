@@ -1,0 +1,3 @@
+str="a.txt.txt.txt.txt"
+${str:r} -> a.txt.txt.txt
+${str:r:r} -> a.txt.txt

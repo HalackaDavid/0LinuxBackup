@@ -1,0 +1,11 @@
+Real-World Usage
+Penetration testers and attackers typically:
+
+Use airmon-ng to put a Wi-Fi adapter into monitor mode.
+
+Use wash to find vulnerable WPS-enabled networks.
+
+Use reaver -i wlan0mon -b [BSSID] -vv to brute-force the PIN.
+
+If the router is vulnerable to Pixie Dust, use --pixie-dust flag.
+

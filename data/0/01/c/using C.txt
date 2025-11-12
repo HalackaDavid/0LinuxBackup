@@ -1,0 +1,2 @@
+gcc -o [your preferable name] [programs name].c (gcc -o myownname myprogram.c)
+in bash: ./myownprogram
