@@ -8,6 +8,7 @@
 !.gitconfig
 !.gitignore
 !.git-credentials
+!.my_zsh_autosuggestions
 
 !.ssh/
 !.ssh/**
