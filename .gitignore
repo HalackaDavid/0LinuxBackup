@@ -27,5 +27,5 @@
 #.config/mozilla/
 #.config/hypr/monitor.conf
 #
-#!.local/
-#.local/*
+!.local/
+.local/*
