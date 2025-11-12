@@ -1,13 +1,13 @@
 #Ignore everythng 
 *
 
-#!.zshrc
-#!.zshenv
-#!.tmux.conf
-#!.command_list
-#!.gitconfig
+!.zshrc
+!.zshenv
+!.tmux.conf
+!.command_list
+!.gitconfig
 !.gitignore
-#!.git-credentials
+!.git-credentials
 #
 #!data/
 #!data/**
