@@ -32,6 +32,7 @@ nano ~/.zshenv
 source
 source ~/
 source ~/.zshrc
-git 
+git
+git status
 git pull
 git add . && git commit -m $(date) && git push
