@@ -21,6 +21,7 @@
 .config/discord/
 .config/mozilla/
 .config/hypr/monitor.conf
+.config/pulse/pulse-auth
 
 !.local/
 !.local/bin/
