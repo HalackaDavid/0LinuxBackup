@@ -8,7 +8,7 @@ Main() {
             ;;
         "2")
             echo "b"
-            ;!
+            ;;
         "x") return ;;
         esac
     done
