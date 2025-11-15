@@ -1,1 +1,0 @@
-sudo rsync -aAXHv --exclude={"Steam",".steam",".steampath",".steampid",".mozilla",".cache/mozilla","Downloads"} /home/chromagor /mnt

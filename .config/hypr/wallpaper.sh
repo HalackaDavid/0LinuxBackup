@@ -1,4 +1,3 @@
-img="other/Kali.png"
-img="meh/Roxy1.png"
+img="active/*.active"
 swaybg -i $HOME/data/Wallpapers/$img -m fill
 unset img

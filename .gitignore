@@ -32,6 +32,7 @@
 !data/**
 data/Wallpapers/meh
 data/Wallpapers/0
+data/Wallpapers/active
 data/Apps/App/nvim/nvim_plugins/*
 
 
