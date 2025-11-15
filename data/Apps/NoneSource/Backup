@@ -1,6 +1,10 @@
+#!/bin/zsh
+
 Main() {
+    git pull
+
     while true; do
-        echo -n "[1] Fetch data\n[2] Upload data\n[x] exit\n>>> "
+        echo -n "[1] Commit\n[2] Upload\n[x] exit\n>>> "
         read var
         case $var in
         "1")
