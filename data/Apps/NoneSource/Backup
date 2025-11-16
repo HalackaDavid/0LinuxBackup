@@ -1,23 +1,24 @@
 #!/bin/zsh
 
 Main() {
-    git pull
+    (
+        cd ~
 
-    while true; do
-        echo -n "[1] Commit\n[2] Upload\n[x] exit\n>>> "
-        read var
-        case $var in
-        "1")
-            echo "a"
-            ;;
-        "2")
-            echo "b"
-            ;;
-        "x") return ;;
-        esac
-    done
+        git pull
 
-    unset var
-    return 0;
+        while true; do
+            echo -n "[1] Status\n[2] Commit\n[3] Upload\n[x] exit\n>>> "
+            read var
+            case $var in
+            "1") git status;;
+            "2") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")";;
+            "3") git push;;
+            "x") return ;;
+            esac
+        done
+
+        unset var
+        return 0;
+    )
 }
 Main;
