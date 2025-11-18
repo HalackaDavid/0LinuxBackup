@@ -42,6 +42,10 @@ unset var;
 # %m -> machine name till first '.'
 # %~ -> PWD
 
+#%F{240}   # dark grey
+#%F{244}   # medium grey
+#%F{250}   # light grey
+
 autoload -U colors && colors
 PS1=$'%{$fg[blue]%}%B[%b%{$fg[cyan]%}%n%{$fg[lightblack]%}%B@%b%{$fg[cyan]%}%m%{$fg[blue]%}%B]-%b%{$fg[blue]%}%B[%b%{$fg[white]%}%~%{$fg[blue]%}%B]%b\n%{$fg[cyan]%}%B>>>%b%{$reset_color%} '
 
