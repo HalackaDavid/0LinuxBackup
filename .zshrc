@@ -43,7 +43,7 @@ unset var;
 # %~ -> PWD
 
 autoload -U colors && colors
-PS1=$'%{$fg[blue]%}%B[%b%{$fg[cyan]%}%n%{$fg[lightgrey]%}%B@%b%{$fg[cyan]%}%m%{$fg[blue]%}%B]-%b%{$fg[blue]%}%B[%b%{$fg[white]%}%~%{$fg[blue]%}%B]%b\n%{$fg[cyan]%}%B>>>%b%{$reset_color%} '
+PS1=$'%{$fg[blue]%}%B[%b%{$fg[cyan]%}%n%{$fg[lightblack]%}%B@%b%{$fg[cyan]%}%m%{$fg[blue]%}%B]-%b%{$fg[blue]%}%B[%b%{$fg[white]%}%~%{$fg[blue]%}%B]%b\n%{$fg[cyan]%}%B>>>%b%{$reset_color%} '
 
 setopt autocd              # change directory just by typing its name
 #setopt correct            # auto correct mistakes
