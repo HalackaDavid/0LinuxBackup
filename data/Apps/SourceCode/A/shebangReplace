@@ -11,7 +11,7 @@ Main() {
             if [[ "$PWD/$i" != "$1" ]]; then
                 echo "$PWD/$i";
                 # Replace #!/usr/bin/zsh
-                sed -i '1s|.*|#!/usr/bin/zsh|' $i;
+                sed -i '1s|.*|#!/bin/zsh|' $i;
             fi
         done
 

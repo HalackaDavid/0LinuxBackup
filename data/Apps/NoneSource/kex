@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/bin/zsh
 
 Start() {
 	if [[ $(sudo vncserver :1 -localhost no) ]]; then

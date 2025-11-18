@@ -1,4 +1,4 @@
-add export path for disk
+#!/bin/zsh
 
 and add some config to zshrc or zshenv to load it if terminal is lost
 
