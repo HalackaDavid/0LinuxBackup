@@ -228,15 +228,15 @@ if [ -f ~/.my_zsh_autosuggestions ]; then
 fi
 
 #changing D to something else need to be change in .tmux.conf aswell
-#if command -v tmux >/dev/null 2>&1; then
-#    if [ -z "$TMUX" ]; then
-#        if ! tmux list-sessions 2>/dev/null | grep -q '^D.*(attached)'; then
-#            exec tmux new-session -A -s D;
-#        else
-#            exec tmux;
-#        fi
-#    fi
-#fi
+if command -v tmux >/dev/null 2>&1; then
+    if [ -z "$TMUX" ]; then
+        if ! tmux list-sessions 2>/dev/null | grep -q '^D.*(attached)'; then
+            exec tmux new-session -A -s D;
+        else
+            exec tmux;
+        fi
+    fi
+fi
 
 #Aliases
 alias grep='grep --color=auto'
