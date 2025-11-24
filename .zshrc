@@ -1,4 +1,4 @@
-if [[ $YOU_KNOW_WHAT ]]; then
+if [[ $TERMUX_VERSION ]]; then
     export myOSName=TermuxBlackArch
     export myDevicePath=/dev/block
 else
