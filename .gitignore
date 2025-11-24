@@ -10,8 +10,8 @@
 !.git-credentials
 !.my_zsh_autosuggestions
 
-!.ssh/
-!.ssh/**
+!.termux
+!.termux/*
 
 !.cache/
 !.cache/zcompdump
@@ -33,5 +33,4 @@
 !data/Wallpapers/0
 data/Wallpapers/wallpaper.active
 data/Apps/App/nvim/nvim_plugins/*
-
 
