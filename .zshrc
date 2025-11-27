@@ -7,9 +7,9 @@ else
     export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 fi
 
-export myData=$HOME/data;
-export myAppsPath=$myData/Apps;
-export myFSPath=/mnt;
+export myData=$HOME/data
+export myAppsPath=$myData/Apps
+export myFSPath=/mnt
 
 export EDITOR="nvim"
 export PULSE_COOKIE="$HOME/.cache/pulse/cookie"
@@ -225,17 +225,6 @@ if [ -f ~/.my_zsh_autosuggestions ]; then
     . ~/.my_zsh_autosuggestions
     # change suggestion color
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
-fi
-
-#changing D to something else need to be change in .tmux.conf aswell
-if command -v tmux >/dev/null 2>&1; then
-    if [ -z "$TMUX" ]; then
-        if ! tmux list-sessions 2>/dev/null | grep -q '^D.*(attached)'; then
-            exec tmux new-session -A -s D;
-        else
-            exec tmux;
-        fi
-    fi
 fi
 
 #Aliases
