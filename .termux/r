@@ -5,3 +5,6 @@ pkg install zsh
 pkg install tsu
 pkg install neovim
 pkg install tmux
+pkg install tree
+pkg install openssh
+pkg install git
