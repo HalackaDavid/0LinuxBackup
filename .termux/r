@@ -1,10 +1,4 @@
 pkg update
 pkg install root-repo
 pkg update
-pkg install zsh
-pkg install tsu
-pkg install neovim
-pkg install tmux
-pkg install tree
-pkg install openssh
-pkg install git
+pkg install -y zsh tsu neovim tmux tree openssh git blk-utils mount-utils
