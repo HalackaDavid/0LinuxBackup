@@ -1,4 +1,3 @@
-#changing D to something else need to be change in .tmux.conf aswell
 if command -v tmux >/dev/null 2>&1; then
     if [[ -z "$TMUX" ]] && [[ -o interactive ]] && [[ -t 0 ]]; then
         if ! tmux list-sessions 2>/dev/null | grep -q '^D.*(attached)'; then
