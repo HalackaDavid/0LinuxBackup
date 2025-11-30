@@ -1,10 +1,5 @@
-2025/11/30-23:15:04.205 1d1a Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/30-23:15:04.206 1d1a Recovering log #13
-2025/11/30-23:15:04.213 1d1a Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000013.log 
-2025/11/30-23:15:09.112 1d1a Level-0 table #18: started
-2025/11/30-23:15:09.133 1d1a Level-0 table #18: 2341203 bytes OK
-2025/11/30-23:15:09.143 1d1a Delete type=0 #13
-2025/11/30-23:15:24.974 1d1a Compacting 1@1 + 1@2 files
-2025/11/30-23:15:24.983 1d1a Generated table #19@1: 334 keys, 68998 bytes
-2025/11/30-23:15:24.983 1d1a Compacted 1@1 + 1@2 files => 68998 bytes
-2025/11/30-23:15:24.991 1d1a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/30-23:19:23.384 2014 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/30-23:19:23.384 2014 Recovering log #17
+2025/11/30-23:19:23.387 2014 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000017.log 
+2025/11/30-23:19:23.387 2014 Delete type=2 #15
+2025/11/30-23:19:23.387 2014 Delete type=2 #18
