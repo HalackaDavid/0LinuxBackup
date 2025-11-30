@@ -1,30 +1,13 @@
-2025/11/30-15:23:02.733 911d Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/30-15:23:02.733 911d Recovering log #3
-2025/11/30-15:23:02.733 911d Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
-2025/11/30-15:23:06.623 911d Level-0 table #5: started
-2025/11/30-15:23:06.630 911d Level-0 table #5: 48434 bytes OK
-2025/11/30-15:23:06.638 911d Delete type=0 #3
-2025/11/30-15:23:06.639 911a Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/11/30-15:23:06.764 911a Level-0 table #7: started
-2025/11/30-15:23:06.770 911a Level-0 table #7: 6400 bytes OK
-2025/11/30-15:23:06.783 911a Delete type=0 #4
-2025/11/30-15:23:06.783 911a Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/11/30-15:23:06.784 911a Manual compaction at level-1 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\xc8\x0b\x00E\x00n\x00t\x00i\x00t\x00y\x00S\x00t\x00o\x00r\x00e' @ 712 : 1
-2025/11/30-15:23:06.784 911a Compacting 1@1 + 1@2 files
-2025/11/30-15:23:06.797 911a Generated table #8@1: 164 keys, 4939 bytes
-2025/11/30-15:23:06.797 911a Compacted 1@1 + 1@2 files => 4939 bytes
-2025/11/30-15:23:06.817 911a compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/30-15:23:06.817 911a Manual compaction at level-1 from '\x00\x08\x00\x00\xc8\x0b\x00E\x00n\x00t\x00i\x00t\x00y\x00S\x00t\x00o\x00r\x00e' @ 712 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/11/30-15:23:06.872 911a Level-0 table #10: started
-2025/11/30-15:23:06.879 911a Level-0 table #10: 6233 bytes OK
-2025/11/30-15:23:06.889 911a Delete type=2 #7
-2025/11/30-15:23:06.889 911a Delete type=2 #5
-2025/11/30-15:23:06.889 911a Delete type=0 #6
-2025/11/30-15:23:06.889 911a Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/11/30-15:23:06.889 911a Manual compaction at level-1 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\xc8\x05\x00p\x00r\x00e\x00f\x00s' @ 910 : 1
-2025/11/30-15:23:06.889 911a Compacting 1@1 + 1@2 files
-2025/11/30-15:23:06.896 911a Generated table #11@1: 153 keys, 7100 bytes
-2025/11/30-15:23:06.896 911a Compacted 1@1 + 1@2 files => 7100 bytes
-2025/11/30-15:23:06.904 911a compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/30-15:23:06.904 911a Delete type=2 #10
-2025/11/30-15:23:06.904 911a Manual compaction at level-1 from '\x00\x09\x00\x00\xc8\x05\x00p\x00r\x00e\x00f\x00s' @ 910 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/30-16:18:04.310 a593 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/30-16:18:04.310 a593 Recovering log #9
+2025/11/30-16:18:04.317 a593 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000009.log 
+2025/11/30-16:18:04.318 a593 Delete type=2 #8
+2025/11/30-16:18:46.947 a595 Level-0 table #14: started
+2025/11/30-16:18:46.961 a595 Level-0 table #14: 1978677 bytes OK
+2025/11/30-16:18:46.970 a595 Delete type=0 #9
+2025/11/30-16:32:06.989 a595 Compacting 1@1 + 1@2 files
+2025/11/30-16:32:07.014 a595 Generated table #15@1: 301 keys, 40224 bytes
+2025/11/30-16:32:07.014 a595 Compacted 1@1 + 1@2 files => 40224 bytes
+2025/11/30-16:32:07.022 a595 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/30-16:32:07.023 a595 Delete type=2 #14
+2025/11/30-16:32:07.023 a595 Delete type=2 #11
