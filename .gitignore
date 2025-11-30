@@ -3,6 +3,7 @@
 
 !.zshrc
 !.zshenv
+!.zsh_history
 !.tmux.conf
 !.command_list
 !.gitconfig
