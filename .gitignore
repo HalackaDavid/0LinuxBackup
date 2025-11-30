@@ -24,6 +24,7 @@
 .config/hypr/monitor.conf
 .config/pulse/pulse-auth
 .config/pulse/cookie
+.config/BraveSoftware
 
 !.local/
 !.local/bin/
