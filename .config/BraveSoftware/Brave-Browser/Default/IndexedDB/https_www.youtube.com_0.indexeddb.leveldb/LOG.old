@@ -1,5 +1,5 @@
-2025/11/30-23:19:23.384 2014 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/30-23:19:23.384 2014 Recovering log #17
-2025/11/30-23:19:23.387 2014 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000017.log 
-2025/11/30-23:19:23.387 2014 Delete type=2 #15
-2025/11/30-23:19:23.387 2014 Delete type=2 #18
+2025/12/01-20:32:58.888 fdb Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/01-20:32:58.888 fdb Recovering log #21
+2025/12/01-20:32:58.890 fdb Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000021.log 
+2025/12/01-20:32:58.890 fdb Delete type=2 #19
+2025/12/01-20:32:58.890 fdb Delete type=2 #22
