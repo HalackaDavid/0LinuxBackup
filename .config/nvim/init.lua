@@ -2,13 +2,13 @@
 -- MUST BE VALID LUA--
 ----------------------
 -- ~/.nvimrc is soft link to ~/.config/nvim/init.lua
-
+spaceWidth = 2
 -- Basic settings
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = spaceWidth
+vim.opt.softtabstop = spaceWidth
+vim.opt.shiftwidth = spaceWidth
 vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.wrap = false
