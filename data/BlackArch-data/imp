@@ -1,0 +1,14 @@
+The "sshd required key not available" error, when trying to connect via SSH to an Arch ARM64 mobile device, is often due to an incorrectly formatted or missing SSH key. First, verify the public key in the
+~/.ssh/authorized_keys file on the server is a single, unbroken line and that it begins with ssh-rsa or another appropriate key type prefix. You can also check the server's sshd_config to ensure it supports the key type you're using and that the necessary modules are enabled, although this is less common for standard keys. 
+Common Solutions
+
+    Check authorized_keys format: Open the ~/.ssh/authorized_keys file on the Arch device and ensure there are no extra line breaks within the public key. The entire key should be on a single line.
+    Ensure key prefix: The key string should begin with ssh-rsa (or ssh-ed25519, etc.), followed by the key data. Make sure it hasn't been accidentally truncated or modified.
+    Check key type support: While less common on modern systems, some older SSH servers might not support newer key types like ECDSA. If you are using an older key, you may need to generate a new SSH key pair using a more widely supported algorithm like RSA or Ed25519, as discussed on the ArchWiki.
+    Permissions: Ensure the ~/.ssh directory and the authorized_keys file have the correct permissions. A common setup is ~/.ssh should be 700 and authorized_keys should be 600.
+    Restart SSH service: If you make changes to configuration files, restart the sshd service using the command sudo systemctl restart sshd.service
+
+    I read dnschneid/crouton#3860 (comment) and ran sed -i "s/pam_keyinit.so/pam_keyinit.so #/" /etc/pam.d/* . Then the problem seemed solved.
+
+https://github.com/meefik/linuxdeploy?tab=readme-ov-file
+https://archlinuxarm.org/forum/viewtopic.php?f=9&t=6149
