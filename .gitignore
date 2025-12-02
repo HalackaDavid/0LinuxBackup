@@ -10,8 +10,11 @@
 !.git-credentials
 !.my_zsh_autosuggestions
 
+#Termux
 !.termux
 !.termux/*
+!.suroot
+!.termux_authinfo
 
 !.config/
 !.config/**
