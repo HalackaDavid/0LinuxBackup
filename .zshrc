@@ -1,12 +1,10 @@
 if [[ $TERMUX_VERSION ]]; then
     export myOSName=TermuxBlackArch
     export myDevicePath=/dev/block
-    export myTmux= #any key is equalt to true
 else
     export myOSName=BlackArch
     export myDevicePath=/dev
     export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-    export myTmux= #any key is equalt to true
 fi
 
 export myData=$HOME/data
