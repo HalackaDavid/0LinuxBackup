@@ -1,6 +1,6 @@
-2025/12/01-20:32:24.492 5 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2025/12/01-20:32:24.503 5 Recovering log #3
-2025/12/01-20:32:24.505 5 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000003.log 
-2025/12/01-20:33:02.477 7 Level-0 table #5: started
-2025/12/01-20:33:02.504 7 Level-0 table #5: 197085 bytes OK
-2025/12/01-20:33:02.513 7 Delete type=0 #3
+2025/12/02-19:33:14.095 5 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/12/02-19:33:14.100 5 Recovering log #7
+2025/12/02-19:33:14.101 5 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000007.log 
+2025/12/02-20:11:26.319 7 Level-0 table #11: started
+2025/12/02-20:11:26.326 7 Level-0 table #11: 14169 bytes OK
+2025/12/02-20:11:26.336 7 Delete type=0 #7
