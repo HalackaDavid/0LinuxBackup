@@ -9,10 +9,12 @@
 !.gitignore
 !.git-credentials
 !.my_zsh_autosuggestions
+!.zsh
+!.zsh/**
 
 #Termux
 !.termux
-!.termux/*
+!.termux/**
 !.suroot
 !.termux_authinfo
 
@@ -27,7 +29,7 @@
 
 !.local/
 !.local/bin/
-!.local/bin/*
+!.local/bin/**
 
 !data/
 !data/**

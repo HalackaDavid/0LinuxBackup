@@ -52,7 +52,6 @@ autoload -U colors && colors
 PS1=$'%F{244}%B[%b%F{247}%n%F{250}%B@%b%F{247}%m%F{244}%B]-%b%F{244}%B[%b%F{256}%~%F{244}%B]%b\n%F{247}%B>>>%f%b%k '
 
 setopt autocd              # change directory just by typing its name
-#setopt correct            # auto correct mistakes
 setopt interactivecomments # allow comments in interactive mode
 setopt magicequalsubst     # enable filename expansion for arguments of the form ‘anything=expression’
 setopt nonomatch           # hide error message if there is no match for the pattern
@@ -70,10 +69,9 @@ setopt hist_expire_dups_first # delete duplicates first when HISTFILE size excee
 setopt hist_ignore_dups       # ignore duplicated commands history list
 setopt hist_ignore_space      # ignore commands that start with space
 setopt hist_verify            # show command with history expansion to user before running it
-#setopt share_history         # share command history data
 
 # Fancy auto-complete
-#autoload -Uz compinit
+autoload -Uz compinit
 zstyle ':completion:*' menu select=0
 zmodload zsh/complist
 zstyle ':completion:*' format '>>> %d'
@@ -81,7 +79,7 @@ zstyle ':completion:*' format '>>> %d'
 _comp_options+=(globdots) # hidden files are included
 
 # enable completion features
-autoload -Uz compinit
+#autoload -Uz compinit
 compinit -d ~/.cache/zcompdump
 zstyle ':completion:*:*:*:*:*' menu select
 zstyle ':completion:*' auto-description 'specify: %d'
