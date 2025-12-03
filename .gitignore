@@ -9,8 +9,8 @@
 !.gitignore
 !.git-credentials
 !.my_zsh_autosuggestions
-!.zsh
-!.zsh/**
+!.myzsh
+!.myzsh/**
 
 #Termux
 !.termux
