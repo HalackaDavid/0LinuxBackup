@@ -2,7 +2,7 @@
 -- MUST BE VALID LUA--
 ----------------------
 -- ~/.nvimrc is soft link to ~/.config/nvim/init.lua
-spaceWidth = 4
+spaceWidth = 2
 -- Basic settings
 vim.opt.number = true
 vim.opt.relativenumber = true
