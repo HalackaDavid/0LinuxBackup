@@ -15,19 +15,8 @@ export EDITOR="nvim"
 export PULSE_COOKIE="$HOME/.cache/pulse/cookie"
 export PYTHON_HISTORY="$HOME/.cache/python/history"
 
-# Bigger index = Highter priority
-arr=(
-    $HOME/.local/bin
-    $myAppsPath/NoneSource
-);
-
-for var in $arr; do
-    case ":$PATH:" in
-        *":$var:"*) ;; 
-        *) export PATH="$var:$PATH" ;;
-    esac
-done
-unset arr;
+var="$myAppsPath/NoneSource:$HOME/.local/bin"
+export PATH="$var:$PATH"
 
 for var in $myAppsPath/Source/*(.); do
     alias $(basename "$var")="source $var";
@@ -48,7 +37,6 @@ unset var;
 
 autoload -U colors && colors
 #PS1=$'%{$fg[blue]%}%B[%b%{$fg[cyan]%}%n%{$fg[lightblack]%}%B@%b%{$fg[cyan]%}%m%{$fg[blue]%}%B]-%b%{$fg[blue]%}%B[%b%{$fg[white]%}%~%{$fg[blue]%}%B]%b\n%{$fg[cyan]%}%B>>>%b%{$reset_color%} '
-
 PS1=$'%F{244}%B[%b%F{247}%n%F{250}%B@%b%F{247}%m%F{244}%B]-%b%F{244}%B[%b%F{256}%~%F{244}%B]%b\n%F{247}%B>>>%f%b%k '
 
 setopt autocd              # change directory just by typing its name
