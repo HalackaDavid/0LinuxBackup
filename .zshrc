@@ -1,5 +1,5 @@
 if [[ $TERMUX_VERSION ]]; then
-    export myOSName=TermuxBlackArch
+    export myOSName=Termux
     export myDevicePath=/dev/block
 else
     export myOSName=BlackArch
