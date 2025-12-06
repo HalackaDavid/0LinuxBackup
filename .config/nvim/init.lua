@@ -14,6 +14,7 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 vim.opt.linebreak = true
 vim.opt.mouse = ""
+vim.opt.clipboard = "unnamedplus"
 --vim.opt.swapfile = false
 -- s:^:<comment symbol>:
 -- s:^<comment symbol>:

@@ -42,6 +42,7 @@ ArchSetup() {
         neovim
         man-db
         hyprlock
+        wl-clipboard
     #TUI image viewer
         viu
 
