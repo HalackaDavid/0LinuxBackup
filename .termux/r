@@ -1,3 +1,0 @@
-pkg update
-pkg install root-repo
-pkg install -y zsh tsu neovim tmux tree openssh git blk-utils mount-utils mandoc
