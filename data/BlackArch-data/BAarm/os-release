@@ -1,11 +1,7 @@
-NAME="Arch Linux ARM"
-PRETTY_NAME="Arch Linux ARM"
-ID=archarm
+NAME="BlackArch Linux ARM"
+PRETTY_NAME="BlackArch Linux ARM"
+ID=blackarch
 ID_LIKE=arch
 BUILD_ID=rolling
-ANSI_COLOR="38;2;23;147;209"
-HOME_URL="https://archlinuxarm.org/"
-DOCUMENTATION_URL="https://archlinuxarm.org/wiki"
-SUPPORT_URL="https://archlinuxarm.org/forum"
-BUG_REPORT_URL="https://github.com/archlinuxarm/PKGBUILDs/issues"
-LOGO=archlinux-logo
+ANSI_COLOR="0;34"
+LOGO=blackarch

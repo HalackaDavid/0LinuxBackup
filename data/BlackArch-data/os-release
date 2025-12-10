@@ -1,15 +1,7 @@
 NAME="BlackArch Linux"
 PRETTY_NAME="BlackArch Linux"
 ID=blackarch
+ID_LIKE=arch
 BUILD_ID=rolling
 ANSI_COLOR="0;34"
 LOGO=blackarch
-HOME_URL="https://www.blackarch.org/"
-SUPPORT_URL="https://www.blackarch.org/"
-BUG_REPORT_URL="https://www.blackarch.org/"
-
-#HOME_URL="https://archlinux.org/"
-#DOCUMENTATION_URL="https://wiki.archlinux.org/"
-#SUPPORT_URL="https://bbs.archlinux.org/"
-#BUG_REPORT_URL="https://bugs.archlinux.org/"
-#PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
