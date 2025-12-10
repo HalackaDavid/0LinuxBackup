@@ -56,7 +56,7 @@ Main() {
             
             sudo umount $myDevicePath/$usbname;
             if [[ ! $(findmnt --target "$mountpoint/$usbname") ]]; then
-                mv -v $mountpoint/$usbname /tmp;
+                sudo mv -v $mountpoint/$usbname /tmp;
             fi
 
             echo "Done";
