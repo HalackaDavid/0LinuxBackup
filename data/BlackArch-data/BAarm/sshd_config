@@ -1,0 +1,43 @@
+
+# Basic settings
+Port 22
+AddressFamily any
+ListenAddress 0.0.0.0
+ListenAddress ::
+
+# Host keys (Arch generates these automatically with ssh-keygen -A)
+HostKey /etc/ssh/ssh_host_ed25519_key
+HostKey /etc/ssh/ssh_host_rsa_key
+
+# Authentication
+PubkeyAuthentication yes
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+PermitEmptyPasswords no
+
+# Enable PAM (needed for proper login inside chroots)
+UsePAM no
+
+# Authorized keys
+AuthorizedKeysFile .ssh/authorized_keys
+
+# Logging
+LogLevel INFO
+
+# X11 + agent forwarding off by default
+AllowAgentForwarding no
+AllowTcpForwarding no
+X11Forwarding no
+
+# Keepalive (important when on mobile networks)
+ClientAliveInterval 30
+ClientAliveCountMax 3
+
+# Other safe defaults
+PermitRootLogin prohibit-password
+StrictModes yes
+MaxAuthTries 4
+Compression no
+
+Subsystem sftp /usr/lib/ssh/sftp-server
+
