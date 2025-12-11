@@ -1,4 +1,5 @@
 #https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script
 
+clear
 cd /data/local/BlackArch
 su
