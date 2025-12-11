@@ -12,6 +12,9 @@
 !.myzsh
 !.myzsh/**
 
+!.ssh
+!.ssh/authorized_keys
+
 #Termux
 !.termux
 !.termux/**
