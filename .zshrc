@@ -1,19 +1,19 @@
-if [[ $TERMUX_VERSION ]]; then
-    export myOSName=Termux
+if [[ $(uname -m) == aarch64 ]]; then
+    export myOSName=BlackArchArm
     export myDevicePath=/dev/block
 else
     export myOSName=BlackArch
     export myDevicePath=/dev
-    export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 fi
+
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+export EDITOR="nvim"
+export PULSE_COOKIE="$HOME/.cache/pulse/cookie"
+export PYTHON_HISTORY="$HOME/.cache/python/history"
 
 export myData=$HOME/data
 export myAppsPath=$myData/Apps
 export myFSPath=/mnt
-
-export EDITOR="nvim"
-export PULSE_COOKIE="$HOME/.cache/pulse/cookie"
-export PYTHON_HISTORY="$HOME/.cache/python/history"
 
 var="$myAppsPath/NoneSource:$HOME/.local/bin"
 export PATH="$var:$PATH"
