@@ -1,5 +1,10 @@
 #!/bin/sh
 
+archOpt=(
+    "x86_64"
+    "aarch64"
+)
+
 defaultApps=(
     inotify-tools
     less
@@ -16,30 +21,28 @@ defaultApps=(
     viu
 )
 
-ArchArmSetup() {
-
-}
-
 ArchSetup() {
-    pcAppsSpecific=(
-        steam
-        discord
-    )
+    case $arch in
+    ${archOpt[0]})
+        archAppsSpecific=(
+            steam
+            discord
 
-    arr2=(
-        hyprlock
-        wl-clipboard
-    #TUI image viewer
-        viu
-    #TUI file mannagers
-        xplr
-    #WindowManager
-        hyprland
-    #Panel
-        waybar
-    #GUI file mannagers
-        dolphin
-    )
+            hyprlock
+            wl-clipboard
+            #WindowManager
+            hyprland
+            #GUI file mannagers
+            dolphin
+        )
+        ;;
+    ${archOpt[1]})
+        archAppsSpecific=()
+        ;;
+    *)
+        echo "architecture unknown"
+        ;;
+    esac
 }
 
 BlackArchSetup() {
@@ -54,14 +57,16 @@ PostSetup() {
     chsh -s /usr/bin/zsh
 }
 
-case $(uname -m) in
-    #"x86_64") ArchSetup ;;
-    #"aarch64") ArchArmSetup ;;
-    *) echo "$(uname -m) is not in case" ;;
-esac
-
+arch=$(uname -m)
 sudo pacman -Syu 
-sudo pacman -S --needed ${defaultApps[@]} ${arr1[@]}
+sudo pacman -S --needed ${defaultApps[@]}
 
+ArchSetup
 #BlackArchSetup
 #PostSetup
+sudo pacman -Syu --needed ${archAppsSpecific[@]}
+
+unset archAppsSpecific
+unset defaultApps
+unset arch
+unset archOpt
