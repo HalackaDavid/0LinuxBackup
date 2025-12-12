@@ -1,3 +1,8 @@
+https://about.gitea.com/products/gitea/
+https://archlinux.org/packages/extra/x86_64/chawan/
+killall
+certbot
+
 Serials {
     https://svetserialu.to/serial/peaky-blinders/s04e05
 }
@@ -45,7 +50,7 @@ Helmets {
 
 ESO {
     Build Editor
-    https://en.m.uesp.net/wiki/Special:EsoBuildEditor?id=607053
+        https://en.m.uesp.net/wiki/Special:EsoBuildEditor?id=607053
     Addon
         Autogategory
         https://github.com/Shadowfen/AutoCategory/wiki/Rule-Function-Reference#is-in-bank
@@ -76,20 +81,20 @@ Car-school {
 
 Games {
     Brutal Legend
-    https://archive.org/details/brutal-legend-win-2013-04-28
-    https://sfmlab.com/project/b2696814-69a5-4827-90f1-c84ad484d459/
+        https://archive.org/details/brutal-legend-win-2013-04-28
+        https://sfmlab.com/project/b2696814-69a5-4827-90f1-c84ad484d459/
 }
 
 * {
     Monitor Repair
-    https://www.ebay.com/itm/283724171401?norover=1&mkrid=711-168613-066356-2&itemid=283724171401&targetid=295818637131&device=m&mktype=pla&googleloc=1003840&poi=&campaignid=20797276718&mkgroupid=155163397199&rlsatarget=pla-295818637131&abcId=&merchantid=661129504
-    https://www.ebay.com/itm/283724171401?norover=1&mkevt=1&mkrid=711-168613-066356-2&mkcid=2&itemid=283724171401&targetid=295818637131&device=m&mktype=pla&googleloc=1003840&poi=&campaignid=20797276718&mkgroupid=155163397199&rlsatarget=pla-295818637131&abcId=&merchantid=661129504&gad_source=1&gclid=Cj0KCQjwm7q-BhDRARIsACD6-fWfzt-5r4mTrGuVXTv2aPlsmOdR41kge5D1uE6lz2LVOVVla2o7dzwaArlnEALw_wcB
-    https://www.google.com/search?client=ms-opera-gx-android&sca_esv=073be19fff1ea87f&channel=new&espv=1&sxsrf=AHTn8zoZAUN8lvpbUzrAxbmBCgQRIrUU2w:1741607020013&q=an515-52-569y+kryt&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBteutRhCIwSdaS7of3GY5DQc3NAIUzgKWMkTfy_ly5CC6HNpFcrtKYHQqM2Ak-NDVdAj5Oo_jNIOnyyHR8Du3qlUBjkck4B-25DmRoPRrk8SRhl4YA77QihW0rCpOpYYOOG0xOql2RPVQcnWcEf2Nx-pcYb1gqqufbZP2m3ET7JnzPTtEQ&sa=X&ved=2ahUKEwivnJDet_-LAxWv_7sIHUD3CpAQtKgLegQIDhAB&biw=412&bih=837&dpr=2.63#sv=CAMSswQajQQK5gEKuQEStgEKd0FBLUtUaGZyWlhSbzJUbm9RM29sdlJqdFJQWEpETlVxT2ZOUTFVeG56S0hpQ25EZzVwRVBfVjRFOHRYQ2xCRFhpWEUzVk5pRktrcll1ZjVNcUR4Sk02MkxFS2NZc1k3QzNPVm4xMTBRM0xMdVJEdTAtT1hTUWtBEhc0OURPWjlXLUpwU3ZpLWdQcHRiUzJBMBoiQUNEWEw0bmFReVFETGU1NV93bE9mcHh2dzlNYjdkdUg5URIDODQ5GgEzIhcKAXESEmFuNTE1LTUyLTU2OXkga3J5dCIHCgN0YnMSABKOAgrPARLMAQqMAUFBLUtUaGNleXlIMU1MbVhMTHBoTTBsWjBXcmVXdWVYa2ExUzFfcmJPRGxNZElzdGRqa3IyMTBreW8yXzUwTnUwdlRqa19QSEpYX2F0eVhhcGNsZzl3UHUyWlZMUlZDNjlmc3drM1ZNV2ZFUmI4NlNPSkNtS2JBUExwWjdrVkFlN2luczNXVG0xQS1yEhc0OURPWjlXLUpwU3ZpLWdQcHRiUzJBMBoiQUNEWEw0bGhNRXhudHpZVFQ2QnRBTXVuWnNtV2ZoeXpOZxIENDY5OBoBMyIYCgZpbWdkaWkSDjZ0aTNsYmNjaHZsdHFNIhcKBWRvY2lkEg5ueXQ0RUhYbzBCUkR4TRoRc3ZfNnRpM2xiY2Nodmx0cU0gBCodCgZtb3NhaWMSE2Utc3ZfNnRpM2xiY2Nodmx0cU0wASCfo4XMBCotMmFoVUtFd2lWdkpXWHVQLUxBeFdVMXdJSEhTYXJGTnNRTXlnQWVnUUlTeEFBMAE
-    https://www.dily-pro-notebooky.cz/www-jalim-cz/e-search?q=acer%20an515&search_submit=&qm=2&page=1&man=9
+        https://www.ebay.com/itm/283724171401?norover=1&mkrid=711-168613-066356-2&itemid=283724171401&targetid=295818637131&device=m&mktype=pla&googleloc=1003840&poi=&campaignid=20797276718&mkgroupid=155163397199&rlsatarget=pla-295818637131&abcId=&merchantid=661129504
+        https://www.ebay.com/itm/283724171401?norover=1&mkevt=1&mkrid=711-168613-066356-2&mkcid=2&itemid=283724171401&targetid=295818637131&device=m&mktype=pla&googleloc=1003840&poi=&campaignid=20797276718&mkgroupid=155163397199&rlsatarget=pla-295818637131&abcId=&merchantid=661129504&gad_source=1&gclid=Cj0KCQjwm7q-BhDRARIsACD6-fWfzt-5r4mTrGuVXTv2aPlsmOdR41kge5D1uE6lz2LVOVVla2o7dzwaArlnEALw_wcB
+        https://www.google.com/search?client=ms-opera-gx-android&sca_esv=073be19fff1ea87f&channel=new&espv=1&sxsrf=AHTn8zoZAUN8lvpbUzrAxbmBCgQRIrUU2w:1741607020013&q=an515-52-569y+kryt&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBteutRhCIwSdaS7of3GY5DQc3NAIUzgKWMkTfy_ly5CC6HNpFcrtKYHQqM2Ak-NDVdAj5Oo_jNIOnyyHR8Du3qlUBjkck4B-25DmRoPRrk8SRhl4YA77QihW0rCpOpYYOOG0xOql2RPVQcnWcEf2Nx-pcYb1gqqufbZP2m3ET7JnzPTtEQ&sa=X&ved=2ahUKEwivnJDet_-LAxWv_7sIHUD3CpAQtKgLegQIDhAB&biw=412&bih=837&dpr=2.63#sv=CAMSswQajQQK5gEKuQEStgEKd0FBLUtUaGZyWlhSbzJUbm9RM29sdlJqdFJQWEpETlVxT2ZOUTFVeG56S0hpQ25EZzVwRVBfVjRFOHRYQ2xCRFhpWEUzVk5pRktrcll1ZjVNcUR4Sk02MkxFS2NZc1k3QzNPVm4xMTBRM0xMdVJEdTAtT1hTUWtBEhc0OURPWjlXLUpwU3ZpLWdQcHRiUzJBMBoiQUNEWEw0bmFReVFETGU1NV93bE9mcHh2dzlNYjdkdUg5URIDODQ5GgEzIhcKAXESEmFuNTE1LTUyLTU2OXkga3J5dCIHCgN0YnMSABKOAgrPARLMAQqMAUFBLUtUaGNleXlIMU1MbVhMTHBoTTBsWjBXcmVXdWVYa2ExUzFfcmJPRGxNZElzdGRqa3IyMTBreW8yXzUwTnUwdlRqa19QSEpYX2F0eVhhcGNsZzl3UHUyWlZMUlZDNjlmc3drM1ZNV2ZFUmI4NlNPSkNtS2JBUExwWjdrVkFlN2luczNXVG0xQS1yEhc0OURPWjlXLUpwU3ZpLWdQcHRiUzJBMBoiQUNEWEw0bGhNRXhudHpZVFQ2QnRBTXVuWnNtV2ZoeXpOZxIENDY5OBoBMyIYCgZpbWdkaWkSDjZ0aTNsYmNjaHZsdHFNIhcKBWRvY2lkEg5ueXQ0RUhYbzBCUkR4TRoRc3ZfNnRpM2xiY2Nodmx0cU0gBCodCgZtb3NhaWMSE2Utc3ZfNnRpM2xiY2Nodmx0cU0wASCfo4XMBCotMmFoVUtFd2lWdkpXWHVQLUxBeFdVMXdJSEhTYXJGTnNRTXlnQWVnUUlTeEFBMAE
+        https://www.dily-pro-notebooky.cz/www-jalim-cz/e-search?q=acer%20an515&search_submit=&qm=2&page=1&man=9
     BOOT
-    https://www.wikihow.com/Open-BIOS-Advanced-Debug-Mode-on-Acer-Laptop#:~:text=Tap%20F2%20on%20your%20keyboard,%2C%20Y%2C%20H%2C%20N
+        https://www.wikihow.com/Open-BIOS-Advanced-Debug-Mode-on-Acer-Laptop#:~:text=Tap%20F2%20on%20your%20keyboard,%2C%20Y%2C%20H%2C%20N
     CyberSecurity Job
-    https://www.youtube.com/watch?app=desktop&v=eliMi45sNcM
+        https://www.youtube.com/watch?app=desktop&v=eliMi45sNcM
 }
 
 InkScape {
@@ -98,20 +103,20 @@ InkScape {
 
 Kali, Hacking, Programing {
     AI
-    https://ollama.com
+        https://ollama.com
     RaspberryPi
-    https://www.youtube.com/watch?app=desktop&v=HSSpQDs4lfU
-    https://www.youtube.com/watch?v=3VO4vGlQ1pg
-    https://www.youtube.com/watch?v=xj3MPmJhAPU
-    https://www.youtube.com/watch?app=desktop&v=o8rqlC5eBq4
-    https://www.youtube.com/watch?app=desktop&v=66RT1AXx_Zw&pp=ygU1a2FsaSBsaW51eCByYXNiZXJ5IHBpIHplcm8gMiB3IHNldHVwIHdpcmVsZXNzIGRpc3BsYXk%3D
-    https://raspberrypi.stackexchange.com/questions/123717/how-to-disable-wi-fi-is-currently-blocked-by-rfkill-message
-    https://tungchingkai.blogspot.com/2022/03/how-to-use-kali-linux-for-raspberry-pi.html
-    https://www.google.com/search?q=raspberry+pi+csi+connector+black+part+broken&client=opera-gx&hs=j14&sca_esv=19fb95802b09d0d0&sxsrf=ADLYWIKGdVqTtmFnJwt-psAhmyYozbxm2w%3A1715884262422&ei=5lBGZv2jGaf87_UPpvy9-As&ved=0ahUKEwj9rr__5pKGAxUn_rsIHSZ-D78Q4dUDCBA&uact=5&oq=raspberry+pi+csi+connector+black+part+broken&gs_lp=Egxnd3Mtd2l6LXNlcnAiLHJhc3BiZXJyeSBwaSBjc2kgY29ubmVjdG9yIGJsYWNrIHBhcnQgYnJva2VuMgUQIRigAUjcpgFQlw5Y36QBcAZ4AZABAJgBtwGgAdoYqgEEMS4yM7gBA8gBAPgBAZgCHaAC2xnCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICBhAAGAcYHsICCBAAGAcYCBgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICCBAhGKABGMMEwgIFEAAYgATCAgYQABgWGB7CAgcQIRigARgKwgIEECEYFcICBRAhGJ8FmAMAiAYBkAYJkgcENi4yM6AHtWU&sclient=gws-wiz-serp
-    https://artivis.github.io/post/2020/pi-zero/
-    https://www.youtube.com/watch?v=o8rqlC5eBq4
+        https://www.youtube.com/watch?app=desktop&v=HSSpQDs4lfU
+        https://www.youtube.com/watch?v=3VO4vGlQ1pg
+        https://www.youtube.com/watch?v=xj3MPmJhAPU
+        https://www.youtube.com/watch?app=desktop&v=o8rqlC5eBq4
+        https://www.youtube.com/watch?app=desktop&v=66RT1AXx_Zw&pp=ygU1a2FsaSBsaW51eCByYXNiZXJ5IHBpIHplcm8gMiB3IHNldHVwIHdpcmVsZXNzIGRpc3BsYXk%3D
+        https://raspberrypi.stackexchange.com/questions/123717/how-to-disable-wi-fi-is-currently-blocked-by-rfkill-message
+        https://tungchingkai.blogspot.com/2022/03/how-to-use-kali-linux-for-raspberry-pi.html
+        https://www.google.com/search?q=raspberry+pi+csi+connector+black+part+broken&client=opera-gx&hs=j14&sca_esv=19fb95802b09d0d0&sxsrf=ADLYWIKGdVqTtmFnJwt-psAhmyYozbxm2w%3A1715884262422&ei=5lBGZv2jGaf87_UPpvy9-As&ved=0ahUKEwj9rr__5pKGAxUn_rsIHSZ-D78Q4dUDCBA&uact=5&oq=raspberry+pi+csi+connector+black+part+broken&gs_lp=Egxnd3Mtd2l6LXNlcnAiLHJhc3BiZXJyeSBwaSBjc2kgY29ubmVjdG9yIGJsYWNrIHBhcnQgYnJva2VuMgUQIRigAUjcpgFQlw5Y36QBcAZ4AZABAJgBtwGgAdoYqgEEMS4yM7gBA8gBAPgBAZgCHaAC2xnCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICBhAAGAcYHsICCBAAGAcYCBgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICCBAhGKABGMMEwgIFEAAYgATCAgYQABgWGB7CAgcQIRigARgKwgIEECEYFcICBRAhGJ8FmAMAiAYBkAYJkgcENi4yM6AHtWU&sclient=gws-wiz-serp
+        https://artivis.github.io/post/2020/pi-zero/
+        https://www.youtube.com/watch?v=o8rqlC5eBq4
     Distro
-    https://www.youtube.com/watch?v=u2Juz5sQyYQ
+        https://www.youtube.com/watch?v=u2Juz5sQyYQ
     Programing
         Clay
         https://www.youtube.com/watch?app=desktop&v=by9lQvpvMIc
