@@ -1,66 +1,51 @@
-#!/usr/bin/bash
+#!/bin/sh
 
+defaultApps=(
+    inotify-tools
+    less
+    zsh
+    git
+    tmux
+    fastfetch
+    tree
+    rsync
+    neovim
+    man-db
+    htop
+    xplr
+    viu
+)
 
-BlackArchSetup() {
-    curl -O https://blackarch.org/strap.sh && chmod +x strap.sh
-    echo "Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials"
-    echo "Then sudo ./strap.sh"
-}
 ArchArmSetup() {
-    arr1=(
-        inotify-tools
-        less
-        zsh
-        git
-        tmux
-        fastfetch
-        tree
-        rsync
-        neovim
-        man-db
-    )
-    sudo pacman -Syu ${arr1[@]}
-    unset arr1
+
 }
 
 ArchSetup() {
-    arr1=(
+    pcAppsSpecific=(
         steam
         discord
     )
 
     arr2=(
-        inotify-tools
-        less
-        zsh
-        git
-        tmux
-        fastfetch
-        tree
-        rsync
-        swaybg
-        neovim
-        man-db
         hyprlock
         wl-clipboard
     #TUI image viewer
         viu
-
     #TUI file mannagers
         xplr
-
     #WindowManager
         hyprland
-
     #Panel
         waybar
-
     #GUI file mannagers
         dolphin
     )
-    sudo pacman -Syu ${arr[@]}
-    unset arr1
-    unset arr2
+}
+
+BlackArchSetup() {
+    curl -O https://blackarch.org/strap.sh && chmod +x strap.sh
+    echo "Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials"
+    echo "Then sudo ./strap.sh"
 }
 
 PostSetup() {
@@ -69,7 +54,14 @@ PostSetup() {
     chsh -s /usr/bin/zsh
 }
 
-#ArchSetup
-ArchArmSetup
+case $(uname -m) in
+    #"x86_64") ArchSetup ;;
+    #"aarch64") ArchArmSetup ;;
+    *) echo "$(uname -m) is not in case" ;;
+esac
+
+sudo pacman -Syu 
+sudo pacman -S --needed ${defaultApps[@]} ${arr1[@]}
+
 #BlackArchSetup
 #PostSetup
