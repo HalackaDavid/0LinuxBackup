@@ -12,6 +12,9 @@
 !.myzsh
 !.myzsh/**
 
+!.github
+!.github/**
+
 !.ssh
 !.ssh/authorized_keys
 
