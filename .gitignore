@@ -1,9 +1,6 @@
 #Ignore everythng 
 *
 
-!.github
-!.github/**
-
 !.zshrc
 !.zshenv
 !.tmux.conf
@@ -14,6 +11,9 @@
 !.my_zsh_autosuggestions
 !.myzsh
 !.myzsh/**
+
+!.github
+!.github/**
 
 !.ssh
 !.ssh/authorized_keys
