@@ -1,0 +1,6 @@
+LibEmoteData =
+{
+    ["favorites"] = 
+    {
+    },
+}
