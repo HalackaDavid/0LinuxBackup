@@ -1,6 +1,9 @@
 #Ignore everythng 
 *
 
+!.github
+!.github/**
+
 !.zshrc
 !.zshenv
 !.tmux.conf
