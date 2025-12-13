@@ -1,6 +1,0 @@
-LibEmoteData =
-{
-    ["favorites"] = 
-    {
-    },
-}

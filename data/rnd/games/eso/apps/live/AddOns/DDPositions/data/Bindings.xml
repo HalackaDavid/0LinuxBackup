@@ -1,9 +1,0 @@
-<Bindings>
-    <Layer name="SI_KEYBINDINGS_LAYER_GENERAL">
-        <Category name="DDPositions">
-            <Action name="DDPOSITIONS_KEYBIND">
-                <Down>DDPositions.TogglePanel()</Down>
-            </Action>
-        </Category>
-    </Layer>
-</Bindings>
