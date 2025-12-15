@@ -13,7 +13,7 @@ Main() {
     if [[ $FileSystemPath ]]; then
         mountpoint=$FileSystemPath;
     else
-        mountpoint=/fs;
+        mountpoint=/mnt;
     fi
 
     if [[ ! -d $mountpoint ]]; then
@@ -48,10 +48,6 @@ Main() {
 
         if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
             #UMOUNTING
-            if [[ $PWD == $mountpoint/* ]]; then
-                cd $mountpoint;
-            fi
-
             echo "Umounting...";
             
             sudo umount $myDevicePath/$usbname;
