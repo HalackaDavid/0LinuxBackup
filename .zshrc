@@ -1,19 +1,22 @@
-if [[ $(uname -m) == aarch64 ]]; then
+case $(uname -m) in 
+aarch64)
     export myOSName=BlackArchArm
     export myDevicePath=/dev/block
-else
+    ;;
+x86_64)
     export myOSName=BlackArch
     export myDevicePath=/dev
-fi
+    ;;
+esac
+
+export myData=$HOME/data
+export myAppsPath=$myData/Apps
+export myFSPath=/mnt
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 export EDITOR="nvim"
 export PULSE_COOKIE="$HOME/.cache/pulse/cookie"
 export PYTHON_HISTORY="$HOME/.cache/python/history"
-
-export myData=$HOME/data
-export myAppsPath=$myData/Apps
-export myFSPath=/mnt
 
 var="$myAppsPath/NoneSource:$HOME/.local/bin"
 export PATH="$var:$PATH"
@@ -23,20 +26,7 @@ for var in $myAppsPath/Source/*(.); do
 done
 unset var;
 
-# Load colours and then set prompt
-# Prompt preview:
-# [user@hostname]-[~]
-# >>>
-# %n -> username 
-# %m -> machine name till first '.'
-# %~ -> PWD
-
-#%F{240}   # dark grey
-#%F{244}   # medium grey
-#%F{250}   # light grey
-
 autoload -U colors && colors
-#PS1=$'%{$fg[blue]%}%B[%b%{$fg[cyan]%}%n%{$fg[lightblack]%}%B@%b%{$fg[cyan]%}%m%{$fg[blue]%}%B]-%b%{$fg[blue]%}%B[%b%{$fg[white]%}%~%{$fg[blue]%}%B]%b\n%{$fg[cyan]%}%B>>>%b%{$reset_color%} '
 PS1=$'%F{244}%B[%b%F{247}%n%F{250}%B@%b%F{247}%m%F{244}%B]-%b%F{244}%B[%b%F{256}%~%F{244}%B]%b\n%F{247}%B>>>%f%b%k '
 
 setopt autocd              # change directory just by typing its name

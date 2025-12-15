@@ -1,7 +1,6 @@
 #!/bin/zsh
 
 Main() {
-    #local devPath=$myDevicePath;
     local FileSystemPath=$myFSPath;
     local mountpoint;
     local usbname;

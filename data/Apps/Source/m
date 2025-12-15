@@ -64,10 +64,15 @@ Main() {
             #MOUNTING
             sudo mount $myDevicePath/$usbname $mountpoint/$usbname;
             
+            echo "Mounting...";
             if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
-                echo "Mounting...";
                 echo ">>> $mountpoint/$usbname <<<";
+            else
+                if [[ ! $(findmnt --target "$mountpoint/$usbname") ]]; then
+                    mv -v $mountpoint/$usbname /tmp;
+                fi
             fi
+
         fi
     fi
 }
