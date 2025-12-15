@@ -1,8 +1,8 @@
 ----------------------
 -- MUST BE VALID LUA--
 ----------------------
---local lazypath = os.getenv("HOME") .. "/nvim_plugin/lazy.nvim"
---local lazypath = os.getenv("HOME") .. "/nvim_plugin/lazy.nvim"
+local NvimDefaultPath = os.getenv("HOME").."/.config/nvim/nvim_plugins"
+local lazypath = vim.fn.expand(NvimDefaultPath.. "/lazy.nvim")
 spaceWidth = 4
 
 -- Basic settings
@@ -101,8 +101,6 @@ vim.api.nvim_create_user_command(
 -------------
 -- Plugins --
 -------------
-local NvimDefaultPath = os.getenv("HOME").."/.config/nvim/nvim_plugins"
-local lazypath = vim.fn.expand(NvimDefaultPath.. "/lazy.nvim")
 if not vim.loop.fs_stat(lazypath) then
     vim.fn.system(
         {
