@@ -2,6 +2,7 @@
 -- MUST BE VALID LUA--
 ----------------------
 -- ~/.nvimrc is soft link to ~/.config/nvim/init.lua
+local NvimDefaultPluginPath = os.getenv("HOME").."/.config/nvim/nvim_plugins"
 spaceWidth = 4
 -- Basic settings
 vim.opt.number = true
@@ -99,10 +100,7 @@ vim.api.nvim_create_user_command(
 -------------
 -- Plugins --
 -------------
-
-local NvimDefaultPath = os.getenv("myAppsPath").."/App/nvim/nvim_plugins"
-
-local lazypath = vim.fn.expand(NvimDefaultPath.. "/lazy.nvim")
+local lazypath = vim.fn.expand(NvimDefaultPluginPath.. "/lazy.nvim")
 if not vim.loop.fs_stat(lazypath) then
     vim.fn.system(
         {

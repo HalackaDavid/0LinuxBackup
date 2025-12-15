@@ -39,5 +39,5 @@
 !data/
 !data/**
 data/Wallpapers/wallpaper.active
-data/Apps/App/nvim/nvim_plugins/*
+.config/nvim/nvim_plugins/*
 

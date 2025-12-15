@@ -21,9 +21,9 @@ export PYTHON_HISTORY="$HOME/.cache/python/history"
 var="$myAppsPath/NoneSource:$HOME/.local/bin"
 export PATH="$var:$PATH"
 
-for var in $myAppsPath/Source/*(.); do
-    alias $(basename "$var")="source $var";
-done
+#for var in $myAppsPath/Source/*(.); do
+#    alias $(basename "$var")="source $var";
+#done
 unset var;
 
 autoload -U colors && colors
