@@ -11,11 +11,11 @@
             read UserInput
             clear
             case $UserInput in
-            1) ;;
+            1) unset UserInput;;
             2) exec tmux;;
             *) exec tmux new-session -A -s D;;
             esac
-            unset UserInput
+            #unset UserInput
         fi
     fi
 #fi
