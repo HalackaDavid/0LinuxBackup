@@ -31,6 +31,7 @@
 .config/pulse/pulse-auth
 .config/pulse/cookie
 .config/BraveSoftware
+.config/nvim/nvim_plugins/*
 
 !.local/
 !.local/bin/
@@ -39,5 +40,4 @@
 !data/
 !data/**
 data/Wallpapers/wallpaper.active
-.config/nvim/nvim_plugins/*
-
+data/proxproj/noSync/*
