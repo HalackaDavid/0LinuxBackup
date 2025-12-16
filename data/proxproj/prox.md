@@ -13,6 +13,7 @@ https://stackoverflow.com/questions/44678725/cannot-connect-to-the-docker-daemon
 https://www.hostinger.com/tutorials/how-to-fix-docker-permission-denied-error?utm_campaign=Generic-Tutorials-DSA-t1|NT:Se|LO:Other-EU&utm_medium=ppc&gad_source=1&gad_campaignid=12231291749&gclid=EAIaIQobChMIz8-J-vPIkAMVC5SDBx3MKhFNEAAYASAAEgJmFfD_BwE
 
 sudo pacman -S docker
+
 docker info
 systemctl start docker.sock
 systemclt enable docker.socket
@@ -25,6 +26,8 @@ docker info
 systemctl start docker
 docker info
 ll /var/run/docker.sock
+
+#Creating new group called docker
 sudo usermod -aG docker $USER
 newgrp docker
 
