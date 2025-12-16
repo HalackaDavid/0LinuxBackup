@@ -18,6 +18,8 @@ vim.opt.linebreak = true
 vim.opt.mouse = ""
 vim.opt.clipboard = "unnamedplus"
 --vim.opt.swapfile = false
+-- s:^:<comment symbol>:
+-- s:^<comment symbol>:
 
 -- Keymaps
 vim.keymap.set('n', '<Space>', '', { noremap = true })
@@ -198,10 +200,25 @@ require("lazy").setup(
 ---------
 -- LSP --
 ---------
+
+-- github.com/neovim/nvim-lspconfig
+-- github.com/mason-org/mason.nvim
+-- github.com/mason-org/mason-lspconfig.nvim
+-- github.com/WhoIsSethDaniel/mason-tool-installer.nvim
 --        {
 --            'neovim/nvim-lspconfig',
 --            dependencies = {
---                { 'mason-org/mason.nvim', opts = {}},
+--                { 'mason-org/mason.nvim', 
+--                    opts = {
+--                        ui = {
+--                            icons = {
+--                                package_installed = "✓",
+--                                package_pending = "➜",
+--                                package_uninstalled = "✗"
+--                            }
+--                        }
+--		              }
+--                },
 --                'mason-org/mason-lspconfig.nvim',
 --                'WhoIsSethDaniel/mason-tool-installer.nvim',
 --            },
