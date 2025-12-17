@@ -135,13 +135,10 @@ require("lazy").setup(
 
             },
             config = function()
-                -- [[ Configure Telescope ]]
-                -- See `:help telescope` and `:help telescope.setup()`
                 require('telescope').setup {
                     defaults = {
                         scroll_strategy = "limit";
                         file_ignore_patterns = { ".git/[^h]" };
-                        --initial_mode= "normal";
                     },
                     pickers = {
                         find_files = {
@@ -311,6 +308,6 @@ require("lazy").setup(
     },
     { --Options for Lazy.nvim
         --Path to lazy plugins
-            root = vim.fn.expand(NvimDefaultPath),
+        root = vim.fn.expand(NvimDefaultPath),
     }
 )
