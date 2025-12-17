@@ -1,8 +1,8 @@
 ----------------------
 -- MUST BE VALID LUA--
 ----------------------
-local NvimDefaultPath = os.getenv("HOME").."/.config/nvim/nvim_plugins"
-local lazypath = vim.fn.expand(NvimDefaultPath.. "/lazy.nvim")
+local NvimDefaultPluginPath = os.getenv("HOME").."/.config/nvim/nvim_plugins"
+local lazypath = vim.fn.expand(NvimDefaultPluginPath.. "/lazy.nvim")
 spaceWidth = 4
 
 -- Basic settings
@@ -308,6 +308,6 @@ require("lazy").setup(
     },
     { --Options for Lazy.nvim
         --Path to lazy plugins
-        root = vim.fn.expand(NvimDefaultPath),
+        root = vim.fn.expand(NvimDefaultPluginPath),
     }
 )
