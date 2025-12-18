@@ -1,9 +1,0 @@
-#!/bin/zsh
-
-Main() {
-	local var=$(service --status-all 2>/dev/null);
-	echo $var | grep --color='never' '\[ - \]';
-	echo $var | grep --color='never' '\[ + \]';
-}
-
-Main;

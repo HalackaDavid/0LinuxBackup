@@ -214,6 +214,4 @@ alias c='clear'
 
 alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_login ~/.bash_history 2>/dev/null'
 
-
-
 unset var;

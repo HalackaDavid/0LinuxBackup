@@ -13,7 +13,7 @@ if (( $+commands[tmux] )) && [[ -z $TMUX && $- == *i* && -t 0 ]]; then
         2) exec tmux;;
         *) exec tmux new-session -A -s D;;
         esac
-        #unset UserInput
+        unset UserInput
     fi
 fi
 
