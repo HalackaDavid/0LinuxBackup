@@ -1,3 +1,9 @@
-#Check path to wallpaper from hyprland.conf
-#if path to wallpaper.active exists equip it if not black screen
-swaybg -i $HOME/data/Wallpapers/wallpaper.active -m fill #ln -sf ~/data/Wallpapers/{PATH TO IMG} ~/data/Wallpapers/wallpaper.active
+#HyprWallpaperPath=$HOME/data/Wallpapers
+
+if [[ -f $HyprWallpaperPath/wallpaper.active ]]; then
+    swaybg -i $HyprWallpaperPath/wallpaper.active -m fill
+else
+    swaybg -c "#000000" -m solid_color
+fi
+
+#ln -sf ~/data/Wallpapers/{PATH TO IMG} ~/data/Wallpapers/wallpaper.active
