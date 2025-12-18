@@ -1,1 +1,3 @@
-Hello World
+#1
+cp ~/data/git/config ~/.git
+
