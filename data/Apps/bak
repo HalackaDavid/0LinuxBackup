@@ -3,8 +3,15 @@
 ArgParser() {
 
     for ((i=0; i <= ${#1}; i++)) {
-        arr=(${1[$i]})
+        arr=(
+            ${1[$i]}
+        )
     }
+
+    for i in $arr[@]; do
+        echo $i
+    done
+
     unset lenght
 }
 
