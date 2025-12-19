@@ -6,10 +6,8 @@ Main() {
         
         while true; do
             if ping -c1 -W1 8.8.8.8 &>/dev/null; then
+                #ONLINE
                 git pull
-                print "\n##########\n  Online\n##########"
-            else
-                print "\n###########\n  Offline\n###########"
             fi
 
             print -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[c] Clear\n[x] exit\n>>> "
