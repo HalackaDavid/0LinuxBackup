@@ -29,7 +29,7 @@ elif [[ ${#HyprWallpaperPath} > 0 ]]; then
         else
             echo "[-] Black"
         fi
-    echo -n ">> "
+    echo -n ">>> "
     read UserInput
     [ "$UserInput" = "" ] && exit 0
     ln -sf "$HyprWallpaperPath/0/$UserInput".* "$HyprWallpaperPath/wallpaper.active"
