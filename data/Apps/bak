@@ -1,39 +1,25 @@
 #!/bin/zsh
 
-ArgParser() {
-
-    for ((i=1; i <= ${#1}; i++)) {
-        echo ${1[$i]}
-        Opt ${1[$i]}
-    }
-    unset i
-}
-
-Opt() {
-    case $1 in
-    "0") git pull;;
-    "1") git status;;
-    "2") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")";;
-    "3") git push;;
-    "4") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")" && git push;;
-    "c") clear;;
-    "x") return;;
-    esac
-}
-
 Main() {
     (
         cd ~
 
-        if [[ $1 ]]; then
-            ArgParser $1
-            return;
-        fi
-               
         while true; do
-            echo -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[c] Clear\n[x] exit\n>>> "
+            echo -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[4] Commit and Upload\n[c] Clear\n[x] exit\n>>> "
             read UserInput
-            Opt $UserInput
+            chars=(${(s::)UserInput})
+
+            for i in $chars[@]; do
+                case $i in
+                    "0") git pull;;
+                    "1") git status;;
+                    "2") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")";;
+                    "3") git push;;
+                    "4") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")" && git push;;
+                    "c") clear;;
+                    "x") return;;
+                esac
+            done
         done
 
         unset UserInput
