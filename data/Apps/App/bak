@@ -12,7 +12,7 @@ Main() {
                 print "\n###########\n  Offline\n###########"
             fi
 
-            print -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[4] Commit and Upload\n[c] Clear\n[x] exit\n>>> "
+            print -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[c] Clear\n[x] exit\n>>> "
             read UserInput
             chars=(${(s::)UserInput})
 
@@ -22,7 +22,6 @@ Main() {
                     "1") git status;;
                     "2") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")";;
                     "3") git push;;
-                    "4") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")" && git push;;
                     "c") clear;;
                     "x") return;;
                 esac
