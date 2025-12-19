@@ -6,7 +6,7 @@ Main() {
         
         while true; do
             if ping -c1 -W1 8.8.8.8 &>/dev/null; then
-                git pull
+                git pullsda
                 print "\n##########\n  Online\n##########"
             else
                 print "\n###########\n  Offline\n###########"
