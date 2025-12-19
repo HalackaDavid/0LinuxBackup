@@ -33,7 +33,7 @@ Main() {
         while true; do
             echo -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[c] Clear\n[x] exit\n>>> "
             read UserInput
-            Opt
+            Opt $UserInput
         done
 
         unset UserInput
