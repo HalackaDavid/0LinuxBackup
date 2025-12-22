@@ -6,6 +6,7 @@ aarch64)
 x86_64)
     export myOSName=BlackArch
     export myDevicePath=/dev
+    export TERM=xterm-kitty
     ;;
 esac
 
