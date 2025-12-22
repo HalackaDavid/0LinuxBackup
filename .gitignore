@@ -22,7 +22,6 @@
 #Termux
 !.termux
 !.termux/**
-!.termux_authinfo
 
 !.config/
 !.config/**
@@ -41,5 +40,3 @@
 !data/
 !data/**
 data/Wallpapers/wallpaper.active
-data/proxproj/noSync/*
-!data/proxproj/noSync/READ
