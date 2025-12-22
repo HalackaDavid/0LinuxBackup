@@ -110,7 +110,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup(
     { --Plugins from/for Lazy.nvim
-        { -- Fuzzy Finder (files, lsp, etc)
+        { --Telescope
             'nvim-telescope/telescope.nvim',
             event = 'VimEnter',
             dependencies = {
@@ -190,6 +190,10 @@ require("lazy").setup(
 ---------
 -- LSP --
 ---------
+        {
+            "mason-org/mason.nvim",
+            opts={}
+        },
     },
     { --Options for Lazy.nvim
         --Path to lazy plugins
