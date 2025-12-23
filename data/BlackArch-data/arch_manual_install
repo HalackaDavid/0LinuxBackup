@@ -147,25 +147,31 @@ options root=PARTUUID=<ROOT_UUID> rw
 ------------------------------------------------------------
 12. NVIDIA / PRIME OFFLOAD (After first boot)
 ------------------------------------------------------------
-# After logging in as <USERNAME>:
-# 1. Install AUR helper (example: yay)
+
 pacman -S base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-# 2. Install legacy NVIDIA driver for GTX 1050
 yay -S nvidia-580xx-dkms lib32-nvidia-580xx-utils
 
-# 3. Enable NVIDIA DRM modeset for Wayland
 echo "options nvidia-drm modeset=1" | sudo tee /etc/modprobe.d/nvidia.conf
 
-# 4. Update initramfs
+sudo nano /etc/modprobe.d/blacklist-nouveau.conf
+    #inside
+        blacklist nouveau
+        options nouveau modeset=0
+
+sudo nano /etc/mkinitcpio.conf
+    #inside find MODULES and edit them like
+        MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
+
 sudo mkinitcpio -P
 
-# 5. For PRIME Render Offload in Hyprland
-# Add to your game launch script:
-# __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia <game>
+reboot
+
+#Verify instalation
+lsmod | grep -E "nvidia|nouveau"
 
 ----------------------------------------------------------------------------
 15. AUDIO
