@@ -1,0 +1,179 @@
+============================================================
+ARCH LINUX MANUAL INSTALL MANIFEST
+Acer Nitro 5 | Gaming + Hyprland | Minimal | No File Manager
+============================================================
+
+SYSTEM GOALS
+------------
+- Minimal Arch Linux
+- UEFI + systemd-boot
+- Hyprland (Wayland only, no Waybar)
+- GTX 1050 gaming via legacy NVIDIA 580xx drivers (AUR)
+- Intel iGPU default until NVIDIA installed
+- TTY login only
+- Ethernet primary, Wi-Fi via iwd
+- No GUI-installed apps (Steam, Lutris, file manager later)
+
+DISK LAYOUT
+-----------
+Disk: /dev/<TARGET_DISK>
+- /boot  1 GiB  FAT32 EFI
+- /      rest   ext4
+
+------------------------------------------------------------
+1. LIVE ISO PREP
+------------------------------------------------------------
+setfont ter-132n #For live iso only after reboot gone
+timedatectl set-ntp true
+
+Verify UEFI:
+ls /sys/firmware/efi/efivars
+
+------------------------------------------------------------
+2. MIRRORS AND PACMAN CONFIG
+------------------------------------------------------------
+# Ensure core, extra, community repos enabled
+nano /etc/pacman.conf
+# Uncomment:
+[core]
+Include = /etc/pacman.d/mirrorlist
+
+[extra]
+Include = /etc/pacman.d/mirrorlist
+
+#Comunity may be required
+[community]
+Include = /etc/pacman.d/mirrorlist
+
+pacman -Sy
+
+------------------------------------------------------------
+3. DISK PARTITIONING (GPT)
+------------------------------------------------------------
+parted /dev/<TARGET_DISK>
+- mklabel gpt
+- mkpart ESP fat32 1MiB 1025MiB
+- set 1 esp on
+- mkpart primary ext4 1025MiB 100%
+
+------------------------------------------------------------
+4. FILESYSTEMS
+------------------------------------------------------------
+mkfs.fat -F32 /dev/<TARGET_DISK>1
+mkfs.ext4 /dev/<TARGET_DISK>2
+
+mount /dev/<TARGET_DISK>2 /mnt
+mkdir /mnt/boot
+mount /dev/<TARGET_DISK>1 /mnt/boot
+
+------------------------------------------------------------
+5. BASE INSTALL
+------------------------------------------------------------
+# Use nouveau for initial boot
+pacstrap /mnt \
+  base linux linux-headers linux-firmware \
+  efibootmgr dosfstools \
+  dhcpcd iwd \
+  pipewire pipewire-pulse pipewire-alsa wireplumber \
+  mesa \
+  hyprland wofi \
+  sudo git neovim zsh kitty tmux man-db man-pages less htop curl wget rsync unzip zip tar
+
+------------------------------------------------------------
+6. FSTAB
+------------------------------------------------------------
+genfstab -U /mnt >> /mnt/etc/fstab
+
+------------------------------------------------------------
+7. CHROOT
+------------------------------------------------------------
+arch-chroot /mnt
+
+------------------------------------------------------------
+8. TIME / LOCALE / HOST
+------------------------------------------------------------
+ln -sf /usr/share/zoneinfo/<REGION>/<CITY> /etc/localtime
+hwclock --systohc
+
+Edit /etc/locale.gen:
+- uncomment: en_US.UTF-8 UTF-8
+locale-gen
+
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
+echo "<HOSTNAME>" > /etc/hostname
+
+------------------------------------------------------------
+9. NETWORKING
+------------------------------------------------------------
+systemctl enable dhcpcd
+systemctl enable iwd
+# Ethernet works automatically
+# Wi-Fi via: iwctl
+
+------------------------------------------------------------
+10. USERS & SECURITY
+------------------------------------------------------------
+passwd   # set root password temporarily
+useradd -m -G wheel -s /bin/bash <USERNAME>
+passwd <USERNAME>
+
+EDITOR=nvim visudo
+- Uncomment: %wheel ALL=(ALL:ALL) ALL
+
+# Optional: disable root login
+passwd -l root
+
+------------------------------------------------------------
+11. SYSTEMD-BOOT (UEFI)
+------------------------------------------------------------
+bootctl install
+
+#it is for blackarch.conf
+<ROOT_UUID>=$(lsblk -o PARTUUID /dev/<DISKNAME>)
+
+/boot/loader/loader.conf
+------------------------
+default blackarch
+timeout 3
+editor no
+
+/boot/loader/entries/blackarch.conf
+-------------------------------
+title   BlackArch
+linux   /vmlinuz-linux
+initrd  /initramfs-linux.img
+options root=PARTUUID=<ROOT_UUID> rw
+
+------------------------------------------------------------
+12. NVIDIA / PRIME OFFLOAD (After first boot)
+------------------------------------------------------------
+# After logging in as <USERNAME>:
+# 1. Install AUR helper (example: yay)
+pacman -S base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+# 2. Install legacy NVIDIA driver for GTX 1050
+yay -S nvidia-580xx-dkms lib32-nvidia-580xx-utils
+
+# 3. Enable NVIDIA DRM modeset for Wayland
+echo "options nvidia-drm modeset=1" | sudo tee /etc/modprobe.d/nvidia.conf
+
+# 4. Update initramfs
+sudo mkinitcpio -P
+
+# 5. For PRIME Render Offload in Hyprland
+# Add to your game launch script:
+# __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia <game>
+
+----------------------------------------------------------------------------
+15. AUDIO
+------------------------------------------------------------
+PipeWire enabled per-user
+Verify:
+pactl info
+
+============================================================
+END OF MANIFEST
+============================================================
