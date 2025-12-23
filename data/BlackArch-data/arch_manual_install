@@ -77,7 +77,7 @@ pacstrap /mnt \
   pipewire pipewire-pulse pipewire-alsa wireplumber \
   mesa \
   hyprland wofi \
-  sudo git neovim zsh kitty tmux man-db man-pages less htop curl wget rsync unzip zip tar
+  sudo git neovim zsh kitty tmux man-db man-pages less htop curl wget rsync unzip zip tar swaybg
 
 ------------------------------------------------------------
 6. FSTAB
