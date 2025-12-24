@@ -1,6 +1,6 @@
 ============================================================
 ARCH LINUX MANUAL INSTALL MANIFEST
-Acer Nitro 5 | Gaming + Hyprland | Minimal | No File Manager
+Acer Nitro 5 | Gaming + Hyprland | Minimal 
 ============================================================
 
 SYSTEM GOALS
@@ -10,9 +10,8 @@ SYSTEM GOALS
 - Hyprland (Wayland only, no Waybar)
 - GTX 1050 gaming via legacy NVIDIA 580xx drivers (AUR)
 - Intel iGPU default until NVIDIA installed
-- TTY login only
+- TTY login only (LY in progress)
 - Ethernet primary, Wi-Fi via iwd
-- No GUI-installed apps (Steam, Lutris, file manager later)
 
 DISK LAYOUT
 -----------
@@ -76,8 +75,9 @@ pacstrap /mnt \
   dhcpcd iwd \
   pipewire pipewire-pulse pipewire-alsa wireplumber \
   mesa \
-  hyprland wofi \
-  sudo git neovim zsh kitty tmux man-db man-pages less htop curl wget rsync unzip zip tar swaybg
+  polkit \
+  hyprland wwl-clipboar dofi ly swaybg hyprlock \
+  sudo git neovim zsh kitty tmux man-db man-pages less htop curl wget rsync unzip zip tar
 
 ------------------------------------------------------------
 6. FSTAB
@@ -100,6 +100,7 @@ Edit /etc/locale.gen:
 locale-gen
 
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
+#HOSTNAME in my case blackarch
 echo "<HOSTNAME>" > /etc/hostname
 
 ------------------------------------------------------------
@@ -114,7 +115,7 @@ systemctl enable iwd
 10. USERS & SECURITY
 ------------------------------------------------------------
 passwd   # set root password temporarily
-useradd -m -G wheel -s /bin/bash <USERNAME>
+useradd -m -G wheel -s /bin/zsh <USERNAME>
 passwd <USERNAME>
 
 EDITOR=nvim visudo
@@ -122,6 +123,9 @@ EDITOR=nvim visudo
 
 # Optional: disable root login
 passwd -l root
+
+
+ADD POLKIT SETUP HERE
 
 ------------------------------------------------------------
 11. SYSTEMD-BOOT (UEFI)
@@ -170,15 +174,36 @@ sudo mkinitcpio -P
 
 reboot
 
-#Verify instalation
+#Verify instalation after reboot
 lsmod | grep -E "nvidia|nouveau"
 
-----------------------------------------------------------------------------
-15. AUDIO
 ------------------------------------------------------------
-PipeWire enabled per-user
-Verify:
+13. AUDIO
+------------------------------------------------------------
+#PipeWire enabled per-user
+#Verify:
 pactl info
+
+------------------------------------------------------------
+14. BlackArch repo
+------------------------------------------------------------
+
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+
+#Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials
+#it is around last
+
+sudo strap
+------------------------------------------------------------
+15. MY DATA AND SHIT
+------------------------------------------------------------
+
+rm -rf /home/$USER/*
+
+git clone <REPO WITH MY HOME>
+
+mv <GIT FOLDER>/* $HOME
 
 ============================================================
 END OF MANIFEST

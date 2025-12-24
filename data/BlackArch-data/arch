@@ -27,13 +27,11 @@ ArchSetup() {
         archAppsSpecific=(
             steam
             discord
-
+            brave
+            swaybg
             hyprlock
             wl-clipboard
-            #WindowManager
             hyprland
-            #GUI file mannagers
-            #dolphin
         )
         ;;
     ${archOpt[1]})
@@ -54,7 +52,6 @@ BlackArchSetup() {
 PostSetup() {
     sudo cp -r pacman.conf /etc/pacman.conf
     sudo cp -r os-release /etc/os-release
-    #chsh -s /bin/zsh
 }
 
 arch=$(uname -m)
