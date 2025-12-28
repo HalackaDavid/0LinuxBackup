@@ -1,6 +1,6 @@
 arcane2=2*(6-0)
-arcane3=3*(13-2)
-arcane4=4*(8-4)
+arcane3=3*(13-5)
+arcane4=4*(8-8)
 arcane6=6*(3-3)
 
 print((arcane2 + arcane3 + arcane4 + arcane6) * 21 )
