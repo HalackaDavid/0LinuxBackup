@@ -1,3 +1,5 @@
+OLD() {
+
 internal="eDP-1"
 external=$(hyprctl monitors | grep "Monitor" | grep -v "disconnected" | awk '{print $2}' | grep -v "$internal" | head -n1)
 
@@ -14,3 +16,7 @@ EOF
 fi
 
 echo "$HyprConfigPath/monitor.conf"
+
+}
+
+OLD
