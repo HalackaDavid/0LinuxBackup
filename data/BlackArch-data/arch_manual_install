@@ -77,7 +77,7 @@ pacstrap /mnt \
   mesa \
   polkit \
   hyprland wwl-clipboar dofi ly swaybg hyprlock \
-  sudo git neovim zsh kitty tmux man-db man-pages less htop curl wget rsync unzip zip tar
+  sudo git neovim zsh kitty tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
 
 ------------------------------------------------------------
 6. FSTAB
@@ -135,13 +135,15 @@ bootctl install
 #it is for blackarch.conf
 <ROOT_UUID>=$(lsblk -o PARTUUID /dev/<DISKNAME>)
 
-/boot/loader/loader.conf
+<BOOT_NAME>=blackarch
+
+#inside /boot/loader/loader.conf
 ------------------------
-default blackarch
+default <BOOT_NAME>
 timeout 3
 editor no
 
-/boot/loader/entries/blackarch.conf
+#inside /boot/loader/entries/<BOOT_NAME>.conf
 -------------------------------
 title   BlackArch
 linux   /vmlinuz-linux
@@ -149,13 +151,17 @@ initrd  /initramfs-linux.img
 options root=PARTUUID=<ROOT_UUID> rw
 
 ------------------------------------------------------------
-12. NVIDIA / PRIME OFFLOAD (After first boot)
+12. instaling yay (needed for step 13.)
 ------------------------------------------------------------
 
 pacman -S base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+
+------------------------------------------------------------
+13. optional NVIDIA / PRIME OFFLOAD (After first boot) 
+------------------------------------------------------------
 
 yay -S nvidia-580xx-dkms lib32-nvidia-580xx-utils
 
@@ -178,14 +184,14 @@ reboot
 lsmod | grep -E "nvidia|nouveau"
 
 ------------------------------------------------------------
-13. AUDIO
+14. AUDIO
 ------------------------------------------------------------
 #PipeWire enabled per-user
 #Verify:
 pactl info
 
 ------------------------------------------------------------
-14. BlackArch repo
+15. BlackArch repo
 ------------------------------------------------------------
 
 curl -O https://blackarch.org/strap.sh
@@ -196,7 +202,7 @@ chmod +x strap.sh
 
 sudo strap
 ------------------------------------------------------------
-15. MY DATA AND SHIT
+16. MY DATA AND SHIT
 ------------------------------------------------------------
 
 rm -rf /home/$USER/*
