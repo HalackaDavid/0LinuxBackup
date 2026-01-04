@@ -33,7 +33,7 @@ NEW() {
 }
 
 #OLD
-NEW
-
+#NEW
+echo "DA" >> $conf
 hyprctl reload
 unset conf
