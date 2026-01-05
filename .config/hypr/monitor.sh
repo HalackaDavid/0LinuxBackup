@@ -27,9 +27,12 @@ NEW() {
 
     if [[ -n "$externalName" ]]; then
         hyprctl keyword monitor "$internalName, disable"
+#        echo "monitor=$internalName, disable" > $conf
+#    else
+#        echo "" > $conf
     fi
+    #echo "DA" >> $HOME/DA.DA
 }
 
 #OLD
 NEW
-unset conf
