@@ -26,14 +26,10 @@ NEW() {
     local externalName=$(hyprctl monitors all | grep "Monitor" | grep -v "disconnected" | grep -v "ID 0" | awk '{print $2}' | head -n1)
 
     if [[ -n "$externalName" ]]; then
-        echo "monitor=$internalName,disable" > $conf
-    else
-        echo "" > $conf
+        hyprctl keyword monitor "$internalName, disable"
     fi
 }
 
 #OLD
-#NEW
-echo "DA" >> $conf
-hyprctl reload
+NEW
 unset conf

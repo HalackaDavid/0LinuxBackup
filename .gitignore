@@ -27,7 +27,6 @@
 !.config/**
 .config/discord/
 .config/mozilla/
-.config/hypr/monitor.conf
 .config/pulse/pulse-auth
 .config/pulse/cookie
 .config/BraveSoftware
