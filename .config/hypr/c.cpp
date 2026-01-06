@@ -19,8 +19,7 @@ Monitor unplugged: FALLBACK
 int main() {
     const char* sock_path = getenv("XDG_RUNTIME_DIR");
     char path[256];
-    snprintf(path, sizeof(path), "%s/hypr/%s/.socket2.sock",
-             sock_path, getenv("HYPRLAND_INSTANCE_SIGNATURE"));
+    snprintf(path, sizeof(path), "%s/hypr/%s/.socket2.sock", sock_path, getenv("HYPRLAND_INSTANCE_SIGNATURE"));
 
     int sock = socket(AF_UNIX, SOCK_STREAM, 0);
     struct sockaddr_un addr = {0};
