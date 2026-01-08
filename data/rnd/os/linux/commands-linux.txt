@@ -26,6 +26,8 @@ Commands {
 	userdel
 
 	lsmod
+
+    free -> mem usage
 }
 
 Programs {
