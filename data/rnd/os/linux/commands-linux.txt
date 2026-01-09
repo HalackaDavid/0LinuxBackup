@@ -28,6 +28,8 @@ Commands {
 	lsmod
 
     free -> mem usage
+
+    pacman -Rns $(pacman -Qdtq) --> remove orphan packages
 }
 
 Programs {
