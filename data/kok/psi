@@ -1,0 +1,11 @@
+DNS proces – více kroků (jednoduše):
+
+1. Uživatel zadá do prohlížeče **název domény**
+2. Počítač zkontroluje **místní cache** (zda už IP nezná)
+3. Pokud ne, odešle dotaz na **DNS server poskytovatele**
+4. DNS server se zeptá **root DNS serveru**
+5. Root server odkáže na **DNS server domény (.cz, .com)**
+6. Ten odkáže na **autoritatívní DNS server** daného webu
+7. Autoritatívní DNS vrátí **IP adresu**
+8. IP adresa se pošle zpět počítači
+9. Prohlížeč se připojí na server a zobrazí web
