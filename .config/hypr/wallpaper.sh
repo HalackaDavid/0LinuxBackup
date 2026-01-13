@@ -12,20 +12,15 @@ Kill() {
     pkill -x swaybg 2>/dev/null
 }
 
-#Debuging for none hyprland devices
-#HyprWallpaperPath=/home/chromagor/data/Wallpapers
-
 if [[ $1 == "hypr_script" && ${#HyprWallpaperPath} > 0 ]]; then
     Kill
     Wallpaper
     exit
 elif [[ ${#HyprWallpaperPath} > 0 ]]; then 
     print -l $HyprWallpaperPath/0/*(:t:r)
-    echo "Black"
     echo -n ">>> "
     
     read UserInput
-    [ "$UserInput" = "" ] && exit 0
     ln -sf "$HyprWallpaperPath/0/$UserInput".png "$HyprWallpaperPath/wallpaper.active"
     Kill
     Wallpaper
