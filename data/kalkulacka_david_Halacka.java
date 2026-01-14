@@ -8,9 +8,10 @@ public class kalkulacka_david_halacka {
         String x = Input.nextLine();
         System.out.print("Zadej y: ");
         String y = Input.nextLine();
+        String sep = Input.nextLine();
 
         System.out.print("Vyber +, -, *, /\n");
-        switch(Input.nextLine()) {
+        switch(sep) {
             case "+":
                 System.out.print(Float.parseFloat(x.replace(",",".")) + Float.parseFloat(y.replace(",",".")));
                 break;
