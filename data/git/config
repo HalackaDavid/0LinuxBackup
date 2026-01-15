@@ -10,5 +10,5 @@
 	remote = origin
 	merge = refs/heads/main
 [pull]
-	rebase = false
-	ff = true
+	rebase = true
+	ff = only
