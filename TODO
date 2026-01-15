@@ -37,3 +37,9 @@ how WPS network work
 #####################
 
 change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
+
+
+
+
+git config --global alias.sync '!git stash push -u && git pull --rebase && git stash pop || true'
+
