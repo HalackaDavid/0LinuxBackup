@@ -3,3 +3,5 @@
 	name = Your Name
 [credential]
 	helper = store
+[alias]
+	sync = !git stash push -u && git pull --rebase && git stash pop || true
