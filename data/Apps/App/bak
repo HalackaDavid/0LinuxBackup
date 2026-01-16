@@ -8,21 +8,15 @@ Main() {
             if ping -c1 -W1 8.8.8.8 &>/dev/null; then
                 #ONLINE
                 git pull
-            else
+#            else
 #                while true; do
 #                    if ping -c1 -W1 8.8.8.8 &>/dev/null; then
 #                        #ONLINE
 #                        git pull
+#                        break
 #                    fi
+#                    sleep 60
 #                done &
-                while true; do
-                    if ping -c1 -W1 8.8.8.8 &>/dev/null; then
-                        #ONLINE
-                        git pull
-                        break
-                    fi
-                    sleep 60
-                done &
             fi
 
             print -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[c] Clear\n[x] exit\n>>> "
