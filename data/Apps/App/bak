@@ -19,6 +19,7 @@ Main() {
                     if ping -c1 -W1 8.8.8.8 &>/dev/null; then
                         #ONLINE
                         git pull
+                        break
                     fi
                     sleep 60
                 done &
