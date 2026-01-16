@@ -40,6 +40,16 @@ change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
 
 
 
+{
+no case
+no extended fan 
+one internal fan
+    -> 70 on start after 1 hour to 80 - 85 idle and in mission
+}
 
-git config --global alias.sync '!git stash push -u && git pull --rebase && git stash pop || true'
-
+{
+no case
+yes extended fan 
+one internal fan
+    -> ??? (first one hour full throtle than fan on)
+}
