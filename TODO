@@ -44,8 +44,11 @@ change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
 no case
 no extended fan 
 one internal fan
-    -> 70 on start after 1 hour to 80 - 85 idle and in mission
-}
+    -> 75 on start 
+        after 1 hour 
+        -> 80 - 85 idle
+        -> 80 - 95 mission
+} => cooling with extenden fan = 65 - 70
 
 {
 no case
