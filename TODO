@@ -54,7 +54,8 @@ one internal fan
 no case
 yes extended fan 
 one internal fan
-    -> ??? (first one hour full throtle than fan on)
+    -> 80 idle
+    -> 80 - 85 mission
 }
 
 {
@@ -63,5 +64,15 @@ no extended fan
 one internal fan
     -> 77 on start
     -> 80 - 85 idle
-    -> 
+    -> 80 - 85 mission
+}
+
+
+{
+yes case
+yes extended fan
+one internal fan
+    -> 77 on start
+    -> 75 - 85 idle
+    -> 75-  85 mission
 }
