@@ -56,3 +56,12 @@ yes extended fan
 one internal fan
     -> ??? (first one hour full throtle than fan on)
 }
+
+{
+yes case
+no extended fan
+one internal fan
+    -> 77 on start
+    -> 80 - 85 idle
+    -> 
+}
