@@ -73,5 +73,8 @@ Main() {
     fi
 }
 
-sudo -v || return 1;
+#if /etc/sudoers my user has no 
+#chromagor ALL=(ALL:ALL) NOPASSWD: ALL
+
+#sudo -v || return 1;
 Main;
