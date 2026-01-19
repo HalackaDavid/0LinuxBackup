@@ -1,0 +1,15 @@
+#!/bin/sh
+
+BlackArchSetup() {
+    curl -O https://blackarch.org/strap.sh && chmod +x strap.sh
+    echo "Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials"
+    echo "Then sudo ./strap.sh"
+}
+
+PostSetup() {
+    sudo cp -r pacman.conf /etc/pacman.conf
+    sudo cp -r os-release /etc/os-release
+}
+
+#BlackArchSetup
+#PostSetup
