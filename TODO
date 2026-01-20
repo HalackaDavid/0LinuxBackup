@@ -8,6 +8,8 @@ eko test
 ### WHEN BORED ###
 ##################
 
+.tmux.conf
+
 check sda for backups
 
 default value for monitor is mirroring
