@@ -11,5 +11,18 @@ PostSetup() {
     sudo cp -r os-release /etc/os-release
 }
 
+case $(uname -m) in 
+aarch64)
+    rootDirPath=$(dirname $0)/root-aarch64
+    ;;
+x86_64)
+    rootDirPath=$(dirname $0)/root-x86_64
+    ;;
+esac
+
+echo $rootDirPath
+
 #BlackArchSetup
 #PostSetup
+unset rootDirPath
+
