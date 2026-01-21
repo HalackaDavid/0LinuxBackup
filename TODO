@@ -82,3 +82,5 @@ one internal fan
     -> 75 - 85 idle
     -> 75-  85 mission
 }
+
+sudo pacman -Sy foot foot-terminfo
