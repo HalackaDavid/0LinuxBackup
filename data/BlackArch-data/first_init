@@ -20,9 +20,11 @@ x86_64)
     ;;
 esac
 
-echo $rootDirPath
-
-#BlackArchSetup
-#PostSetup
-unset rootDirPath
+if [ "$(id -u)" -ne 0 ]; then
+    echo "you must be root"
+else
+    BlackArchSetup
+    PostSetup
+    unset rootDirPath
+fi
 
