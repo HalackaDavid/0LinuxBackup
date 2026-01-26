@@ -4,6 +4,7 @@
 
 11.2 Žatec
 3.2 cj test
+
 {
     git bare backup
     dev2 <-> dev2
