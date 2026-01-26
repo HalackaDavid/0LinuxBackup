@@ -1,0 +1,122 @@
+HOME BACKUP MANIFEST
+Version: 1.0
+Method: Git
+Scope: User home directory (curated)
+
+PURPOSE
+
+Maintain a portable, versioned backup of user configuration and essential
+user data across multiple Arch Linux environments, including desktop and
+mobile chroot systems. The backup must function offline and synchronize
+when connectivity is available.
+
+BACKUP MODEL
+
+The backup is selective. Only files explicitly tracked by Git are included.
+The backup is authoritative for configuration, not bulk data.
+
+Git is used as:
+- change tracker
+- transport mechanism
+- conflict resolution system
+
+Git is not used as:
+- full filesystem snapshot
+- binary archive
+- permission or ACL store
+
+INCLUDED DATA
+
+Eligible data classes:
+- shell configuration files
+- editor configuration files
+- application configuration under .config/
+- user scripts and binaries
+- documentation and text files
+
+Examples:
+- ~/.zshrc
+- ~/.bashrc
+- ~/.profile
+- ~/.config/
+- ~/.local/bin/
+- ~/scripts/
+- ~/notes/
+
+EXCLUDED DATA
+
+The following must never be tracked:
+- caches
+- temporary files
+- downloads
+- media collections
+- browser profiles
+- large binary files
+- auto-generated state
+
+Examples:
+- ~/.cache/
+- ~/.local/share/Trash/
+- ~/Downloads/
+- ~/Videos/
+- ~/Music/
+- node_modules/
+- build artifacts
+
+PERMISSIONS
+
+Git preserves:
+- file contents
+- directory structure
+- executable bit
+- symbolic links
+
+Git does not preserve:
+- ownership
+- ACLs
+- extended attributes
+
+Files requiring such metadata are out of scope.
+
+REPOSITORY LAYOUT
+
+Supported layouts:
+1. Dedicated repository directory with symlinks into $HOME
+2. Bare repository using $HOME as the work tree
+
+In all cases:
+- repository metadata must not pollute the working tree
+- untracked files remain hidden by default
+
+SYNC POLICY
+
+- Commits may be created offline
+- Synchronization is via push and pull
+- Conflicts are resolved manually
+- History is never rewritten
+
+The last successful pull defines the local baseline.
+
+SECURITY
+
+- Access is authenticated
+- Transport is via SSH or physical media
+- Secrets are excluded or encrypted before commit
+
+Plaintext credentials are never tracked.
+
+FAILURE MODES
+
+- Repository loss does not imply total data loss
+- Loss of untracked data is acceptable
+- Corruption is mitigated by multiple clones
+
+NON-GOALS
+
+- Full system backup
+- Disaster recovery for / or /var
+- Permission or ACL replication
+- Automated merge resolution
+
+END OF MANIFEST
+
