@@ -18,9 +18,9 @@ PostSetup() {
                 #from here to /<somewhere> 
 
 
-                rm $rootDirPath/$i
-                sudo ln /$i $rootDirPath/$i
-                sudo chown -R chromagor:chromagor $rootDirPath
+#                rm $rootDirPath/$i
+#                sudo ln /$i $rootDirPath/$i
+#                sudo chown -R chromagor:chromagor $rootDirPath
             fi
         done
         unset i
