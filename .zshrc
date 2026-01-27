@@ -211,6 +211,7 @@ alias ll='ls -l'
 alias tree='tree --dirsfirst -a'
 alias date='TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss"'
 alias c='clear'
+alias ff='fastfetch'
 
 alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_login ~/.bash_history 2>/dev/null'
 
