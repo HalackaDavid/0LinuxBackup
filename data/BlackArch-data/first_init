@@ -12,13 +12,20 @@ PostSetup() {
         for i in $(tree -if *); do
             if [[ -f $i ]]; then
                 #sudo cp -r $rootDirPath/$i /$i
+                
+
+                #cp using HERE
+                #from here to /<somewhere> 
+
+
                 rm $rootDirPath/$i
                 sudo ln /$i $rootDirPath/$i
-                
+                sudo chown -R chromagor:chromagor $rootDirPath
             fi
         done
         unset i
     )
+    
 }
 
 case $(uname -m) in 
