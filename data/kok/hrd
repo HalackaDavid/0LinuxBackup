@@ -1,0 +1,30 @@
+Procesorové patice
+==================
+
+Intel a AMD
+současně se liší podle 
+    desktopu, 
+    pracovní stanice, 
+    server
+
+AMD
+    DESKTOP
+    patice AM5 {1718 pin, LGA, Ryzen}
+    
+    WORKSTATION
+        Thread Ripper
+        patice STR5 { 4844 pin }
+
+    SERVER 
+        patice 
+            ST5 { 6965 pin }
+            SP6 { 4844 pin }
+
+INTEL
+    DESKTOP
+        LGA 
+        cpu Core {1751 pin, 12 - 14 gen}
+        cpu Arrow lake {1851 pin}
+        Xeon {4677 pin - 7529 pin |server,workstation}
+
+
