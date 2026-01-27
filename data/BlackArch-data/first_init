@@ -3,24 +3,15 @@
 BlackArchSetup() {
     curl -O https://blackarch.org/strap.sh && chmod +x strap.sh
     echo "Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials"
-    echo "Then sudo ./strap.sh"
+    echo "Then run sudo ./strap.sh"
 }
 
-PostSetup() {
+CopyFiles() {
     (
         cd $rootDirPath
         for i in $(tree -if *); do
             if [[ -f $i ]]; then
-                #sudo cp -r $rootDirPath/$i /$i
-                
-
-                #cp using HERE
-                #from here to /<somewhere> 
-
-
-#                rm $rootDirPath/$i
-#                sudo ln /$i $rootDirPath/$i
-#                sudo chown -R chromagor:chromagor $rootDirPath
+                sudo cat $rootDirPath/$i > /$i
             fi
         done
         unset i
@@ -40,8 +31,8 @@ esac
 if [ "$(id -u)" -ne 0 ]; then
     echo "you must be root"
 else
+    CopyFiles
 #    BlackArchSetup
-    PostSetup
     unset rootDirPath
 fi
 
