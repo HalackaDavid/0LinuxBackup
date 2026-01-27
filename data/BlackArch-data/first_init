@@ -11,10 +11,10 @@ PostSetup() {
         cd $rootDirPath
         for i in $(tree -if *); do
             if [[ -f $i ]]; then
-                echo "sudo cp -r $i /$i"
-                echo "mv $i $(dirname $0)/tmp"
-                echo "ln /$i $i"
-                echo ""
+                #sudo cp -r $rootDirPath/$i /$i
+                rm $rootDirPath/$i
+                sudo ln /$i $rootDirPath/$i
+                
             fi
         done
         unset i
