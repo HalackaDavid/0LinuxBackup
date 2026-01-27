@@ -11,7 +11,8 @@ CopyFiles() {
         cd $rootDirPath
         for i in $(tree -if *); do
             if [[ -f $i ]]; then
-                sudo cat $rootDirPath/$i > /$i
+                echo "sudo cat $rootDirPath/$i > /$i"
+                #sudo cat $rootDirPath/$i > /$i
             fi
         done
         unset i
