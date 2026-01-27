@@ -7,8 +7,16 @@ BlackArchSetup() {
 }
 
 PostSetup() {
-    sudo cp -r pacman.conf /etc/pacman.conf
-    sudo cp -r os-release /etc/os-release
+    (
+        cd $rootDirPath
+        for i in $(tree -if *); do
+            if [[ -f $i ]]; then
+                echo "sudo cp -r $i /$i"
+                echo "ln /$i $i"
+            fi
+        done
+        unset i
+    )
 }
 
 case $(uname -m) in 
@@ -23,7 +31,7 @@ esac
 if [ "$(id -u)" -ne 0 ]; then
     echo "you must be root"
 else
-    BlackArchSetup
+#    BlackArchSetup
     PostSetup
     unset rootDirPath
 fi
