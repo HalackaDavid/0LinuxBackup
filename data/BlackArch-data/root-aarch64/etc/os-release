@@ -1,6 +1,6 @@
-NAME="BlackArch Linux ARM"
-PRETTY_NAME="BlackArch Linux ARM"
-ID=blackarch
+NAME="NCOR ARM"
+PRETTY_NAME="NCOR ARM"
+ID=ncor
 ID_LIKE=arch
 BUILD_ID=rolling
 ANSI_COLOR="0;34"

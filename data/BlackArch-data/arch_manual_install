@@ -76,8 +76,8 @@ pacstrap /mnt \
   pipewire pipewire-pulse pipewire-alsa wireplumber \
   mesa \
   polkit \
-  hyprland wwl-clipboar dofi ly swaybg hyprlock \
-  sudo git neovim zsh kitty tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
+  hyprland wwl-clipboar dofi ly swaybg hyprlock brightnessctl \
+  sudo git neovim zsh foot foot-terminfo tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
 
 ------------------------------------------------------------
 6. FSTAB
@@ -100,7 +100,7 @@ Edit /etc/locale.gen:
 locale-gen
 
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
-#HOSTNAME in my case blackarch
+#HOSTNAME in my case ncor
 echo "<HOSTNAME>" > /etc/hostname
 
 ------------------------------------------------------------
@@ -132,10 +132,10 @@ ADD POLKIT SETUP HERE
 ------------------------------------------------------------
 bootctl install
 
-#it is for blackarch.conf
+#it is for ncor.conf
 <ROOT_UUID>=$(lsblk -o PARTUUID /dev/<DISKNAME>)
 
-<BOOT_NAME>=blackarch
+<BOOT_NAME>=ncor
 
 #inside /boot/loader/loader.conf
 ------------------------
@@ -194,7 +194,7 @@ pactl info
 15. BlackArch repo
 ------------------------------------------------------------
 
-curl -O https://blackarch.org/strap.sh
+curl -O https://ncor.org/strap.sh
 chmod +x strap.sh
 
 #Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials
