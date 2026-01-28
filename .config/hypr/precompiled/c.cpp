@@ -15,6 +15,13 @@ Monitor unplugged: HDMI-A-1
 Monitor unplugged: FALLBACK
 */
 
+//void WriteFile(const char* filename, const char* fileContent) {
+//    FILE *fPtrWrite;
+//    
+//    fPtrWrite = fopen(filename, "w");
+//
+//    
+//}
 
 int main() {
     const char* sock_path = getenv("XDG_RUNTIME_DIR");
@@ -30,14 +37,13 @@ int main() {
         perror("connect");
         return 1;
     }
-
+    char* HyprPath = getenv("HyprConfigPath");
     char buffer[1024];
     while (fgets(buffer, sizeof(buffer), fdopen(sock, "r"))) {
         if (strncmp(buffer, "monitorremoved>>", 16) == 0) {
-            printf("Monitor unplugged: %s", buffer + 16);
-            // Handle unplug
+            printf("Monitor unplugged: %s | %s", buffer + 16, HyprPath);
         }
     }
     close(sock);
     return 0;
-}   
+}
