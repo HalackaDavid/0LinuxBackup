@@ -24,6 +24,7 @@ Monitor unplugged: FALLBACK
 //}
 
 int main() {
+    char* HyprPath = getenv("HyprConfigPath");
     const char* sock_path = getenv("XDG_RUNTIME_DIR");
     char path[256];
     snprintf(path, sizeof(path), "%s/hypr/%s/.socket2.sock", sock_path, getenv("HYPRLAND_INSTANCE_SIGNATURE"));
@@ -37,11 +38,11 @@ int main() {
         perror("connect");
         return 1;
     }
-    char* HyprPath = getenv("HyprConfigPath");
+    
     char buffer[1024];
     while (fgets(buffer, sizeof(buffer), fdopen(sock, "r"))) {
         if (strncmp(buffer, "monitorremoved>>", 16) == 0) {
-            printf("Monitor unplugged: %s | %s", buffer + 16, HyprPath);
+            printf("Monitor unplugged: %s %s", buffer + 16, HyprPath);
         }
     }
     close(sock);
