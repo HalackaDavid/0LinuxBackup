@@ -3,9 +3,11 @@
 ######################
 
 11.2 Žatec
+
 3.2 cj test
 
 xwaylandvideobridge -> should repair discord sharing
+
 {
     git bare backup
     dev2 <-> dev2
@@ -14,6 +16,8 @@ xwaylandvideobridge -> should repair discord sharing
 ################
 ### WHENEVER ###
 ################
+
+sort data and shit in devices
 
 .tmux.conf
 
