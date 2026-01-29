@@ -51,7 +51,9 @@ sudo pacman -Sy foot foot-terminfo
 sudo pacman -S brightnessctl
 
 {
-    1. git bare backup
+    1. 
+    git bare backup
+
     2.
     dev1 <-- server --> dev2
     dev1, dev2 = pc, mobil
@@ -65,7 +67,6 @@ sudo pacman -S brightnessctl
         }
     }
 
-    3. online/offline backup {mesh network, wlan}
-    
-
+    3. 
+    online/offline backup {mesh network, wlan}
 }

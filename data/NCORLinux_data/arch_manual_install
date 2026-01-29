@@ -68,7 +68,6 @@ mount /dev/<TARGET_DISK>1 /mnt/boot
 ------------------------------------------------------------
 5. BASE INSTALL
 ------------------------------------------------------------
-# Use nouveau for initial boot
 pacstrap /mnt \
   base linux linux-headers linux-firmware \
   efibootmgr dosfstools \
@@ -76,8 +75,8 @@ pacstrap /mnt \
   pipewire pipewire-pulse pipewire-alsa wireplumber \
   mesa \
   polkit \
-  hyprland wwl-clipboar dofi ly swaybg hyprlock brightnessctl \
-  sudo git neovim zsh foot foot-terminfo tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
+  hyprland wwl-clipboar dofi ly swaybg hyprlock brightnessctl foot foot-terminfo \
+  sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
 
 ------------------------------------------------------------
 6. FSTAB
@@ -151,7 +150,7 @@ initrd  /initramfs-linux.img
 options root=PARTUUID=<ROOT_UUID> rw
 
 ------------------------------------------------------------
-12. instaling yay (needed for step 13.)
+12. instaling yay (needed for step 13)
 ------------------------------------------------------------
 
 pacman -S base-devel
@@ -182,16 +181,20 @@ reboot
 
 #Verify instalation after reboot
 lsmod | grep -E "nvidia|nouveau"
+------------------------------------------------------------
+14. COnfigure
+------------------------------------------------------------
+Ly-dm
 
 ------------------------------------------------------------
-14. AUDIO
+15. AUDIO
 ------------------------------------------------------------
 #PipeWire enabled per-user
 #Verify:
 pactl info
 
 ------------------------------------------------------------
-15. BlackArch repo
+16. BlackArch repo
 ------------------------------------------------------------
 
 curl -O https://ncor.org/strap.sh
@@ -202,7 +205,7 @@ chmod +x strap.sh
 
 sudo strap
 ------------------------------------------------------------
-16. MY DATA AND SHIT
+17. MY DATA AND SHIT
 ------------------------------------------------------------
 
 rm -rf /home/$USER/*
