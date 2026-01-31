@@ -1,7 +1,12 @@
 [DetailsMode]
 PreviewSize=144
 
+[FoldersPanel]
+HiddenFilesShown=true
+
 [General]
+ShowFullPath=true
+ShowFullPathInTitlebar=true
 Version=202
 ViewPropsTimestamp=2025,10,17,20,1,17.996
 
@@ -14,3 +19,6 @@ Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,glycin-svg,svgthumbnail,ffmpegthumbs
