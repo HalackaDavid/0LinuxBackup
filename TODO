@@ -4,11 +4,10 @@
 
 11.2 Žatec
 
-3.2 cj test
-
 xwaylandvideobridge -> should repair discord sharing
 
 shutdown will not shut down system
+23:10 - 23:15 journalctl -> check
 
 ################
 ### WHENEVER ###
