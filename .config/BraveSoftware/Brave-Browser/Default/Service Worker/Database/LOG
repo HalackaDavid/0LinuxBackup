@@ -1,4 +1,0 @@
-2026/02/04-08:42:48.531 118e Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
-2026/02/04-08:42:48.531 118e Recovering log #3
-2026/02/04-08:42:48.532 118e (ignoring error) /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000003.log: dropping 147 bytes; Corruption: missing start of fragmented record(2)
-2026/02/04-08:42:48.532 118e Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000003.log 

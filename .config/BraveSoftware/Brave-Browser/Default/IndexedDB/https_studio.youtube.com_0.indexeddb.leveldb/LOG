@@ -1,6 +1,0 @@
-2026/01/17-19:48:26.936 e91 Creating DB /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb since it was missing.
-2026/01/17-19:48:26.954 e91 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/17-19:49:06.847 e83 Level-0 table #5: started
-2026/01/17-19:49:06.853 e83 Level-0 table #5: 2536 bytes OK
-2026/01/17-19:49:06.861 e83 Delete type=0 #3
-2026/01/17-19:49:06.861 e83 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

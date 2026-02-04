@@ -30,14 +30,6 @@
 .config/pulse/pulse-auth
 .config/pulse/cookie
 .config/BraveSoftware
-!.config/BraveSoftware/Brave-Browser/Default
-.config/BraveSoftware/Brave-Browser/Default/Cookies
-.config/BraveSoftware/Brave-Browser/Default/Cookies-journal
-.config/BraveSoftware/Brave-Browser/Default/Login Data
-.config/BraveSoftware/Brave-Browser/Default/Login Data-journal
-.config/BraveSoftware/Brave-Browser/Default/Preferences
-.config/BraveSoftware/Brave-Browser/Default/Web Data
-.config/BraveSoftware/Brave-Browser/Default/Web Data-journal
 
 .config/nvim/nvim_plugins/*
 .config/hypr/monitor.conf

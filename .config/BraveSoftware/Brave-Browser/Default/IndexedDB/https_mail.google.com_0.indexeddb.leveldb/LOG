@@ -1,6 +1,0 @@
-2026/01/08-00:39:46.457 bae Creating DB /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
-2026/01/08-00:39:46.487 bae Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/08-00:44:44.138 baf Level-0 table #5: started
-2026/01/08-00:44:44.145 baf Level-0 table #5: 2168 bytes OK
-2026/01/08-00:44:44.153 baf Delete type=0 #3
-2026/01/08-00:44:44.153 baf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

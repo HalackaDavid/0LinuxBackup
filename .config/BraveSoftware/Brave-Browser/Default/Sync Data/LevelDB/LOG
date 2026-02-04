@@ -1,6 +1,0 @@
-2026/02/04-08:42:48.527 1199 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
-2026/02/04-08:42:48.529 1199 Recovering log #342
-2026/02/04-08:42:48.530 1199 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000342.log 
-2026/02/04-08:44:02.998 118a Level-0 table #346: started
-2026/02/04-08:44:03.015 118a Level-0 table #346: 67088 bytes OK
-2026/02/04-08:44:03.024 118a Delete type=0 #342

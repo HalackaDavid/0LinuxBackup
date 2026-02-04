@@ -1,6 +1,0 @@
-2025/12/29-03:16:40.790 babe Creating DB /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_yugioh.fandom.com_0.indexeddb.leveldb since it was missing.
-2025/12/29-03:16:40.808 babe Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_yugioh.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/29-03:17:01.554 babe Level-0 table #5: started
-2025/12/29-03:17:01.563 babe Level-0 table #5: 55898 bytes OK
-2025/12/29-03:17:01.572 babe Delete type=0 #3
-2025/12/29-03:17:01.572 babe Manual compaction at level-0 from (begin) .. (end); will stop at (end)

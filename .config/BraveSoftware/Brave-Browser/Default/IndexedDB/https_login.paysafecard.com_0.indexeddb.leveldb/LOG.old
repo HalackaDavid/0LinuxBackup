@@ -1,7 +1,0 @@
-2026/01/07-23:09:22.681 bae Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_login.paysafecard.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/07-23:09:22.681 bae Recovering log #3
-2026/01/07-23:09:22.681 bae Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_login.paysafecard.com_0.indexeddb.leveldb/000003.log 
-2026/01/07-23:09:54.035 baf Level-0 table #5: started
-2026/01/07-23:09:54.042 baf Level-0 table #5: 1273 bytes OK
-2026/01/07-23:09:54.050 baf Delete type=0 #3
-2026/01/07-23:09:54.050 baf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
