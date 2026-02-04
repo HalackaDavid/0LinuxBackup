@@ -1,0 +1,48 @@
+{
+   "checksum": "71e1d305f352975d30d7a0ccf8ae9558",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13413918500537878",
+            "date_last_used": "0",
+            "guid": "2b2ac212-4156-47d1-bdb9-336b1f668126",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "foot terminal scale - Ask Brave",
+            "type": "url",
+            "url": "https://search.brave.com/ask?q=foot+terminal+scale&source=quick-answer-followup&quickAnswerKey=08a973c7a8936ead1313f1ce703aa436478e&quickAnswerQuery=foot+terminal+scale&conversation=08a9652ebd806f5e9ac7afe14b66aba924c9"
+         } ],
+         "date_added": "13411051268462107",
+         "date_last_used": "0",
+         "date_modified": "13413918500537878",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13411051268462107",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13411051268462107",
+         "date_last_used": "0",
+         "date_modified": "13413021295355074",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgrykMbFgGcAAAAAEgAaWDFnWWdKQm1BK2d6bEtEM3J5N1hMeVhBdXZ3RnBic2puRGhnSmUwNmhZWnlRekxHTEsvYzRnNXh2djYyazhmVVFVUEN6aFpPdEx4cFZsb2ZIVTVYY0FBPT0qGEVlSitBMkU3blR0YWNEMEZHN3Q2bnc9PUgDEoMBCAMSfwocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkMDMwZGYyZDMtYWY1Yi00ODYyLTg0ZGYtOGU1ODRiNzIxNjUyGAAgACgAMAE41LvDyL8zQNS7w8i/M0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASpwEICBKiAQocSjk1RmdqanZMaWxNYjJnS2lld1VTOFRMUDJzPRIkZWM3NjhlZmYtYjJhOC00NGVhLWI2ZDYtMTUwYzVmYWNlZDI1GAAgAigCML74i9m/Mzi6/YnZvzNAyf2J2b8zShwzUDBzdGRTUERFRWpLeitnYlh0eW5HNTJtek09Wh4iHFl0TVVWaXpjNXFKS0FNdVdVTXpDSlFPdjY0RT1lFnaYRhKDAQgBEn8KHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDE5OTNjODQwLWQyM2MtNGIyMS05MzdlLTI1NzllZDAwNmYzZBgAIAAoADABONS7w8i/M0DUu8PIvzNKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEoMBCAISfwocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkOTRjODJlOTktMzZmZS00M2ZlLThlMWItMTFhMjg0MjM0NzVmGAAgACgAMAE41LvDyL8zQNS7w8i/M0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAwATgA",
+   "version": 1
+}

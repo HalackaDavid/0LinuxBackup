@@ -31,7 +31,8 @@
 .config/pulse/cookie
 .config/nvim/nvim_plugins/*
 .config/hypr/monitor.conf
-.config/BraveSoftware/
+.config/BraveSoftware/Brave-Browser/*
+!.config/BraveSoftware/Brave-Browser/Default
 
 !.local/
 !.local/bin/

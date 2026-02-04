@@ -1,4 +1,3 @@
-what linux do when job is runing and time runs out on poweroff screen
 ######################
 ### SHIT IMPORTANT ###
 ######################
@@ -10,6 +9,7 @@ xwaylandvideobridge -> should repair discord sharing
 shutdown will not shut down system
 23:10 - 23:15 journalctl -> check
 
+what linux do when job is runing and time runs out on poweroff screen
 ################
 ### WHENEVER ###
 ################

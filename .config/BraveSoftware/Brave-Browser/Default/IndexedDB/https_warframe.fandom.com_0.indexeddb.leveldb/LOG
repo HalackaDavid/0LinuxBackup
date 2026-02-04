@@ -1,0 +1,12 @@
+2026/02/03-16:29:00.513 fa7 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/03-16:29:00.513 fa7 Recovering log #92
+2026/02/03-16:29:00.537 fa7 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/000092.log 
+2026/02/03-16:29:00.697 fa8 Level-0 table #97: started
+2026/02/03-16:29:00.725 fa8 Level-0 table #97: 1090142 bytes OK
+2026/02/03-16:29:00.733 fa8 Delete type=0 #92
+2026/02/03-16:29:00.813 fb6 Compacting 1@1 + 1@2 files
+2026/02/03-16:29:00.827 fb6 Generated table #98@1: 925 keys, 117081 bytes
+2026/02/03-16:29:00.827 fb6 Compacted 1@1 + 1@2 files => 117081 bytes
+2026/02/03-16:29:00.840 fb6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/03-16:29:00.841 fb6 Delete type=2 #97
+2026/02/03-16:29:00.841 fb6 Delete type=2 #94
