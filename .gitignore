@@ -31,27 +31,6 @@
 .config/pulse/cookie
 .config/nvim/nvim_plugins/*
 .config/hypr/monitor.conf
-.config/BraveSoftware/Brave-Browser/*
-!.config/BraveSoftware/Brave-Browser/Default
-!.config/BraveSoftware/Brave-Browser/Default/**
-.config/BraveSoftware/Brave-Browser/Default/DawnGraphiteCache
-.config/BraveSoftware/Brave-Browser/Default/DawnWebGPUCache
-.config/BraveSoftware/Brave-Browser/Default/blob_storage
-.config/BraveSoftware/Brave-Browser/Default/DownloadMetadata
-.config/BraveSoftware/Brave-Browser/Default/Download Service
-.config/BraveSoftware/Brave-Browser/Default/LOG
-.config/BraveSoftware/Brave-Browser/Default/LOG.old
-.config/BraveSoftware/Brave-Browser/Default/README
-.config/BraveSoftware/Brave-Browser/Default/heavy_ad_intervention_opt_out.db
-.config/BraveSoftware/Brave-Browser/Default/heavy_ad_intervention_opt_out.db-journal
-.config/BraveSoftware/Brave-Browser/Default/Reporting and NEL
-.config/BraveSoftware/Brave-Browser/Default/Reporting and NEL-journal
-.config/BraveSoftware/Brave-Browser/Default/GCM Store
-.config/BraveSoftware/Brave-Browser/Default/VideoDecodeStats
-.config/BraveSoftware/Brave-Browser/Default/WebrtcVideoStats
-.config/BraveSoftware/Brave-Browser/Default/sanitized_background_images
-.config/BraveSoftware/Brave-Browser/Default/PersistentOriginTrials
-.config/BraveSoftware/Brave-Browser/Default/Feature Engagement Tracker
 
 !.local/
 !.local/bin/
