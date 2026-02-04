@@ -31,7 +31,6 @@
 .config/pulse/cookie
 .config/BraveSoftware
 !.config/BraveSoftware/Brave-Browser/Default
-.config/BraveSoftware/Brave-Browser/Default/Sync Data
 .config/BraveSoftware/Brave-Browser/Default/Cookies
 .config/BraveSoftware/Brave-Browser/Default/Cookies-journal
 .config/BraveSoftware/Brave-Browser/Default/Login Data
