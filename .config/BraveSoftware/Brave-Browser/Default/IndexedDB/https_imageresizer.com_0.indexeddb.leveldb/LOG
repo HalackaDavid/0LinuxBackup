@@ -1,0 +1,18 @@
+2026/01/17-16:55:59.530 e82 Creating DB /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imageresizer.com_0.indexeddb.leveldb since it was missing.
+2026/01/17-16:55:59.550 e82 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imageresizer.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/17-16:55:59.607 e92 Level-0 table #5: started
+2026/01/17-16:55:59.614 e92 Level-0 table #5: 1962 bytes OK
+2026/01/17-16:55:59.623 e92 Delete type=0 #3
+2026/01/17-16:55:59.624 e82 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/01/17-16:56:01.622 e83 Level-0 table #7: started
+2026/01/17-16:56:01.629 e83 Level-0 table #7: 230 bytes OK
+2026/01/17-16:56:01.638 e83 Delete type=0 #4
+2026/01/17-16:56:01.638 e83 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/01/17-16:56:01.639 e83 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x04\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 132 : 0
+2026/01/17-16:56:01.639 e83 Compacting 1@1 + 1@2 files
+2026/01/17-16:56:01.646 e83 Generated table #8@1: 20 keys, 587 bytes
+2026/01/17-16:56:01.646 e83 Compacted 1@1 + 1@2 files => 587 bytes
+2026/01/17-16:56:01.654 e83 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/17-16:56:01.655 e83 Delete type=2 #5
+2026/01/17-16:56:01.655 e83 Delete type=2 #7
+2026/01/17-16:56:01.655 e83 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x04\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 132 : 0 .. (end); will stop at (end)

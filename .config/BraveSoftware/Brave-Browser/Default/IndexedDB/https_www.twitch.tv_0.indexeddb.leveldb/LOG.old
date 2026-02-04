@@ -1,0 +1,15 @@
+2026/01/20-17:43:59.558 c1a Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/20-17:43:59.559 c1a Recovering log #7
+2026/01/20-17:43:59.559 c1a Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000007.log 
+2026/01/20-17:44:31.596 c1a Level-0 table #12: started
+2026/01/20-17:44:31.603 c1a Level-0 table #12: 642 bytes OK
+2026/01/20-17:44:31.611 c1a Delete type=0 #7
+2026/01/20-17:44:31.612 c1a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/01/20-17:44:31.612 c1a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 112 : 1
+2026/01/20-17:44:31.612 c1a Compacting 1@1 + 1@2 files
+2026/01/20-17:44:31.618 c1a Generated table #13@1: 21 keys, 592 bytes
+2026/01/20-17:44:31.618 c1a Compacted 1@1 + 1@2 files => 592 bytes
+2026/01/20-17:44:31.626 c1a compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/20-17:44:31.626 c1a Delete type=2 #12
+2026/01/20-17:44:31.626 c1a Delete type=2 #9
+2026/01/20-17:44:31.627 c1a Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 112 : 1 .. (end); will stop at (end)
