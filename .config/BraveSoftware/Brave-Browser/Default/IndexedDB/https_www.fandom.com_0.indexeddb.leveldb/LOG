@@ -1,3 +1,15 @@
-2026/02/03-16:29:00.791 fa7 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/02/03-16:29:00.791 fa7 Recovering log #27
-2026/02/03-16:29:00.791 fa7 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000027.log 
+2026/02/04-18:22:50.729 12b7 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/04-18:22:50.729 12b7 Recovering log #27
+2026/02/04-18:22:50.729 12b7 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000027.log 
+2026/02/04-18:25:26.635 12c8 Level-0 table #32: started
+2026/02/04-18:25:26.643 12c8 Level-0 table #32: 7944 bytes OK
+2026/02/04-18:25:26.669 12c8 Delete type=0 #27
+2026/02/04-18:25:26.669 12c8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/02/04-18:25:26.669 12c8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x1b\x005\x004\x004\x009\x003\x004\x00_\x009\x002\x006\x000\x005\x001\x00_\x001\x007\x007\x000\x000\x006\x002\x000\x005\x000\x008\x004\x005' @ 2561 : 1
+2026/02/04-18:25:26.669 12c8 Compacting 1@1 + 1@2 files
+2026/02/04-18:25:26.680 12c8 Generated table #33@1: 317 keys, 55525 bytes
+2026/02/04-18:25:26.680 12c8 Compacted 1@1 + 1@2 files => 55525 bytes
+2026/02/04-18:25:26.695 12c8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/04-18:25:26.695 12c8 Delete type=2 #32
+2026/02/04-18:25:26.695 12c8 Delete type=2 #29
+2026/02/04-18:25:26.696 12c8 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x1b\x005\x004\x004\x009\x003\x004\x00_\x009\x002\x006\x000\x005\x001\x00_\x001\x007\x007\x000\x000\x006\x002\x000\x005\x000\x008\x004\x005' @ 2561 : 1 .. (end); will stop at (end)
