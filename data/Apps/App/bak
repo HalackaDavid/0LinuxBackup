@@ -3,23 +3,23 @@
 Main() {
     (
         cd ~
-        
-        while true; do
-            if ping -c1 -W1 8.8.8.8 &>/dev/null; then
-                #ONLINE
-                git pull
-            else
-                while true; do
-                    if ping -c1 -W1 8.8.8.8 &>/dev/null; then
-                        #ONLINE
-                        git pull &>/dev/null
-                        (echo "blackup $(date)" >> $HOME/log.log)
-                        break
-                    fi
-                    sleep 60
-                done &
-            fi
+        if ping -c1 -W1 8.8.8.8 &>/dev/null; then
+            #ONLINE
+            git pull
+        else
+            while true; do
+                if ping -c1 -W1 8.8.8.8 &>/dev/null; then
+                    #ONLINE
+                    git pull &>/dev/null
+                    (echo "blackup $(date)" >> $HOME/log.log)
+                    break
+                fi
+                sleep 60
+            done &
+        fi
 
+       
+        while true; do
             print -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[c] Clear\n[x] exit\n>>> "
             read UserInput
             chars=(${(s::)UserInput})
