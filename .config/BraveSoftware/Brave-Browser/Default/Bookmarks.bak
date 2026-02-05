@@ -1,5 +1,5 @@
 {
-   "checksum": "71e1d305f352975d30d7a0ccf8ae9558",
+   "checksum": "c4d9c41426e40244d9c7b3b74ec6b2d2",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -13,10 +13,21 @@
             "name": "foot terminal scale - Ask Brave",
             "type": "url",
             "url": "https://search.brave.com/ask?q=foot+terminal+scale&source=quick-answer-followup&quickAnswerKey=08a973c7a8936ead1313f1ce703aa436478e&quickAnswerQuery=foot+terminal+scale&conversation=08a9652ebd806f5e9ac7afe14b66aba924c9"
+         }, {
+            "date_added": "13414668294886448",
+            "date_last_used": "0",
+            "guid": "24189e50-5238-4a16-ad0b-1566bc36f9e6",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/"
          } ],
          "date_added": "13411051268462107",
          "date_last_used": "0",
-         "date_modified": "13413918500537878",
+         "date_modified": "13414668294886448",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks",
@@ -33,16 +44,38 @@
          "type": "folder"
       },
       "synced": {
-         "children": [  ],
+         "children": [ {
+            "date_added": "13414685597926814",
+            "date_last_used": "0",
+            "guid": "59f59fe0-d1c1-4b60-8a95-fb90c07fcc5d",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "naas.isalman.dev/no",
+            "type": "url",
+            "url": "https://naas.isalman.dev/no"
+         }, {
+            "date_added": "13414694127616563",
+            "date_last_used": "0",
+            "guid": "7e99d09b-b2c6-4f05-a2f9-b9d3b8db687b",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Harrow - WARFRAME Wiki",
+            "type": "url",
+            "url": "https://wiki.warframe.com/w/Harrow"
+         } ],
          "date_added": "13411051268462107",
          "date_last_used": "0",
-         "date_modified": "13413021295355074",
+         "date_modified": "13414694127616563",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
          "id": "3",
          "name": "Mobile bookmarks",
          "type": "folder"
       }
    },
-   "sync_metadata": "CooBChAIiIECEgrykMbFgGcAAAAAEgAaWDFnWWdKQm1BK2d6bEtEM3J5N1hMeVhBdXZ3RnBic2puRGhnSmUwNmhZWnlRekxHTEsvYzRnNXh2djYyazhmVVFVUEN6aFpPdEx4cFZsb2ZIVTVYY0FBPT0qGEVlSitBMkU3blR0YWNEMEZHN3Q2bnc9PUgDEoMBCAISfwocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkOTRjODJlOTktMzZmZS00M2ZlLThlMWItMTFhMjg0MjM0NzVmGAAgACgAMAE41LvDyL8zQNS7w8i/M0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASgwEIARJ/Chx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQxOTkzYzg0MC1kMjNjLTRiMjEtOTM3ZS0yNTc5ZWQwMDZmM2QYACAAKAAwATjUu8PIvzNA1LvDyL8zShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKnAQgIEqIBChxKOTVGZ2pqdkxpbE1iMmdLaWV3VVM4VExQMnM9EiRlYzc2OGVmZi1iMmE4LTQ0ZWEtYjZkNi0xNTBjNWZhY2VkMjUYACACKAIwvviL2b8zOLr9idm/M0DJ/YnZvzNKHDNQMHN0ZFNQREVFakt6K2diWHR5bkc1Mm16TT1aHiIcWXRNVVZpemM1cUpLQU11V1VNekNKUU92NjRFPWUWdphGEoMBCAMSfwocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkMDMwZGYyZDMtYWY1Yi00ODYyLTg0ZGYtOGU1ODRiNzIxNjUyGAAgACgAMAE41LvDyL8zQNS7w8i/M0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAwATgA",
+   "sync_metadata": "CooBChAIiIECEgqWw/KVhWcAAAAAEgAaWDFnWWdKQm1BK2d6bEtEM3J5N1hMeVhBdXZ3RnBic2puRGhnSmUwNmhZWnlRekxHTEsvYzRnNXh2djYyazhmVVFVUEN6aFpPdEx4cFZsb2ZIVTVYY0FBPT0qGEVlSitBMkU3blR0YWNEMEZHN3Q2bnc9PUgDEqgBCAwSowEKHE45ck8xbmtBd2RnTW5Lb0M2MGc1Q1pMSHYvQT0SJGVmMjBkOGM0LTA3NTYtNGQwYS1hZGQ3LWM1MzgyYTUxM2M1NRgAIAIoAjDLofnKwjM4gcD2ysIzQJrA9srCM0ocei95Vmh3bVRBK1JVUTgxT3VEaFpZZWRPZC9RPVofIh2yNWI1Y0MyYnFpTEpUbkM3S3J4MXNXV3RaR2dvPWVQ5Fr5EoMBCAMSfwocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkMDMwZGYyZDMtYWY1Yi00ODYyLTg0ZGYtOGU1ODRiNzIxNjUyGAAgACgAMAE41LvDyL8zQNS7w8i/M0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASpwEICxKiAQocM2sxMTFSZG1TclhDUnlLeVJlNUFxNUJ5TDRNPRIkYzBlZjJhZmMtYzQ0Zi00YzEwLWJhZjgtYWRmYzhiNDI0YmEwGAAgACgAMK+J7sbCMzj78e3GwjNA+/HtxsIzShxyWG1EQm44NTRaQTh0azhFV29MVWpTQ2ZXNjg9Wh4iHGVINXE0V21DbjRBTTAwZ1hsaWVZcHZXdWI5TT1lAAAAABKnAQgIEqIBChxKOTVGZ2pqdkxpbE1iMmdLaWV3VVM4VExQMnM9EiRlYzc2OGVmZi1iMmE4LTQ0ZWEtYjZkNi0xNTBjNWZhY2VkMjUYACACKAIwvviL2b8zOLr9idm/M0DJ/YnZvzNKHDNQMHN0ZFNQREVFakt6K2diWHR5bkc1Mm16TT1aHiIcWXRNVVZpemM1cUpLQU11V1VNekNKUU92NjRFPWUWdphGEoMBCAESfwoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMTk5M2M4NDAtZDIzYy00YjIxLTkzN2UtMjU3OWVkMDA2ZjNkGAAgACgAMAE41LvDyL8zQNS7w8i/M0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASpwEIChKiAQocY2FOYjFLdytaV3ZTTDVsSFIwdk1QQkR0MW13PRIkNjkxNGY5ZWUtODA0YS00MjY1LWJiMmYtNTYzOTM5M2Y3YmVkGAAgACgAMOr9iMLCMzjn5c2+wjNA5+XNvsIzShx2Z3ZCRXdxNXVNKytvNmw0NEYwaWRhMXlBUlU9Wh4iHGhsdFhNSWFqK08zT29qeml2bmc4UkNRZXdRYz1l+JID1RKDAQgCEn8KHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDk0YzgyZTk5LTM2ZmUtNDNmZS04ZTFiLTExYTI4NDIzNDc1ZhgAIAAoADABONS7w8i/M0DUu8PIvzNKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAMAE4AA==",
    "version": 1
 }

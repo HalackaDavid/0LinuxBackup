@@ -1,15 +1,12 @@
-2026/02/05-10:47:24.595 417 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
-2026/02/05-10:47:24.600 417 Recovering log #376
-2026/02/05-10:47:24.602 417 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000376.log 
-2026/02/05-10:47:33.782 418 Level-0 table #380: started
-2026/02/05-10:47:33.790 418 Level-0 table #380: 98428 bytes OK
-2026/02/05-10:47:33.799 418 Delete type=0 #376
-2026/02/05-10:47:33.800 418 Compacting 4@0 + 1@1 files
-2026/02/05-10:47:33.809 418 Generated table #381@0: 598 keys, 37418 bytes
-2026/02/05-10:47:33.809 418 Compacted 4@0 + 1@1 files => 37418 bytes
-2026/02/05-10:47:33.817 418 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/02/05-10:47:33.817 418 Delete type=2 #377
-2026/02/05-10:47:33.817 418 Delete type=2 #372
-2026/02/05-10:47:33.817 418 Delete type=2 #369
-2026/02/05-10:47:33.817 418 Delete type=2 #374
-2026/02/05-10:47:33.817 418 Delete type=2 #380
+2026/02/05-14:50:11.412 28ea Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/02/05-14:50:11.423 28ea Recovering log #379
+2026/02/05-14:50:11.426 28ea Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000379.log 
+2026/02/05-14:50:16.506 28fb Level-0 table #384: started
+2026/02/05-14:50:16.516 28fb Level-0 table #384: 89809 bytes OK
+2026/02/05-14:50:16.532 28fb Delete type=0 #379
+2026/02/05-15:27:09.870 28fb Level-0 table #386: started
+2026/02/05-15:27:09.885 28fb Level-0 table #386: 70131 bytes OK
+2026/02/05-15:27:09.893 28fb Delete type=0 #383
+2026/02/05-16:18:36.215 28fb Level-0 table #388: started
+2026/02/05-16:18:36.230 28fb Level-0 table #388: 62258 bytes OK
+2026/02/05-16:18:36.241 28fb Delete type=0 #385
