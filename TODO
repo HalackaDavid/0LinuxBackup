@@ -10,6 +10,8 @@ shutdown will not shut down system
 23:10 - 23:15 journalctl -> check
 
 what linux do when job is runing and time runs out on poweroff screen
+
+
 ################
 ### WHENEVER ###
 ################
@@ -42,11 +44,13 @@ try wpa + dhcpcd but duration forever
 
 how WPS network work
 
+
 #####################
 ### NOT SURE DONE ###
 #####################
 
 change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
+
 
 #########################
 ### OTHER DICKHEADING ###
