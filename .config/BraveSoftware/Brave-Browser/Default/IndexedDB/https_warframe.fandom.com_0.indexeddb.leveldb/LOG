@@ -1,15 +1,10 @@
-2026/02/04-18:22:49.107 12b8 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/02/04-18:22:49.107 12b8 Recovering log #96
-2026/02/04-18:22:49.114 12b8 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/000096.log 
-2026/02/04-18:25:26.635 12c6 Level-0 table #101: started
-2026/02/04-18:25:26.649 12c6 Level-0 table #101: 587509 bytes OK
-2026/02/04-18:25:26.669 12c6 Delete type=0 #96
-2026/02/04-18:25:26.670 12c6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2026/02/04-18:25:26.670 12c6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x04\x02\x01\x07\x00c\x00u\x00r\x00r\x00e\x00n\x00t' @ 368670 : 1
-2026/02/04-18:25:26.670 12c6 Compacting 1@1 + 1@2 files
-2026/02/04-18:25:26.687 12c6 Generated table #102@1: 317 keys, 56705 bytes
-2026/02/04-18:25:26.687 12c6 Compacted 1@1 + 1@2 files => 56705 bytes
-2026/02/04-18:25:26.697 12c6 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/02/04-18:25:26.697 12c6 Delete type=2 #98
-2026/02/04-18:25:26.697 12c6 Delete type=2 #101
-2026/02/04-18:25:26.698 12b8 Manual compaction at level-1 from '\x00\x01\x04\x02\x01\x07\x00c\x00u\x00r\x00r\x00e\x00n\x00t' @ 368670 : 1 .. (end); will stop at (end)
+2026/02/05-20:12:41.754 3bf2 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/05-20:12:41.754 3bf2 Recovering log #100
+2026/02/05-20:12:41.754 3bf2 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/000100.log 
+2026/02/05-20:14:22.965 3bf3 Level-0 table #105: started
+2026/02/05-20:14:22.999 3bf3 Level-0 table #105: 1140398 bytes OK
+2026/02/05-20:14:23.010 3bf3 Delete type=0 #100
+2026/02/05-20:14:23.041 3bf3 Compacting 1@1 + 1@2 files
+2026/02/05-20:14:23.065 3bf3 Generated table #106@1: 324 keys, 59357 bytes
+2026/02/05-20:14:23.065 3bf3 Compacted 1@1 + 1@2 files => 59357 bytes
+2026/02/05-20:14:23.073 3bf3 compacted to: files[ 0 0 1 0 0 0 0 ]

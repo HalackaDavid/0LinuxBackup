@@ -1,0 +1,108 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .config/BraveSoftware/Brave-Browser/Default/AdBlock Custom Resources/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/AdBlock Custom Resources/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Cookies
+	modified:   .config/BraveSoftware/Brave-Browser/Default/DIPS
+	modified:   .config/BraveSoftware/Brave-Browser/Default/DawnGraphiteCache/data_1
+	modified:   .config/BraveSoftware/Brave-Browser/Default/DawnGraphiteCache/index
+	modified:   .config/BraveSoftware/Brave-Browser/Default/DawnWebGPUCache/data_1
+	modified:   .config/BraveSoftware/Brave-Browser/Default/DawnWebGPUCache/index
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Extension State/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Extension State/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Favicons
+	modified:   .config/BraveSoftware/Brave-Browser/Default/File System/Origins/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/File System/Origins/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/GCM Store/Encryption/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/GCM Store/Encryption/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/GPUCache/data_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/GPUCache/data_1
+	modified:   .config/BraveSoftware/Brave-Browser/Default/GPUCache/index
+	modified:   .config/BraveSoftware/Brave-Browser/Default/History
+	modified:   .config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000019.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000043.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/LOG.old
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000037.ldb
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000038.ldb
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000040.ldb
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000042.ldb
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000043.log
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000044.ldb
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Login Data
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Network Action Predictor
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Network Persistent State
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Platform Notifications/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Platform Notifications/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Preferences
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Reporting and NEL
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Rewards.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/03c98a7b0bf2223e_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/23ea41de7cc0df6b_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/54df2c8c90cf5252_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/70cb1b86617837f6_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/77f0e3aeb3952dab_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/918409811195738c_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/b54cbd606e606b80_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/de8be9f7e7e0caae_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/ec96c3f6c1ef57d1_0
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/3cf63459fb21cbe8a2cdbc522c515875406016bd/180e169e-0da8-4662-b5bf-714f87459b35/index-dir/the-real-index
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000003.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Service Worker/ScriptCache/index-dir/the-real-index
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Session Storage/000116.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Session Storage/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Session Storage/LOG.old
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Sessions/Session_13414748121317880
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Sessions/Tabs_13414748121547722
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Shortcuts
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/LOG.old
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000369.ldb
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000372.ldb
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000374.ldb
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000376.log
+	deleted:    .config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000377.ldb
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+	modified:   .config/BraveSoftware/Brave-Browser/Default/TransportSecurity
+	modified:   .config/BraveSoftware/Brave-Browser/Default/Web Data
+	modified:   .config/BraveSoftware/Brave-Browser/Default/WebStorage/41/IndexedDB/indexeddb.leveldb/000011.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/WebStorage/41/IndexedDB/indexeddb.leveldb/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/WebStorage/41/IndexedDB/indexeddb.leveldb/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/WebStorage/QuotaManager
+	modified:   .config/BraveSoftware/Brave-Browser/Default/ads_service/database.sqlite
+	modified:   .config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000003.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/shared_proto_db/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/shared_proto_db/LOG.old
+	modified:   .config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata/000003.log
+	modified:   .config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata/LOG
+	modified:   .config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata/LOG.old
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000046.log
+	.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000048.ldb
+	.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000049.ldb
+	.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000050.log
+	.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000051.ldb
+	.config/BraveSoftware/Brave-Browser/Default/Sessions/Session_13414758447112015
+	.config/BraveSoftware/Brave-Browser/Default/Sessions/Tabs_13414758447445495
+	.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000379.log
+	.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000381.ldb
+
+no changes added to commit (use "git add" and/or "git commit -a")

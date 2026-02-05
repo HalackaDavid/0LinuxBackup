@@ -1,12 +1,15 @@
-2026/02/03-16:29:00.513 fa7 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/02/03-16:29:00.513 fa7 Recovering log #92
-2026/02/03-16:29:00.537 fa7 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/000092.log 
-2026/02/03-16:29:00.697 fa8 Level-0 table #97: started
-2026/02/03-16:29:00.725 fa8 Level-0 table #97: 1090142 bytes OK
-2026/02/03-16:29:00.733 fa8 Delete type=0 #92
-2026/02/03-16:29:00.813 fb6 Compacting 1@1 + 1@2 files
-2026/02/03-16:29:00.827 fb6 Generated table #98@1: 925 keys, 117081 bytes
-2026/02/03-16:29:00.827 fb6 Compacted 1@1 + 1@2 files => 117081 bytes
-2026/02/03-16:29:00.840 fb6 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/02/03-16:29:00.841 fb6 Delete type=2 #97
-2026/02/03-16:29:00.841 fb6 Delete type=2 #94
+2026/02/04-18:22:49.107 12b8 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/04-18:22:49.107 12b8 Recovering log #96
+2026/02/04-18:22:49.114 12b8 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_warframe.fandom.com_0.indexeddb.leveldb/000096.log 
+2026/02/04-18:25:26.635 12c6 Level-0 table #101: started
+2026/02/04-18:25:26.649 12c6 Level-0 table #101: 587509 bytes OK
+2026/02/04-18:25:26.669 12c6 Delete type=0 #96
+2026/02/04-18:25:26.670 12c6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/02/04-18:25:26.670 12c6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x04\x02\x01\x07\x00c\x00u\x00r\x00r\x00e\x00n\x00t' @ 368670 : 1
+2026/02/04-18:25:26.670 12c6 Compacting 1@1 + 1@2 files
+2026/02/04-18:25:26.687 12c6 Generated table #102@1: 317 keys, 56705 bytes
+2026/02/04-18:25:26.687 12c6 Compacted 1@1 + 1@2 files => 56705 bytes
+2026/02/04-18:25:26.697 12c6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/04-18:25:26.697 12c6 Delete type=2 #98
+2026/02/04-18:25:26.697 12c6 Delete type=2 #101
+2026/02/04-18:25:26.698 12b8 Manual compaction at level-1 from '\x00\x01\x04\x02\x01\x07\x00c\x00u\x00r\x00r\x00e\x00n\x00t' @ 368670 : 1 .. (end); will stop at (end)

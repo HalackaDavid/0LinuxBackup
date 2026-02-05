@@ -1,12 +1,24 @@
-2026/02/05-14:50:11.412 28ea Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
-2026/02/05-14:50:11.423 28ea Recovering log #379
-2026/02/05-14:50:11.426 28ea Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000379.log 
-2026/02/05-14:50:16.506 28fb Level-0 table #384: started
-2026/02/05-14:50:16.516 28fb Level-0 table #384: 89809 bytes OK
-2026/02/05-14:50:16.532 28fb Delete type=0 #379
-2026/02/05-15:27:09.870 28fb Level-0 table #386: started
-2026/02/05-15:27:09.885 28fb Level-0 table #386: 70131 bytes OK
-2026/02/05-15:27:09.893 28fb Delete type=0 #383
-2026/02/05-16:18:36.215 28fb Level-0 table #388: started
-2026/02/05-16:18:36.230 28fb Level-0 table #388: 62258 bytes OK
-2026/02/05-16:18:36.241 28fb Delete type=0 #385
+2026/02/05-20:12:22.128 3bf2 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/02/05-20:12:22.133 3bf2 Recovering log #387
+2026/02/05-20:12:22.133 3bf2 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000387.log 
+2026/02/05-20:33:11.025 3c04 Level-0 table #391: started
+2026/02/05-20:33:11.036 3c04 Level-0 table #391: 84955 bytes OK
+2026/02/05-20:33:11.044 3c04 Delete type=0 #387
+2026/02/05-20:33:11.044 3c04 Compacting 4@0 + 1@1 files
+2026/02/05-20:33:11.054 3c04 Generated table #392@0: 602 keys, 41190 bytes
+2026/02/05-20:33:11.054 3c04 Compacted 4@0 + 1@1 files => 41190 bytes
+2026/02/05-20:33:11.064 3c04 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/05-20:33:11.064 3c04 Delete type=2 #391
+2026/02/05-20:33:11.064 3c04 Delete type=2 #388
+2026/02/05-20:33:11.064 3c04 Delete type=2 #381
+2026/02/05-20:33:11.064 3c04 Delete type=2 #384
+2026/02/05-20:33:11.064 3c04 Delete type=2 #386
+2026/02/05-21:24:09.276 3c02 Level-0 table #394: started
+2026/02/05-21:24:09.296 3c02 Level-0 table #394: 58547 bytes OK
+2026/02/05-21:24:09.311 3c02 Delete type=0 #390
+2026/02/05-22:19:08.560 3c04 Level-0 table #396: started
+2026/02/05-22:19:08.575 3c04 Level-0 table #396: 57143 bytes OK
+2026/02/05-22:19:08.584 3c04 Delete type=0 #393
+2026/02/05-22:59:32.723 3c02 Level-0 table #398: started
+2026/02/05-22:59:32.738 3c02 Level-0 table #398: 63231 bytes OK
+2026/02/05-22:59:32.753 3c02 Delete type=0 #395
