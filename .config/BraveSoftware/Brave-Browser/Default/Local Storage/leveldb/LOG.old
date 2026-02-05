@@ -1,39 +1,23 @@
-2026/02/04-16:54:58.346 5 Creating DB /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb since it was missing.
-2026/02/04-16:54:58.367 5 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/04-16:55:25.267 7 Level-0 table #5: started
-2026/02/04-16:55:25.323 7 Level-0 table #5: 792010 bytes OK
-2026/02/04-16:55:25.334 7 Delete type=0 #3
-2026/02/04-16:55:44.256 5 Level-0 table #7: started
-2026/02/04-16:55:44.302 5 Level-0 table #7: 1148202 bytes OK
-2026/02/04-16:55:44.311 5 Delete type=0 #4
-2026/02/04-17:47:34.139 5 Level-0 table #9: started
-2026/02/04-17:47:34.151 5 Level-0 table #9: 28023 bytes OK
-2026/02/04-17:47:34.166 5 Delete type=0 #6
-2026/02/04-18:09:51.025 5 Level-0 table #11: started
-2026/02/04-18:09:51.032 5 Level-0 table #11: 17332 bytes OK
-2026/02/04-18:09:51.042 5 Delete type=0 #8
-2026/02/04-18:24:31.058 7 Level-0 table #13: started
-2026/02/04-18:24:31.090 7 Level-0 table #13: 1062682 bytes OK
-2026/02/04-18:24:31.099 7 Delete type=0 #10
-2026/02/04-18:24:45.757 7 Level-0 table #15: started
-2026/02/04-18:24:45.803 7 Level-0 table #15: 1654410 bytes OK
-2026/02/04-18:24:45.814 7 Delete type=0 #12
-2026/02/04-18:24:45.815 7 Compacting 4@0 + 1@1 files
-2026/02/04-18:24:45.870 7 Generated table #16@0: 153 keys, 3029830 bytes
-2026/02/04-18:24:45.882 7 Generated table #17@0: 7 keys, 6296 bytes
-2026/02/04-18:24:45.882 7 Compacted 4@0 + 1@1 files => 3036126 bytes
-2026/02/04-18:24:45.890 7 compacted to: files[ 0 2 1 0 0 0 0 ]
-2026/02/04-18:24:45.891 7 Delete type=2 #15
-2026/02/04-18:24:45.891 7 Delete type=2 #13
-2026/02/04-18:24:45.891 7 Delete type=2 #9
-2026/02/04-18:24:45.891 7 Delete type=2 #7
-2026/02/04-18:24:45.891 7 Delete type=2 #11
-2026/02/04-20:31:59.243 7 Level-0 table #19: started
-2026/02/04-20:31:59.280 7 Level-0 table #19: 1171160 bytes OK
-2026/02/04-20:31:59.290 7 Delete type=0 #14
-2026/02/04-20:32:53.961 7 Level-0 table #21: started
-2026/02/04-20:32:53.993 7 Level-0 table #21: 1162688 bytes OK
-2026/02/04-20:32:54.003 7 Delete type=0 #18
-2026/02/04-22:36:10.475 5 Level-0 table #23: started
-2026/02/04-22:36:10.491 5 Level-0 table #23: 17601 bytes OK
-2026/02/04-22:36:10.500 5 Delete type=0 #20
+2026/02/05-07:26:46.931 5 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/05-07:26:46.936 5 Recovering log #22
+2026/02/05-07:26:46.937 5 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000022.log 
+2026/02/05-07:27:46.961 5 Level-0 table #26: started
+2026/02/05-07:27:46.972 5 Level-0 table #26: 21846 bytes OK
+2026/02/05-07:27:46.987 5 Delete type=0 #22
+2026/02/05-07:27:46.987 5 Compacting 4@0 + 2@1 files
+2026/02/05-07:27:47.040 5 Generated table #27@0: 160 keys, 3045620 bytes
+2026/02/05-07:27:47.049 5 Generated table #28@0: 21 keys, 15620 bytes
+2026/02/05-07:27:47.049 5 Compacted 4@0 + 2@1 files => 3061240 bytes
+2026/02/05-07:27:47.058 5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/02/05-07:27:47.058 5 Delete type=2 #17
+2026/02/05-07:27:47.059 5 Delete type=2 #21
+2026/02/05-07:27:47.059 5 Delete type=2 #26
+2026/02/05-07:27:47.059 5 Delete type=2 #19
+2026/02/05-07:27:47.059 5 Delete type=2 #16
+2026/02/05-07:27:47.059 5 Delete type=2 #23
+2026/02/05-07:33:06.445 7 Level-0 table #30: started
+2026/02/05-07:33:06.499 7 Level-0 table #30: 1167645 bytes OK
+2026/02/05-07:33:06.508 7 Delete type=0 #25
+2026/02/05-07:41:12.121 7 Level-0 table #32: started
+2026/02/05-07:41:12.145 7 Level-0 table #32: 194518 bytes OK
+2026/02/05-07:41:12.156 7 Delete type=0 #29
