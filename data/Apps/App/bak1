@@ -17,7 +17,8 @@ Foo() {
 
 Main() {
     if [[ ! ${#@} -eq 0 ]]; then 
-        Foo $1
+        chars=(${(s::)1})
+        Foo $chars
         return;
     fi
     (
