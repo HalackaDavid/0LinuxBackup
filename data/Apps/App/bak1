@@ -16,7 +16,6 @@ Foo() {
 }
 
 Main() {
-    #
     if [[ ! ${#@} -eq 0 ]]; then 
         chars=(${(s::)1})
         Foo $chars
