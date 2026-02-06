@@ -36,6 +36,7 @@
 .config/BraveSoftware/Brave-Browser/Default/*Cache
 .config/BraveSoftware/Brave-Browser/Default/**/LOG
 .config/BraveSoftware/Brave-Browser/Default/**/LOG.old
+.config/BraveSoftware
 
 !.local/
 !.local/bin/
