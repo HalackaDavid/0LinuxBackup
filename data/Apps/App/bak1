@@ -21,6 +21,7 @@ Main() {
         Foo $chars
         return;
     fi
+    
     (
         cd ~
         git pull
