@@ -1,8 +1,0 @@
-2026/02/05-20:12:22.458 5 Reusing MANIFEST /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2026/02/05-20:12:22.459 5 Recovering log #116
-2026/02/05-20:12:22.460 5 Level-0 table #119: started
-2026/02/05-20:12:22.469 5 Level-0 table #119: 32341 bytes OK
-2026/02/05-20:12:22.470 5 Recovering log #119
-2026/02/05-20:12:22.470 5 Reusing old log /home/chromagor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000119.log 
-2026/02/05-20:12:22.480 5 Delete type=2 #120
-2026/02/05-20:12:22.480 5 Delete type=0 #116

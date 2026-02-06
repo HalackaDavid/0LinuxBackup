@@ -33,6 +33,9 @@
 .config/hypr/monitor.conf
 .config/BraveSoftware/Brave-Browser/*
 !.config/BraveSoftware/Brave-Browser/Default
+.config/BraveSoftware/Brave-Browser/Default/*Cache
+.config/BraveSoftware/Brave-Browser/Default/**/LOG
+.config/BraveSoftware/Brave-Browser/Default/**/LOG.old
 
 !.local/
 !.local/bin/
