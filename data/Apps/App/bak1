@@ -1,40 +1,35 @@
 #!/bin/zsh
 
+Foo() {
+    for i in $@; do
+        case $i in
+            "0") git pull;;
+            "1") git status;;
+            "2") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")";;
+            "3") git push;;
+            "c") clear;;
+            "x") unset i; exit;; 
+        esac
+    done
+    unset i
+
+}
+
 Main() {
-    #if [[ ! ${#@} -eq 0 ]]; then fi
+    if [[ ! ${#@} -eq 0 ]]; then 
+        Foo $1
+        return;
+    fi
     (
         cd ~
-        if ping -c1 -W1 8.8.8.8 &>/dev/null; then
-            #ONLINE
-            git pull
-        else
-            while true; do
-                if ping -c1 -W1 8.8.8.8 &>/dev/null; then
-                    #ONLINE
-                    git pull &>/dev/null
-                    (echo "blackup $(date)" >> $HOME/log.log)
-                    break
-                fi
-                sleep 60
-            done &
-        fi
-
-       
+        git pull
+              
         while true; do
             print -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[c] Clear\n[x] exit\n>>> "
             read UserInput
             chars=(${(s::)UserInput})
 
-            for i in $chars[@]; do
-                case $i in
-                    "0") git pull;;
-                    "1") git status;;
-                    "2") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")";;
-                    "3") git push;;
-                    "c") clear;;
-                    "x") return;;
-                esac
-            done
+            Foo $chars
         done
 
         unset UserInput
