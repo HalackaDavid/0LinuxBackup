@@ -67,7 +67,18 @@ sudo pacman -S brightnessctl
     2.
     dev1 <-- server --> dev2
     dev1, dev2 = pc, mobil
-    server = Raspberry Pi zero 2 W {
+    
+    server1 = Raspberry Pi zero 2 W {
+        portable battery {
+            powerbank
+        }
+
+        storage {
+            cap: 256Gb
+        }
+    }
+
+    server2 = Raspberry Pi zero 2 W {
         portable battery {
             powerbank
         }

@@ -11,8 +11,11 @@ Commands {
 	
 	grep {-v    invert match}
 	grep -rnw 'path' -e 'pattern'
-	chown --> change owner permission
+	chown --> change owner
 	chmod --> change file read/write/....
+        -- read = 4
+        -- write = 2
+        -- execute = 1
 
 	du - disk usage
 	df - display file system space
@@ -29,24 +32,10 @@ Commands {
 
     free -> mem usage
 
-    pacman -Rns $(pacman -Qdtq) --> remove orphan packages
+    
 }
 
 Programs {
-    nano {
-        **ctrl + d** --> just del key-button
-        **ctrl + space** --> ctrl + left arrow key
-        **ctrl + space** --> ctrl + right arrow key
-        **alt + a** --> mark set
-    }
-
-    tmux {
-        **ctrl + b** --> before every command
-        **"** --> split screen horizontaly
-        **%** --> split screen verticaly
-        **
-    }
-
     ssh {
         /etc/init.d/ssh
         commands: 
@@ -90,8 +79,3 @@ Programs {
 		-C <restor path> --->  Changes to <restor path> before extracting files. This ensures that the extracted files are placed in <restor path>.
 	}
 }
-
-sudo iw dev wlan0 scan | grep SSID
-
-ifdown eth0
-ifup eth0
