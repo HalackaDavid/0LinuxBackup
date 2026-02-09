@@ -34,19 +34,6 @@
 .config/BraveSoftware/Brave-Browser/*
 !.config/BraveSoftware/Brave-Browser/Default
 .config/BraveSoftware/Brave-Browser/Default/
-.config/BraveSoftware/Brave-Browser/Default/Cookies
-.config/BraveSoftware/Brave-Browser/Default/DIPS
-.config/BraveSoftware/Brave-Browser/Default/Favicons
-.config/BraveSoftware/Brave-Browser/Default/History
-.config/BraveSoftware/Brave-Browser/Default/History-journal
-.config/BraveSoftware/Brave-Browser/Default/Login Data
-.config/BraveSoftware/Brave-Browser/Default/Network Action Predictor
-.config/BraveSoftware/Brave-Browser/Default/Network Persistent State
-.config/BraveSoftware/Brave-Browser/Default/Reporting and NEL
-.config/BraveSoftware/Brave-Browser/Default/Shared Dictionary/cache/index-dir/the-real-index
-.config/BraveSoftware/Brave-Browser/Default/TransportSecurity
-.config/BraveSoftware/Brave-Browser/Default/Web Data
-.config/BraveSoftware/Brave-Browser/Default/ads_service/database.sqlite
 .config/BraveSoftware/Brave-Browser/**/Cache*
 .config/BraveSoftware/Brave-Browser/**/Code Cache/
 .config/BraveSoftware/Brave-Browser/**/GPUCache/
