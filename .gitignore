@@ -33,10 +33,23 @@
 .config/hypr/monitor.conf
 .config/BraveSoftware/Brave-Browser/*
 !.config/BraveSoftware/Brave-Browser/Default
-.config/BraveSoftware/Brave-Browser/Default/*Cache
-.config/BraveSoftware/Brave-Browser/Default/**/LOG
-.config/BraveSoftware/Brave-Browser/Default/**/LOG.old
-.config/BraveSoftware
+.config/BraveSoftware/Brave-Browser/**/Cache*
+.config/BraveSoftware/Brave-Browser/**/Code Cache/
+.config/BraveSoftware/Brave-Browser/**/GPUCache/
+.config/BraveSoftware/Brave-Browser/**/Service Worker/
+.config/BraveSoftware/Brave-Browser/**/Session Storage/
+.config/BraveSoftware/Brave-Browser/**/Sessions/
+.config/BraveSoftware/Brave-Browser/**/IndexedDB/
+.config/BraveSoftware/Brave-Browser/**/Local Storage/
+.config/BraveSoftware/Brave-Browser/**/WebStorage/
+.config/BraveSoftware/Brave-Browser/**/Sync Data/
+.config/BraveSoftware/Brave-Browser/**/Dawn*
+.config/BraveSoftware/Brave-Browser/**/File System/
+.config/BraveSoftware/Brave-Browser/**/shared_proto_db/
+.config/BraveSoftware/Brave-Browser/**/*.log
+.config/BraveSoftware/Brave-Browser/**/*.log.old
+.config/BraveSoftware/Brave-Browser/**/*.ldb
+.config/BraveSoftware/Brave-Browser/**/MANIFEST-*
 
 !.local/
 !.local/bin/
@@ -45,4 +58,3 @@
 !data/
 !data/**
 data/Wallpapers/wallpaper.active
-
