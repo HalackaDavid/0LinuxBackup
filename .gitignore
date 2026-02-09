@@ -48,8 +48,8 @@
 .config/BraveSoftware/Brave-Browser/**/shared_proto_db/
 .config/BraveSoftware/Brave-Browser/**/*.log
 .config/BraveSoftware/Brave-Browser/**/*.log.old
-.config/BraveSoftware/Brave-Browser/**/*.LOG
-.config/BraveSoftware/Brave-Browser/**/*.LOG.old
+.config/BraveSoftware/Brave-Browser/**/LOG
+.config/BraveSoftware/Brave-Browser/**/LOG.old
 .config/BraveSoftware/Brave-Browser/**/*.ldb
 .config/BraveSoftware/Brave-Browser/**/MANIFEST-*
 
