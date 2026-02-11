@@ -1,63 +1,96 @@
-[+] WPS PIN: '54333918 '
-[+] WPA PSK: '704810071'
-[+] AP SSID: 'sofie111'
+ucitele 
+obchodka184
 
-[+] WPS PIN: '19243542'
-[+] WPA PSK: '328md238
-[+] AP SSID: 'DSL'
+kutloch
+JarHal290772
 
-[+] WPS PIN: '11206217'
-[+] WPA PSK: 'Sszmd291'
-[+] AP SSID: 'KameryTunel'
+admin
+V631227z*-
 
-[+] WPS PIN: '87828696'
-[+] WPA PSK: 'office3440100'
-[+] AP SSID: 'Office'
+Vzorkovna
+masar183
 
-[+] WPS PIN: '37438562'
-[+] WPA PSK: 'trubkar1'
-[+] AP SSID: 'Carnage'
+TP-Link_2.4GHz_FAA9C8
+24355506
 
-[+] WPS PIN: '91900418'
-[+] WPA PSK: '91900418'
-[+] AP SSID: 'TP-Link_FA62'
+Sobr
+24355506
 
-[+] WPS PIN: '39623126'
-[+] WPA PSK: 'haladomazlice'
-[+] AP SSID: 'Hala'
+Redmi Note 7
+Danka123
 
-[+] WPS PIN: '73021056'
-[+] WPA PSK: 'Pw773595270'
-[+] AP SSID: 'Guldenerova68/3'
+Lipno68
+Kobylnice68
 
-[+] WPS PIN: '76855702'
-[+] WPA PSK: 'Nela1234'
-[+] AP SSID: 'Platzer'
+InternatOA
+obchodka13
 
-[+] WPS PIN: '22224033'
-[+] WPA PSK: '1234milan'
-[+] AP SSID: 'Obdrzalek'
+Halacka
+607703896
 
-[+] WPS PIN: '66227892'
-[+] WPA PSK: 'masar183'
-[+] AP SSID: 'Vzorkovna'
+Debiluuu
+debil123
 
-[+] WPS PIN: '62675659'
-[+] WPA PSK: '0745922e'
-[+] AP SSID: 'TP-Link'
+WPS_PIN: '24355506'
+WPA_PSK: '24355506'
+AP_SSID: 'TP-Link_8390'
 
-[+] WPS PIN: '24355506'
-[+] WPA PSK: '24355506'
-[+] AP SSID: 'TP-Link_8390'
+WPS_PIN: '62675659'
+WPA_PSK: '0745922e'
+AP_SSID: 'TP-Link'
 
-[+] WPS PIN: '45052316'
-[+] WPA PSK: 'kopretina'
-[+] AP SSID: 'SVPDO_vychovatelna'
+WPS_PIN: '83568008'
+WPA_PSK: 'ldmksldmks'
+AP_SSID: 'TP-LINK_52B2'
 
-[+] WPS PIN: '83568008'
-[+] WPA PSK: 'ldmksldmks'
-[+] AP SSID: 'TP-LINK_52B2'
+WPS_PIN: '45052316'
+WPA_PSK: 'kopretina'
+AP_SSID: 'SVPDO_vychovatelna'
 
-[+] WPS PIN: '90270642'
-[+] WPA PSK: '90270642'
-[+] AP SSID: 'TP-LINK_B436'
+WPS_PIN: '76855702'
+WPA_PSK: 'Nela1234'
+AP_SSID: 'Platzer'
+
+WPS_PIN: '22224033'
+WPA_PSK: '1234milan'
+AP_SSID: 'Obdrzalek'
+
+WPS_PIN: '11206217'
+WPA_PSK: 'Sszmd291'
+AP_SSID: 'KameryTunel'
+
+WPS_PIN: '39623126'
+WPA_PSK: 'haladomazlice'
+AP_SSID: 'Hala'
+
+WPS_PIN: '73021056'
+WPA_PSK: 'Pw773595270'
+AP_SSID: 'Guldenerova68/3'
+
+WPS_PIN: '19243542'
+WPA_PSK: '328md238
+AP_SSID: 'DSL'
+
+WPS_PIN: '37438562'
+WPA_PSK: 'trubkar1'
+AP_SSID: 'Carnage'
+
+WPS_PIN: '54333918 '
+WPA_PSK: '704810071'
+AP_SSID: 'sofie111'
+
+WPS_PIN: '87828696'
+WPA_PSK: 'office3440100'
+AP_SSID: 'Office'
+
+WPS_PIN: '91900418'
+WPA_PSK: '91900418'
+AP_SSID: 'TP-Link_FA62'
+
+WPS_PIN: '66227892'
+WPA_PSK: 'masar183'
+AP_SSID: 'Vzorkovna'
+
+WPS_PIN: '90270642'
+WPA_PSK: '90270642'
+AP_SSID: 'TP-LINK_B436'
