@@ -194,9 +194,52 @@ require("lazy").setup(
             "mason-org/mason.nvim",
             opts={}
         },
+        { -- Mason bridge to LSP
+            "mason-org/mason-lspconfig.nvim",
+            dependencies = { "mason-org/mason.nvim" },
+            opts = {
+                ensure_installed = { "clangd" },
+            },
+        },
+        { -- Completion engine
+            "hrsh7th/nvim-cmp",
+            dependencies = {
+                "hrsh7th/cmp-nvim-lsp",
+            },
+            config = function()
+                local cmp = require("cmp")
+
+                cmp.setup({
+                    mapping = cmp.mapping.preset.insert({
+                        ["<C-Space>"] = cmp.mapping.complete(),
+                        ["<CR>"] = cmp.mapping.confirm({ select = true }),
+                    }),
+                    sources = {
+                        { name = "nvim_lsp" },
+                    },
+                })
+            end,
+        },
     },
     { --Options for Lazy.nvim
         --Path to lazy plugins
         root = vim.fn.expand(NvimDefaultPluginPath),
     }
 )
+
+-----------------------
+-- LSP Setup (clangd)
+-----------------------
+
+local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
+vim.lsp.config("clangd", {
+    cmd = {
+        "clangd",
+        "--background-index",
+    },
+    filetypes = { "c", "cpp", "objc", "objcpp", "asm" },
+    capabilities = capabilities,
+})
+
+vim.lsp.enable("clangd")
