@@ -78,6 +78,7 @@ pacstrap /mnt \
   hyprland wwl-clipboar dofi ly swaybg hyprlock brightnessctl foot foot-terminfo \
   dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs ark \
   sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
+
 ------------------------------------------------------------
 6. FSTAB
 ------------------------------------------------------------
