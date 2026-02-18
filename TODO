@@ -24,14 +24,6 @@ how to change audio output/mic ..
 
 sort data and shit in devices
 
-.tmux.conf
-
-check sda for backups
-
-default value for monitor is mirroring
-
-git auto device updater
-
 check PC manual install then backup and resintall with pollkit and other shits
 
 tinker with monitor.conf
@@ -57,8 +49,6 @@ change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
 #########################
 ### OTHER DICKHEADING ###
 #########################
-sudo pacman -Sy foot foot-terminfo
-sudo pacman -S brightnessctl
 
 {
     1. 
