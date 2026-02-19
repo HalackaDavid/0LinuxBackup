@@ -233,13 +233,15 @@ require("lazy").setup(
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-vim.lsp.config("clangd", {
-    cmd = {
-        "clangd",
-        "--background-index",
-    },
-    filetypes = { "c", "cpp", "objc", "objcpp", "asm" },
-    capabilities = capabilities,
-})
+vim.lsp.config(
+    "clangd", {
+        cmd = {
+            "clangd",
+            "--background-index",
+        },
+        filetypes = { "c", "cpp", "objc", "objcpp", "asm" },
+        capabilities = capabilities,
+    }
+)
 
 vim.lsp.enable("clangd")
