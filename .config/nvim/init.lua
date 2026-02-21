@@ -36,61 +36,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     end,
 })
 
-vim.api.nvim_create_user_command(
-    'Format', 
-    function(opts)
-        local indent_width = tonumber(opts.args)
-        if not indent_width then
-            print("Usage: :Format <indent_width>")
-            return
-        end
-
-        local function count_indent(line)
-            local count = 0
-            for i = 1, #line do
-                local c = line:sub(i,i)
-                if c == " " then
-                    count = count + 1
-                elseif c == "\t" then
-                    count = count + indent_width  -- treat tab as N spaces
-                else
-                    break
-                end
-            end
-            return count
-        end
-
-        local lines = vim.api.nvim_buf_get_lines(0, 0, -1, false)
-        local new_lines = {}
-        local indent_stack = {}
-        local prev_indent = 0
-
-        for _, line in ipairs(lines) do
-            local raw_indent = count_indent(line)
-            local content = line:match("^%s*(.*)$")
-
-            -- Handle indent level changes
-            if raw_indent > prev_indent then
-                table.insert(indent_stack, raw_indent)
-            elseif raw_indent < prev_indent then
-                while #indent_stack > 0 and indent_stack[#indent_stack] > raw_indent do
-                    table.remove(indent_stack)
-                end
-            end
-
-            local level = #indent_stack
-            table.insert(new_lines, string.rep(" ", level * indent_width) .. content)
-            prev_indent = raw_indent
-        end
-
-        vim.api.nvim_buf_set_lines(0, 0, -1, false, new_lines)
-        print("Formatted with indent width: " .. indent_width .. ", tabs replaced with spaces.")
-    end, 
-    {
-        nargs = 1,
-    }
-)
-
 -------------
 -- Plugins --
 -------------
@@ -198,7 +143,7 @@ require("lazy").setup(
             "mason-org/mason-lspconfig.nvim",
             dependencies = { "mason-org/mason.nvim" },
             opts = {
-                ensure_installed = { "clangd" },
+--                ensure_installed = { "clangd" },
             },
         },
         { -- Completion engine
