@@ -1,3 +1,8 @@
+MenuBar=Disabled
+
+[ContentDisplay]
+RecursiveDirectorySizeLimit=5
+
 [DetailsMode]
 PreviewSize=160
 
@@ -12,6 +17,7 @@ ViewPropsTimestamp=2025,10,17,20,1,17.996
 
 [IconsMode]
 PreviewSize=256
+UseSystemFont=false
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -22,3 +28,6 @@ MenuBar=Disabled
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,glycin-heif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,glycin-svg,svgthumbnail,ffmpegthumbs
+
+[UiSettings]
+ColorScheme=BreezeClassic

@@ -43,7 +43,8 @@
 .config/BraveSoftware/Brave-Browser/Default/Network Persistent State
 .config/BraveSoftware/Brave-Browser/Default/Preferences
 .config/BraveSoftware/Brave-Browser/Default/Reporting and NEL
-.config/BraveSoftware/Brave-Browser/Default/Shared Dictionary/cache/index-dir/the-real-index
+.config/BraveSoftware/Brave-Browser/Default/MediaDeviceSalts
+.config/BraveSoftware/Brave-Browser/Default/Shared Dictionary
 .config/BraveSoftware/Brave-Browser/Default/TransportSecurity
 .config/BraveSoftware/Brave-Browser/Default/Web Data
 .config/BraveSoftware/Brave-Browser/Default/ads_service/database.sqlite
