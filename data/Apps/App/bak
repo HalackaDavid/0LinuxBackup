@@ -3,12 +3,10 @@
 Foo() {
     for i in $@; do
         case $i in
-            "0") git pull;;
+            "0") git stash push -u && git pull --rebase && git stash pop || true;;
             "1") git status;;
             "2") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")";;
             "3") git push;;
-            "c") clear;;
-            "x") unset i; exit;; 
         esac
     done
     unset i
@@ -25,19 +23,8 @@ Main() {
             unset chars
             return;
         fi
-    
-        git pull
-              
-        while true; do
-            print -n "[0] Fetch\n[1] Status\n[2] Commit\n[3] Upload\n[c] Clear\n[x] exit\n>>> "
-            read UserInput
-            chars=(${(s::)UserInput})
 
-            Foo $chars
-        done
-
-        unset UserInput
-        unset chars
+        print -n "NO ARGS PASSED\n0 -> fetch\n1 -> status\n2 -> commit all\n3 -> push\n"
     )
 }
 Main $1

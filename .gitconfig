@@ -4,4 +4,5 @@
 [credential]
 	helper = store
 [alias]
-	sync = !git stash push -u && git pull --rebase && git stash pop || true
+    # exclamation mark will say to git that it should be ran as shell command rather than git subcommand
+    sync = !git stash push -u && git pull --rebase && git stash pop || true
