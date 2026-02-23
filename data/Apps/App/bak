@@ -16,15 +16,16 @@ Foo() {
 }
 
 Main() {
-    if [[ ! ${#@} -eq 0 ]]; then 
-        chars=(${(s::)1})
-        Foo $chars
-        unset chars
-        return;
-    fi
-    
     (
         cd ~
+        
+        if [[ ! ${#@} -eq 0 ]]; then 
+            chars=(${(s::)1})
+            Foo $chars
+            unset chars
+            return;
+        fi
+    
         git pull
               
         while true; do
