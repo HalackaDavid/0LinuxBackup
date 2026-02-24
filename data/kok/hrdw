@@ -37,3 +37,10 @@ Ingoustova
     1. Termalni
     2. Piezo-electricky
 
+Zobrazovací a svuková soustava
+    monitor - gpu čip { igpu or gpu, igpu + cpu = apu }
+    výrobci nvidia, intel, amd
+    rozlisenib = delka * vyska
+    full hd
+    2k - quad hd
+    4k - utra hd
