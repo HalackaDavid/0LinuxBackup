@@ -75,6 +75,7 @@ pacstrap /mnt \
   pipewire pipewire-pulse pipewire-alsa wireplumber \
   mesa \
   polkit \
+  xdg-desktop-portal xdg-desktop-portal-wlr \
   hyprland wwl-clipboar dofi ly swaybg hyprlock brightnessctl foot foot-terminfo \
   dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs ark \
   sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
