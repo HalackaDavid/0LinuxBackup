@@ -1,12 +1,15 @@
 ######################
 ### SHIT IMPORTANT ###
 ######################
-
-what is server
-what it means
-what do you do
-
-monitor.sh need to be change for interactive and noneinteractive purposes
+{
+  what is server
+  what it means
+  what do you do
+}
+{
+  monitor.sh need to be change for interactive and noneinteractive purposes
+  profiles
+}
 
 mirroring def monitor to external than swith to mirror external to internal than disable internal
 
@@ -65,8 +68,14 @@ change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
 
     2.
     dev1 <-- server --> dev2
-    dev1, dev2 = pc, mobil
+      |         |        |
+      |         v        |
+       ->  back server <-
+
+    dev1 or dev2 can back to server or backup (back server and main server work independently)
     
+    dev1, dev2 = pc, mobil
+
     server1 = Raspberry Pi zero 2 W {
         portable battery {
             powerbank
