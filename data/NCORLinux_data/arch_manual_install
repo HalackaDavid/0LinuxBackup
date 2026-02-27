@@ -71,10 +71,7 @@ mount /dev/<TARGET_DISK>1 /mnt/boot
 pacstrap /mnt \
   base linux linux-headers linux-firmware \
   efibootmgr dosfstools \
-  dhcpcd iwd \
-  pipewire pipewire-pulse pipewire-alsa wireplumber \
-  mesa \
-  polkit \
+  dhcpcd iwd pipewire pipewire-pulse pipewire-alsa wireplumber mesa polkit /
   xdg-desktop-portal xdg-desktop-portal-wlr \
   hyprland wwl-clipboar dofi ly swaybg hyprlock brightnessctl foot foot-terminfo \
   dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs ark \
