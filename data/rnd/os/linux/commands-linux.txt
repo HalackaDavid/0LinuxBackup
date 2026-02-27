@@ -25,6 +25,8 @@ Commands {
 	fdisk
 	mkfs
 
+    chkdsk -> check disk
+
 	useradd
 	userdel
 
