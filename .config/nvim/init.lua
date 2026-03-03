@@ -36,6 +36,21 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     end,
 })
 
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = "netrw",
+    callback = function()
+        vim.opt_local.bufhidden = "wipe"
+        vim.opt_local.buflisted = false
+    end,
+})
+
+vim.g.my_feature = false
+
+vim.api.nvim_create_user_command("ToggleFeature", function()
+    vim.g.my_feature = not vim.g.my_feature
+    print("Feature:", vim.g.my_feature)
+end, {})
+
 -------------
 -- Plugins --
 -------------

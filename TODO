@@ -1,6 +1,9 @@
 ######################
 ### SHIT IMPORTANT ###
 ######################
+
+Delete .config/nvim/nvim_plugins then see if reinstall happens
+
 {
   what is server
   what it means
