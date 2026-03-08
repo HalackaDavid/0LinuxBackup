@@ -3,8 +3,6 @@ grep -Rao "<string>"
 ### SHIT IMPORTANT ###
 ######################
 
-Delete .config/nvim/nvim_plugins then see if reinstall happens
-
 {
   what is server
   what it means
@@ -14,6 +12,8 @@ Delete .config/nvim/nvim_plugins then see if reinstall happens
   monitor.sh need to be change for interactive and noneinteractive purposes
   profiles
 }
+
+LSP yes or no
 
 mirroring def monitor to external than swith to mirror external to internal than disable internal
 

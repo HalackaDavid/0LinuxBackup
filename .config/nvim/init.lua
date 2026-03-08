@@ -3,7 +3,8 @@
 ----------------------
 local NvimDefaultPluginPath = os.getenv("HOME").."/.config/nvim/nvim_plugins"
 local lazypath = vim.fn.expand(NvimDefaultPluginPath.. "/lazy.nvim")
-spaceWidth = 4
+local spaceWidth = 4
+
 
 -- Basic settings
 vim.opt.number = true
@@ -59,12 +60,12 @@ require("lazy").setup(
             'nvim-telescope/telescope.nvim',
             event = 'VimEnter',
             dependencies = {
-                'nvim-lua/plenary.nvim', 
+                'nvim-lua/plenary.nvim',
                 'BurntSushi/ripgrep',
                 'sharkdp/fd',
                 { -- If encountering errors, see telescope-fzf-native README for installation instructions
                     'nvim-telescope/telescope-fzf-native.nvim',
-            
+                    
                     build = 'make',
                 
                     cond = function()
@@ -136,6 +137,9 @@ require("lazy").setup(
 -- LSP --
 ---------
         {
+            "neovim/nvim-lspconfig",
+        },
+        {
             "mason-org/mason.nvim",
             opts={}
         },
@@ -143,7 +147,7 @@ require("lazy").setup(
             "mason-org/mason-lspconfig.nvim",
             dependencies = { "mason-org/mason.nvim" },
             opts = {
---                ensure_installed = { "clangd" },
+                ensure_installed = vim.loop.os_uname().machine == "x86_64" and { "clangd" } or {},
             },
         },
         { -- Completion engine
@@ -175,7 +179,6 @@ require("lazy").setup(
 ---------------
 -- LSP Setup --
 ---------------
-
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 vim.lsp.config(
@@ -188,5 +191,4 @@ vim.lsp.config(
         capabilities = capabilities,
     }
 )
-
 vim.lsp.enable("clangd")
