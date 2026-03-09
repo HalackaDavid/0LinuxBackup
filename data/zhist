@@ -1,0 +1,1041 @@
+sudo cat /etc/lsb-release
+sudo cat /etc/pacman.conf
+sudo cat /etc/pacman.conf > lsb-release 
+cat lsb-release
+rm lsb-release
+root-aarch64
+ls etc
+cat etc/os-release
+mkdir -p usr/lib
+mv etc/os-release usr/lib
+cat usr/lib/os-release
+cat usr/lib/os-release && cat ../root-x86_64/usr/lib/os-release
+cat usr/lib/os-release ../root-x86_64/usr/lib/os-release
+ll /etc/*
+env | grep group
+env | grep user
+env | grep less
+env | grep LESS
+env | grep USER
+env | grep GROUP
+ls /etc
+ls /etc/lsb-release
+sudo nvim /etc/lsb-release
+sudo ln /etc/lsb-release ./lsb.f
+cat lsb.f
+nvim lsb.f
+cat /etc/lsb-release
+l; /etc
+rm /etc/lsb-release
+ll /etc/lsb-release
+sudo rm /etc/lsb-release
+sudo chown root:root pacman.conf
+cat pacman.conf
+sudo touch ABC
+sudo nvim ABC
+ll ABC
+sudo ln /etc/ABC lsb.f
+sudo chown chromagor:chromagor lsb.f
+ll /etc/ABC
+rm lsb.f
+rm /etc/ABC
+sudo rm /etc/ABC
+ll /etc
+ll /etc | less
+ssh
+sudo ./first_init
+data/BlackArch-data
+nvim first_init
+mv BlackArch-data NCORLinux_data
+cat imp/imp
+cat imp/link
+ll /mnt/sda1
+ll /mnt/sda1/*
+ll /mnt/sda1/OLD_BACKUPS/BlackArch
+ll /mnt/sda1/OLD_BACKUPS/BlackArch/a
+cat /mnt/sda1/OLD_BACKUPS/BlackArch/a/etc/hosts
+cat /mnt/sda1/OLD_BACKUPS/BlackArch/a/etc/resolv.conf
+cat /mnt/sda1/BAtoday/etc/resolv.conf
+cat /mnt/sda1/31.12.2025/etc/resolv.conf
+cat /mnt/sda1/31.12.2025/etc/host
+cat /mnt/sda1/31.12.2025/etc/host.conf
+cat /mnt/sda1/OLD_BACKUPS/22_12_2025/etc/resolv.conf
+cat /mnt/sda1/OLD_BACKUPS/22_12_2025/etc/hosts
+cat /mnt/sda1/OLD_BACKUPS/22_12_2025/etc/hosts >> data/IMP
+cd NCORLinux_data
+cat /mnt/sda1/OLD_BACKUPS/22_12_2025/etc/hosts >> IMP
+cat IMP
+kill -9 17527
+cat .config/hypr/monitor.conf
+"" > .config/hypr/monitor.conf
+"" > .config/hypr/monitor.conf && sleep 1 && sudo poweroff
+cat .config/hypr/monitor.conf 
+ll .config/hypr/monitor.conf 
+ls data/Wallpapers
+net
+ip
+mkdir bare1
+nvim .config/dolphinrc\
+
+nvim .config/hypr/wallpaper.sh
+bare1
+echo $HYPRLAND_INSTANCE_SIGNATURE
+cat ~/data/myLib/cpp/hlp/delete
+cat ~/data/myLib/cpp/hlp/strncmp.h
+top
+nvim ../monitor.sh
+env | grep hypr
+gcc -o c c.cpp
+cat c.cpp
+rm c
+gcc -o c c.cpp 
+./c
+gcc -o c c.cpp && ./c
+.config/hypr/
+precompiled
+nvim c.cpp
+sudo powerof
+nvim .config
+.config/hypr/precompiled/
+mv c.cpp monitor.cpp
+mv hrdw ~/data/kok/
+~/data/kok/
+rm hrd
+cd ~/.config/hypr/precompiled
+nvim ~/data/kok/hrdw
+nvim monitor.cpp
+gcc -o c monitor.cpp && ./c
+sudo pkill discord
+sudo pkill Discord
+sudo pkill Steam
+ps aux | grep discrod
+kill -9 24850
+mkdir bare-mobile
+cd bare-mobile
+bare-pc
+ls ~/.git
+ls . ~/.git
+source-file ~/.tmux.conf
+tmux source-file ~/.tmux.conf
+[1;3DAa
+[1;3D
+[1;3DA
+ls .local/share/Steam/
+du -sh .local/share/Steam/
+du -sh .local/share/Steam/*
+du -sh .local/share/Steam/steamapps/*
+du -sh .local/share/Steam/steamapps/compatdata/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/users/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/users/*/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/users/*/My\ Documents
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/users/*/My\ Documents/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/users/*/Pictures/Warframe
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/users/*/Pictures/Warframe/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/users/*/Pictures/*
+du -sh .local/share/Steam/steamapps/compatdata/*/*/drive_c/users/*/Pictures/*/*
+du -sh .local/share/Steam/steamapps/compatdata
+du -sh .local/share/Steam/userdata/1436894439/760
+du -sh .local/share/Steam/userdata/1436894439/760/*
+du -sh .local/share/Steam/userdata/1436894439/760/remote
+du -sh .local/share/Steam/userdata/1436894439/760/remote/*
+du -sh .local/share/Steam/userdata/1436894439/760/remote/*/*
+du -sh .local/share/Steam/userdata/1436894439/760/remote/*/*/*
+du -sh .local/share/Steam/userdata/1436894439/760/remote/*/*/*.jpg
+cp .local/share/Steam/userdata/1436894439/760/remote/*/*/*.jpg ~/data/Wallpapers/
+tre
+kill -9 191003
+nvim TOOD
+gtop
+ls /dev/sda1
+ls /mnt/sda1
+ls /mnt/sda1/OLD_BACKUPS
+ls /mnt/sda1/OLD_BACKUPS/a
+ls /mnt/sda1/OLD_BACKUPS/a/meh
+ls /mnt/sda1/OLD_BACKUPS/a/0
+ls /mnt/sda1/OLD_BACKUPS/a/00
+ls /mnt/sda1/OLD_BACKUPS/a/1
+ls /mnt/sda1/OLD_BACKUPS/a/2
+ls /mnt/sda1/OLD_BACKUPS/a/other
+sudo pacman -S \\
+  dolphin gwenview \\
+  pcmanfm-qt lxqt-qtplugin \\
+  imv \\
+  kdegraphics-thumbnailers \\
+  kimageformats \\
+  ffmpegthumbs \\
+  breeze
+sudo pacman -Rns pcmanfm-qt lxqt-qtplugin\
+
+systemsettings
+lxqt-config-appearance
+git commit -m " "
+git add . && git commit -m " "
+git add . && git commit -m "1"
+git clone https://github.com/HalackaDavid/proxproj.git
+cd proxproj
+cat a
+mv a ghp
+git add. && git commit -m "1" && git push
+git add . && git commit -m "1" && git push
+kill -9 19723 discord
+kill -9 19723
+kill -9 2084
+sudo systemctl status
+9bak
+nvim data/rnd/games/warframe/deimos_pet
+rm data/rnd/games/warframe/deimos_pet
+cat data/rnd/games/warframe/event
+rm data/rnd/games/warframe/event
+cat data/rnd/games/warframe/p.py
+rm data/rnd/games/warframe/p.py
+cat data/rnd/games/warframe/chroma_armor.c
+rm data/rnd/games/warframe/{c,chroma_armor.c}
+cat data/rnd/games/warframe/
+cat data/rnd/games/warframe/*
+nvim $(xplr)
+rm -rf Downloads/7115784d36cc6114a84fc2882c34ecd1.jpeg
+sudo systemctl shutdown
+man poweroff
+man systemctl
+sudo systemctl poweroff -f
+sudo systemcl start iwd
+shutdown -h
+man shutdown
+shutdown -c
+shutdown -h 0
+ping 8.8.8.8 -c 3
+git add . && git commit -m "$(date)"
+nvim data/kok/hoz .tmux.conf
+sudo systemctl poweroff
+where where
+whereis
+whereis whereis
+hyprctl
+pipewire
+ls /etc/ly/setup.sh
+cat /etc/ly/setup.sh
+xplr
+ls Web\ Data
+ls "Web Data"
+ls "Web Data"/*
+cat "Web Data"
+cat Web\ Data-journal
+cat Preferences
+cat Network\ Persistent\ State
+cat Login\ Data
+ll .config/BraveSoftware/Brave-Browser/Default/*
+ll .config/BraveSoftware/Brave-Browser/Default/
+ll .config/BraveSoftware/Brave-Browser/Default/ | less
+ll .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb" | less
+ll .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb"
+ll .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb  4"
+ll .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb  4 08:"
+ll .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb  4 08:22"
+ll .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb  4 08:27"  
+ls .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb  4 08:27"
+ll .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb  4 08:27"
+ll .config/BraveSoftware/Brave-Browser/Default/ | grep "Feb  4 08:27" >> /tmp/a
+nvim /tmp/a
+nvim $(where bak)
+nvim $(where hyprland.conf)
+nvim $HyprConfigPath/hyprland.conf
+cd.config/BraveSoftware
+du -sh Brave-Browser/* | grep M
+du -sh Brave-Browser/* | 
+du -sh Brave-Browser/*
+du -sh Brave-Browser/* >> a.txt
+nvim a.txt
+wpd
+cd Brave-Browser/Default
+rm ../../a.txt
+pwd >> ~/a.txt
+nvim ~/a.txt
+~/.gitignore
+git add .config/BraveSoftware/Brave-Browser/Default
+git add -f .config/BraveSoftware/Brave-Browser/Default
+git rm --cached .config/BraveSoftware/Brave-Browser/Default/
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default/
+cp -r .config/BraveSoftware ~
+sudo systectl start iwd
+journalctl
+nvim ~/data/kok/eko
+man dif
+man diff
+diff .config/BraveSoftware BraveSoftware
+rm -r .config/BraveSoftware
+l .config
+ls .config/BraveSoftware/Brave-Browser/Default/"Local Storage"
+ls .config/BraveSoftware/Brave-Browser/Default/Local\ Storage/leveldb
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default/"Local Storage"
+ls .config/BraveSoftware/Brave-Browser/Default | grep cache
+ls .config/BraveSoftware/Brave-Browser/Default | grep Cache
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default/{DawnGraphiteCache,DawnWebGPUCache,GPUCache}
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default/{Preferences,Web\ Data,Network\ Action\ Predictor,Network\ Persistent\ State}
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default
+nvim ~/.gitignore
+sudo systemctl start iwd
+where neton
+where netoff
+ll | less
+ll > /tmp/tmp.tmp
+nvim tmp.tmp
+ping 8.8.8.8 -c 5
+git rm -r --cached .config/BraveSoftware/Brave-Browser/
+git
+sudo iwctl
+iwctl know-networks list
+iwctl known-networks "Unknown" forget
+iwctl help | grep discon
+iwctl station wlan0 connect-hidden Unknown
+iwctl station wlan0 connect-hidden "Unknown"
+iwctl station wlan0 connect-hidden "kkt"
+git reset --hard HEAD~6\
+
+cat $(where bak)
+git commit -m "$(data)"
+git add .config/BraveSoftware/Brave-Browser/Default/Network\ Persistent\ State
+git add .config/BraveSoftware/Brave-Browser/Default/DIPS-wal
+git add .config/BraveSoftware/Brave-Browser/Default/Preferences
+git add .config/BraveSoftware/Brave-Browser/Default/TransportSecurity
+git add .config/BraveSoftware/Brave-Browser/Default/Local\ Storage/
+git add .config/BraveSoftware/Brave-Browser/Default/Sessions/
+cat .gitignore
+git statu
+git commit -m $(data)
+git add .gitignore
+git push $(date)
+git push 
+diff BraveSoftware/ .config/BraveSoftware
+diff -r BraveSoftware/ .config/BraveSoftware
+du -sh BraveSoftware/ .config/BraveSoftware
+ls .config
+cat a.txt
+rm a.text
+rm a.txt
+cd .config/BraveSoftware/Brave-Browser
+ls .config/BraveSoftware/Brave-Browser/*
+ls .config/BraveSoftware/Brave-Browser/
+ls .config/BraveSoftware/Brave-Browser/ > /tmp/tmp.tmp
+ls .config/BraveSoftware/Brave-Browser/Default > /tmp/tmp.tmp
+nvim /tmp/tmp.tmp
+nvim data/kok/hrdw
+rm -rf .config/BraveSoftware/Brave-Browser/Default
+git pull -f
+git pull -all
+git pull --all
+git fetch
+git reset --hard origin/main
+ls .config/BraveSoftware/Brave-Browser/Default
+ssh root@192.168.10.133
+;s /
+ls /
+tree -L 2
+tree -L 1
+tree -L 1 /
+foot
+git status | less --color=auto
+git status | less --color='auto'
+git status | grep ".zshrc"
+git status | grep "Brave"
+cat git.out
+source .zshrc
+git restore .zshrc
+lear
+1bak
+k
+time tree
+git status > git1.out
+pkill discord && pkill Discord && pkill Steam && pkill steam
+git status > git2.out
+git status > git3.out
+mv *.out data/git/
+ls data/git/
+cd .config/BraveSoftware/Brave-Browser/Default
+git rm -r --cached AdBlock\ Custom\ Resources/{LOG,LOG.old}
+ls **
+ls -r *
+git rm -r --cached BraveWallet/Brave\ Wallet\ Storage/{LOG,LOG.old}
+git rm -r --cached Extension\ State/{LOG,LOG.old}
+man chmod
+sudo pacman -Sy mc
+nvim $(mc)
+mc
+sudo pacman -Rsn mc
+ss
+1e1bak
+nvim data/rnd/os/linux/command_list
+nvim data/rnd/os/linux/commands-linux.txt
+git rm -r -cached .config/BraveSoftware/
+rm -rf .config/mc
+rm -rf .config/nyxt
+rm -rf .config/pcmanfm-qt
+cat .config/baloofileinformationrc
+bak1 aaa
+bak1 a
+ak1
+bak1 a a
+bak1 a a a 
+xit
+bak1 a b c d e
+chmod +x java.java
+java.java
+java j
+rm j java.java
+bak1 a b c
+source bak
+source bak1
+abk1
+bak1 1
+bak1 c
+bak1 cx
+bak1 0
+bak1 2
+bak1 3
+bak1 23
+bak1
+data/git
+diff git{,1,2,3}.out
+diff git{,1}.out
+diff git{,2}.out
+diff git{,3}.out
+nvim git{,1,2,3}.out
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default/*Cache
+git status | less
+git status | grep LOG
+du -sh .config/BraveSoftware/Brave-Browser/Default
+diff BraveSoftware .config/BraveSoftware
+ls .cache
+ls .cache/thumbnails/large
+where polkidt
+systemctl status polkitd
+systemctl status polkit
+cd $(where bak)
+cd data/Apps/App
+cp bak bak1
+nvim bak1
+rm java.java
+vm bak bak.bak
+mv bak bak.bak
+mv bak1 bak
+chmod 666 bak.bak
+chmod 677 bak.bak
+touch a
+chmod 644 bak.bak
+rm a
+mv bak.bak bak.v1
+minfo
+bak.v1
+bak 23c
+rm minfo
+cd ~/.config/
+mkdir wofi
+cd wofi
+nvim style.cs
+nvim style.css
+java java.java | less
+[A
+java java.java
+echo $COLORTERM
+rm log.log
+;s
+irm "https://christitus.com/win" | iex
+pkill Discrod
+mv Sarah.jpg ~/data/Wallpapers/0/
+ls ~/data/Wallpapers/0/
+ls ~/data/Wallpapers/0/{Sarah.jpg,Sarah.png}
+mv ~/data/Wallpapers/0/{Sarah.jpg,Sarah.png}
+rm data/Wallpapers/0/Sarah.png
+git restore data/kok/eko
+rm -rf BraveSoftware
+diff -r BraveSoftware .config/BraveSoftware
+mv BraveSoftware .config/
+ls .config/BraveSoftware
+cp -r .config/BraveSoftware .
+diff -r .config/BraveSoftware BraveSoftware
+git -rm BraveSoftware
+git rm -r --cached .config/BraveSoftware/
+git commit -m $(date)
+git push
+rm -rf .config/BraveSoftware
+man tree
+tree -L 4 --du
+tree -L 4 --du -h
+tree -L 4 --du -h | les
+tree -L 4 --du -h | less
+tree -L 1--du -h | less
+tree -L 2--du -h | less
+du -sh
+tree -L 2--du -h | grep "M"
+cd Brave-Browser
+du -sh *
+du -sh * | grep M
+cd Default
+du -h *
+du -hs *
+du -hs * | grep M
+rm git.out
+git satus
+ls .config/
+mv .config/BraveSoftware .
+mv BraveSoftware .config
+cd .config/BraveSoftware
+git add .
+git reset origin/main
+git reset origin
+git reset --hard HEAD
+git rm --cached .config/BraveSoftware/Brave-Browser/Default/DIPS-wal
+git clone https://github.com/HalackaDavid/0LinuxBackup.git
+git status > git.out
+mv git.out data
+cd proxproj 
+rm -rf proxproj
+cd data/git
+nvim git?.out
+git*.out
+ll git*.out
+nvim git*.out
+mv git.out git5.out
+mv git5.out git
+deb
+dpkg
+sudo pacman -Sy discord-1:0.0.124
+rm -rf 0LinuxBackup
+iwctl device list
+iwctl staion wlan0 scan
+iwctl station wlan0 disconnect
+iwctl station wlan0 
+iwd
+nvim ~/data/kok/cj
+env | less
+cat .tmux.conf
+cat .tmux.conf | grep tmux
+cat .zshrc | grep TERM
+cat .zshenv | grep TERM
+env | grep TERM
+nvim .zshrc
+source .zshenv
+nvim ~/data/kok/hoz
+htop 
+sudo systemctl status iwd
+station wlan0 show
+iwctl known-networks ucitele forget
+iwctl station wlan0 connect ucitele
+io a
+sudo dmesg
+networkctl
+ls /usr/share/foot/themes/nvim-dark
+cat /usr/share/foot/themes/nvim-dark
+man tmux
+ls /usr/share/foot/themes/
+/usr/share/foot/themes/
+nvim *
+nvim .tmux.conf ~/.config/foot/foot.ini
+nvim .tmux.conf
+cd /mnt/sda1/OLD_BACKUPS/a/meh
+doplhin
+cd /mnt
+rm -rf sdb1
+sudo rm -rf sdb1
+mv data/Wallpapers/0/{466137f87dbcd5b5ad78940678211ec0.png,Sylvia.png}
+rm data/Wallpapers/0/Sylvia.png
+ssh u0_174@192.168.10.120
+nvim --version
+rm c.c
+uname -m
+..
+local -a
+locale -a
+locale
+ssh chromagor@192.168.10.120
+ll data/Wallpapers/wallpaper.active
+git status ~
+(cd ~ && git status)
+git add ~/data/01/java/Main.jav
+git add ~/data/01/java/Main.java
+git add data/01/java/Main.java
+nvim nvim data/01/java/Halacka.java
+data/01/java/
+rm *
+nvim main.java
+rm main.java
+chmod 444 DefStruct.java
+nvim DefStruct.java
+printf '\e[31mRED FG\e[0m\n'\
+printf '\e[41mRED BG\e[0m\n'\
+
+nvim Main.java ~/.tmux.conf
+tmux show -g status-style\
+
+tmux show -g window-status-current-style\
+
+printf '\e]4;1;?\a'\
+
+git restore .tmux.conf
+eixt
+env
+echo $UID $ID
+echo $UID $GID
+echo $UID $GID $USER
+export $TERM=xterm-256color
+export TERM=xterm-256color
+for i in {0..255}; do\
+  printf "\e[38;5;${i}m%3d\e[0m " "$i"\
+  if (( (i + 1) % 16 == 0 )); then\
+    printf "\n"\
+  fi\
+done\
+
+for i in {0..255}; do\
+  printf "\e[48;5;${i}m%3d\e[0m " "$i"\
+  if (( (i + 1) % 16 == 0 )); then\
+    printf "\n"\
+  fi\
+done\
+
+env | grep truecolor
+for i in {0..255}; do\
+  # Query terminal for original RGB\
+  rgb=$(printf '\e]4;%d;?\a' "$i")\
+  # Example: parse and apply factor manually or just pick your favorites\
+done\
+
+for i in {0..255}; do\
+  # Query terminal for original RGB\
+  printf '\e]4;%d;?\a' "$i"\
+  # Example: parse and apply factor manually or just pick your favorites\
+done\
+
+nvim ~/.config/foot/foot.ini
+exot
+cd data/01/java
+echo $TERM
+man brightnessctl
+brightnessctl -l
+nvim .config/foot/foot.ini
+nvim ~/.config/foot/foot.ini ~/.tmux.conf ~/.zshrc ~/.zshenv
+cat ~/.tmux.conf
+./.config/hypr/monitor.sh
+nvim data/rnd/games/warframe/need
+viu 20260214232111_1.jpg
+i pa
+ckear
+pwd
+/home/chromagor/.local/share/Steam/userdata/1436894439/760/remote/230410/screenshots/20260215230406_1.jpg
+sudo pacman -Sy brave
+man pacman
+man pacman -s brave
+pacman -s brave
+man pacman 
+man pacman -Q brave
+pacman -Q brave
+sudo pacman -Sy brave-bin
+systemctl status bluez
+systemctl status bluetooth
+bak 2
+kill 18643
+.local/share/Steam/userdata/1436894439/760/remote/230410/screenshots
+dolphin ,
+pkill Steam 
+ps aux | grep Di
+yay -Sy brave-bin
+cx
+pkill iscord
+ls Download
+cd data/NCORLinux_data
+cd root-x86_64
+diff etc/pacman.conf /etc/pacman.conf
+diff usr/lib/os-release /usr/lib/os-release
+tree root-aarch64
+ps aux 
+sudo htop
+data
+cd Wallpapers
+cd 0
+rm 153.png Sylvia.png
+ping google.com
+ps
+ps aux
+c]
+sudo pacman Sy discord
+nvim data/Parchant.cyber
+cat data/MicrosoftPasswd.txt
+rm data/Parchant.cyber
+ff --list-logos
+ff --list-logos | less
+cd .config/fastfetch
+nvim logo1.txt
+~/data/Wallpapers/0/Roxy.png
+ls ~/data/Wallpapers/0/Roxy.png
+ls /usr/share/fastfetch/l
+ls /usr/share/fastfetch/
+ls /usr/share/fastfetch/presets
+ls /usr/share/fastfetch/presets/examples
+man ff
+man fastfetch
+ff -c /usr/share/fastfetch/presets/neofetch.jsonc
+ff -c /usr/share/fastfetch/presets/all.jsonc
+ff -c /usr/share/fastfetch/presets/archey.jsonc
+ff -c /usr/share/fastfetch/presets/screenfetch.jsonc
+ls /usr/share/fastfetch/presets/examples/2.jsonc
+ff -c /usr/share/fastfetch/presets/examples/2.jsonc
+cat /usr/share/fastfetch/presets/examples/2.jsonc
+fastfetch --list-data-paths
+ls ~
+ls ~/.*
+fastfetch --logo-type file --logo ~/data/Wallpapers/0/Roxy.png
+fastfetch --logo-type file --logo ~/data/Wallpapers/0/Roxy.png --logo-width 30
+fastfetch --logo-type sixel --logo ~/data/Wallpapers/0/Roxy.png --logo-width 30
+fastfetch --logo-type --logo ~/data/Wallpapers/0/Roxy.png --logo-width 30
+fastfetch --logo-type image --logo ~/data/Wallpapers/0/Roxy.png --logo-width 30
+fastfetch --logo-type kitty --logo ~/data/Wallpapers/0/Roxy.png --logo-width 30
+fastfetch --logo-type kitty-dirrect --logo ~/data/Wallpapers/0/Roxy.png --logo-width 30
+fastfetch --logo-type kitty-direct --logo ~/data/Wallpapers/0/Roxy.png --logo-width 30
+ff --logo-width 30
+fastfetch --raw - --logo-width 20 --logo-height 10 
+fastfetch --raw --logo-width 20 --logo-height 10
+fastfetch --raw Roxy --logo-width 20 --logo-height 10
+fastfetch --raw - --logo-width 20 --logo-height 10
+fastfetch --logo-width 20 --logo-height 10
+fastfetch --logo none --logo-width 20 --logo-height 10
+ff --list-data-paths
+\:w
+ffffff
+fastfetch
+sudo nvim /etc/os-release
+systemctl --users status pipewire
+systemctl --user status pipewire
+systemctl --user status xdg-desktop-portal
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-wlr
+sudo pacman -R xdg-desktop-portal-gtk xdg-desktop-portal-kde
+pacman -Qs xdg-desktop-portal
+dsicord
+dd if=Downloads/archlinux-2026.02.01-x86_64.iso of=/dev/sdb status=progress
+sudo dd if=Downloads/archlinux-2026.02.01-x86_64.iso of=/dev/sdb status=progress
+lsblk
+ping 8.8.8.8
+nvim .config/fastfetch/config.jsonc
+nvim .config/fastfetch/{config.jsonc,logo1.txt}
+rm .config/fastfetch/logo1.txt
+echo $XDG_SESSION_TYPE
+brave-browser --enable-features=WebRTCPipeWireCapturer
+discord --enable-features=UseOzonePlatform --ozone-platform=wayland
+hto
+ps aux | grep discord
+ps aux | grep Discord
+ps aux | grep Steam
+ps aux | grep steam
+brave --enable-features=WebRTCPipeWireCapturer
+systemctl --user restart pipewire\
+systemctl --user restart wireplumber\
+systemctl --user restart xdg-desktop-portal
+/mnt/sdb1
+cp -rv ~/Downloads/archlinux-2026.02.01-x86_64.iso .
+sudo cp -rv ~/Downloads/archlinux-2026.02.01-x86_64.iso .
+exut
+ls /mnt/sdb1
+ll /mnt/sdb1
+.config/nvim/nvim_plugins/
+ls *
+ls cmp-nvim-lsp
+ls cmp-nvim-lsp/*
+ls cmp-nvim-lsp/after/plugin
+sl
+ls mason-lspconfig.nvim
+ls mason-lspconfig.nvim/after
+ls mason-lspconfig.nvim/after/lsp/omnisharp_mono.lua
+rm -rf *
+nvim ~/data/rnd/games/warframe/builds
+ja
+java
+java Main.java
+ls .config/BraveSoftware/Brave-Browser/Default/MediaDeviceSalts/*
+cat .config/BraveSoftware/Brave-Browser/Default/MediaDeviceSalts
+ls .config/BraveSoftware/Brave-Browser/Default/MediaDeviceSalts
+git rm -r .config/BraveSoftware/Brave-Browser/Default/MediaDeviceSalts
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default/MediaDeviceSalts
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default/Shared\ Dictionary/
+tree
+ls .*
+ls .local
+ls .local/*
+ls .local/share/Trash
+ls .local/share/Trash/files
+ls .local/share/Trash/files/*
+data/01/java
+nvim Main.java
+mv Main.java Halacka.java
+nvim Halacka.java
+java Halacka.java
+bka 
+ls .config/BraveSoftware/Brave-Browser/Default/Shared Dictionary
+ls .config/BraveSoftware/Brave-Browser/Default/Shared\ Dictionary
+cat .config/BraveSoftware/Brave-Browser/Default/Shared\ Dictionary/db
+cat  .config/BraveSoftware/Brave-Browser/Default/Shortcuts
+ak 1
+f
+cc
+sudo pacman -Su 
+sudo pacman -Su | tr ' ' '\n'
+sudo pacman -Su | tr ' ' '\n' | less
+diff bak bak.v1
+mv bak bak.b
+nvim data/Apps/Data/passwd.txt
+nvim /etc/pacman.conf
+diff data/NCORLinux_data/{root-aarch64/etc/pacman.conf,root-x86_64/etc/pacman.conf}
+pacman-key --populate archlinux
+sudo pacman-key --populate archlinux
+sudo pacman-key --populate blackarch
+cat /etc/pacman.conf
+nvim data/NCORLinux_data/root-aarch64/etc/pacman.conf
+mv bak.b bak
+data/Apps/App
+cp bak bak.b
+cat ~/.gitconfig
+git stash push -u && git pull --rebase && git stash pop || true
+nvim ~/.gitconfig
+man print
+man zsh
+bak kokot
+git rm -r --cached .config/BraveSoftware/Brave-Browser/Default/Favicons-journal
+nvim .gitignore
+git sync
+data/Apps/App/bak
+data/Apps/App/
+nvim bak
+bak
+nvim data/Apps/App/bak
+rm Downloads/*
+df -h
+ls data
+cat data/Apps/Data/passwd.txt
+cat data/Apps/Data/pcpasswd.txt
+cat data/Apps/Data/permis.txt
+cat data/Apps/Data/rus.back
+hyprctl systeminfo
+data/01/c
+cat using\ C.txt
+ls 0test
+nvim 0test/*
+cat data/Wallpapers/wallpaper.active
+ll data/Wallpapers
+iwctl
+iwctl station wlan0 sho
+netoff
+systemctl restart iwd
+systemctl status dhcp
+systemctl status dhcpcd
+systemctl restart dhcpcd
+bak -
+iwctl station wlan 0 show
+systemctl status iwd dhcpcd
+iwctl known-network list
+iwctl help
+iwctl station wlan0 connect "ucitele"
+echo $1
+echo $0
+echo $
+echo $$
+echo $?
+systemctl status iwd
+bak 3
+nvim data/kok/eko
+ls Downloads
+unzip Downloads/0d97ddb3e04a3d2f420d92c58ffe055f54e2ff7161b5f0cb6060036f8202c777-2026-02-23-13-01-15-2369e84ec108460db4a6d2bdc193e5a7.zip
+rm *.jpg
+rm *.png
+rm *.json
+rm file-*
+rm chat.html
+rm -rf user-q9eTJMOcRyvlPAmthM6IqHnt
+rm -rf dalle-generations
+cd Downloads
+mkdir a
+cd a
+unzip ../0d97ddb3e04a3d2f420d92c58ffe055f54e2ff7161b5f0cb6060036f8202c777-2026-02-23-13-01-15-2369e84ec108460db4a6d2bdc193e5a7.zip
+ll -a
+cat chat.html
+cat user.json
+cat conversations-001.json
+du Downloads/0d97ddb3e04a3d2f420d92c58ffe055f54e2ff7161b5f0cb6060036f8202c777-2026-02-23-13-01-15-2369e84ec108460db4a6d2bdc193e5a7.zip
+cp -r Downloads/0d97ddb3e04a3d2f420d92c58ffe055f54e2ff7161b5f0cb6060036f8202c777-2026-02-23-13-01-15-2369e84ec108460db4a6d2bdc193e5a7.zip ~/data
+git status
+nvim *(.)
+.config/hypr
+nvim monitor.conf
+hyprctl dispatch exit
+git restore .config/hypr/hyprland.conf
+nvim .config/hypr/hyprland.conf
+sudo pacman -Su
+sudo pacman -S discord
+bka 1
+ll data/Wallpapers/
+nvim .zsh_history
+du -sh .zsh_history
+ping blackarch.org
+nvim data/kok/hoz
+sudo pacman -Sy hdparm
+pkill d\]iscord
+discord
+cd .config/hypr/
+yay -Sy
+yay -S brave-bin
+nvim .config/hypr/monitor.conf
+nvim monitor.sh
+wpctl get-volume @DEFAULT_AUDIO_SINK@
+nvim hyprland.conf
+nvim ~/data/rnd/os/linux/commands-linux.txt
+whereis chdsk
+where chdsk
+where chkdsk
+wchkdsk
+chkdsk
+ll /
+man init
+cat TODO
+cat ~?TODO
+cat ~/TODO
+cat ~/TODO | less
+nvim ~/data/NCORLinux_data/arch_manual_install
+cat .zshrc
+cat ~/.zshrc
+exi
+cd .config/hypr
+cat soviet-monitoor
+nvim ~/TODO
+nvim data/kok/cj
+date
+v
+iwctl ap scan
+iwctl ap show
+iwctl station ap show
+iwctl ap wlna0 show
+iwctl ap wlan0 show
+iwctl ap list
+iwctl ad-hoc
+iwctl ad-hoc list
+iwctl adapter list
+iwctl wsc list
+iwctl app list
+iwctl wlan0 show
+iwctl station wlan0 get-networks
+iwctl station wlan0 get-hidden-access-points
+iwctl station list
+iwctl station wlan0 list
+iwctl known-networks "0011" set-property
+iwctl known-networks "0011" set-property 0011 1234
+iwctl known-networks show
+iwctl known-networks "0011" show
+iwctl wlan0 connect-hidden "0011"
+iwctl station wlan0 connect-hidden "0011"
+iwctl known-networks "0011" set-property 0011 YES 1111
+iwctl known-networks 
+iwctl known-networks list
+iwctl station wlan0 connect "0011"
+iwctl station wlan0 scan
+iwctl station wlan0 show
+iwctl help | help
+iwctl help | less
+ff
+ls h
+viu
+data/rnd
+viu h/*
+h
+viu Screenshot_20250422-090650_Opera\ GX.png
+viu Screenshot_20250422-090658_Opera\ GX.png
+viu Screenshot_20250422-090702_Opera\ GX.png
+viu Screenshot_20250422-090706_Opera\ GX.png
+viu wps
+cd ..
+cat b
+l
+cat myQuotes
+cat schoolmail
+cat vscode_settings
+lla
+ls tmux
+cat tmux
+cat tmux/tmux
+r -rf tmux
+rm -rf tmux
+cat sro
+ll
+neton
+nvim data/NCORLinux_data/arch_manual_install
+hdparm -Tt /dev/sda
+sudo hdparm -Tt /dev/sda
+sudo hdparm -Tt /dev/sdb
+sudo reboot
+hdparam -Tt /dev/nvme0n1
+hdparm -Tt /dev/nvme0n1
+sudo hdparm -Tt /dev/nvme0n1
+pkill Steam
+pkill steam
+pkill Discord
+pkill discord
+ip a
+nvim data/rnd/games/warframe/builds
+1
+vak 0
+sudo pacman -Sy discord
+git clone https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
+git clone https://github.com/asgeirtj/system_prompts_leaks.git
+rm -rf .config/nvim/nvim_plugins
+nvim data/01/c/0test/1.c
+busctl list
+systemctl list-units --type=service
+[200~busctl --user list~
+busctl --user list
+la
+cd /mnt/sda1
+ls BAtoda
+ls BAtoday
+ls OLD_BACKUPS
+ls OLD_BACKUPS/a
+ls OLD_BACKUPS/a/0
+ls OLD_BACKUPS/a/1
+ls OLD_BACKUPS/a/2
+ls OLD_BACKUPS/a/meh
+m
+cd data/Wallpapers/0
+rm Xeno1.png
+cd
+sudo pacman -S
+sudo pacman -Sy
+sudo pacman -Syu
+systemctl status
+bak 
+sleep 60 && sudo poweroff
+sudo poweroff
+ls .local/share/nvim/mason/bin/clangd
+rm -rf .local/share/nvim/mason
+ls .local/share/nvim/
+rm -rf .local/share/nvim/site/*
+dolhin .
+dolphin .
+man grep
+grep -Rao "a"
+htop
+clear
+nvim c.c
+\:q
+nvim l.lua
+nvim
+exit
+nvim 
+ll /bin/init
+rm c.c l.lua
+ls
+nvim .config/nvim/init.lua
+nvim TODO
+bak 23
+bak 0
+bak 1
+c
+sudo poweroff
+nvim .config/hypr/monitor.conf
+sudo poweroff
