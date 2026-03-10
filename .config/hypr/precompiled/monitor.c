@@ -15,21 +15,17 @@ Monitor unplugged: HDMI-A-1
 Monitor unplugged: FALLBACK
 */
 
-//void WriteFile(const char* filename, const char* fileContent) {
-//    FILE *fPtrWrite;
-//    
-//    fPtrWrite = fopen(filename, "w");
-//
-//    
-//}
-
 int main() {
-    char* hyprConfigPath = getenv("HyprConfigPath");
-    printf("%s  ", hyprConfigPath);
-//    const char* sock_path = getenv("XDG_RUNTIME_DIR");
-//    char path[256];
-//    snprintf(path, sizeof(path), "%s/hypr/%s/.socket2.sock", sock_path, getenv("HYPRLAND_INSTANCE_SIGNATURE"));
-//
+    struct Profile {
+        int profile_number;
+        char monitorName[64];
+
+    };
+    const char* hyprConfigPath = getenv("HyprConfigPath");
+    const char* sock_path = getenv("XDG_RUNTIME_DIR");
+    char path[256];
+    snprintf(path, sizeof(path), "%s/hypr/%s/.socket2.sock", sock_path, getenv("HYPRLAND_INSTANCE_SIGNATURE"));
+    printf("%s\n%s\n%s", hyprConfigPath, sock_path, path);
 //    int sock = socket(AF_UNIX, SOCK_STREAM, 0);
 //    struct sockaddr_un addr = {0};
 //    addr.sun_family = AF_UNIX;
@@ -44,9 +40,8 @@ int main() {
 //    while (fgets(buffer, sizeof(buffer), fdopen(sock, "r"))) {
 //        if (strncmp(buffer, "monitorremoved>>", 16) == 0) {
 //            printf("Monitor unplugged: %s %s", buffer + 16, hyprConfigPath);
-//            //WriteFile(hyprConfigPath);
 //        }
 //    }
 //    close(sock);
-//    return 0;
+    return 0;
 }

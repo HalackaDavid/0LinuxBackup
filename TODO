@@ -4,6 +4,16 @@ grep -Rao "<string>"
 ### SHIT IMPORTANT ###
 ######################
 
+dynamic monitor assigner {
+    lang c
+    IPC usage
+    profiler {
+        default {}
+        per_monitor {}
+    }
+    own "json"
+}
+
 check if on disk is arcjcarm where ssh works
 
 {
@@ -106,3 +116,71 @@ change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
     3. 
     online/offline backup {mesh network, wlan}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
