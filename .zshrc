@@ -217,5 +217,6 @@ alias neton='sudo systemctl start iwd'
 alias netoff='sudo systemctl stop iwd'
 
 alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_login ~/.bash_history 2>/dev/null'
+alias hpr='echo "" > ~/.config/hypr/monitor.conf'
 
 unset var;
