@@ -1,9 +1,14 @@
 #!/bin/sh
 
-if [ $(tty) = "/dev/tty*" ]; then
-    echo "is tty"
-elif [ $(tty) = "/dev/pts/*" ]; then
-    echo "is pts"
-else
-    echo "is neither"
-fi
+case $(tty) in
+    /dev/tty*) 
+        echo "is tty"
+        exec Hyprland
+        ;;
+    /dev/pts/*)
+        echo "is pts"
+        ;;
+    *) 
+        echo "is neither"
+        ;;
+esac
