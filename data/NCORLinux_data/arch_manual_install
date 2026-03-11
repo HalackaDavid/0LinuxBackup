@@ -181,7 +181,7 @@ reboot
 #Verify instalation after reboot
 lsmod | grep -E "nvidia|nouveau"
 ------------------------------------------------------------
-14. COnfigure
+14. Configure ly-dm or tty login
 ------------------------------------------------------------
 Ly-dm
 
