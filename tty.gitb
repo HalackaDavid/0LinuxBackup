@@ -1,8 +1,8 @@
 #!/bin/sh
 
-if $(tty) -eq "/dev/tty*"; then
+if [ $(tty) = "/dev/tty*" ]; then
     echo "is tty"
-elif $(tty) -eq "/dev/pts/*"; then
+elif [ $(tty) = "/dev/pts/*" ]; then
     echo "is pts"
 else
     echo "is neither"
