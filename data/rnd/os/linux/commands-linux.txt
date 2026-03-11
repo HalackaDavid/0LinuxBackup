@@ -7,7 +7,9 @@ Commands {
 	
 	grep {-v    invert match}
 	grep -rnw 'path' -e 'pattern'
-	chown --> change owner
+    grep -Rao "<string>"
+
+    chown --> change owner
 	chmod --> change file read/write/....
         -- read = 4
         -- write = 2

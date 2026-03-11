@@ -4,15 +4,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 /*
-[chromagor@blackarch]-[~/.config/hypr]
->>> ./a.out
-Monitor unplugged: eDP-1
-Monitor unplugged: HDMI-A-1
-Monitor unplugged: HDMI-A-1
-Monitor unplugged: eDP-1
-Monitor unplugged: HDMI-A-1
-Monitor unplugged: FALLBACK
+    dynamic monitor assigner {
+        lang c
+        IPC usage
+        profiler {
+            default {}
+            per_monitor {}
+        }
+    }
+*/
+
+/*
+    [chromagor@blackarch]-[~/.config/hypr]
+    >>> ./a.out
+    Monitor unplugged: eDP-1
+    Monitor unplugged: HDMI-A-1
+    Monitor unplugged: HDMI-A-1
+    Monitor unplugged: eDP-1
+    Monitor unplugged: HDMI-A-1
+    Monitor unplugged: FALLBACK
 */
 
 int main() {

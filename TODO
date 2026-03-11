@@ -1,38 +1,18 @@
-grep -Rao "<string>"
-
 ######################
 ### SHIT IMPORTANT ###
 ######################
 
-dynamic monitor assigner {
-    lang c
-    IPC usage
-    profiler {
-        default {}
-        per_monitor {}
-    }
-    own "json"
+.config/hypr/**/monitor.c
+
+{
+  monitor.sh need to be change for interactive and noneinteractive purposes
+  profiles
 }
-
-check if on disk is arcjcarm where ssh works
-
 {
   what is server
   what it means
   what do you do
 }
-{
-  monitor.sh need to be change for interactive and noneinteractive purposes
-  profiles
-}
-
-LSP yes or no
-
-mirroring def monitor to external than swith to mirror external to internal than disable internal
-
-monitor miroring or right monitor conf
-
-xwaylandvideobridge -> should repair discord sharing
 
 what linux do when job is runing and time runs out on poweroff screen
 
@@ -40,18 +20,18 @@ what linux do when job is runing and time runs out on poweroff screen
 #################
 ### WORKS ??? ###
 #################
-shutdown will not shut down system
+shutdown will not shut down system -> no, only ilusion
 
 
 ################
 ### WHENEVER ###
 ################
 
+sort data and shit in devices
+
 install printscreen
 
 how to change audio output/mic ..
-
-sort data and shit in devices
 
 check PC manual install then backup and resintall with pollkit and other shits
 
@@ -116,71 +96,5 @@ change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
     3. 
     online/offline backup {mesh network, wlan}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
