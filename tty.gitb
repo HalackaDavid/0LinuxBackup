@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if $(tty) -eq "/dev/tty*"; then
+    echo "is tty"
+elif $(tty) -eq "/dev/pts/*"; then
+    echo "is pts"
+else
+    echo "is neither"
+fi

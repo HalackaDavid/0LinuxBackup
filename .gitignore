@@ -12,6 +12,7 @@
 !.myzsh
 !.myzsh/**
 !TODO
+!*.gitb
 
 !.github
 !.github/**
