@@ -1,8 +1,6 @@
 ----------------------
 -- MUST BE VALID LUA--
 ----------------------
-local NvimDefaultPluginPath = os.getenv("HOME").."/.config/nvim/nvim_plugins"
-local lazypath = vim.fn.expand(NvimDefaultPluginPath.. "/lazy.nvim")
 local spaceWidth = 4
 
 
@@ -40,6 +38,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -------------
 -- Plugins --
 -------------
+local NvimDefaultPluginPath = os.getenv("HOME").."/.config/nvim/nvim_plugins"
+local lazypath = vim.fn.expand(NvimDefaultPluginPath.. "/lazy.nvim")
 if not vim.loop.fs_stat(lazypath) then
     vim.fn.system(
         {
