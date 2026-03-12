@@ -1,5 +1,3 @@
-#print ".zprofile"
-
 if [[ "$(tty)" == /dev/tty* ]]; then
     while true; do
         print -n "[1] Hyprland\n[2] Terminal\n>>> "
