@@ -2,8 +2,10 @@
 *
 
 !.zshrc
-!.zshenv
 !.zprofile
+!.zshenv
+!.zlogin
+!.zlogout
 !.tmux.conf
 !.command_list
 !.gitconfig
