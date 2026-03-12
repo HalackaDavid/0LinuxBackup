@@ -1,3 +1,5 @@
+#print ".zprofile"
+
 if [[ "$(tty)" == /dev/tty* ]]; then
     while true; do
         print -n "[1] Hyprland\n[2] Terminal\n>>> "
@@ -9,7 +11,3 @@ if [[ "$(tty)" == /dev/tty* ]]; then
         esac
     done
 fi
-
-print ".zprofile"
-
-

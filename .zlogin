@@ -1,1 +1,1 @@
-print ".zlogin"
+#print ".zlogin"
