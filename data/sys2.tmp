@@ -1,0 +1,58 @@
+● blackarch
+    State: running
+    Units: 318 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Thu 2026-03-12 09:57:01 CET; 31s ago
+  systemd: 259-1-arch
+   CGroup: /
+           ├─init.scope
+           │ └─1 /usr/lib/systemd/systemd --switched-root --system --deserialize=49
+           ├─system.slice
+           │ ├─dbus-broker.service
+           │ │ ├─542 /usr/bin/dbus-broker-launch --scope system --audit
+           │ │ └─543 dbus-broker --log 10 --controller 9 --machine-id acca66b5d60b46fbb26e8c8db8cfb986 --max-bytes 536870912 --max-fds 4096 --max-matches 16384 --audit
+           │ ├─dhcpcd.service
+           │ │ ├─544 "dhcpcd: [manager] [ip4] [ip6]"
+           │ │ ├─547 "dhcpcd: [privileged proxy]"
+           │ │ ├─548 "dhcpcd: [network proxy]"
+           │ │ └─549 "dhcpcd: [control proxy]"
+           │ ├─systemd-journald.service
+           │ │ └─405 /usr/lib/systemd/systemd-journald
+           │ ├─systemd-logind.service
+           │ │ └─545 /usr/lib/systemd/systemd-logind
+           │ ├─systemd-resolved.service
+           │ │ └─437 /usr/lib/systemd/systemd-resolved
+           │ ├─systemd-udevd.service
+           │ │ └─udev
+           │ │   ├─445 /usr/lib/systemd/systemd-udevd
+           │ │   └─727 "(udev-worker)"
+           │ └─systemd-userdbd.service
+           │   ├─430 /usr/lib/systemd/systemd-userdbd
+           │   ├─534 "systemd-userwork: waiting..."
+           │   ├─535 "systemd-userwork: waiting..."
+           │   └─536 "systemd-userwork: waiting..."
+           └─user.slice
+             └─user-1000.slice
+               ├─session-1.scope
+               │ ├─588 "login -- chromagor"
+               │ ├─620 Hyprland
+               │ ├─672 foot
+               │ ├─684 swaybg -c #000000 -m solid_color
+               │ ├─687 Xwayland :0 -rootless -core -listenfd 81 -listenfd 82 -displayfd 124 -wm 121
+               │ ├─696 tmux new-session -A -s D
+               │ └─708 tmux new-session -A -s D
+               └─user@1000.service
+                 ├─app.slice
+                 │ └─dconf.service
+                 │   └─667 /usr/lib/dconf-service
+                 ├─init.scope
+                 │ ├─611 /usr/lib/systemd/systemd --user
+                 │ └─613 "(sd-pam)"
+                 ├─session.slice
+                 │ └─dbus-broker.service
+                 │   ├─664 /usr/bin/dbus-broker-launch --scope user
+                 │   └─665 dbus-broker --log 11 --controller 10 --machine-id acca66b5d60b46fbb26e8c8db8cfb986 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+                 └─tmux-spawn-d0db072f-b77f-4e61-bd0f-177fae0a140c.scope
+                   ├─709 /bin/zsh
+                   └─728 systemctl status
