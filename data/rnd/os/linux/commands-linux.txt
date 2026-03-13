@@ -80,3 +80,168 @@ Programs {
 		-C <restor path> --->  Changes to <restor path> before extracting files. This ensures that the extracted files are placed in <restor path>.
 	}
 }
+
+
+# Zsh Startup File Order
+
+## 1. Always executed
+
+Runs for **every Zsh instance** (interactive, login, scripts).
+
+```
+/etc/zshenv
+~/.zshenv
+```
+
+Used for:
+
+* environment variables
+* PATH
+* exports
+
+Keep it **minimal** because it runs even for scripts.
+
+---
+
+## 2. Login shells
+
+Executed when starting a **login shell** (TTY login, SSH, `zsh -l`).
+
+```
+/etc/zprofile
+~/.zprofile
+```
+
+Used for:
+
+* login environment setup
+* starting services
+* environment configuration
+
+---
+
+## 3. Interactive shells
+
+Executed when opening a **terminal**.
+
+```
+/etc/zshrc
+~/.zshrc
+```
+
+Used for:
+
+* aliases
+* prompt
+* plugins
+* shell behavior
+* keybindings
+
+---
+
+## 4. After login shell initialization
+
+Executed **after `.zshrc`** for login shells.
+
+```
+/etc/zlogin
+~/.zlogin
+```
+
+Used for:
+
+* login messages
+* starting graphical sessions
+* custom login scripts
+
+---
+
+## 5. When login shell exits
+
+Executed when a **login shell ends**.
+
+```
+/etc/zlogout
+~/.zlogout
+```
+
+Used for:
+
+* cleanup tasks
+
+---
+
+# Full Order
+
+```
+1  /etc/zshenv
+2  ~/.zshenv
+
+3  /etc/zprofile
+4  ~/.zprofile
+
+5  /etc/zshrc
+6  ~/.zshrc
+
+7  /etc/zlogin
+8  ~/.zlogin
+
+9  /etc/zlogout
+10 ~/.zlogout
+```
+
+---
+
+# Typical scenarios
+
+## Running a script
+
+```
+zsh script.zsh
+```
+
+Executed:
+
+```
+/etc/zshenv
+~/.zshenv
+```
+
+---
+
+## Opening a terminal
+
+```
+zsh
+```
+
+Executed:
+
+```
+/etc/zshenv
+~/.zshenv
+/etc/zshrc
+~/.zshrc
+```
+
+---
+
+## SSH / TTY login
+
+```
+ssh user@host
+```
+
+Executed:
+
+```
+/etc/zshenv
+~/.zshenv
+/etc/zprofile
+~/.zprofile
+/etc/zshrc
+~/.zshrc
+/etc/zlogin
+~/.zlogin
+```
+
