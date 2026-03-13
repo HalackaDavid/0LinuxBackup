@@ -4,12 +4,12 @@ fi
 
 if [[ "$(tty)" == /dev/tty* ]]; then
     while true; do
-        print -n "[1] Hyprland\n[2] Terminal\n>>> "
+        clear
+        print -n "[ ] Hyprland\n[1] Terminal\n>>> "
         read userInput
         case $userInput in
-            "1") exec Hyprland >/dev/null;;
-            "2") break;;
-            *) ;;
+            "") exec Hyprland >/dev/null;;
+            "1") break;;
         esac
     done
 fi
