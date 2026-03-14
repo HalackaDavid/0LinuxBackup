@@ -1,10 +1,11 @@
-if [ $(grep -H . /sys/class/drm/*/status | grep :connected | grep -v eDP) ] && [ $(uname -m) = "x86_64" ]; then
+if [ $(grep -H . /sys/class/drm/*/status | grep :disconnected | grep -v eDP) ] && [ $(uname -m) = "x86_64" ]; then
     echo "" > $HOME/.config/hypr/monitor.conf
+    echo "display seen $HOME/.config/hypr/monitor.conf"
 fi
 
 if [[ "$(tty)" == /dev/tty* ]]; then
     while true; do
-        clear
+        #clear
         print -n "[ ] Hyprland\n[1] Terminal\n>>> "
         read userInput
         case $userInput in
