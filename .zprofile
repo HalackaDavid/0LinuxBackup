@@ -5,5 +5,5 @@ if [ $(grep -H . /sys/class/drm/*/status | grep :disconnected | grep -v eDP) ] &
 fi
 
 if [[ "$(tty)" == /dev/tty* ]]; then
-        exec Hyprland >/dev/null;;
+        exec Hyprland >/dev/null;
 fi
