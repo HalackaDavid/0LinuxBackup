@@ -8,6 +8,8 @@ trust estateits
 ### SHIT IMPORTANT ###
 ######################
 
+check nvme ssd life time
+
 .config/hypr/**/monitor.c
 
 {
