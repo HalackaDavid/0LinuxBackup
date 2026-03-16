@@ -4,7 +4,8 @@ Main() {
     local FileSystemPath=$myFSPath;
     local mountpoint;
     local usbname;
-    
+    local list_dev;
+
     if [[ ! $myDevicePath ]]; then
         echo "ERROR \$myDevicePath NOT FOUND";
         return;
@@ -19,8 +20,13 @@ Main() {
     if [[ ! -d $mountpoint ]]; then
         sudo mkdir $mountpoint;
     fi   
+    
+    if [[ $1 == "-a" ]]; then
+        local list_dev=$(lsblk -n -o NAME,SIZE,MOUNTPOINTS);       
+    else
+        local list_dev=$(lsblk -n -o NAME,SIZE,MOUNTPOINTS --include 8,259);
+    fi
 
-    local list_dev=$(lsblk -n -o NAME,SIZE,MOUNTPOINTS --include 8,259);
     if [[ $list_dev ]]; then
         echo "$list_dev";
     else
@@ -77,4 +83,4 @@ Main() {
 #chromagor ALL=(ALL:ALL) NOPASSWD: ALL
 
 #sudo -v || return 1;
-Main;
+Main $1;
