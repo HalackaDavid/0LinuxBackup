@@ -24,6 +24,8 @@ check nvme ssd life time
 
 what linux do when job is runing and time runs out on poweroff screen
 
+sort data and shit in devices
+
 
 #################
 ### WORKS ??? ###
@@ -35,13 +37,9 @@ shutdown will not shut down system -> no, only ilusion
 ### WHENEVER ###
 ################
 
-sort data and shit in devices
-
 install printscreen
 
 how to change audio output/mic ..
-
-check PC manual install then backup and resintall with pollkit and other shits
 
 tinker with monitor.conf
 
