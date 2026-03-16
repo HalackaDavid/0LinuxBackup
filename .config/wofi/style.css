@@ -1,26 +1,35 @@
+* {
+    outline: none;
+}
+
 window {
 margin: 0px;
-border: 1px solid #bd93f9;
-background-color: #282a36;
+border: 1px solid #393939;
+background-color: #000000;
+}
+
+#input:focus {
+outline: none;
+box-shadow: none; 
 }
 
 #input {
 margin: 5px;
 border: none;
 color: #f8f8f2;
-background-color: #44475a;
+background-color: #33343b;
 }
 
 #inner-box {
 margin: 5px;
 border: none;
-background-color: #282a36;
+background-color: #000000;
 }
 
 #outer-box {
 margin: 5px;
 border: none;
-background-color: #282a36;
+background-color: #000000;
 }
 
 #scroll {
@@ -35,7 +44,7 @@ color: #f8f8f2;
 } 
 
 #entry.activatable #text {
-color: #282a36;
+color: #000000;
 }
 
 #entry > * {
@@ -43,7 +52,7 @@ color: #f8f8f2;
 }
 
 #entry:selected {
-background-color: #44475a;
+background-color: #33343b;
 }
 
 #entry:selected #text {
