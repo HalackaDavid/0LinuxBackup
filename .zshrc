@@ -210,11 +210,11 @@ if [ -f /etc/zsh_command_not_found ]; then
 fi
 
 # enable auto-suggestions based on the history
-if [ -f ~/.myzsh/my_zsh_autosuggestions ]; then
-    . ~/.myzsh/my_zsh_autosuggestions
-    # change suggestion color
-    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
-fi
+#if [ -f ~/.myzsh/my_zsh_autosuggestions ]; then
+#    . ~/.myzsh/my_zsh_autosuggestions
+#    # change suggestion color
+#    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
+#fi
 
 #Aliases
 alias grep='grep --color=auto'
