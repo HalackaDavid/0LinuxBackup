@@ -44,3 +44,14 @@ Zobrazovací a svuková soustava
     full hd
     2k - quad hd
     4k - utra hd
+
+zvuková soustava
+    - zvukový čip DSP
+    
+    reproduktory
+        stereo reproductory 
+            - 41 51 
+            prevod z analogu do digitalu -> sambling
+            spodni zvuková frekvence 48 kHz
+
+            syntezátor - část čipu generující umělý zvuk
