@@ -1,0 +1,9 @@
+build in noop
+
+    : > file.c
+
+same as 
+
+    echo "" > file.c
+
+but faster

@@ -1,4 +1,1 @@
-echo "" > $HOME/.config/hypr/monitor.conf
-if [[ "$(tty)" == /dev/tty1 ]]; then
-        exec Hyprland >/dev/null;
-fi
+[[ "$TTY" == /dev/tty1 ]] && : > $HOME/.config/hypr/monitor.conf && exec Hyprland
