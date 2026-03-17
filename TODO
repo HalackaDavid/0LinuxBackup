@@ -1,18 +1,12 @@
-what war do with money up and downs ?
-green deal
-Alex Karp - CEO of palantirs tecnologies
-jak mohu pozit debt k mitigovani daní ?
-trust estateits
-
 ######################
 ### SHIT IMPORTANT ###
 ######################
 
 check nvme ssd life time
 
-.config/hypr/**/monitor.c
 
 {
+  .config/hypr/**/monitor.c
   monitor.sh need to be change for interactive and noneinteractive purposes
   profiles
 }
@@ -27,12 +21,6 @@ what linux do when job is runing and time runs out on poweroff screen
 sort data and shit in devices
 
 
-#################
-### WORKS ??? ###
-#################
-shutdown will not shut down system -> no, only ilusion
-
-
 ################
 ### WHENEVER ###
 ################
@@ -40,8 +28,6 @@ shutdown will not shut down system -> no, only ilusion
 install printscreen
 
 how to change audio output/mic ..
-
-tinker with monitor.conf
 
 Vaultwarden - rust psswd manager
 
@@ -54,11 +40,16 @@ try wpa + dhcpcd but duration forever
 how WPS network work
 
 
+#################
+### WORKS ??? ###
+#################
+
+shutdown will not shut down system and it will hang and why tf
+
+
 #####################
 ### NOT SURE DONE ###
 #####################
-
-change ~/.config/hyp/monitor.conf --> runtime config -> no extra file
 
 
 #########################

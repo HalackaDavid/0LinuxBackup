@@ -57,7 +57,7 @@ Main() {
             echo "Umounting...";
             
             sudo umount $myDevicePath/$usbname;
-            if [[ ! $(findmnt --target "$mountpoint/$usbname") ]]; then
+            if [[ ! $(findmnt --source "$mountpoint/$usbname") ]]; then
                 sudo mv -v $mountpoint/$usbname /tmp;
             fi
 
@@ -70,8 +70,8 @@ Main() {
             if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
                 echo ">>> $mountpoint/$usbname <<<";
             else
-                if [[ ! $(findmnt --target "$mountpoint/$usbname") ]]; then
-                    mv -v $mountpoint/$usbname /tmp;
+                if [[ ! $(findmnt --source "$mountpoint/$usbname") ]]; then
+                    sudo mv -v $mountpoint/$usbname /tmp;
                 fi
             fi
 
