@@ -20,6 +20,19 @@ CopyFiles() {
     
 }
 
+Backup() {
+    (
+        cd $rootDirPath
+        for i in $(tree -if *); do
+            if [[ -f $i ]]; then
+                echo "sudo cat $rootDirPath/$i > /$i"
+                #sudo cat $rootDirPath/$i > /$i
+            fi
+        done
+        unset i
+    )
+}
+
 case $(uname -m) in 
 aarch64)
     rootDirPath=$(dirname $0)/root-aarch64
@@ -32,7 +45,8 @@ esac
 if [ "$(id -u)" -ne 0 ]; then
     echo "you must be root"
 else
-    CopyFiles
+    Backup
+    #CopyFiles
 #    BlackArchSetup
     unset rootDirPath
 fi
