@@ -45,8 +45,8 @@ esac
 if [ "$(id -u)" -ne 0 ]; then
     echo "you must be root"
 else
-    Backup
-    #CopyFiles
+#   Backup
+#   CopyFiles
 #    BlackArchSetup
     unset rootDirPath
 fi
