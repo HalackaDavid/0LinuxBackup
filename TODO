@@ -4,7 +4,6 @@
 
 check nvme ssd life time
 
-
 {
   .config/hypr/**/monitor.c
   monitor.sh need to be change for interactive and noneinteractive purposes
