@@ -84,7 +84,11 @@ základní
         find /home -name a.txt    #najdi mi všechny soubory a.txt pod adresářem /home
 
 
-    # aaa
+    # měnění práv
+        chmod
+        chown
+        chgrp
+        
 
 
 ############

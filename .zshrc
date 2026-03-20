@@ -93,8 +93,8 @@ function zle-keymap-select {
         echo -ne '\e[6 q'  # vertical bar
     fi
 }
+precmd_functions+=(zle-keymap-select)
 zle -N zle-keymap-select
-echo -ne '\e[6 q'  # set initial cursor   
 
 ################
 ### KEYBINDS ###
