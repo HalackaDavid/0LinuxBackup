@@ -19,11 +19,9 @@ fi
 
 case $(uname -m) in 
 aarch64)
-    export myOSName=BlackArchArm
     export myDevicePath=/dev/block
     ;;
 x86_64)
-    export myOSName=BlackArch
     export myDevicePath=/dev
     ;;
 esac
@@ -87,13 +85,26 @@ zstyle ':completion:*' use-compctl false
 zstyle ':completion:*' verbose true
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
+#nvim cursors
+function zle-keymap-select {
+    if [[ ${KEYMAP} == vicmd ]]; then
+        echo -ne '\e[2 q'  # block cursor
+    else
+        echo -ne '\e[6 q'  # vertical bar
+    fi
+}
+zle -N zle-keymap-select
+echo -ne '\e[6 q'  # set initial cursor   
+
 ################
 ### KEYBINDS ###
 ################
 # cat -v can be used for see what exact key sequence is for my terminal
 #
 # Keybindings section
-bindkey -e
+#bindkey -e #emacs keybinds
+export KEYTIMEOUT=1
+bindkey -v '^?' backward-delete-char
 bindkey ' ' magic-space
 
 #Home key

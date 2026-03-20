@@ -1,0 +1,92 @@
+<cesta> -> uzivatel si ma vybrat v tomto případě cestu => funguje to jako proměné
+# vše co je za hashtagem je komentář a nepatří do commandu
+
+
+########
+základní
+########
+    # chození v aresářích
+        cd <cesta>
+
+    
+    # vytvoření adresářů
+        mdkir <cesta>
+        
+        mkdir ~/Dir1    # vytvoření jednoho adresáře
+        mkdir ~/Dir1 ~/Dir2 ~/Dir3     # vytvoření libovolného počtu adresářů
+        mkdir ~/Dir1 /root/Dir2 /Dir3     # vytvoření libovolného počtu adresářů tentokrát na jiná místa
+
+    # vytvoření souboru
+        touch <cesta>
+
+        touch a.txt     # vytvoření jednoho souboru
+        touch ~/a.txt ~/b.txt    # vytvoření více souborů najednou
+        touch /root/a.txt ~/b.txt     # vytvoření více souborů ve více lokacích najednou
+
+
+    # vypsání adresáře
+        ls <cesta>
+        ls      # vypsání adresáře kde se právě nacházím
+        ls .    # vypsání adresáře kde se právě nacházím
+        ls ~    # vypsání adresáře home
+        ls -l   # vypsání všeho čas,inode....
+        ls -a   # vypsání skrytých souborů
+        ls -la  # spojení ls -l + ls -a
+    
+
+    # vypsání souboru
+        cat <cesta>
+
+        cat a.txt       # vypsání souboru
+        cat a.txt b.txt # vypsání souborů
+        cat ~/.txt /root/b.txt   # vypsání souborů v jinačích lokacích
+
+        # něco podobného
+            more <cesta>
+            less <cesta>
+        
+    # kopírování souborů/adresářů (složek)
+        cp ~/Dokumenty/a.txt ~    #zkopíruje soubor do home adresáře s prvotním názvem
+        
+        nebo
+        
+        cp ~/Dokumenty/a.txt ~/<nový název>   #zkopíruje soubor do home adresáře s novým názvem
+        cp -r ~/Dokumenty ~/Hudba => zkopíruje dokumenty a všechny soubory a adresáře do ~/Hudba
+
+    # přesouvání souborů
+        mv ~/Dokumenty/a.txt ~/b.txt
+
+        # přejmenování souboru/složky
+            mv ~/Dokumenty/a.txt ~/Dokumenty/b.txt    #přejmenuje, zůstane na stejném místě (ve zkutečnosti to "změní" cestu ale vypadá to jako by se přejmenoval => cestu z ~/Dokumenty/a.txt do ~/Dokumenty/b.txt)
+
+
+    # vypsání cesty kde se zrovna nacházím
+        pwd
+    
+
+    # vypsání enviroment variables
+        printenv    # starý spůsob z BSD systémů
+        env         # nový způsob z UNIX systému
+
+
+    # adminské práva / root práva
+        sudo -i    # adminský cmd
+        sudo <command>   # command dostane root práva
+        
+        sudo ls     # výpis ls s právy root
+    
+
+    # nacházení souborů v systému
+        find <cesta> -name <nazev>
+
+        find . -name a.txt     # najdi mi soubor od cesty kde se zrovna nacházím
+
+        find /home -name a.txt    #najdi mi všechny soubory a.txt pod adresářem /home
+
+
+    # aaa
+
+
+############
+pokročilejší
+############
