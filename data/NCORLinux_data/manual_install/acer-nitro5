@@ -1,6 +1,6 @@
 ============================================================
 ARCH LINUX MANUAL INSTALL MANIFEST
-Acer Nitro 5 | Gaming + Hyprland | Minimal 
+ACER NITRO 5 | Gaming + Hyprland | Minimal 
 ============================================================
 
 SYSTEM GOALS
@@ -10,7 +10,7 @@ SYSTEM GOALS
 - Hyprland (Wayland only, no Waybar)
 - GTX 1050 gaming via legacy NVIDIA 580xx drivers (AUR)
 - Intel iGPU default until NVIDIA installed
-- TTY login only (LY in progress)
+- TTY login only
 - Ethernet primary, Wi-Fi via iwd
 
 DISK LAYOUT
@@ -22,7 +22,7 @@ Disk: /dev/<TARGET_DISK>
 ------------------------------------------------------------
 1. LIVE ISO PREP
 ------------------------------------------------------------
-setfont ter-132n #For live iso only after reboot gone
+setfont ter-132n #For live iso to make bigger text only after reboot gone 
 timedatectl set-ntp true
 
 Verify UEFI:
@@ -118,23 +118,19 @@ passwd   # set root password temporarily
 useradd -m -G wheel -s /bin/zsh <USERNAME>
 passwd <USERNAME>
 
-EDITOR=nvim visudo
+in /etc/sudoers
 - Uncomment: %wheel ALL=(ALL:ALL) ALL
 
 # Optional: disable root login
 passwd -l root
-
-
-ADD POLKIT SETUP HERE
 
 ------------------------------------------------------------
 11. SYSTEMD-BOOT (UEFI)
 ------------------------------------------------------------
 bootctl install
 
-#it is for ncor.conf
+#it is for ncor.conf (variables are with arrow braces '<' and '>' anyhing else is as it is typed)
 <ROOT_UUID>=$(lsblk -o PARTUUID /dev/<DISKNAME>)
-
 <BOOT_NAME>=ncor
 
 #inside /boot/loader/loader.conf
@@ -150,6 +146,7 @@ linux   /vmlinuz-linux
 initrd  /initramfs-linux.img
 options root=PARTUUID=<ROOT_UUID> rw
 
+reboot to the os
 ------------------------------------------------------------
 12. instaling yay (needed for step 13)
 ------------------------------------------------------------
@@ -185,9 +182,8 @@ lsmod | grep -E "nvidia|nouveau"
 ------------------------------------------------------------
 14. Configure ly-dm or tty login
 ------------------------------------------------------------
-Ly-dm
-
 tty-login
+
 ------------------------------------------------------------
 15. AUDIO
 ------------------------------------------------------------
