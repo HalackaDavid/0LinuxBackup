@@ -158,7 +158,7 @@ pactl info
 16. BlackArch repo
 ------------------------------------------------------------
 
-curl -O https://ncor.org/strap.sh
+curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 
 #Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials
