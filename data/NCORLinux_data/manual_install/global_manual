@@ -1,24 +1,3 @@
-============================================================
-ARCH LINUX MANUAL INSTALL MANIFEST
-ACER NITRO 5 | Gaming + Hyprland | Minimal 
-============================================================
-
-SYSTEM GOALS
-------------
-- Minimal Arch Linux
-- UEFI + systemd-boot
-- Hyprland (Wayland only, no Waybar)
-- GTX 1050 gaming via legacy NVIDIA 580xx drivers (AUR)
-- Intel iGPU default until NVIDIA installed
-- TTY login only
-- Ethernet primary, Wi-Fi via iwd
-
-DISK LAYOUT
------------
-Disk: /dev/<TARGET_DISK>
-- /boot  1 GiB  FAT32 EFI
-- /      rest   ext4
-
 ------------------------------------------------------------
 1. LIVE ISO PREP
 ------------------------------------------------------------
@@ -110,6 +89,7 @@ systemctl enable dhcpcd
 systemctl enable iwd
 # Ethernet works automatically
 # Wi-Fi via: iwctl
+# sudo systemctl start iwd will bypass systemd passwd
 
 ------------------------------------------------------------
 10. USERS & SECURITY
@@ -157,28 +137,11 @@ cd yay
 makepkg -si
 
 ------------------------------------------------------------
-13. optional NVIDIA / PRIME OFFLOAD (After first boot) 
+13. NVIDIA GPU
 ------------------------------------------------------------
+13a. -> ACER NITRO 5
+13b. -> ASUS TUF GAMING A16
 
-yay -S nvidia-580xx-dkms lib32-nvidia-580xx-utils
-
-echo "options nvidia-drm modeset=1" | sudo tee /etc/modprobe.d/nvidia.conf
-
-sudo nano /etc/modprobe.d/blacklist-nouveau.conf
-    #inside
-        blacklist nouveau
-        options nouveau modeset=0
-
-sudo nano /etc/mkinitcpio.conf
-    #inside find MODULES and edit them like
-        MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
-
-sudo mkinitcpio -P
-
-reboot
-
-#Verify instalation after reboot
-lsmod | grep -E "nvidia|nouveau"
 ------------------------------------------------------------
 14. Configure ly-dm or tty login
 ------------------------------------------------------------
@@ -215,3 +178,80 @@ mv <GIT FOLDER>/* $HOME
 ============================================================
 END OF MANIFEST
 ============================================================
+
+
+
+
+
+
+
+============================================================
+ARCH LINUX MANUAL INSTALL MANIFEST
+ACER NITRO 5 | Gaming + Hyprland | Minimal 
+============================================================
+
+SYSTEM GOALS
+------------
+- Minimal Arch Linux
+- UEFI + systemd-boot
+- Hyprland
+- GTX 1050 gaming via legacy NVIDIA 580xx drivers (AUR)
+- Intel iGPU default until NVIDIA installed
+- TTY login only
+- Ethernet primary, Wi-Fi via iwd
+
+DISK LAYOUT
+-----------
+Disk: /dev/<TARGET_DISK>
+- /boot  1 GiB  FAT32 EFI
+- /      rest   ext4
+
+------------------------------------------------------------
+13a. optional NVIDIA / PRIME OFFLOAD (After first boot) 
+------------------------------------------------------------
+
+yay -S nvidia-580xx-dkms lib32-nvidia-580xx-utils
+
+echo "options nvidia-drm modeset=1" | sudo tee /etc/modprobe.d/nvidia.conf
+
+sudo nano /etc/modprobe.d/blacklist-nouveau.conf
+    #inside
+        blacklist nouveau
+        options nouveau modeset=0
+
+sudo nano /etc/mkinitcpio.conf
+    #inside find MODULES and edit them like
+        MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
+
+sudo mkinitcpio -P
+
+reboot
+
+#Verify instalation after reboot
+lsmod | grep -E "nvidia|nouveau"
+
+
+
+
+============================================================
+ARCH LINUX MANUAL INSTALL MANIFEST
+ASUS TUF GAMING A16 | Gaming + Hyprland | Minimal 
+============================================================
+
+SYSTEM GOALS
+------------
+- Minimal Arch Linux
+- UEFI + systemd-boot
+- Hyprland (Wayland only, no Waybar)
+- TTY login only
+- Ethernet primary, Wi-Fi via iwd
+
+DISK LAYOUT
+-----------
+Disk: /dev/<TARGET_DISK>
+- /boot  1 GiB  FAT32 EFI
+- /      rest   ext4
+
+------------------------------------------------------------
+13b. optional NVIDIA / PRIME OFFLOAD (After first boot) 
+------------------------------------------------------------
