@@ -79,7 +79,7 @@ require("lazy").setup(
                 require('telescope').setup {
                     defaults = {
                         scroll_strategy = "limit";
-                        file_ignore_patterns = { ".git/[^h]" };
+                        --file_ignore_patterns = { ".git/[^h]" };
                     },
                     pickers = {
                         find_files = {
