@@ -6,7 +6,7 @@ CopyFiles() {
         for i in $(tree -if *); do
             if [[ -f $i ]]; then
                 echo "sudo cat $rootDirPath/$i > /$i"
-                #sudo cat $rootDirPath/$i > /$i
+                sudo cat $rootDirPath/$i > /$i
             fi
         done
         unset i
@@ -39,8 +39,8 @@ esac
 if [ "$(id -u)" -ne 0 ]; then
     echo "you must be root"
 else
-#   echo "back" && Backup
-#   echo "copy" && CopyFiles
+#    echo "back" && Backup
+    echo "copy" && CopyFiles
 #    BlackArchSetup
     unset rootDirPath
 fi

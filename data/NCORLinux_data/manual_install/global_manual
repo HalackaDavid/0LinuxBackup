@@ -55,7 +55,7 @@ pacstrap /mnt \
   xdg-desktop-portal xdg-desktop-portal-wlr \
   hyprland wl-clipboard wofi swaybg hyprlock brightnessctl foot foot-terminfo \
   dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs ark \
-  sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
+  sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh tree
 
 ------------------------------------------------------------
 6. FSTAB
