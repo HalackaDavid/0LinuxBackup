@@ -121,7 +121,7 @@ editor no
 
 #inside /boot/loader/entries/<BOOT_NAME>.conf
 -------------------------------
-title   BlackArch
+title   NCOR
 linux   /vmlinuz-linux
 initrd  /initramfs-linux.img
 options root=PARTUUID=<ROOT_UUID> rw
@@ -145,7 +145,7 @@ makepkg -si
 ------------------------------------------------------------
 14. Configure ly-dm or tty login
 ------------------------------------------------------------
-tty-login
+tty-login -> need to clone repo first 
 
 ------------------------------------------------------------
 15. AUDIO
