@@ -57,7 +57,6 @@ pacstrap /mnt \
   dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs ark \
   sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh
 
-#ly polkit 
 ------------------------------------------------------------
 6. FSTAB
 ------------------------------------------------------------
