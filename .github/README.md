@@ -4,5 +4,7 @@ Last Setup
 ```
 cp ~/data/git/config ~/.git
 
-source <PathToCustomLinuxFileInit>
+sudo ~/data/NCORLinux_data/ncor_init
 ```
+
+
