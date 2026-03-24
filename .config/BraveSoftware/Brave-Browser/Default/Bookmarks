@@ -1,19 +1,8 @@
 {
-   "checksum": "8e44a2adf6ed40ba913700e8298687ce",
+   "checksum": "63f44463ff5b5d59ed180378fdcd1d9d",
    "roots": {
       "bookmark_bar": {
-         "children": [ {
-            "date_added": "13417875654585072",
-            "date_last_used": "0",
-            "guid": "00a049af-5e51-4acf-bba8-b8bb8e5a5767",
-            "id": "5",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "- detailní vyhodnocení testu [2026-03-13 10:58]",
-            "type": "url",
-            "url": "https://zbrojni-prukaz.etesty.cz/zbrojak_test_vyhodnoceni_full.php?test_ident=62ajotzyu6nf49s"
-         } ],
+         "children": [  ],
          "date_added": "13411051268462107",
          "date_last_used": "0",
          "date_modified": "13417875654585072",
@@ -43,6 +32,6 @@
          "type": "folder"
       }
    },
-   "sync_metadata": "CooBChAIiIECEgqCy5uEomcAAAAAEgAaWDFnWWdKQm1BK2d6bEtEM3J5N1hMeVhBdXZ3RnBic2puRGhnSmUwNmhZWnlRekxHTEsvYzRnNXh2djYyazhmVVFVUEN6aFpPdEx4cFZsb2ZIVTVYY0FBPT0qGEVlSitBMkU3blR0YWNEMEZHN3Q2bnc9PUgDEqcBCAUSogEKHHNWejdFZmNEbDRkRTZGZHJpdmllTE9CV3Nrbz0SJDViZmZhNzU5LTBiM2UtNDU2Zi04MDVkLTQ3MDZiY2JiYzFkOBgAIAIoAjDI/v+3zjM4wr//t84zQNC//7fOM0ocMzJiSkcyTzlCY3Rhdy9adWh2dVMzaG5BVVd3PVoeIhxjTHowam9ZWDBnbnRSUSt1b3NwVlFnMjNucnM9ZVz7C/MSgwEIAhJ/ChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ5NGM4MmU5OS0zNmZlLTQzZmUtOGUxYi0xMWEyODQyMzQ3NWYYACAAKAAwATjUu8PIvzNA1LvDyL8zShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKDAQgDEn8KHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDAzMGRmMmQzLWFmNWItNDg2Mi04NGRmLThlNTg0YjcyMTY1MhgAIAAoADABONS7w8i/M0DUu8PIvzNKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEoMBCAESfwoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMTk5M2M4NDAtZDIzYy00YjIxLTkzN2UtMjU3OWVkMDA2ZjNkGAAgACgAMAE41LvDyL8zQNS7w8i/M0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAwATgA",
+   "sync_metadata": "CooBChAIiIECEgrmiMXno2cAAAAAEgAaWDFnWWdKQm1BK2d6bEtEM3J5N1hMeVhBdXZ3RnBic2puRGhnSmUwNmhZWnlRekxHTEsvYzRnNXh2djYyazhmVVFVUEN6aFpPdEx4cFZsb2ZIVTVYY0FBPT0qGEVlSitBMkU3blR0YWNEMEZHN3Q2bnc9PUgDEoMBCAESfwoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMTk5M2M4NDAtZDIzYy00YjIxLTkzN2UtMjU3OWVkMDA2ZjNkGAAgACgAMAE41LvDyL8zQNS7w8i/M0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASgwEIAxJ/ChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQwMzBkZjJkMy1hZjViLTQ4NjItODRkZi04ZTU4NGI3MjE2NTIYACAAKAAwATjUu8PIvzNA1LvDyL8zShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKDAQgCEn8KHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDk0YzgyZTk5LTM2ZmUtNDNmZS04ZTFiLTExYTI4NDIzNDc1ZhgAIAAoADABONS7w8i/M0DUu8PIvzNKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAMAE4AA==",
    "version": 1
 }
