@@ -163,7 +163,7 @@ chmod +x strap.sh
 #Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials
 #it is around last
 
-sudo strap
+sudo ./strap.sh
 ------------------------------------------------------------
 17. MY DATA AND SHIT
 ------------------------------------------------------------

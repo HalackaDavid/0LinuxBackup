@@ -1,11 +1,5 @@
 #!/bin/sh
 
-BlackArchSetup() {
-    curl -O https://blackarch.org/strap.sh && chmod +x strap.sh
-    echo "Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials"
-    echo "Then run sudo ./strap.sh"
-}
-
 CopyFiles() {
     (
         cd $rootDirPath
@@ -25,7 +19,7 @@ Backup() {
         cd $rootDirPath
         for i in $(tree -if *); do
             if [[ -f $i ]]; then
-                echo "sudo cp /$i $rootDirPath/$i"
+                echo "sudo cat /$i > $rootDirPath/$i"
                 #sudo cat $rootDirPath/$i > /$i
             fi
         done
@@ -45,8 +39,8 @@ esac
 if [ "$(id -u)" -ne 0 ]; then
     echo "you must be root"
 else
-#   Backup
-#   CopyFiles
+#   echo "back" && Backup
+#   echo "copy" && CopyFiles
 #    BlackArchSetup
     unset rootDirPath
 fi
