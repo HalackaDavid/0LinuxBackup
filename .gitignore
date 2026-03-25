@@ -16,6 +16,9 @@
 !.myzsh/**
 !TODO
 !*.gitb
+!.ssh
+!.ssh/**
+
 
 !.github
 !.github/**
