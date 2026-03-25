@@ -1,4 +1,4 @@
-if (( $+commands[tmux] )) && [[ -z $TMUX && $- == *i* && -t 0 ]]; then
+if [[ -z $TMUX && $- == *i* && -t 0 ]]; then
     if ! tmux list-sessions 2>/dev/null | grep -q '^D.*(attached)'; then
         exec tmux new-session -A -s D
     else
