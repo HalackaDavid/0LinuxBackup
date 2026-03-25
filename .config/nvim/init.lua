@@ -147,7 +147,7 @@ require("lazy").setup(
             "mason-org/mason-lspconfig.nvim",
             dependencies = { "mason-org/mason.nvim" },
             opts = {
-                ensure_installed = vim.loop.os_uname().machine == "x86_64" and { "clangd" } or {},
+--                ensure_installed = vim.loop.os_uname().machine == "x86_64" and { "clangd" } or {},
             },
         },
         { -- Completion engine
