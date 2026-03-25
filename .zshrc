@@ -249,5 +249,5 @@ alias netoff='sudo systemctl stop iwd'
 
 alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_login ~/.bash_history 2>/dev/null'
 alias hpr='echo "" > ~/.config/hypr/monitor.conf'
-
+alias hyprdown='command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit'
 unset var;
