@@ -82,12 +82,8 @@ require("lazy").setup(
                         --file_ignore_patterns = { ".git/[^h]" };
                     },
                     pickers = {
-                        find_files = {
-                            hidden = true;
-                        },
-                        buffers = {
-                            sort_mru = true;
-                        }
+                        find_files = { hidden = true; },
+                        buffers = { sort_mru = true; }
                     },
                     extensions = {
                         ['ui-select'] = {
