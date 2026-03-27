@@ -27,9 +27,6 @@
 !.termux
 !.termux/**
 
-!.cache/
-!.cache/wofi-drun
-
 !.config/
 !.config/**
 .config/discord/
