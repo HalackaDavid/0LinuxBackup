@@ -1,3 +1,41 @@
+============================================================
+ARCH LINUX MANUAL INSTALL MANIFEST
+============================================================
+
+Available PCs
+-------------
+a. -> ACER NITRO 5
+b. -> ASUS TUF GAMING A16 
+
+# When you see something like:
+#
+# 1a. -> PC1
+# 1b. -> PC2
+#
+#  "1a." or "1b." means manual name 
+#  "-> PC1" or "-> PC2" means for what pc you want it
+
+
+------------------------------------------------------------
+
+SYSTEM GOALS
+------------
+- Minimal Arch Linux
+- UEFI + systemd-boot
+- Hyprland (Wayland only, no Waybar)
+- TTY login
+- Ethernet primary, Wi-Fi via iwd
+- Gaming / Pentesting
+
+DISK LAYOUT
+-----------
+Disk: /dev/<TARGET_DISK>
+- /boot  1 GiB  FAT32 EFI
+- /      rest   ext4
+
+------------------------------------------------------------
+
+
 ------------------------------------------------------------
 1. LIVE ISO PREP
 ------------------------------------------------------------
@@ -11,7 +49,9 @@ ls /sys/firmware/efi/efivars
 2. MIRRORS AND PACMAN CONFIG
 ------------------------------------------------------------
 # Ensure core, extra, community repos enabled
-nano /etc/pacman.conf
+
+vim /etc/pacman.conf
+
 # Uncomment:
 [core]
 Include = /etc/pacman.d/mirrorlist
@@ -84,11 +124,12 @@ echo "<HOSTNAME>" > /etc/hostname
 ------------------------------------------------------------
 9. NETWORKING
 ------------------------------------------------------------
-systemctl enable dhcpcd
-systemctl enable iwd
 # Ethernet works automatically
 # Wi-Fi via: iwctl
 # sudo systemctl start iwd will bypass systemd passwd
+
+systemctl enable dhcpcd
+systemctl enable iwd
 
 ------------------------------------------------------------
 10. USERS & SECURITY
@@ -126,10 +167,10 @@ initrd  /initramfs-linux.img
 options root=PARTUUID=<ROOT_UUID> rw
 
 reboot to the os
+
 ------------------------------------------------------------
 12. instaling yay (needed for step 13)
 ------------------------------------------------------------
-
 pacman -S base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -153,10 +194,12 @@ tty-login -> need to clone repo first
 #Verify:
 pactl info
 
+#some other command that is good to know
+wpctl status
+
 ------------------------------------------------------------
 16. BlackArch repo
 ------------------------------------------------------------
-
 curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 
@@ -164,10 +207,10 @@ chmod +x strap.sh
 #it is around last
 
 sudo ./strap.sh
+
 ------------------------------------------------------------
 17. MY DATA AND SHIT
 ------------------------------------------------------------
-
 rm -rf /home/$USER/*
 
 git clone <REPO WITH MY HOME>
@@ -185,25 +228,8 @@ END OF MANIFEST
 
 
 ============================================================
-ARCH LINUX MANUAL INSTALL MANIFEST
-ACER NITRO 5 | Gaming + Hyprland | Minimal 
+ACER NITRO 5
 ============================================================
-
-SYSTEM GOALS
-------------
-- Minimal Arch Linux
-- UEFI + systemd-boot
-- Hyprland
-- GTX 1050 gaming via legacy NVIDIA 580xx drivers (AUR)
-- Intel iGPU default until NVIDIA installed
-- TTY login only
-- Ethernet primary, Wi-Fi via iwd
-
-DISK LAYOUT
------------
-Disk: /dev/<TARGET_DISK>
-- /boot  1 GiB  FAT32 EFI
-- /      rest   ext4
 
 ------------------------------------------------------------
 13a. optional NVIDIA / PRIME OFFLOAD (After first boot) 
@@ -233,24 +259,10 @@ lsmod | grep -E "nvidia|nouveau"
 
 
 ============================================================
-ARCH LINUX MANUAL INSTALL MANIFEST
-ASUS TUF GAMING A16 | Gaming + Hyprland | Minimal 
+ASUS TUF GAMING A16 
 ============================================================
-
-SYSTEM GOALS
-------------
-- Minimal Arch Linux
-- UEFI + systemd-boot
-- Hyprland (Wayland only, no Waybar)
-- TTY login only
-- Ethernet primary, Wi-Fi via iwd
-
-DISK LAYOUT
------------
-Disk: /dev/<TARGET_DISK>
-- /boot  1 GiB  FAT32 EFI
-- /      rest   ext4
 
 ------------------------------------------------------------
 13b. optional NVIDIA / PRIME OFFLOAD (After first boot) 
 ------------------------------------------------------------
+
