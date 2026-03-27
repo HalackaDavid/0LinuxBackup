@@ -39,10 +39,13 @@ Disk: /dev/<TARGET_DISK>
 ------------------------------------------------------------
 1. LIVE ISO PREP
 ------------------------------------------------------------
-setfont ter-132n #For live iso to make bigger text only after reboot gone 
+# For live iso to make bigger text only after reboot gone 
+setfont ter-132n
+
+# auto time set
 timedatectl set-ntp true
 
-Verify UEFI:
+# Verify UEFI:
 ls /sys/firmware/efi/efivars
 
 ------------------------------------------------------------
@@ -222,7 +225,8 @@ mv <GIT FOLDER>/* $HOME
 ------------------------------------------------------------
 yay -Sy brave-bin
 
- 
+sudo pacman -Sy steam discord
+
 ============================================================
 END OF MANIFEST
 ============================================================
@@ -271,4 +275,3 @@ ASUS TUF GAMING A16
 ------------------------------------------------------------
 13b. optional NVIDIA / PRIME OFFLOAD (After first boot) 
 ------------------------------------------------------------
-

@@ -1,9 +1,8 @@
 mimikatz
+
 ######################
 ### SHIT IMPORTANT ###
 ######################
-
-check nvme ssd life time
 
 {
   .config/hypr/**/monitor.c
@@ -16,7 +15,7 @@ check nvme ssd life time
   what do you do
 }
 
-what linux do when job is runing and time runs out on poweroff screen
+what linux do when job is runing and time runs out on poweroff screen -> ACER NITRO 5 BITCHING
 
 sort data and shit in devices
 
@@ -57,41 +56,17 @@ shutdown will not shut down system and it will hang and why tf
 #########################
 
 {
-    1. 
-    git bare backup
+    need:
+        git bare repo
+        online/offline backups
 
-    2.
-    dev1 <-- server --> dev2
-      |         |        |
-      |         v        |
-       ->  back server <-
+    infrastructure:
+        dev1 <-- server --> dev2
+          |         |        |
+          |         v        |
+           ->  back server <-
 
-    dev1 or dev2 can back to server or backup (back server and main server work independently)
-    
-    dev1, dev2 = pc, mobil
-
-    server1 = Raspberry Pi zero 2 W {
-        portable battery {
-            powerbank
-        }
-
-        storage {
-            cap: 256Gb
-        }
-    }
-
-    server2 = Raspberry Pi zero 2 W {
-        portable battery {
-            powerbank
-        }
-
-        storage {
-            cap: 256Gb
-        }
-    }
-
-    3. 
-    online/offline backup {mesh network, wlan}
+        dev1 or dev2 can backup to server1 or server2 (back server and main server work independently)
 }
 
 
