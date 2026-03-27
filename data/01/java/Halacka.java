@@ -1,12 +1,12 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Halacka {
     public static void main(String[] args) {
-        // 1 - vypis inventare
-        // 2 - vstup do mistnosti
-        // 3 - ukonceni programu
         Scanner Input = new Scanner(System.in);
-        String[] inventory = {"1", "2", "1", "1", "30"};
+        Random Rnd = new Random();
+        
+        String[] inventory = {"sword", "torch", "1", "1", "30"};
         int option = 0;
 
         while (true) {
@@ -25,13 +25,35 @@ public class Halacka {
                     System.out.printf("\n");
                     break;
                 case 2:
-                    System.out.printf("2\n\n");
+                    //System.out.printf("%d\n2\n\n", r);
+                    switch (Rnd.nextInt(3)) {
+                        case 0:
+                            System.out.printf("Sword room\n");
+                            for(String s: inventory) {
+                                if (s.equals("sword")) {
+                                    System.out.printf("sword equiped monster slayed\n");
+                                }
+                            }
+                            break;
+                        case 1:
+                            System.out.printf("Torch room\n");
+                            for(String s: inventory) {
+                                if (s.equals("torch")) {
+                                    System.out.printf("torch equiped and i see\n");
+                                } 
+                            }
+                            break;
+                        case 2:
+                            System.out.printf("empty room\n");
+                            break;
+                    }
                     break;
                 case 3:
                     return;
                 default:
                     System.out.printf("neni spravna moznost\n\n");
             }
+            System.out.printf("\n");
         }
     }
 }
