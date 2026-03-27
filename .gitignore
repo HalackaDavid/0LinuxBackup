@@ -27,6 +27,8 @@
 !.termux
 !.termux/**
 
+!.cache/wofi-drun
+
 !.config/
 !.config/**
 .config/discord/
@@ -36,7 +38,7 @@
 .config/nvim/nvim_plugins/*
 .config/hypr/monitor.conf
 .config/BraveSoftware/Brave-Browser/*
-!.config/BraveSoftware/Brave-Browser/Default
+.config/BraveSoftware/Brave-Browser/Default
 .config/BraveSoftware/Brave-Browser/Default/Cookies
 .config/BraveSoftware/Brave-Browser/Default/DIP*
 .config/BraveSoftware/Brave-Browser/Default/Favicon*
