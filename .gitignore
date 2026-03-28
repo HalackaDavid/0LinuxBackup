@@ -15,6 +15,9 @@
 !.myzsh/**
 !TODO
 
+!.ssh
+!.ssh/config
+
 !.github
 !.github/**
 
