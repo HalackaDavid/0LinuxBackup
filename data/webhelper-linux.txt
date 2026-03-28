@@ -1,0 +1,124 @@
+[2026-03-28 18:25:32] pci id for fd 218: 10de:2d59, driver (null)
+[2026-03-28 18:25:32] pci id for fd 262: 10de:2d59, driver (null)
+[2026-03-28 18:25:32] pci id for fd 267: 10de:2d59, driver (null)
+[2026-03-28 18:25:32] glx: failed to create dri3 screen
+[2026-03-28 18:25:32] failed to load driver: nvidia-drm
+[2026-03-28 18:26:03+0100] srt-logger[35428]: Log opened
+[2026-03-28 18:26:03] steamwebhelper.sh[35422]: Starting steamwebhelper under bootstrap steamrt steam runtime via: /home/ncor/.local/share/Steam/steamrt64/pv-runtime/steam-runtime-steamrt/_v2-entry-point
+[2026-03-28 18:26:03] steamwebhelper.sh[35422]: Starting steamwebhelper with steamrt steam runtime at /home/ncor/.local/share/Steam/steamrt64/pv-runtime/steam-runtime-steamrt/_v2-entry-point
+[2026-03-28 18:26:04] exec ./steamwebhelper -nocrashdialog -lang=en_US -cachedir=/home/ncor/.local/share/Steam/config/htmlcache -steampid=35357 -buildid=1773426488 -steamid=0 -logdir=/home/ncor/.local/share/Steam/logs -uimode=7 -startcount=0 -steamuniverse=Public -realm=Global -clientui=/home/ncor/.local/share/Steam/clientui -steampath=/home/ncor/.local/share/Steam/ubuntu12_32/steam -launcher=0 --valve-initial-threadpool-size=12 --valve-enable-site-isolation --enable-smooth-scrolling --password-store=basic --log-file=/home/ncor/.local/share/Steam/logs/cef_log.txt --disable-quick-menu --disable-component-update --gaia-url=http://disabled.invalid --enable-features=PlatformHEVCDecoderSupport --disable-features=WinRetrieveSuggestionsOnlyOnDemand,SpareRendererForSitePerProcess,DcheckIsFatal,BlockPromptsIfIgnoredOften,ValveFFmpegAllowLowDelayHEVC
+[2026-03-28 18:26:04] [0328/182604.096866:ERROR:context.cc(107)] The browser_subprocess_path directory (./steamwebhelper) is not an absolute path. Defaulting to empty.
+[2026-03-28 18:26:04] [0328/182604.097044:ERROR:check.cc(376)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[2026-03-28 18:26:04] [0328/182604.110715:WARNING:crash_reporting.cc(271)] Failed to set crash key: UserID with value: 0
+[2026-03-28 18:26:04] [0328/182604.110729:WARNING:crash_reporting.cc(271)] Failed to set crash key: BuildID with value: 1773366504
+[2026-03-28 18:26:04] [0328/182604.110731:WARNING:crash_reporting.cc(271)] Failed to set crash key: SteamUniverse with value: Public
+[2026-03-28 18:26:04] [0328/182604.110732:WARNING:crash_reporting.cc(271)] Failed to set crash key: Vendor with value: Valve
+[2026-03-28 18:26:04] [0328/182604.110734:WARNING:crash_reporting.cc(271)] Failed to set crash key: Platform with value: Linux
+[2026-03-28 18:26:04] [0328/182604.128229:WARNING:crash_reporting.cc(271)] Failed to set crash key: UserID with value: 0
+[2026-03-28 18:26:04] [0328/182604.128256:WARNING:crash_reporting.cc(271)] Failed to set crash key: BuildID with value: 1773426488
+[2026-03-28 18:26:04] [0328/182604.128258:WARNING:crash_reporting.cc(271)] Failed to set crash key: SteamUniverse with value: Public
+[2026-03-28 18:26:04] [0328/182604.128259:WARNING:crash_reporting.cc(271)] Failed to set crash key: Vendor with value: Valve
+[2026-03-28 18:26:04] [0328/182604.128261:WARNING:crash_reporting.cc(271)] Failed to set crash key: Platform with value: Linux
+[2026-03-28 18:26:04] [0328/182604.128415:ERROR:check.cc(376)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[2026-03-28 18:26:04] [0328/182604.128538:WARNING:crash_reporting.cc(271)] Failed to set crash key: UserID with value: 0
+[2026-03-28 18:26:04] [0328/182604.128570:WARNING:crash_reporting.cc(271)] Failed to set crash key: BuildID with value: 1773426488
+[2026-03-28 18:26:04] [0328/182604.128572:WARNING:crash_reporting.cc(271)] Failed to set crash key: SteamUniverse with value: Public
+[2026-03-28 18:26:04] [0328/182604.128573:WARNING:crash_reporting.cc(271)] Failed to set crash key: Vendor with value: Valve
+[2026-03-28 18:26:04] [0328/182604.128574:WARNING:crash_reporting.cc(271)] Failed to set crash key: Platform with value: Linux
+[2026-03-28 18:26:04] [0328/182604.128745:ERROR:check.cc(376)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[2026-03-28 18:26:04] [35632:35648:0328/182604.155477:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.FileChooser”
+[2026-03-28 18:26:04] [35632:35648:0328/182604.155492:ERROR:select_file_dialog_linux_portal.cc(287)] Failed to read portal version property
+[2026-03-28 18:26:04] pci id for fd 21: 10de:2d59, driver (null)
+[2026-03-28 18:26:04] pci id for fd 22: 10de:2d59, driver (null)
+[2026-03-28 18:26:04] pci id for fd 23: 10de:2d59, driver (null)
+[2026-03-28 18:26:04] glx: failed to create dri3 screen
+[2026-03-28 18:26:04] failed to load driver: nvidia-drm
+[2026-03-28 18:26:04] MESA-LOADER: failed to open dri: /usr/lib/gbm/dri_gbm.so: cannot open shared object file: No such file or directory (search paths /usr/lib/gbm, suffix _gbm)
+[2026-03-28 18:26:04] [0328/182604.505255:WARNING:crash_reporting.cc(271)] Failed to set crash key: UserID with value: 0
+[2026-03-28 18:26:04] [0328/182604.505288:WARNING:crash_reporting.cc(271)] Failed to set crash key: BuildID with value: 1773426488
+[2026-03-28 18:26:04] [0328/182604.505290:WARNING:crash_reporting.cc(271)] Failed to set crash key: SteamUniverse with value: Public
+[2026-03-28 18:26:04] [0328/182604.505292:WARNING:crash_reporting.cc(271)] Failed to set crash key: Vendor with value: Valve
+[2026-03-28 18:26:04] [0328/182604.505294:WARNING:crash_reporting.cc(271)] Failed to set crash key: Platform with value: Linux
+[2026-03-28 18:26:04] [0328/182604.505468:ERROR:check.cc(376)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[2026-03-28 18:26:05] pci id for fd 176: 10de:2d59, driver (null)
+[2026-03-28 18:26:05] pci id for fd 177: 10de:2d59, driver (null)
+[2026-03-28 18:26:05] pci id for fd 178: 10de:2d59, driver (null)
+[2026-03-28 18:26:05] glx: failed to create dri3 screen
+[2026-03-28 18:26:05] failed to load driver: nvidia-drm
+[2026-03-28 18:26:05] pci id for fd 175: 10de:2d59, driver (null)
+[2026-03-28 18:26:05] pci id for fd 176: 10de:2d59, driver (null)
+[2026-03-28 18:26:05] pci id for fd 177: 10de:2d59, driver (null)
+[2026-03-28 18:26:05] glx: failed to create dri3 screen
+[2026-03-28 18:26:05] failed to load driver: nvidia-drm
+[2026-03-28 18:26:05] [35632:35632:0328/182605.969229:ERROR:atom_cache.cc(229)] Add STEAM_GAME to kAtomsToCache
+[2026-03-28 18:26:18] pci id for fd 234: 10de:2d59, driver (null)
+[2026-03-28 18:26:18] pci id for fd 239: 10de:2d59, driver (null)
+[2026-03-28 18:26:18] pci id for fd 240: 10de:2d59, driver (null)
+[2026-03-28 18:26:18] glx: failed to create dri3 screen
+[2026-03-28 18:26:18] failed to load driver: nvidia-drm
+[2026-03-28 18:26:18] pci id for fd 256: 10de:2d59, driver (null)
+[2026-03-28 18:26:18] pci id for fd 257: 10de:2d59, driver (null)
+[2026-03-28 18:26:18] pci id for fd 258: 10de:2d59, driver (null)
+[2026-03-28 18:26:18] glx: failed to create dri3 screen
+[2026-03-28 18:26:18] failed to load driver: nvidia-drm
+[2026-03-28 18:26:20] [35632:35632:0328/182620.785056:ERROR:atom_cache.cc(229)] Add _NET_WM_STATE_KEEP_ABOVE to kAtomsToCache
+[2026-03-28 18:26:20] pci id for fd 220: 10de:2d59, driver (null)
+[2026-03-28 18:26:20] pci id for fd 215: 10de:2d59, driver (null)
+[2026-03-28 18:26:20] pci id for fd 216: 10de:2d59, driver (null)
+[2026-03-28 18:26:20] glx: failed to create dri3 screen
+[2026-03-28 18:26:20] failed to load driver: nvidia-drm
+[2026-03-28 18:26:24] [35661:35661:0328/182624.657843:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[2026-03-28 18:26:24] [35661:35661:0328/182624.675189:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[2026-03-28 18:26:24] pci id for fd 265: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] pci id for fd 266: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] pci id for fd 268: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] glx: failed to create dri3 screen
+[2026-03-28 18:26:24] failed to load driver: nvidia-drm
+[2026-03-28 18:26:24] pci id for fd 285: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] pci id for fd 287: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] pci id for fd 290: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] glx: failed to create dri3 screen
+[2026-03-28 18:26:24] failed to load driver: nvidia-drm
+[2026-03-28 18:26:24] pci id for fd 322: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] pci id for fd 323: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] pci id for fd 328: 10de:2d59, driver (null)
+[2026-03-28 18:26:24] glx: failed to create dri3 screen
+[2026-03-28 18:26:24] failed to load driver: nvidia-drm
+[2026-03-28 18:26:25] pci id for fd 378: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 379: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 381: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] glx: failed to create dri3 screen
+[2026-03-28 18:26:25] failed to load driver: nvidia-drm
+[2026-03-28 18:26:25] pci id for fd 401: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 403: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 404: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] glx: failed to create dri3 screen
+[2026-03-28 18:26:25] failed to load driver: nvidia-drm
+[2026-03-28 18:26:25] pci id for fd 423: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 425: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 426: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] glx: failed to create dri3 screen
+[2026-03-28 18:26:25] failed to load driver: nvidia-drm
+[2026-03-28 18:26:25] pci id for fd 445: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 447: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 448: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] glx: failed to create dri3 screen
+[2026-03-28 18:26:25] failed to load driver: nvidia-drm
+[2026-03-28 18:26:25] pci id for fd 467: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 469: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 470: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] glx: failed to create dri3 screen
+[2026-03-28 18:26:25] failed to load driver: nvidia-drm
+[2026-03-28 18:26:25] pci id for fd 489: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 491: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 492: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] glx: failed to create dri3 screen
+[2026-03-28 18:26:25] failed to load driver: nvidia-drm
+[2026-03-28 18:26:25] pci id for fd 509: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 512: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] pci id for fd 514: 10de:2d59, driver (null)
+[2026-03-28 18:26:25] glx: failed to create dri3 screen
+[2026-03-28 18:26:25] failed to load driver: nvidia-drm
+[2026-03-28 18:26:26] [35661:35661:0328/182626.475581:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+[2026-03-28 18:26:27] [36033:14:0328/182627.612003:ERROR:ffmpeg_common.cc(959)] Unsupported pixel format: -1
+[2026-03-28 18:26:27] [36033:14:0328/182627.612135:ERROR:ffmpeg_common.cc(959)] Unsupported pixel format: -1
