@@ -97,7 +97,7 @@ pacstrap /mnt \
   dhcpcd iwd pipewire pipewire-pulse pipewire-alsa wireplumber mesa /
   xdg-desktop-portal xdg-desktop-portal-wlr \
   hyprland wl-clipboard wofi swaybg hyprlock brightnessctl foot foot-terminfo \
-  dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs ark \
+  dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs \
   sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh tree viu xplr
 
 ------------------------------------------------------------
@@ -213,6 +213,9 @@ b. -> ASUS TUF GAMING A16
     b. optional NVIDIA / PRIME OFFLOAD (After first boot) 
     ------------------------------------------------------------
 
+    -------
+    GAMING
+    -------
     sudo pacman -S vulkan-tools vulkan-icd-loader lib32-vulkan-icd-loader
 
     # ensure
