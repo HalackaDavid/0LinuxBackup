@@ -1,0 +1,1392 @@
+WINE detected.
+LoadCEFLib
+Using single cluster mode
+
+WindowMode: 1
+EnableShaderCache: 1
+EnableBulkDownload: 1
+EnableAggressiveDownload: 1
+LauncherGPU: 1
+ForceHTTPS: 0
+SC_PUBLIC
+
+
+WINHTTP_OPTION_IPV6_FAST_FALLBACK() failed(ERROR_WINHTTP_INVALID_OPTION)
+GET /api/clientIP.php HTTP/1.1
+Host: api.warframe.com
+Connection: Keep-Alive
+Pragma: no-cache
+Cache-Control: no-cache
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 35
+Expires: Mon, 30 Mar 2026 20:24:34 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 30 Mar 2026 20:24:34 GMT
+Connection: keep-alive
+
+46.23.55.210
+Blatná
+Czechia
+CC:CZ
+
+Finished ClientIP (0.3 seconds)
+OS Version: 10.0 (SP0, build 19045)
+Finished Platform (0.0 seconds)
+Finished PickDirectory (0.0 seconds)
+
+INetFwProfile2::get_CurrentProfileTypes failed: 0x80004001
+Finished Firewall (0.0 seconds)
+Finished GameRunning (0.0 seconds)
+Purging vestigial Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\rfa58e.tmp
+
+WinHTTP configuration:
+WINHTTP_OPTION_HTTP_VERSION query failed
+WINHTTP_OPTION_IPV6_FAST_FALLBACK() failed(ERROR_WINHTTP_INVALID_OPTION)
+
+HTTP GET /origin/39462197/index.txt.lzma
+GET /origin/39462197/index.txt.lzma HTTP/1.1
+Host: origin.warframe.com
+Connection: Keep-Alive
+Pragma: no-cache
+Cache-Control: no-cache
+
+HTTP/1.1 200 OK
+Last-Modified: Mon, 30 Mar 2026 20:10:32 GMT
+ETag: "1a49-64e437168e694"
+Accept-Ranges: bytes
+Content-Length: 6729
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/plain
+Date: Mon, 30 Mar 2026 20:24:34 GMT
+Connection: keep-alive
+
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\chrome_100_percent.pak...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\chrome_200_percent.pak...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\chrome_elf.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\d3dcompiler_47.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\icudtl.dat...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\libEGL.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\libGLESv2.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\libcef.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\locales\en-US.pak...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\resources.pak...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\snapshot_blob.bin...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\v8_context_snapshot.bin...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\vk_swiftshader.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\vk_swiftshader_icd.json...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\V7\vulkan-1.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CEF3_1\launcher.zip...
+GetVolumeInformation(Z:\home\) failed. Error code: 144
+Finished BinariesBP_CEF (0.7 seconds)
+WINHTTP_OPTION_IPV6_FAST_FALLBACK() failed(ERROR_WINHTTP_INVALID_OPTION)
+
+HTTP GET /Lotus/Language/MOTD_en.rtf.lzma
+GET /Lotus/Language/MOTD_en.rtf.lzma HTTP/1.1
+Host: content.warframe.com
+Connection: Keep-Alive
+
+HTTP/1.1 200 OK
+Last-Modified: Thu, 26 Mar 2026 19:50:14 GMT
+ETag: "9ac0-64df2b17422d9"
+Accept-Ranges: bytes
+Content-Length: 39616
+Content-Type: application/rtf
+Cache-Control: public, max-age=156
+Date: Mon, 30 Mar 2026 20:24:35 GMT
+Connection: keep-alive
+
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Windows\x64\steam_api64.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\RemoteCrashSender.exe...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Launcher.exe...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Lotus\Language\CBA_en.rtf...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Lotus\Language\EULA_en.rtf...
+GetVolumeInformation(Z:\home\) failed. Error code: 144
+Finished BinariesBP_LAUNCHER (0.1 seconds)
+Finished EULA (0.0 seconds)
+Windows build 19045 should support the DirectX 12 Agility SDK.
+Checking IDXGIFactory2...
+Found D3D adapter 0: NVIDIA GeForce RTX 5060 Laptop GPU (D3D_FEATURE_LEVEL_12_0)
+Finished DirectX (0.7 seconds)
+WINHTTP_OPTION_IPV6_FAST_FALLBACK() failed(ERROR_WINHTTP_INVALID_OPTION)
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Bink2\bink2w64.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\CachePlan.txt...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Curl\license.txt...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\OpenSSL\x64\license.txt...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\PhysX\x64\PhysX.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\PhysX\x64\PhysXCommon.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\PhysX\x64\PhysXFoundation.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\PhysX\x64\nvToolsExt64_1.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Windows\x64\D3D12Core.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Windows\x64\EEPadWrapper.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Windows\x64\GFSDK_Aftermath_Lib.x64.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Windows\x64\amd_ags_x64.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Windows\x64\discord_game_sdk.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Windows\x64\nvngx_dlss.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\Windows\x64\xaudio2_9redist.dll...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\ZStandard\LICENSE.TXT...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Tools\libjpeg-turbo\LICENSE.TXT...
+Hashing Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Warframe.x64.exe...
+Got 689AED27868D01A08062129F03E51E62 but expected E782797AE133811F34B033502440C90C
+GetVolumeInformation(Z:\home\) failed. Error code: 144
+
+HTTP GET /Warframe.x64.exe.E782797AE133811F34B033502440C90C.lzma
+GET /Warframe.x64.exe.E782797AE133811F34B033502440C90C.lzma HTTP/1.1
+Host: content.warframe.com
+Connection: Keep-Alive
+
+HTTP/1.1 200 OK
+Last-Modified: Mon, 30 Mar 2026 19:53:58 GMT
+ETag: "d4ccbd-64e43362672ff"
+Accept-Ranges: bytes
+Content-Length: 13946045
+Content-Type: application/x-msdos-program
+Cache-Control: public, max-age=31534169
+Date: Mon, 30 Mar 2026 20:24:36 GMT
+Connection: keep-alive
+
+Downloading @ 6 MB/s
+Downloaded 13,946,045 bytes total ~ 5,447,673 B/s
+Finished BinariesBP_DEFAULT (2.8 seconds)
+Finished CollectGarbage (0.0 seconds)
+Finished Defrag0 (0.0 seconds)
+WINHTTP_OPTION_IPV6_FAST_FALLBACK() failed(ERROR_WINHTTP_INVALID_OPTION)
+GetVolumeInformation(Z:\home\) failed. Error code: 144
+Finished BinariesBP_BULK (0.0 seconds)
+Finished Repair (0.0 seconds)
+ReqSpawnProcess - InitDialog
+
+"Z:\home\ncor\.local\share\Steam\steamapps\common\Warframe\Warframe.x64.exe" -silent -log:/Preprocess.log -graphicsDriver:dx11 -cluster:public -language:en -applet:/EE/Types/Framework/ContentUpdate
+0.025 Sys [Diag]: Process Command-line: -silent -log:/Preprocess.log -graphicsDriver:dx11 -cluster:public -language:en -applet:/EE/Types/Framework/ContentUpdate
+0.025 Sys [Diag]: Build Label: 2026.03.30.14.23 Retail Windows x64 [Stripped]
+0.025 Sys [Diag]: Build Unique ID: 1574844394
+0.025 Sys [Diag]: Windows user-name: steamuser
+0.025 Sys [Diag]: Windows computer-name: ncor
+0.025 Sys [Diag]: Current time: Mon Mar 30 22:24:42 2026 [UTC: Mon Mar 30 20:24:42 2026]
+0.025 Sys [Diag]: Current directory: Z:\home
+0.025 Sys [Diag]: cor\.local\share\Steam\steamapps\common\Warframe\Tools
+0.075 Sys [Diag]: Processor: AMD 16-Core-HT Ryzen 9 8940HX 2400MHz HT/SSE/SSE2/SSE3/SSSE3/SSE4A/SSE41/SSE42/AVX/AVX2/AVX512F/AVX512CD/POPCNT/F16C/FMA3/SHA/BMI1/BMI2 F/M/S/EF/EM/UC: F/1/2/A/6/0
+0.075 Sys [Diag]: Physical Memory: 22GB / 31GB free
+0.075 Sys [Diag]: Address Space: 128TB / 128TB free
+0.075 Sys [Diag]: No page file found!
+0.075 Sys [Diag]: Page size: 4KB (Granularity: 64KB)
+0.075 Sys [Diag]: Operating System: WINE 10.0
+0.075 Sys [Diag]: Mitigation Policies:
+0.077 Sys [Diag]: System Processes: 18
+0.077 Sys [Diag]: System Threads: 161
+0.077 Sys [Diag]: System Handles: 4,352
+0.077 Sys [Diag]: System GDI Objects: 0
+0.077 Sys [Diag]: System USER Objects: 0
+0.077 Sys [Diag]: System Up-Time: 0d 1h 36m 55s
+0.077 Sys [Diag]: Free Disk Space on C: 881,644,969,984 bytes
+0.077 Sys [Diag]: Free Disk Space on Z: 16,401,420,288 bytes
+0.093 Sys [Diag]: Found Monitor: (0, 0) - (1920, 1080) : 1920x1080
+0.093 Sys [Diag]: Process is DPI-aware
+0.093 Sys [Diag]: Clock frequency: 10,000,000Hz
+0.100 Gfx [Info]: Private shader options need 22 bits
+0.100 Sys [Info]: CancelJobs batchcount 0
+0.106 Sys [Info]: Loading packages took 0.0ms
+0.106 Sys [Info]: Redirecting package load to: C:\users\steamuser\AppData\Local\Warframe\Editor.cfg
+0.106 Sys [Info]: Cache languages enabled: _en
+0.106 Sys [Error]: WINHTTP_OPTION_IPV6_FAST_FALLBACK() failed (ERROR_WINHTTP_INVALID_OPTION)
+0.140 Sys [Info]: Scanning Z:\home
+0.140 Sys [Info]: cor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\ for cache blocks...
+0.140 Sys [Info]: Found 97 cache blocks...
+0.147 Sys [Info]: Downloading cache manifest index...
+0.649 Sys [Info]: Loaded TOC for Windows/H.Misc (took 202ms, loaded 242418 entries, found 300 deleted)
+0.650 Sys [Info]: Used shared /H.Cache.bin (571B Copy: 45us Write: 202ms Latency: 503ms)
+0.720 Sys [Info]: Loaded TOC for Windows/B.Misc (took 64.7ms, loaded 149086 entries, found 51 deleted)
+0.730 Sys [Info]: Loaded TOC for Windows/H.Font (took 8.79ms, loaded 5235 entries, found 13 deleted)
+0.738 Sys [Info]: Loaded TOC for Windows/B.Font (took 5.39ms, loaded 5225 entries, found 35 deleted)
+0.756 Sys [Info]: Loaded TOC for Windows/H.AnimRetarget (took 16.3ms, loaded 11048 entries, found 83 deleted)
+0.773 Sys [Info]: Fetching updated B.Cache.Dx11.bin
+0.889 Sys [Info]: Used shared /B.Cache.Dx11.bin (273,229B Copy: 63.4ms Write: 82us Latency: 116ms)
+0.897 Sys [Info]: Loaded TOC for Windows/B.AnimRetarget (took 6.07ms, loaded 9157 entries, found 9 deleted)
+0.899 Sys [Info]: Loaded TOC for Windows/H.CharacterCodesCache (took 4us, loaded 1 entries, found 0 deleted)
+0.900 Sys [Info]: Loaded TOC for Windows/B.CharacterCodesCache (took 0us, loaded 1 entries, found 0 deleted)
+0.915 Sys [Info]: Loaded TOC for Windows/H.LightMap (took 8.92ms, loaded 58353 entries, found 0 deleted)
+0.926 Sys [Info]: Loaded TOC for Windows/B.LightMap (took 6.96ms, loaded 55964 entries, found 0 deleted)
+0.950 Sys [Info]: Fetching updated B.Cache.Windows_en.bin
+1.212 Sys [Info]: Used shared /B.Cache.Windows_en.bin (724,919B Copy: 235ms Write: 197us Latency: 261ms)
+1.285 Sys [Info]: Loaded TOC for Windows/H.Texture (took 71.0ms, loaded 66817 entries, found 1 deleted)
+1.323 Sys [Info]: Loaded TOC for Windows/B.Texture (took 33.5ms, loaded 52153 entries, found 3 deleted)
+1.325 Sys [Info]: Loaded TOC for Windows/H.VideoTexture (took 82us, loaded 48 entries, found 0 deleted)
+1.343 Sys [Info]: Loaded TOC for Windows/B.VideoTexture (took 10us, loaded 1 entries, found 0 deleted)
+1.343 Sys [Info]: Loaded TOC for Windows/H.VideoTextureStreaming (took 15us, loaded 7 entries, found 0 deleted)
+1.377 Sys [Info]: Loaded TOC for Windows/F.Misc (took 25.1ms, loaded 54937 entries, found 1 deleted)
+1.568 Sys [Info]: Fetching updated B.Cache.Windows.bin
+3.428 Sys [Info]: Used shared /B.Cache.Windows.bin (9,728,098B Copy: 1.78s Write: 1.47ms Latency: 1.86s)
+3.473 Sys [Info]: Loaded TOC for Windows/F.Texture (took 42.5ms, loaded 58464 entries, found 0 deleted)
+3.476 Sys [Info]: Loaded TOC for Windows/F.VideoTexture (took 91us, loaded 47 entries, found 0 deleted)
+3.482 Sys [Info]: Loaded TOC for Windows/F.LightMap (took 6.27ms, loaded 36281 entries, found 0 deleted)
+3.691 Sys [Info]: Cache manifest hash 4DN7da8q0hrGFl84WSXUBw
+3.705 Sys [Info]: Loaded TOC for Windows/H.Misc_en (took 13.2ms, loaded 29796 entries, found 1 deleted)
+3.705 Sys [Info]: Loaded TOC for Windows/F.VideoTextureStreaming (took 22us, loaded 7 entries, found 0 deleted)
+3.721 Sys [Info]: Loaded TOC for Windows/B.Misc_en (took 12.1ms, loaded 29795 entries, found 0 deleted)
+3.755 Sys [Info]: /Packages.bin is out of date; fetching updated version from share...
+7.423 Sys [Info]: Used shared /Packages.bin (21,004,763B Copy: 3.52s Write: 2.40ms Latency: 3.67s)
+7.425 Sys [Info]: Loaded TOC for Windows/B.Texture_en (took 90us, loaded 11 entries, found 0 deleted)
+7.425 Sys [Info]: Loaded TOC for Windows/H.Texture_en (took 7us, loaded 11 entries, found 0 deleted)
+7.433 Sys [Info]: Budget overrun commiting write of H.Misc/Packages.bin (2.18 ms)
+7.454 Sys [Info]: Loaded TOC for Windows/F.Misc_en (took 18.7ms, loaded 29783 entries, found 0 deleted)
+7.591 Sys [Info]: Initialize dictionary: 1048576b
+8.093 Sys [Info]: Loading package cache took 4.4s (Parse: 0.5s)
+8.095 Sys [Info]: Loaded TOC for Dx12/H.ShaderDictionary (took 9us, loaded 1 entries, found 0 deleted)
+8.095 Sys [Info]: Loaded TOC for Dx12/B.Shader (took 101us, loaded 117 entries, found 0 deleted)
+8.095 Sys [Info]: Loaded TOC for Dx12/H.Shader (took 262us, loaded 407 entries, found 0 deleted)
+8.127 Sys [Info]: /Dependancies.bin is out of date; fetching updated version from share...
+9.351 Sys [Info]: Used shared /Dependancies.bin (8,557,615B Copy: 1.13s Write: 704us Latency: 1.22s)
+9.357 Sys [Info]: Loaded TOC for Dx12/H.ShaderPermutation (took 3.10ms, loaded 11855 entries, found 0 deleted)
+9.362 Sys [Info]: Loaded TOC for Dx12/B.ShaderPermutation (took 2.34ms, loaded 11855 entries, found 0 deleted)
+9.364 Sys [Info]: Loaded TOC for Dx12/B.ShaderDictionary (took 9us, loaded 1 entries, found 0 deleted)
+9.661 Sys [Info]: Load deps cache took 1568ms
+9.720 Sys [Info]: ResourceMgr release queue size=128
+9.720 Net [Info]: RMI::Initialize - Methods: 431 Hash: 1296882635015985376
+9.720 Sys [Info]: Redirecting package load to: C:\users\steamuser\AppData\Local\Warframe\EE.cfg
+9.720 Sys [Diag]: Engine config profile: /Configs/EE.cfg/Windows_Config
+9.721 Sys [Info]: JobMgr: 31 threads (+4 low)
+9.724 Phys [Info]: Custom physx allocator in use
+9.738 Phys [Info]: PhysX Core Version: 4.1.1.0
+9.738 Phys [Info]: PhysX SDK initialized.
+9.738 Phys [Info]: PhysX scene manager initialized.
+9.760 Sys [Info]: Driver registered: ScriptDriver Supported types: [Script]
+9.761 Script [Info]: ScriptMgr::Initialize() 0 bytes, 0 allocs
+9.761 Sys [Info]: Using language: _en
+9.763 Sys [Info]: Loaded TOC for Dx11/H.ShaderDictionary (took 22us, loaded 1 entries, found 0 deleted)
+9.763 Sys [Info]: Loaded TOC for Dx11/B.Shader (took 198us, loaded 117 entries, found 0 deleted)
+9.763 Sys [Info]: Loaded TOC for Dx11/H.Shader (took 388us, loaded 407 entries, found 0 deleted)
+9.774 Sys [Info]: /Languages.bin is out of date; fetching updated version from share...
+10.330 Sys [Info]: Used shared /Languages.bin (4,784,554B Copy: 517ms Write: 1.04ms Latency: 556ms)
+10.336 Sys [Info]: Loaded TOC for Dx11/H.ShaderPermutation (took 2.99ms, loaded 11860 entries, found 0 deleted)
+10.341 Sys [Info]: Loaded TOC for Dx11/B.ShaderPermutation (took 2.28ms, loaded 11860 entries, found 0 deleted)
+10.343 Sys [Info]: Loaded TOC for Dx11/B.ShaderDictionary (took 10us, loaded 1 entries, found 0 deleted)
+10.499 Sys [Info]: Loading language cache took 0.738859s
+10.499 Sys [Diag]: Command line: -silent -log:/Preprocess.log -graphicsDriver:dx11 -cluster:public -language:en -applet:/EE/Types/Framework/ContentUpdate
+10.499 Sys [Diag]: SRand seeded with: 5996611983767483682
+10.500 Sys [Info]: ResourceLoader 0x000000001F8A9880 (/EE/Types/GameRules/GameConfig) Found 5 items to load (0ms) [Heap: 169,411,008/170,065,920 Footprint: 463,843,328 Handles: 0]
+10.500 Sys [Info]: Resloader 0x000000001F8A9880 (/EE/Types/GameRules/GameConfig) starting
+10.500 Sys [Error]: Could not find game rules: /EE/Types/GameRules/DefaultGameRules
+10.500 Sys [Error]: Required by game config /EE/Types/GameRules/GameConfig
+10.500 Sys [Error]: Failed to create run-time type: DefaultGameRules (parent GameRules is abstract)
+10.500 Sys [Error]: Could not find game rules: /EE/Types/GameRules/MultiplayerGameRules
+10.500 Sys [Error]: Required by game config /EE/Types/GameRules/GameConfig
+10.500 Sys [Error]: Failed to create run-time type: MultiplayerGameRules (parent GameRules is abstract)
+10.500 Sys [Error]: Could not find platform icon collection: /EE/Types/GraphicsRes/DefaultPlatformIconCollection
+10.500 Sys [Error]: Required by game config /EE/Types/GameRules/GameConfig
+10.500 Sys [Info]: Finished load of Flyweight batch (1) [0.00s and 0 frames at 1 ms/frame avg, 1 ms/update peak], 1/1/1, 5 item(s), 0k total so far, 0.00% utilization
+10.500 Sys [Info]: Resource load completed 0x000000001F8A9880 (/EE/Types/GameRules/GameConfig) in one pass and 0.0s (I/O ~= 0.0%, inherited 0 of 5)
+10.516 Sys [Info]: ResourceLoader 0x000000001F8A9880 (/EE/Types/GameRules/GameConfig) spot-loaded in 16.8ms
+10.517 Net [Info]: UPnP enabled.
+10.517 Net [Info]: NAT-PMP enabled.
+10.517 Sys [Info]: Driver registered: MaterialLibrary Supported types: [PhysicsMaterial]
+10.519 Sys [Info]: Scanning cache manifest for updated resources...
+10.535 Sys [Info]: Loaded TOC for Windows/B.Misc_de (took 137us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_es (took 55us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_fr (took 38us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_it (took 36us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_ja (took 34us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_ko (took 36us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_pl (took 36us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_pt (took 36us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_ru (took 34us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_tc (took 33us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_th (took 33us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_tr (took 35us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.537 Sys [Info]: Loaded TOC for Windows/B.Misc_uk (took 33us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.539 Sys [Info]: Loaded TOC for Windows/B.Misc_xx (took 2.26ms, loaded 5682 entries, found 0 deleted, spot-loaded)
+10.550 Sys [Info]: Loaded TOC for Windows/B.Misc_zh (took 10.9ms, loaded 29795 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_de (took 150us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_es (took 61us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_fr (took 45us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_it (took 44us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_ja (took 46us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_ko (took 42us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_pl (took 46us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_pt (took 49us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_ru (took 50us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_tc (took 43us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_th (took 44us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_tr (took 42us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_uk (took 41us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.556 Sys [Info]: Loaded TOC for Windows/B.Texture_zh (took 42us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.564 Sys [Info]: Loaded TOC for Windows/F.Misc_xx (took 2.30ms, loaded 5681 entries, found 0 deleted, spot-loaded)
+10.576 Sys [Info]: Loaded TOC for Windows/F.Misc_zh (took 10.9ms, loaded 29783 entries, found 0 deleted, spot-loaded)
+10.600 Sys [Info]: Loaded TOC for Windows/H.Misc_de (took 156us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.601 Sys [Info]: Loaded TOC for Windows/H.Misc_es (took 66us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.601 Sys [Info]: Loaded TOC for Windows/H.Misc_fr (took 46us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_it (took 43us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_ja (took 43us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_ko (took 44us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_pl (took 43us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_pt (took 45us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_ru (took 43us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_tc (took 45us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_th (took 45us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_tr (took 47us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.602 Sys [Info]: Loaded TOC for Windows/H.Misc_uk (took 45us, loaded 12 entries, found 0 deleted, spot-loaded)
+10.605 Sys [Info]: Loaded TOC for Windows/H.Misc_xx (took 2.96ms, loaded 5683 entries, found 0 deleted, spot-loaded)
+10.616 Sys [Info]: Loaded TOC for Windows/H.Misc_zh (took 10.9ms, loaded 29796 entries, found 0 deleted, spot-loaded)
+10.621 Sys [Info]: Loaded TOC for Windows/H.Texture_de (took 117us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.621 Sys [Info]: Loaded TOC for Windows/H.Texture_es (took 46us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.621 Sys [Info]: Loaded TOC for Windows/H.Texture_fr (took 45us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_it (took 41us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_ja (took 40us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_ko (took 38us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_pl (took 37us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_pt (took 39us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_ru (took 37us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_tc (took 38us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_th (took 36us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_tr (took 37us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_uk (took 38us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Loaded TOC for Windows/H.Texture_zh (took 36us, loaded 11 entries, found 0 deleted, spot-loaded)
+10.622 Sys [Info]: Sorting deps...
+10.623 Sys [Info]: TypeMgr cleaned 0 instances (0us) and unbuilt 0 types (1.37ms) in 1.37ms
+10.623 Sys [Info]: Startup time: 10.6s
+10.742 Sys [Info]: Loading cache headers...
+10.742 Sys [Info]: 1 headers queued up...
+10.742 Sys [Info]: Waiting for async IO...
+10.790 Sys [Info]: Loading cache headers...
+10.791 Sys [Info]: 406 headers queued up...
+10.791 Sys [Info]: Waiting for async IO...
+10.806 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred.hlsl is out of date (hash mismatch)
+10.806 Sys [Info]: /EE/Shaders/Deferred/ResolveGIVolume.hlsl is out of date (hash mismatch)
+10.806 Sys [Info]: /Lotus/Shaders/Rorschach.hlsl is out of date (hash mismatch)
+10.838 Sys [Info]: Loading cache headers...
+10.839 Sys [Info]: 1 headers queued up...
+10.839 Sys [Info]: Waiting for async IO...
+10.855 Sys [Info]: /Temp/LocCache.lch is out of date (hash mismatch)
+10.887 Sys [Info]: Loading cache headers...
+10.903 Sys [Info]: 11,858 headers queued up...
+10.903 Sys [Info]: Waiting for async IO...
+10.921 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/4010007_p.hlsl is out of date (hash mismatch)
+10.921 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/8018037_p.hlsl is out of date (hash mismatch)
+10.921 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/2018083_p.hlsl is out of date (hash mismatch)
+10.921 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/18003_p.hlsl is out of date (hash mismatch)
+10.937 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/1C057_p.hlsl is out of date (hash mismatch)
+10.937 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/431E421_p.hlsl is out of date (hash mismatch)
+10.937 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/20124C7_p.hlsl is out of date (hash mismatch)
+10.938 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/2100D5_p.hlsl is out of date (hash mismatch)
+10.938 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/1C013_p.hlsl is out of date (hash mismatch)
+10.938 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/3C813_p.hlsl is out of date (hash mismatch)
+10.938 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/1C011_p.hlsl is out of date (hash mismatch)
+10.938 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/1C055_p.hlsl is out of date (hash mismatch)
+10.938 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/10500D7_p.hlsl is out of date (hash mismatch)
+10.938 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/2018003_p.hlsl is out of date (hash mismatch)
+10.953 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/535A425_p.hlsl is out of date (hash mismatch)
+10.954 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/1C053_p.hlsl is out of date (hash mismatch)
+10.954 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/421C421_p.hlsl is out of date (hash mismatch)
+10.954 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/231A421_p.hlsl is out of date (hash mismatch)
+10.969 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/30045_p.hlsl is out of date (hash mismatch)
+10.969 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/411E421_p.hlsl is out of date (hash mismatch)
+10.970 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/631A421_p.hlsl is out of date (hash mismatch)
+10.970 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/31A421_p.hlsl is out of date (hash mismatch)
+10.970 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/18411_p.hlsl is out of date (hash mismatch)
+10.970 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/1C047_p.hlsl is out of date (hash mismatch)
+10.971 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/231A401_p.hlsl is out of date (hash mismatch)
+10.971 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/631E421_p.hlsl is out of date (hash mismatch)
+10.971 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/18803_p.hlsl is out of date (hash mismatch)
+10.985 Sys [Info]: /Lotus/Shaders/Rorschach/0_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/231A425_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/631E425_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/431E425_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/431A421_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/221E441_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/4018803_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/831AC21_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/431E401_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/431E423_p.hlsl is out of date (hash mismatch)
+10.986 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/631C421_p.hlsl is out of date (hash mismatch)
+10.987 Sys [Info]: /Lotus/Shaders/Rorschach/F_p.hlsl is out of date (hash mismatch)
+10.987 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/1C037_p.hlsl is out of date (hash mismatch)
+11.002 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/212587_p.hlsl is out of date (hash mismatch)
+11.002 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/4016425_p.hlsl is out of date (hash mismatch)
+11.002 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/100C7_p.hlsl is out of date (hash mismatch)
+11.002 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/4318421_p.hlsl is out of date (hash mismatch)
+11.002 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/1011045_p.hlsl is out of date (hash mismatch)
+11.018 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/110003_p.hlsl is out of date (hash mismatch)
+11.018 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/18005_p.hlsl is out of date (hash mismatch)
+11.018 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/2010083_p.hlsl is out of date (hash mismatch)
+11.019 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/831A421_p.hlsl is out of date (hash mismatch)
+11.019 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/18051_p.hlsl is out of date (hash mismatch)
+11.019 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/10047_p.hlsl is out of date (hash mismatch)
+11.034 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/100D7_p.hlsl is out of date (hash mismatch)
+11.035 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/11A013_p.hlsl is out of date (hash mismatch)
+11.035 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/10007_p.hlsl is out of date (hash mismatch)
+11.035 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/100D5_p.hlsl is out of date (hash mismatch)
+11.035 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/18123_p.hlsl is out of date (hash mismatch)
+11.036 Sys [Info]: /EE/Shaders/Deferred/GlassDeferred/411E401_p.hlsl is out of date (hash mismatch)
+11.083 Sys [Info]: Loading cache headers...
+11.089 Sys [Info]: 5,222 headers queued up...
+11.090 Sys [Info]: Waiting for async IO...
+11.099 Sys [Info]: /EE/Interface/Utilities.lua is out of date (hash mismatch)
+11.099 Sys [Info]: /Lotus/Interface/DiegeticUpgradeCards.lua is out of date (hash mismatch)
+11.099 Sys [Info]: /Lotus/Scripts/Libs/AbilitiesLib.lua is out of date (hash mismatch)
+11.099 Sys [Info]: /Lotus/Scripts/Nemesis/NemesisGenerator.lua is out of date (hash mismatch)
+11.099 Sys [Info]: /Lotus/Powersuits/Inkblot/Abilities/InkBalloon.lua is out of date (hash mismatch)
+11.099 Sys [Info]: /Lotus/Interface/InputCountDialog.lua is out of date (hash mismatch)
+11.099 Sys [Info]: /Lotus/Interface/EndOfMatch.lua is out of date (hash mismatch)
+11.099 Sys [Info]: /Lotus/Interface/InkPaint.lua is out of date (hash mismatch)
+11.099 Sys [Info]: /Lotus/Interface/Background.lua is out of date (hash mismatch)
+11.131 Sys [Info]: /Lotus/Powersuits/Jade/Abilities/SelfBulletAttractor.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Types/Enemies/Shadowgrapher/ShadowgrapherEnemyAvatarScript.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Scripts/Tau/StealthRescueObjective.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Interface/1999/RetroMessenger.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Scripts/TimeDecreaseGestatingTumors.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Scripts/Modes/SurvivalMission.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Interface/TennoHubScreenLauncher.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Powersuits/Inkblot/Abilities/InkField.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Interface/Codex.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Types/Scripts/Tau/CoH/CoHRace.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Types/Enemies/Tau/Uriel/UrielBossEncounter.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Scripts/Modes/ZarimanCorruptionMission.lua is out of date (hash mismatch)
+11.132 Sys [Info]: /Lotus/Interface/ThemedTennoCustomization.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Upgrades/CosmeticEnhancers/Offensive/SplitStatusProcsOnStackedStatusHit.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Upgrades/Calendar/ElementEveryXShots.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Upgrades/CosmeticEnhancers/Utility/ApplyStatusToEnemiesOnRoll.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Interface/ThemedOperatorLoadout.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityBossWellOfLifeAbility.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Interface/Dialog.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Scripts/Modes/ShadowGraphModeUtility.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Interface/LotusUtilities.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Interface/ThemedDetailedPurchaseDialog.lua is out of date (hash mismatch)
+11.148 Sys [Info]: /Lotus/Interface/TouchControlsInterface.lua is out of date (hash mismatch)
+11.180 Sys [Info]: Loading cache headers...
+11.180 Sys [Info]: 47 headers queued up...
+11.180 Sys [Info]: Waiting for async IO...
+11.228 Sys [Info]: Loading cache headers...
+11.277 Sys [Info]: 35,478 headers queued up...
+11.277 Sys [Info]: Waiting for async IO...
+11.521 Sys [Info]: Downloaded 0/6476348
+11.635 Sys [Info]: Loading cache headers...
+11.981 Sys [Info]: 241,573 headers queued up...
+11.983 Sys [Info]: Waiting for async IO...
+12.175 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SetThreeWinged/SetThreeRightLegArmorDecoOverrides is out of date (hash mismatch)
+12.175 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SWXairaksLegArmor/SWXairaksLegArmorLRDecoOverrides is out of date (hash mismatch)
+12.175 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SWXairaksLegArmor/SWXairaksLegArmorLLDecoOverrides is out of date (hash mismatch)
+12.175 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnCharityRibbonArmor/TnCharityRibbonArmorLRDecoOverrides is out of date (hash mismatch)
+12.175 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CorpusFencer/CrpFncRLArmorDecoOverrides is out of date (hash mismatch)
+12.288 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorTorsoCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.368 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorHelmetCloseCalDeluxeMale_skel.fbx is out of date (hash mismatch)
+12.368 Sys [Info]: /Lotus/Fx/PowersuitAbilities/CustomEffects/Ink/InkEphemeraBProjMat is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorHelmetOpenCalDeluxeMale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorWaistbandCalDeluxeMale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorCloackCalDeluxeMaleCloth_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorWaistbandCalDeluxeMaleCloth_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Fx/PowersuitAbilities/CustomEffects/Ink/InkEphemeraRorschachMat is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorStrapCalDeluxeMaleCloth_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorSleevesCalDeluxeMale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorTorsoCalDeluxeMale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorWaistbandCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorHelmetCloseCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorHelmetOpenCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorSleevesCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorWaistbandCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorCloackCalDeluxeFemaleCloth_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorStrapCalDeluxeFemaleCloth_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorWaistbandCalDeluxeFemaleCloth_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorHelmetCloseCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.369 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorHelmetOpenCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.416 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/AdultOperatorStrapCalDeluxFemaleCloth_skel.fbx is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CorpusFencer/CrpFncLLArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Shinai/TnShinaiArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpHighArmor/CrpHighArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TennoCon2019Armor/TennoCon2019ArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpIndexTwo/CrpIndexTwoLLArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeAvia/PrimeAviaArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpHighArmor/CrpHighArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/InfestedSetFins/InfestedFinsLeftLegArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Shinai/TnShinaiArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Wolf/TennoWolfArmourLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnCharityRibbonArmor/TnCharityRibbonArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/InfestedSetFins/InfestedFinsRightLegArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpIndexTwo/CrpIndexTwoLRArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeLavosArmor/PrimeLavosArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/DuviriArmor/DuvArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SWSpicularisSpursLegArmor/SWSpicularisSpursLegArmorRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnLatronArmor/TnLatronRightLegArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PerrinSequenceArmor/PerrinSequenceArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SetThreeWinged/SetThreeLeftLegArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrnSteelMeridianArmor/GrnSteelMeridianArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/InfEmbolistArmor/InfEmbolistArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnBayonettaArmor/TnBayonettaArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PerrinSequenceArmor/PerrinSequenceArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/DuviriArmor/DuvArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/JadeAxaArmor/JadeAxaArmourLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/JadeAxaArmor/JadeAxaArmourLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeLavosArmor/PrimeLavosArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SolarisUnitedArmor/SolarisUnitedArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnLatronArmor/TnLatronLeftLegArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/InfEmbolistArmor/InfEmbolistArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/ArbiterOfHexisArmor/ArbiterOfHexisArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SolarisUnitedArmor/SolarisUnitedArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TennoCon2019Armor/TennoCon2019ArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnBayonettaArmor/TnBayonettaArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/OstronArmor/OstronCrewArmorLLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Wolf/TennoWolfArmourLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrnSteelMeridianArmor/GrnSteelMeridianArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SetOne/SetOneRightLegArmorDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/RedVeilArmor/RedVeilArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CephArmor/CephArmorLRDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/KuvaLichSetA/KuvaLichArmourALLDecoOverrides is out of date (hash mismatch)
+12.464 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrineerQueenArmour/GrineerQueenArmourLLDecoOverrides is out of date (hash mismatch)
+12.481 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/AdultOperatorCloackCalDeluxeFemaleCloth_skel.fbx is out of date (hash mismatch)
+12.481 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorSleevesCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.481 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorTorsoCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+12.481 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/AdultOperatorWaistbandCalDeluxeFemaleCloth_skel.fbx is out of date (hash mismatch)
+12.529 Sys [Info]: Downloaded 0/9384103
+12.562 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeNezhaArmor/PrimeNezhaArmorLLDecoOverrides is out of date (hash mismatch)
+12.578 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeOctaviaArmour/PrimeOctaviaArmourLLDecoOverrides is out of date (hash mismatch)
+12.578 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorGaruda/GarudaPrimeArmorLRDecoOverrides is out of date (hash mismatch)
+12.611 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorGaruda/GarudaPrimeArmorLLDecoOverrides is out of date (hash mismatch)
+12.611 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrineerQueenArmour/GrineerQueenArmourLRDecoOverrides is out of date (hash mismatch)
+12.627 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeOctaviaArmour/PrimeOctaviaArmourLRDecoOverrides is out of date (hash mismatch)
+12.627 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnCeramicArmor/TnCeramicArmorLegLDecoOverrides is out of date (hash mismatch)
+12.627 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetSpikey/PrimeSetThreeLegLeftArmorDecoOverrides is out of date (hash mismatch)
+12.627 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeGyreArmor/PrimeGyreArmorLRDecoOverrides is out of date (hash mismatch)
+12.627 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnNewPlayerArmor/TnNewPlayerArmorLLDecoOverrides is out of date (hash mismatch)
+12.627 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SetTwoSamuri/SetTwoLeftLegArmorDecoOverrides is out of date (hash mismatch)
+12.707 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnNewPlayerArmor/TnNewPlayerArmorLRDecoOverrides is out of date (hash mismatch)
+12.741 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnCeramicArmor/TnCeramicArmorLegRDecoOverrides is out of date (hash mismatch)
+12.756 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetTwo/PrimeSetTwoLeftLegArmorDecoOverrides is out of date (hash mismatch)
+12.789 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeVetalaArmor/PrimeVetalaLLDecoOverrides is out of date (hash mismatch)
+12.805 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/FurisArmor/FurisArmorLRDecoOverrides is out of date (hash mismatch)
+12.805 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/LunaroSetA/LunaroSetALegLeftArmorDecoOverrides is out of date (hash mismatch)
+12.807 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PersianArmor/TnPersianRLArmorDecoOverrides is out of date (hash mismatch)
+12.822 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeGyreArmor/PrimeGyreArmorLLDecoOverrides is out of date (hash mismatch)
+12.822 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Railjack/RailjackArmorLRDecoOverrides is out of date (hash mismatch)
+12.854 Sys [Info]: /Lotus/Fx/ShaderDefaults/Rorschach is out of date (hash mismatch)
+12.902 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrineerSetTurbine/GrineerTurbineLeftLegArmorDecoOverrides is out of date (hash mismatch)
+12.903 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/RevenantArmor/RevenantArmorLRDecoOverrides is out of date (hash mismatch)
+12.903 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetTwo/PrimeSetTwoRightLegArmorDecoOverrides is out of date (hash mismatch)
+12.903 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/KuvaLichSetA/KuvaLichArmourALRDecoOverrides is out of date (hash mismatch)
+12.919 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/RevenantArmor/RevenantArmorLLDecoOverrides is out of date (hash mismatch)
+12.935 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PersianArmor/TnPersianLLArmorDecoOverrides is out of date (hash mismatch)
+12.935 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnArmorCurve/TnArmorCurveLowerLLDecoOverrides is out of date (hash mismatch)
+12.935 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnArmorCurve/TnArmorCurveLowerLRDecoOverrides is out of date (hash mismatch)
+12.935 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/StalkerArmour/StalkLLDecoOverrides is out of date (hash mismatch)
+12.983 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SetTwoSamuri/SetTwoRightLegArmorDecoOverrides is out of date (hash mismatch)
+13.015 Sys [Info]: /Lotus/Characters/Tenno/Devourer/GrendelDeluxe/GrendelDeluxeIIBody_skel.fbx is out of date (hash mismatch)
+13.048 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/LokiDeluxeBundleArmour/LokiDeluxeLeftLegArmorDecoOverrides is out of date (hash mismatch)
+13.145 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrineerSetTurbine/GrineerTurbineRightLegArmorDecoOverrides is out of date (hash mismatch)
+13.356 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetOne/PrimeSetOneRightLegArmorDecoOverrides is out of date (hash mismatch)
+13.535 Sys [Info]: Downloaded 0/10590205
+13.536 Sys [Info]: /Lotus/Fx/PowersuitAbilities/Wisp/WispSunAugmentCoreDecoMat is out of date (hash mismatch)
+13.780 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/LokiDeluxeBundleArmour/LokiDeluxeRightLegArmorDecoOverrides is out of date (hash mismatch)
+13.993 Sys [Info]: /Lotus/Objects/Grineer/Structural/Settlement/GrineerSettlementTerrainA is out of date (hash mismatch)
+14.040 Sys [Info]: /Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue is out of date (hash mismatch)
+14.104 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorLeggingsCalDeluxeFemale_skel.fbx is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorLeggingsCalDeluxeMale_skel.fbx is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeGaussArmor/PrimeGaussArmourLLDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/HarrowDeluxe/HarrowDeluxeArmorLRDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorIvara/IvaraPrimeArmorLLDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeNezhaArmor/PrimeNezhaArmorLRDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeGaussArmor/PrimeGaussArmourLRDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmourML/PrimeSetFourLRArmorDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetSpikey/PrimeSetThreeLegRightArmorDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmourML/PrimeSetFourLLArmorDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/HarrowDeluxe/HarrowDeluxeArmorLLDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorIvara/IvaraPrimeArmorLRDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeInarosArmor/PrimeInarosArmorLLDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeInarosArmor/PrimeInarosArmorLRDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeVetalaArmor/PrimeVetalaLRDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmourSetThree/PrimeSetMirageLegRightArmorDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmourSetThree/PrimeSetMirageLegLeftArmorDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Railjack/RailjackArmorLLDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpSisters/CrpSistersLLDecoOverrides is out of date (hash mismatch)
+14.282 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpSisters/CrpSistersLRDecoOverrides is out of date (hash mismatch)
+14.297 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrnVhArmor/GrineerVhLLBArmorDecoOverrides is out of date (hash mismatch)
+14.297 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrnVhArmor/GrineerVhLRBArmorDecoOverrides is out of date (hash mismatch)
+14.297 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GrnVhArmor/GrineerVhLRArmorDecoOverrides is out of date (hash mismatch)
+14.297 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeChromaArmor/ChromaPrimeArmorLRDecoOverrides is out of date (hash mismatch)
+14.297 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeChromaArmor/ChromaPrimeArmorLLDecoOverrides is out of date (hash mismatch)
+14.297 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SentEvoArmor/SentEvoArmor1LRDecoOverrides is out of date (hash mismatch)
+14.297 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SentEvoArmor/SentEvoArmor1LLDecoOverrides is out of date (hash mismatch)
+14.297 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetOne/PrimeSetOneLeftLegArmorDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Types/Lore/CodexStorePairManifest is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SWKrtrimaLegArmor/SWKrtrimaLegArmorLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpModular/CrpModularTwitchSkin/CrpModularTwitchLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SummerSolsticeArmor/DaybreakArmourLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/BaroArmourThree/BaroArmourThreeLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SWSpicularisSpursLegArmor/SWSpicularisSpursLegArmorLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/BaroArmourThree/BaroArmourThreeLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpModular/CrpModularTwitchSkin/CrpModularTwitchLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/BillowingArmor/BillowingLRArmorDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/BillowingArmor/BillowingLLArmorDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SummerSolsticeArmor/DaybreakArmourLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/FurisArmor/FurisArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/ArbiterOfHexisArmor/ArbiterOfHexisArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpCubinatorArmor/CrpCubinatorArmorLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnIceArmor/TnIceArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpCircleArmour/CrpCircLRArmorDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpCubinatorArmor/CrpCubinatorArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TnIceArmor/TnIceArmorLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/OstronArmor/OstronCrewArmorLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/NecraArmor/NecraArmorLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SWKrtrimaLegArmor/SWKrtrimaLegArmorRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/NecraArmor/NecraArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Dex2020Armor/Dex2020ArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TwitchArmor2021/TwitchArmor2021LLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Dex2020Armor/Dex2020ArmorLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeAvia/PrimeAviaArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CephArmor/CephArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Sundial/SundialLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/NLokaArmor/NLokaArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/Sundial/SundialLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/BaroArmourTwo/BaroArmourTwoLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/BaroArmour/BaroArmourLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/SetOne/SetOneLeftLegArmorDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/CrpCircleArmour/CrpCircLLArmorDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/BaroArmour/BaroArmourLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/LunaroSetA/LunaroSetALegRightArmorDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TwitchArmor2021/TwitchArmor2021LRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/RedVeilArmor/RedVeilArmorLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/ObsidianAzura/ObsidianAzuraLLArmorDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GyreDeluxeArmour/GyreDeluxeArmourLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/GyreDeluxeArmour/GyreDeluxeArmourLLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorEquinox/PrimeArmorEquinoxLegLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorEquinox/PrimeArmorEquinoxLegRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TitaniaDeluxe/TitaniaDeluxeArmorLegLDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/TitaniaDeluxe/TitaniaDeluxeArmorLegRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/BaroArmourTwo/BaroArmourTwoLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/NLokaArmor/NLokaArmorLRDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/RailV2Armor/ItzalArmourLRBaseDecoOverrides is out of date (hash mismatch)
+14.298 Sys [Info]: /Lotus/Characters/Tenno/Accessory/Armour/RailV2Armor/ItzalArmourLLBaseDecoOverrides is out of date (hash mismatch)
+14.331 Sys [Info]: Loading cache headers...
+14.331 Sys [Info]: 11 headers queued up...
+14.331 Sys [Info]: Waiting for async IO...
+14.379 Sys [Info]: Loading cache headers...
+14.470 Sys [Info]: 66,777 headers queued up...
+14.471 Sys [Info]: Waiting for async IO...
+14.546 Sys [Info]: Downloaded 0/13299679
+14.644 Sys [Info]: /Lotus/Interface/Icons/WorldStatePanel/OperationAntramentumIcon.png is out of date (hash mismatch)
+15.018 Sys [Info]: /Lotus/Interface/Icons/WorldStatePanel/OperationAntramentumIconSmall.png is out of date (hash mismatch)
+15.018 Sys [Info]: /Lotus/Interface/Icons/WorldStatePanel/FolliesHuntIconSmall.png is out of date (hash mismatch)
+15.050 Sys [Info]: Loading cache headers...
+15.135 Sys [Info]: 58,353 headers queued up...
+15.136 Sys [Info]: Waiting for async IO...
+15.547 Sys [Info]: Downloaded 0/13323724
+15.677 Sys [Info]: Loading cache headers...
+15.701 Sys [Info]: 11,046 headers queued up...
+15.701 Sys [Info]: Waiting for async IO...
+15.717 Sys [Info]: /Lotus/Interface/ThemedDetailedPurchaseDialog.swf is out of date (hash mismatch)
+15.717 Sys [Info]: /Lotus/Interface/InputCountDialog.swf is out of date (hash mismatch)
+15.750 Sys [Info]: /Lotus/Levels/Muse/Fittings/MusePerrinSequenceFittingA.level is out of date (hash mismatch)
+15.750 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid is out of date (hash mismatch)
+15.766 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/BardQuestOceanDefense is out of date (hash mismatch)
+15.766 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonCapture is out of date (hash mismatch)
+15.766 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonExterminateDagath is out of date (hash mismatch)
+15.766 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonColonistRescue is out of date (hash mismatch)
+15.766 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GalleonPalladinoHarrowQuest is out of date (hash mismatch)
+15.766 Sys [Info]: /Lotus/Levels/Proc/Transitional/CorpusToGrineerCapture is out of date (hash mismatch)
+15.766 Sys [Info]: /Lotus/Levels/Proc/Duviri/DuviriLandscapeAngry is out of date (hash mismatch)
+15.767 Sys [Info]: /Lotus/Levels/Proc/TheNewWar/PartOne/PostWarEidolonLandscape is out of date (hash mismatch)
+15.767 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerFortressRescue is out of date (hash mismatch)
+15.767 Sys [Info]: /Lotus/Levels/Proc/Duviri/DuviriLandscapeHappy is out of date (hash mismatch)
+15.767 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerShipyardsUmbraChase is out of date (hash mismatch)
+15.767 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerGalleonGlassQuest is out of date (hash mismatch)
+15.782 Sys [Info]: /Lotus/Levels/DevilTower/BossArenaUriel.level is out of date (hash mismatch)
+15.782 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestInterception is out of date (hash mismatch)
+15.782 Sys [Info]: /Lotus/Levels/Proc/Grineer/NarmerGrineerForestInterception is out of date (hash mismatch)
+15.783 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidBossKela is out of date (hash mismatch)
+15.783 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerForestFairyQuest is out of date (hash mismatch)
+15.783 Sys [Info]: /Lotus/Levels/Proc/Duviri/DuviriLandscapeJealous is out of date (hash mismatch)
+15.799 Sys [Info]: /Lotus/Levels/Proc/Narmer/NarmerArchonBossForestExtended is out of date (hash mismatch)
+15.800 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense is out of date (hash mismatch)
+15.800 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestExterminate is out of date (hash mismatch)
+15.800 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanExterminate is out of date (hash mismatch)
+15.800 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsAssassinate is out of date (hash mismatch)
+15.815 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/PriestFrameQuestSealabSiphonTwo is out of date (hash mismatch)
+15.815 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipExterminate is out of date (hash mismatch)
+15.816 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestExcavationSmall is out of date (hash mismatch)
+15.816 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonBoss is out of date (hash mismatch)
+15.832 Sys [Info]: /Lotus/Levels/Proc/Railjack/GrineerCrewShipAsteroidInteriorProc is out of date (hash mismatch)
+15.832 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalMech is out of date (hash mismatch)
+15.832 Sys [Info]: /Lotus/Levels/Proc/Orokin/OrokinMoonSurvivalVoidEclipse is out of date (hash mismatch)
+15.832 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseArbitersFittingA.level is out of date (hash mismatch)
+15.848 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanDarkSector is out of date (hash mismatch)
+15.848 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerForestSentientSalvage is out of date (hash mismatch)
+15.848 Sys [Info]: /Lotus/Levels/Muse/Prefabs/MuseHubDoor5x3.level is out of date (hash mismatch)
+15.849 Sys [Info]: /Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageForest is out of date (hash mismatch)
+15.849 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestExcavation is out of date (hash mismatch)
+15.849 Sys [Info]: /Lotus/Levels/Proc/Grineer/NarmerGrineerForestExcavation is out of date (hash mismatch)
+15.864 Sys [Info]: /Lotus/Levels/Proc/Railjack/GrineerCrewShipGalleonNemesisAssassinateInteriorProc is out of date (hash mismatch)
+15.864 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption is out of date (hash mismatch)
+15.864 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerFortressSabotage is out of date (hash mismatch)
+15.865 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanSurvival is out of date (hash mismatch)
+15.881 Sys [Info]: /Lotus/Levels/Proc/CivilianHubs/EidolonLandscape is out of date (hash mismatch)
+15.881 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidBossGrineer is out of date (hash mismatch)
+15.881 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestMobileDefense is out of date (hash mismatch)
+15.913 Sys [Info]: /Lotus/Levels/Proc/Orokin/OrokinMoonSpy is out of date (hash mismatch)
+15.945 Sys [Info]: /Lotus/Levels/Proc/Duviri/DuviriLandscape is out of date (hash mismatch)
+15.945 Sys [Info]: /Lotus/Levels/Proc/Railjack/CorpusCapitalShipExterminateInteriorProc is out of date (hash mismatch)
+15.945 Sys [Info]: /Lotus/Levels/PVP/RaceGrineerForest is out of date (hash mismatch)
+15.946 Sys [Info]: /Lotus/Levels/Proc/Railjack/CrpCapitalShipSurvivalInteriorProc is out of date (hash mismatch)
+15.946 Sys [Info]: /Lotus/Levels/Proc/TheNewWar/PartTwo/TNWArchonBossForest is out of date (hash mismatch)
+15.946 Sys [Info]: /Lotus/Levels/Proc/Duviri/Quests/DuviriQuestM1Start is out of date (hash mismatch)
+15.962 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidBossVor is out of date (hash mismatch)
+15.978 Sys [Info]: /Lotus/Levels/Proc/Zariman/Quests/AOTZCorruption is out of date (hash mismatch)
+15.978 Sys [Info]: /Lotus/Levels/Proc/Zariman/ZarimanCorruption is out of date (hash mismatch)
+15.978 Sys [Info]: /Lotus/Levels/Proc/Hub/RelayStationHubTwoB is out of date (hash mismatch)
+15.979 Sys [Info]: /Lotus/Levels/Proc/Railjack/GrineerCrewShipGalleonInteriorProc is out of date (hash mismatch)
+15.979 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate is out of date (hash mismatch)
+15.995 Sys [Info]: /Lotus/Levels/Proc/Hub/RelayStationHubTwoBBoss is out of date (hash mismatch)
+15.995 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/PriestFrameQuestForestSiphonThree is out of date (hash mismatch)
+15.995 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseRedVeilFittingA.level is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanMobileDefense is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Proc/Grineer/Events/GrineerOceanClemRetrieval is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Proc/Transitional/GrineerToCorpusRescue is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipRescue is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseCodexFittingA.level is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseCephalonSudaFittingA.level is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaveSingleTarget is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsRJHunt is out of date (hash mismatch)
+16.011 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerOceanSurvivalSentientQuest is out of date (hash mismatch)
+16.027 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerForestIntelTutorial is out of date (hash mismatch)
+16.027 Sys [Info]: /Lotus/Levels/Proc/Grineer/NarmerGrineerForestMobileDefense is out of date (hash mismatch)
+16.028 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanSpy is out of date (hash mismatch)
+16.028 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerFortressDefense is out of date (hash mismatch)
+16.043 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidCapture is out of date (hash mismatch)
+16.043 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue is out of date (hash mismatch)
+16.043 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipArmoredJackalBoss is out of date (hash mismatch)
+16.043 Sys [Info]: /Lotus/Levels/Proc/Hub/RelayStationHubHydroid is out of date (hash mismatch)
+16.043 Sys [Info]: /Lotus/Levels/Proc/Hub/RelayStationHubTrading is out of date (hash mismatch)
+16.043 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanDefense is out of date (hash mismatch)
+16.044 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerOceanSpyMoonQuest is out of date (hash mismatch)
+16.044 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerFortressSpy is out of date (hash mismatch)
+16.044 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonExterminateSimple is out of date (hash mismatch)
+16.044 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerOceanHunhowDigMoonQuest is out of date (hash mismatch)
+16.044 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestKubrowQuestTwo is out of date (hash mismatch)
+16.044 Sys [Info]: /Lotus/Levels/Proc/Orokin/OrokinTowerSabotageForest is out of date (hash mismatch)
+16.059 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerOceanSurvivalClemQuest is out of date (hash mismatch)
+16.060 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/VorsPrizeGalleonRaidSabotage is out of date (hash mismatch)
+16.060 Sys [Info]: /Lotus/Levels/Proc/Grineer/NarmerGrineerForestCapture is out of date (hash mismatch)
+16.060 Sys [Info]: /Lotus/Levels/Proc/Railjack/CorpusCapitalShipSpyInteriorProc is out of date (hash mismatch)
+16.060 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerShipyardsRescueToSpyDragonQuest is out of date (hash mismatch)
+16.075 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseConclaveFittingA.level is out of date (hash mismatch)
+16.076 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate is out of date (hash mismatch)
+16.076 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseSteelMeridianFittingA.level is out of date (hash mismatch)
+16.076 Sys [Info]: /Lotus/Levels/Muse/MuseHubSyndicatePerrinSequence.level is out of date (hash mismatch)
+16.076 Sys [Info]: /Lotus/Interface/1999/RetroMessenger.swf is out of date (hash mismatch)
+16.076 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanExterminateAnywhere is out of date (hash mismatch)
+16.076 Sys [Info]: /Lotus/Levels/Proc/Corpus/Quest/CorpusShipProteaFinalPurg is out of date (hash mismatch)
+16.076 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestIntel is out of date (hash mismatch)
+16.076 Sys [Info]: /Lotus/Levels/Proc/Grineer/NarmerGrineerForestIntel is out of date (hash mismatch)
+16.092 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsMobileDefense is out of date (hash mismatch)
+16.092 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaves is out of date (hash mismatch)
+16.092 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerFortressQueensWarWithinQuest is out of date (hash mismatch)
+16.092 Sys [Info]: /Lotus/Levels/Muse/MuseHubMissionControl.level is out of date (hash mismatch)
+16.092 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseNewLokaFittingA.level is out of date (hash mismatch)
+16.092 Sys [Info]: /Lotus/Levels/Muse/MuseHubCodexRoom.level is out of date (hash mismatch)
+16.108 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonRescue is out of date (hash mismatch)
+16.108 Sys [Info]: /Lotus/Levels/Proc/Transitional/CorpusToGrineerRescue is out of date (hash mismatch)
+16.108 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShip is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Transitional/CorpusToGrineerExterminate is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Transitional/GrineerToCorpusSabotage is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Transitional/GrineerToCorpusExterminate is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Transitional/CorpusToGrineerSabotage is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotageEasy is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonIntel is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerFortressDisruption is out of date (hash mismatch)
+16.124 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Photobooth/PBMuseRelayHangar.level is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseMissionControlFittingA.level is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Muse/Fittings/MuseDarvoMarketFittingA.level is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Muse/MuseRelayHangar.level is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerFortressMobileDefense is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerFortressSurvival is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerFortressIntroWarWithinQuest is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Proc/Duviri/DuviriLandscapeScared is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Tenno/SimulacrumEnemySpawnerDevilTowerUrielArena.level is out of date (hash mismatch)
+16.140 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate is out of date (hash mismatch)
+16.141 Sys [Info]: /Lotus/Levels/Proc/Grineer/NarmerGrineerForestExterminate is out of date (hash mismatch)
+16.141 Sys [Info]: /Lotus/Levels/Proc/Transitional/CorpusToGrineerIntel is out of date (hash mismatch)
+16.157 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestExterminateHaloween is out of date (hash mismatch)
+16.173 Sys [Info]: /Lotus/Levels/Proc/Transitional/GrineerToCorpusCapture is out of date (hash mismatch)
+16.173 Sys [Info]: /Lotus/Levels/Proc/Grineer/Quests/GrineerForestSacrificeQuestFinale is out of date (hash mismatch)
+16.173 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestExterminateHaloweenTimeAttack is out of date (hash mismatch)
+16.173 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestBoss is out of date (hash mismatch)
+16.173 Sys [Info]: /Lotus/Levels/Proc/Hub/RelayStationHubDevstreamShowroom is out of date (hash mismatch)
+16.173 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue is out of date (hash mismatch)
+16.173 Sys [Info]: /Lotus/Levels/Proc/Railjack/CrpCapitalShipAssassinateInteriorProc is out of date (hash mismatch)
+16.189 Sys [Info]: /Lotus/Levels/Proc/Photobooth/PBEidolonLandscape is out of date (hash mismatch)
+16.189 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidBossInfested is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestRJHunt is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Grineer/NarmerGrineerForestSabotage is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestSabotage is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanRescue is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Hub/RelayStationHubTennoConVIP is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Hub/RelayStationHubMain is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanCapture is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipHyenaAssassinate is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanSabotage is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerOceanExterminateSharkwing is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/EntratiLab/EntratiLabDisruption is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Railjack/CorpusCapitalShipVolatileInteriorProc is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/TheNewWar/PartTwo/TNWGrineerOceanNarmerLab is out of date (hash mismatch)
+16.205 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval is out of date (hash mismatch)
+16.221 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsExterminate is out of date (hash mismatch)
+16.221 Sys [Info]: /Lotus/Levels/Proc/Hub/RelayStationHubTwoA is out of date (hash mismatch)
+16.221 Sys [Info]: /Lotus/Levels/Proc/Railjack/CorpusCapitalShipSabotageInteriorProc is out of date (hash mismatch)
+16.237 Sys [Info]: /Lotus/Levels/Proc/Railjack/CorpusCapitalShipRescueInteriorProc is out of date (hash mismatch)
+16.237 Sys [Info]: /Lotus/Levels/Proc/Railjack/CorpusCapitalShipCaptureInteriorProc is out of date (hash mismatch)
+16.238 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsSpy is out of date (hash mismatch)
+16.238 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipJackalBoss is out of date (hash mismatch)
+16.238 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy is out of date (hash mismatch)
+16.238 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsCapture is out of date (hash mismatch)
+16.238 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerFortressExterminate is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerShipyardsSabotage is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerForestSurvival is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/CorpusShipRemaster/CSRBoss is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Photobooth/PBMuseHubConcourse.level is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Muse/MuseHubConcourse.level is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/Corpus/CorpusShipCapture is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroidIntelEasy is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/Grineer/GrineerAsteroid is out of date (hash mismatch)
+16.253 Sys [Info]: /Lotus/Levels/Proc/Transitional/GrineerToCorpusIntel is out of date (hash mismatch)
+16.270 Sys [Info]: 15,930,585 bytes, 473 assets to download
+16.270 Sys [Info]: Queuing fetches...
+16.286 Sys [Info]: Waiting for content download...
+16.414 Sys [Info]: Used shared /Lotus/Shaders/Rorschach/0_p.hlsl (1,715B Copy: 1.63ms Write: 12us Latency: 128ms)
+16.414 Sys [Info]: Used shared /Lotus/Shaders/Rorschach/4D_p.hlsl (1,221B Copy: 1.37ms Write: 2us Latency: 128ms)
+16.414 Sys [Info]: Used shared /Lotus/Shaders/Rorschach.hlsl (1,551B Copy: 3.50ms Write: 2us Latency: 128ms)
+16.448 Sys [Info]: Used shared /Lotus/Shaders/Rorschach/F_p.hlsl (1,238B Copy: 1.46ms Write: 6us Latency: 163ms)
+16.448 Sys [Info]: Used shared /Lotus/Shaders/Rorschach/41_p.hlsl (1,179B Copy: 20us Write: 2us Latency: 163ms)
+16.479 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred.hlsl (3,682B Copy: 19.9ms Write: 6us Latency: 194ms)
+16.479 Sys [Info]: Used shared /Temp/LocCache.lch (20,887B Copy: 81.5ms Write: 6us Latency: 194ms)
+16.542 Sys [Info]: Used shared /Lotus/Powersuits/Inkblot/Abilities/InkBalloon.lua (11,142B Copy: 53.1ms Write: 10us Latency: 257ms)
+16.559 Sys [Info]: Downloaded 42615/15930585
+Downloading @ 9 KB/s
+16.559 Sys [Info]: Used shared /Lotus/Scripts/Nemesis/NemesisGenerator.lua (16,245B Copy: 87.4ms Write: 9us Latency: 273ms)
+16.575 Sys [Info]: Used shared /Lotus/Interface/InputCountDialog.lua (12,815B Copy: 73.1ms Write: 6us Latency: 289ms)
+16.640 Sys [Info]: Used shared /Lotus/Types/Enemies/Shadowgrapher/ShadowgrapherEnemyAvatarScript.lua (3,695B Copy: 17.2ms Write: 12us Latency: 354ms)
+16.656 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/30045_p.hlsl (30,943B Copy: 186ms Write: 19us Latency: 371ms)
+16.656 Sys [Info]: Used shared /Lotus/Scripts/Libs/AbilitiesLib.lua (34,919B Copy: 199ms Write: 9us Latency: 371ms)
+16.673 Sys [Info]: Used shared /Lotus/Powersuits/Jade/Abilities/SelfBulletAttractor.lua (11,264B Copy: 57.2ms Write: 7us Latency: 387ms)
+16.705 Sys [Info]: Used shared /Lotus/Scripts/TimeDecreaseGestatingTumors.lua (3,784B Copy: 171us Write: 9us Latency: 419ms)
+16.705 Sys [Info]: Used shared /Lotus/Interface/InkPaint.lua (24,707B Copy: 165ms Write: 7us Latency: 419ms)
+16.705 Sys [Info]: Used shared /Lotus/Scripts/Tau/StealthRescueObjective.lua (6,872B Copy: 33.4ms Write: 4us Latency: 419ms)
+16.770 Sys [Info]: Used shared /Lotus/Powersuits/Inkblot/Abilities/InkField.lua (8,185B Copy: 39.9ms Write: 14us Latency: 484ms)
+16.819 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/1C057_p.hlsl (72,926B Copy: 408ms Write: 27us Latency: 533ms)
+16.835 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/18051_p.hlsl (71,879B Copy: 426ms Write: 18us Latency: 549ms)
+16.851 Sys [Info]: Used shared /EE/Interface/Utilities.lua (23,454B Copy: 431ms Write: 8us Latency: 566ms)
+16.851 Sys [Info]: Used shared /Lotus/Types/Scripts/Tau/CoH/CoHRace.lua (8,380B Copy: 40.8ms Write: 5us Latency: 565ms)
+16.868 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/11A013_p.hlsl (70,615B Copy: 424ms Write: 12us Latency: 582ms)
+16.868 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/4018803_p.hlsl (85,177B Copy: 465ms Write: 9us Latency: 582ms)
+16.885 Sys [Info]: Used shared /Lotus/Types/Enemies/Tau/Uriel/UrielBossEncounter.lua (6,091B Copy: 35.8ms Write: 7us Latency: 599ms)
+16.885 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/2018083_p.hlsl (80,654B Copy: 476ms Write: 10us Latency: 599ms)
+16.885 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/4010007_p.hlsl (84,513B Copy: 476ms Write: 11us Latency: 599ms)
+16.885 Sys [Info]: Used shared /Lotus/Upgrades/CosmeticEnhancers/Offensive/SplitStatusProcsOnStackedStatusHit.lua (1,439B Copy: 35us Write: 4us Latency: 599ms)
+16.885 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/1C055_p.hlsl (70,230B Copy: 427ms Write: 8us Latency: 599ms)
+16.885 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/2010083_p.hlsl (81,919B Copy: 467ms Write: 8us Latency: 599ms)
+16.885 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/1C013_p.hlsl (70,984B Copy: 428ms Write: 10us Latency: 599ms)
+16.918 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/831AC21_p.hlsl (87,128B Copy: 495ms Write: 13us Latency: 632ms)
+16.918 Sys [Info]: Used shared /Lotus/Upgrades/Calendar/ElementEveryXShots.lua (705B Copy: 25us Write: 2us Latency: 632ms)
+16.918 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/1C053_p.hlsl (71,495B Copy: 455ms Write: 8us Latency: 632ms)
+16.918 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/10500D7_p.hlsl (81,025B Copy: 486ms Write: 8us Latency: 632ms)
+16.918 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/1C037_p.hlsl (76,078B Copy: 449ms Write: 8us Latency: 632ms)
+16.918 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/18005_p.hlsl (84,694B Copy: 495ms Write: 9us Latency: 632ms)
+16.918 Sys [Info]: Used shared /Lotus/Upgrades/CosmeticEnhancers/Utility/ApplyStatusToEnemiesOnRoll.lua (3,238B Copy: 14.5ms Write: 4us Latency: 632ms)
+16.918 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/431E421_p.hlsl (86,932B Copy: 501ms Write: 8us Latency: 632ms)
+16.918 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/100D5_p.hlsl (74,260B Copy: 460ms Write: 6us Latency: 632ms)
+16.918 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/1011045_p.hlsl (87,768B Copy: 510ms Write: 15us Latency: 632ms)
+16.933 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/431A421_p.hlsl (84,269B Copy: 508ms Write: 15us Latency: 647ms)
+16.933 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/110003_p.hlsl (84,304B Copy: 511ms Write: 9us Latency: 647ms)
+16.951 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/18803_p.hlsl (81,680B Copy: 482ms Write: 10us Latency: 665ms)
+16.951 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/1C047_p.hlsl (80,174B Copy: 483ms Write: 8us Latency: 665ms)
+16.951 Sys [Info]: Used shared /Lotus/Fx/PowersuitAbilities/CustomEffects/Ink/InkEphemeraBProjMat (575B Copy: 27us Write: 3us Latency: 665ms)
+16.951 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/18003_p.hlsl (81,505B Copy: 495ms Write: 9us Latency: 665ms)
+16.951 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/10007_p.hlsl (84,080B Copy: 510ms Write: 9us Latency: 665ms)
+16.951 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/2018003_p.hlsl (82,994B Copy: 510ms Write: 10us Latency: 665ms)
+16.951 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/4016425_p.hlsl (84,753B Copy: 496ms Write: 10us Latency: 665ms)
+16.951 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/20124C7_p.hlsl (84,190B Copy: 490ms Write: 9us Latency: 665ms)
+16.951 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/831A421_p.hlsl (85,839B Copy: 511ms Write: 9us Latency: 665ms)
+16.951 Sys [Info]: Used shared /Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityBossWellOfLifeAbility.lua (8,570B Copy: 42.7ms Write: 4us Latency: 665ms)
+16.966 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnCharityRibbonArmor/TnCharityRibbonArmorLRDecoOverrides (5,576B Copy: 19.2ms Write: 7us Latency: 680ms)
+16.966 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SWXairaksLegArmor/SWXairaksLegArmorLRDecoOverrides (6,132B Copy: 19.1ms Write: 5us Latency: 680ms)
+16.966 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/231A401_p.hlsl (86,210B Copy: 504ms Write: 7us Latency: 680ms)
+16.966 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SWXairaksLegArmor/SWXairaksLegArmorLLDecoOverrides (6,088B Copy: 21.1ms Write: 3us Latency: 680ms)
+16.966 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CorpusFencer/CrpFncRLArmorDecoOverrides (5,680B Copy: 20.1ms Write: 5us Latency: 680ms)
+16.966 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SetThreeWinged/SetThreeRightLegArmorDecoOverrides (6,088B Copy: 21.8ms Write: 4us Latency: 680ms)
+16.984 Sys [Info]: Used shared /Lotus/Scripts/Modes/SurvivalMission.lua (45,951B Copy: 270ms Write: 12us Latency: 698ms)
+16.984 Sys [Info]: Used shared /Lotus/Fx/PowersuitAbilities/CustomEffects/Ink/InkEphemeraRorschachMat (486B Copy: 22us Write: 3us Latency: 698ms)
+16.984 Sys [Info]: Used shared /Lotus/Interface/Dialog.lua (14,630B Copy: 63.8ms Write: 5us Latency: 698ms)
+16.984 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/421C421_p.hlsl (87,444B Copy: 523ms Write: 10us Latency: 698ms)
+16.984 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/631E421_p.hlsl (92,511B Copy: 526ms Write: 10us Latency: 698ms)
+16.999 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/631A421_p.hlsl (93,441B Copy: 535ms Write: 12us Latency: 713ms)
+16.999 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/431E425_p.hlsl (97,228B Copy: 531ms Write: 10us Latency: 713ms)
+16.999 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/431E423_p.hlsl (91,051B Copy: 540ms Write: 10us Latency: 713ms)
+16.999 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/31A421_p.hlsl (93,932B Copy: 546ms Write: 7us Latency: 713ms)
+16.999 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/2100D5_p.hlsl (95,723B Copy: 541ms Write: 15us Latency: 713ms)
+17.015 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/631C421_p.hlsl (96,194B Copy: 544ms Write: 22us Latency: 729ms)
+17.015 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CorpusFencer/CrpFncLLArmorDecoOverrides (5,646B Copy: 21.9ms Write: 5us Latency: 729ms)
+17.032 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpHighArmor/CrpHighArmorLLDecoOverrides (6,670B Copy: 24.4ms Write: 9us Latency: 746ms)
+17.032 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Shinai/TnShinaiArmorLRDecoOverrides (5,941B Copy: 26.1ms Write: 5us Latency: 746ms)
+17.032 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TennoCon2019Armor/TennoCon2019ArmorLLDecoOverrides (6,552B Copy: 27.8ms Write: 4us Latency: 746ms)
+17.032 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpIndexTwo/CrpIndexTwoLLArmorDecoOverrides (6,475B Copy: 29.9ms Write: 4us Latency: 746ms)
+17.046 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeAvia/PrimeAviaArmorLRDecoOverrides (6,519B Copy: 30.9ms Write: 9us Latency: 760ms)
+17.046 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/InfestedSetFins/InfestedFinsRightLegArmorDecoOverrides (5,308B Copy: 16.1ms Write: 4us Latency: 760ms)
+17.046 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Shinai/TnShinaiArmorLLDecoOverrides (5,982B Copy: 32.1ms Write: 5us Latency: 760ms)
+17.046 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/231A425_p.hlsl (107,336B Copy: 595ms Write: 12us Latency: 761ms)
+17.063 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/InfestedSetFins/InfestedFinsLeftLegArmorDecoOverrides (5,334B Copy: 12.3ms Write: 8us Latency: 777ms)
+17.063 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorStrapCalDeluxeMaleCloth_skel.fbx (19,275B Copy: 75.3ms Write: 7us Latency: 777ms)
+17.063 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnCharityRibbonArmor/TnCharityRibbonArmorLLDecoOverrides (5,576B Copy: 25.8ms Write: 4us Latency: 777ms)
+17.063 Sys [Info]: Used shared /Lotus/Scripts/Modes/ZarimanCorruptionMission.lua (43,158B Copy: 183ms Write: 7us Latency: 777ms)
+17.063 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpHighArmor/CrpHighArmorLRDecoOverrides (6,689B Copy: 21.3ms Write: 4us Latency: 777ms)
+17.063 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Wolf/TennoWolfArmourLLDecoOverrides (6,244B Copy: 25.4ms Write: 4us Latency: 777ms)
+17.063 Sys [Info]: Used shared /Lotus/Interface/Background.lua (92,478B Copy: 470ms Write: 10us Latency: 777ms)
+17.063 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/AdultOperatorStrapCalDeluxFemaleCloth_skel.fbx (19,416B Copy: 75.4ms Write: 6us Latency: 777ms)
+17.063 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorStrapCalDeluxeFemaleCloth_skel.fbx (17,759B Copy: 75.7ms Write: 7us Latency: 777ms)
+17.080 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpIndexTwo/CrpIndexTwoLRArmorDecoOverrides (6,454B Copy: 19.1ms Write: 15us Latency: 794ms)
+17.080 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/DuviriArmor/DuvArmorLLDecoOverrides (6,358B Copy: 17.0ms Write: 11us Latency: 794ms)
+17.080 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeLavosArmor/PrimeLavosArmorLLDecoOverrides (5,917B Copy: 18.3ms Write: 5us Latency: 794ms)
+17.080 Sys [Info]: Used shared /Lotus/Scripts/Modes/ShadowGraphModeUtility.lua (37,080B Copy: 161ms Write: 7us Latency: 794ms)
+17.080 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SWSpicularisSpursLegArmor/SWSpicularisSpursLegArmorRDecoOverrides (6,273B Copy: 17.9ms Write: 3us Latency: 794ms)
+17.080 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnLatronArmor/TnLatronRightLegArmorDecoOverrides (6,335B Copy: 16.0ms Write: 3us Latency: 794ms)
+17.097 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PerrinSequenceArmor/PerrinSequenceArmorLRDecoOverrides (6,426B Copy: 18.1ms Write: 7us Latency: 811ms)
+17.097 Sys [Info]: Used shared /Lotus/Interface/1999/RetroMessenger.lua (81,900B Copy: 416ms Write: 16us Latency: 811ms)
+17.097 Sys [Info]: Used shared /Lotus/Interface/EndOfMatch.lua (109,247B Copy: 574ms Write: 11us Latency: 811ms)
+17.097 Sys [Info]: Used shared /Lotus/Interface/DiegeticUpgradeCards.lua (120,813B Copy: 639ms Write: 12us Latency: 811ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SolarisUnitedArmor/SolarisUnitedArmorLLDecoOverrides (6,682B Copy: 15.4ms Write: 8us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SetThreeWinged/SetThreeLeftLegArmorDecoOverrides (6,159B Copy: 22.6ms Write: 4us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/JadeAxaArmor/JadeAxaArmourLRDecoOverrides (6,203B Copy: 15.8ms Write: 3us Latency: 826ms)
+17.112 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/3C813_p.hlsl (27,846B Copy: 693ms Write: 7us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorHelmetOpenCalDeluxeMale_skel.fbx (41,415B Copy: 154ms Write: 9us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrnSteelMeridianArmor/GrnSteelMeridianArmorLLDecoOverrides (6,664B Copy: 19.6ms Write: 4us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnBayonettaArmor/TnBayonettaArmorLRDecoOverrides (6,523B Copy: 21.2ms Write: 3us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PerrinSequenceArmor/PerrinSequenceArmorLLDecoOverrides (6,390B Copy: 21.2ms Write: 3us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/JadeAxaArmor/JadeAxaArmourLLDecoOverrides (6,379B Copy: 19.8ms Write: 2us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/DuviriArmor/DuvArmorLRDecoOverrides (6,413B Copy: 22.6ms Write: 3us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/InfEmbolistArmor/InfEmbolistArmorLLDecoOverrides (6,530B Copy: 22.9ms Write: 3us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeLavosArmor/PrimeLavosArmorLRDecoOverrides (5,976B Copy: 21.2ms Write: 3us Latency: 826ms)
+17.112 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/InfEmbolistArmor/InfEmbolistArmorLRDecoOverrides (6,570B Copy: 15.5ms Write: 1us Latency: 826ms)
+17.128 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnLatronArmor/TnLatronLeftLegArmorDecoOverrides (6,355B Copy: 21.0ms Write: 8us Latency: 842ms)
+17.128 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TennoCon2019Armor/TennoCon2019ArmorLRDecoOverrides (6,688B Copy: 20.2ms Write: 4us Latency: 842ms)
+17.128 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/ArbiterOfHexisArmor/ArbiterOfHexisArmorLRDecoOverrides (7,550B Copy: 21.0ms Write: 5us Latency: 842ms)
+17.128 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SolarisUnitedArmor/SolarisUnitedArmorLRDecoOverrides (6,671B Copy: 20.9ms Write: 2us Latency: 842ms)
+17.128 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnBayonettaArmor/TnBayonettaArmorLLDecoOverrides (6,593B Copy: 15.0ms Write: 3us Latency: 842ms)
+17.128 Sys [Info]: Used shared /Lotus/Interface/TouchControlsInterface.lua (58,862B Copy: 211ms Write: 8us Latency: 842ms)
+17.128 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/OstronArmor/OstronCrewArmorLLDecoOverrides (6,871B Copy: 14.1ms Write: 4us Latency: 842ms)
+17.128 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Wolf/TennoWolfArmourLRDecoOverrides (6,357B Copy: 13.9ms Write: 3us Latency: 842ms)
+17.128 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SetOne/SetOneRightLegArmorDecoOverrides (5,215B Copy: 7.84ms Write: 4us Latency: 842ms)
+17.145 Sys [Info]: Used shared /Lotus/Interface/ThemedTennoCustomization.lua (64,009B Copy: 258ms Write: 13us Latency: 859ms)
+17.145 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrnSteelMeridianArmor/GrnSteelMeridianArmorLRDecoOverrides (6,684B Copy: 15.7ms Write: 3us Latency: 859ms)
+17.145 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/RedVeilArmor/RedVeilArmorLRDecoOverrides (7,723B Copy: 13.0ms Write: 5us Latency: 859ms)
+17.145 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CephArmor/CephArmorLRDecoOverrides (7,236B Copy: 11.4ms Write: 3us Latency: 859ms)
+17.160 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorHelmetOpenCalDeluxeFemale_skel.fbx (41,169B Copy: 169ms Write: 12us Latency: 874ms)
+17.160 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorHelmetOpenCalDeluxeFemale_skel.fbx (42,847B Copy: 165ms Write: 8us Latency: 874ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrineerQueenArmour/GrineerQueenArmourLLDecoOverrides (6,053B Copy: 20.1ms Write: 9us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/KuvaLichSetA/KuvaLichArmourALLDecoOverrides (6,202B Copy: 17.1ms Write: 5us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeOctaviaArmour/PrimeOctaviaArmourLLDecoOverrides (6,065B Copy: 19.9ms Write: 4us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrineerQueenArmour/GrineerQueenArmourLRDecoOverrides (6,073B Copy: 19.7ms Write: 2us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeOctaviaArmour/PrimeOctaviaArmourLRDecoOverrides (6,093B Copy: 19.5ms Write: 1us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetSpikey/PrimeSetThreeLegLeftArmorDecoOverrides (6,859B Copy: 19.2ms Write: 4us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorGaruda/GarudaPrimeArmorLRDecoOverrides (5,964B Copy: 20.9ms Write: 4us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeNezhaArmor/PrimeNezhaArmorLLDecoOverrides (6,750B Copy: 20.1ms Write: 3us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnNewPlayerArmor/TnNewPlayerArmorLLDecoOverrides (6,098B Copy: 19.6ms Write: 3us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeGyreArmor/PrimeGyreArmorLRDecoOverrides (6,735B Copy: 18.8ms Write: 2us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SetTwoSamuri/SetTwoLeftLegArmorDecoOverrides (6,718B Copy: 18.3ms Write: 4us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorGaruda/GarudaPrimeArmorLLDecoOverrides (5,926B Copy: 17.4ms Write: 2us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnCeramicArmor/TnCeramicArmorLegLDecoOverrides (6,722B Copy: 15.6ms Write: 2us Latency: 890ms)
+17.176 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnNewPlayerArmor/TnNewPlayerArmorLRDecoOverrides (6,119B Copy: 18.6ms Write: 2us Latency: 890ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetTwo/PrimeSetTwoLeftLegArmorDecoOverrides (6,623B Copy: 19.8ms Write: 8us Latency: 906ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeVetalaArmor/PrimeVetalaLLDecoOverrides (7,114B Copy: 19.9ms Write: 4us Latency: 906ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnCeramicArmor/TnCeramicArmorLegRDecoOverrides (6,716B Copy: 21.7ms Write: 3us Latency: 906ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/FurisArmor/FurisArmorLRDecoOverrides (7,279B Copy: 22.3ms Write: 4us Latency: 906ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PersianArmor/TnPersianRLArmorDecoOverrides (6,305B Copy: 17.8ms Write: 4us Latency: 906ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/LunaroSetA/LunaroSetALegLeftArmorDecoOverrides (7,003B Copy: 18.5ms Write: 3us Latency: 906ms)
+17.192 Sys [Info]: Used shared /Lotus/Fx/ShaderDefaults/Rorschach (332B Copy: 25us Write: 2us Latency: 906ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeGyreArmor/PrimeGyreArmorLLDecoOverrides (6,720B Copy: 17.4ms Write: 2us Latency: 906ms)
+17.192 Sys [Info]: Used shared /EE/Shaders/Deferred/ResolveGIVolume.hlsl (673,009B Copy: 876ms Write: 48us Latency: 907ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorWaistbandCalDeluxeMale_skel.fbx (71,527B Copy: 237ms Write: 12us Latency: 906ms)
+17.192 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Railjack/RailjackArmorLRDecoOverrides (6,816B Copy: 13.9ms Write: 3us Latency: 906ms)
+17.208 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/RevenantArmor/RevenantArmorLRDecoOverrides (6,257B Copy: 10.9ms Write: 9us Latency: 922ms)
+17.208 Sys [Info]: Used shared /Lotus/Objects/Grineer/Structural/Settlement/GrineerSettlementTerrainA (1,186B Copy: 25us Write: 3us Latency: 922ms)
+17.208 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorWaistbandCalDeluxeMaleCloth_skel.fbx (72,353B Copy: 235ms Write: 10us Latency: 922ms)
+17.208 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrineerSetTurbine/GrineerTurbineLeftLegArmorDecoOverrides (6,366B Copy: 20.3ms Write: 3us Latency: 922ms)
+17.208 Sys [Info]: Used shared /Lotus/Fx/PowersuitAbilities/Wisp/WispSunAugmentCoreDecoMat (1,134B Copy: 40us Write: 3us Latency: 922ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetTwo/PrimeSetTwoRightLegArmorDecoOverrides (6,585B Copy: 19.2ms Write: 7us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorWaistbandCalDeluxeFemale_skel.fbx (69,458B Copy: 227ms Write: 9us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorWaistbandCalDeluxeFemale_skel.fbx (69,862B Copy: 235ms Write: 8us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/RevenantArmor/RevenantArmorLLDecoOverrides (6,210B Copy: 22.2ms Write: 3us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrineerSetTurbine/GrineerTurbineRightLegArmorDecoOverrides (6,395B Copy: 19.1ms Write: 3us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnArmorCurve/TnArmorCurveLowerLRDecoOverrides (7,013B Copy: 19.5ms Write: 3us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/LokiDeluxeBundleArmour/LokiDeluxeLeftLegArmorDecoOverrides (6,443B Copy: 20.8ms Write: 3us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnArmorCurve/TnArmorCurveLowerLLDecoOverrides (6,966B Copy: 20.8ms Write: 2us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PersianArmor/TnPersianLLArmorDecoOverrides (6,192B Copy: 23.3ms Write: 3us Latency: 939ms)
+17.225 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/LokiDeluxeBundleArmour/LokiDeluxeRightLegArmorDecoOverrides (6,486B Copy: 23.0ms Write: 1us Latency: 939ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SetTwoSamuri/SetTwoRightLegArmorDecoOverrides (6,798B Copy: 24.5ms Write: 15us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/KuvaLichSetA/KuvaLichArmourALRDecoOverrides (6,250B Copy: 23.8ms Write: 5us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetOne/PrimeSetOneRightLegArmorDecoOverrides (6,690B Copy: 16.4ms Write: 5us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/StalkerArmour/StalkLLDecoOverrides (6,248B Copy: 17.8ms Write: 5us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/HarrowDeluxe/HarrowDeluxeArmorLRDecoOverrides (7,064B Copy: 16.3ms Write: 4us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorIvara/IvaraPrimeArmorLLDecoOverrides (6,922B Copy: 15.9ms Write: 3us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeGaussArmor/PrimeGaussArmourLLDecoOverrides (7,655B Copy: 18.1ms Write: 6us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeGaussArmor/PrimeGaussArmourLRDecoOverrides (7,672B Copy: 13.5ms Write: 3us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetSpikey/PrimeSetThreeLegRightArmorDecoOverrides (6,929B Copy: 7.21ms Write: 4us Latency: 955ms)
+17.241 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmourML/PrimeSetFourLRArmorDecoOverrides (7,158B Copy: 15.1ms Write: 3us Latency: 955ms)
+17.258 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorWaistbandCalDeluxeFemaleCloth_skel.fbx (70,499B Copy: 258ms Write: 13us Latency: 972ms)
+17.258 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeNezhaArmor/PrimeNezhaArmorLRDecoOverrides (6,787B Copy: 31.2ms Write: 4us Latency: 972ms)
+17.258 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/HarrowDeluxe/HarrowDeluxeArmorLLDecoOverrides (7,032B Copy: 16.1ms Write: 11us Latency: 972ms)
+17.258 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmourML/PrimeSetFourLLArmorDecoOverrides (7,157B Copy: 23.5ms Write: 3us Latency: 972ms)
+17.273 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorIvara/IvaraPrimeArmorLRDecoOverrides (6,942B Copy: 18.7ms Write: 8us Latency: 986ms)
+17.273 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/1C011_p.hlsl (73,159B Copy: 864ms Write: 13us Latency: 987ms)
+17.273 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeInarosArmor/PrimeInarosArmorLLDecoOverrides (7,066B Copy: 21.2ms Write: 9us Latency: 987ms)
+17.273 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeInarosArmor/PrimeInarosArmorLRDecoOverrides (7,048B Copy: 21.0ms Write: 1us Latency: 987ms)
+17.273 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmourSetThree/PrimeSetMirageLegRightArmorDecoOverrides (7,376B Copy: 16.9ms Write: 4us Latency: 987ms)
+17.273 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeVetalaArmor/PrimeVetalaLRDecoOverrides (7,192B Copy: 17.2ms Write: 4us Latency: 987ms)
+17.289 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorCloackCalDeluxeMaleCloth_skel.fbx (92,879B Copy: 313ms Write: 21us Latency: 1.00s)
+17.289 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Railjack/RailjackArmorLLDecoOverrides (6,832B Copy: 21.1ms Write: 6us Latency: 1.00s)
+17.289 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpSisters/CrpSistersLLDecoOverrides (7,103B Copy: 21.1ms Write: 4us Latency: 1.00s)
+17.289 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmourSetThree/PrimeSetMirageLegLeftArmorDecoOverrides (7,315B Copy: 21.4ms Write: 4us Latency: 1.00s)
+17.289 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpSisters/CrpSistersLRDecoOverrides (7,107B Copy: 18.4ms Write: 2us Latency: 1.00s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeChromaArmor/ChromaPrimeArmorLLDecoOverrides (7,892B Copy: 20.6ms Write: 9us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpModular/CrpModularTwitchSkin/CrpModularTwitchLRDecoOverrides (6,716B Copy: 20.9ms Write: 4us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SummerSolsticeArmor/DaybreakArmourLLDecoOverrides (7,593B Copy: 20.5ms Write: 5us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeSetOne/PrimeSetOneLeftLegArmorDecoOverrides (6,744B Copy: 20.6ms Write: 3us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SentEvoArmor/SentEvoArmor1LRDecoOverrides (6,802B Copy: 23.1ms Write: 3us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrnVhArmor/GrineerVhLRBArmorDecoOverrides (7,127B Copy: 24.2ms Write: 4us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrnVhArmor/GrineerVhLLBArmorDecoOverrides (7,137B Copy: 24.2ms Write: 2us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GrnVhArmor/GrineerVhLRArmorDecoOverrides (7,075B Copy: 23.8ms Write: 2us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeChromaArmor/ChromaPrimeArmorLRDecoOverrides (7,883B Copy: 25.3ms Write: 2us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SentEvoArmor/SentEvoArmor1LLDecoOverrides (6,793B Copy: 25.1ms Write: 2us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SWKrtrimaLegArmor/SWKrtrimaLegArmorLDecoOverrides (6,575B Copy: 18.5ms Write: 5us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/BaroArmourThree/BaroArmourThreeLLDecoOverrides (6,994B Copy: 19.4ms Write: 4us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/BaroArmourThree/BaroArmourThreeLRDecoOverrides (7,026B Copy: 20.3ms Write: 2us Latency: 1.02s)
+17.305 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpModular/CrpModularTwitchSkin/CrpModularTwitchLLDecoOverrides (6,747B Copy: 13.3ms Write: 1us Latency: 1.02s)
+17.321 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/BillowingArmor/BillowingLRArmorDecoOverrides (6,793B Copy: 15.4ms Write: 9us Latency: 1.03s)
+17.321 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/OperatorCloackCalDeluxeFemaleCloth_skel.fbx (92,981B Copy: 328ms Write: 9us Latency: 1.03s)
+17.337 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/BillowingArmor/BillowingLLArmorDecoOverrides (6,795B Copy: 13.6ms Write: 9us Latency: 1.05s)
+17.337 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SummerSolsticeArmor/DaybreakArmourLRDecoOverrides (7,550B Copy: 13.1ms Write: 7us Latency: 1.05s)
+17.337 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/ArbiterOfHexisArmor/ArbiterOfHexisArmorLLDecoOverrides (7,559B Copy: 12.9ms Write: 3us Latency: 1.05s)
+17.337 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpCubinatorArmor/CrpCubinatorArmorLRDecoOverrides (6,773B Copy: 9.47ms Write: 4us Latency: 1.05s)
+17.337 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/FurisArmor/FurisArmorLLDecoOverrides (7,399B Copy: 15.5ms Write: 4us Latency: 1.05s)
+17.337 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SWSpicularisSpursLegArmor/SWSpicularisSpursLegArmorLDecoOverrides (6,376B Copy: 41.2ms Write: 4us Latency: 1.05s)
+17.337 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnIceArmor/TnIceArmorLLDecoOverrides (6,925B Copy: 15.7ms Write: 4us Latency: 1.05s)
+17.353 Sys [Info]: Used shared /Lotus/Interface/LotusUtilities.lua (122,759B Copy: 435ms Write: 25us Latency: 1.07s)
+17.353 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpCircleArmour/CrpCircLRArmorDecoOverrides (7,101B Copy: 19.7ms Write: 8us Latency: 1.07s)
+17.353 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TnIceArmor/TnIceArmorLRDecoOverrides (6,930B Copy: 25.3ms Write: 12us Latency: 1.07s)
+17.353 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpCubinatorArmor/CrpCubinatorArmorLLDecoOverrides (6,778B Copy: 26.8ms Write: 7us Latency: 1.07s)
+17.353 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/OstronArmor/OstronCrewArmorLRDecoOverrides (6,948B Copy: 26.5ms Write: 5us Latency: 1.07s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/NecraArmor/NecraArmorLRDecoOverrides (6,914B Copy: 18.5ms Write: 21us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SWKrtrimaLegArmor/SWKrtrimaLegArmorRDecoOverrides (6,511B Copy: 16.0ms Write: 9us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/NecraArmor/NecraArmorLLDecoOverrides (6,920B Copy: 18.1ms Write: 2us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Sundial/SundialLRDecoOverrides (7,214B Copy: 18.5ms Write: 4us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Dex2020Armor/Dex2020ArmorLRDecoOverrides (7,255B Copy: 19.3ms Write: 4us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CephArmor/CephArmorLLDecoOverrides (7,223B Copy: 19.8ms Write: 4us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeAvia/PrimeAviaArmorLLDecoOverrides (6,564B Copy: 18.4ms Write: 3us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TwitchArmor2021/TwitchArmor2021LLDecoOverrides (8,084B Copy: 20.1ms Write: 4us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Dex2020Armor/Dex2020ArmorLLDecoOverrides (7,190B Copy: 20.7ms Write: 2us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/NLokaArmor/NLokaArmorLLDecoOverrides (7,381B Copy: 22.8ms Write: 3us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/BaroArmourTwo/BaroArmourTwoLLDecoOverrides (7,467B Copy: 16.3ms Write: 4us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/SetOne/SetOneLeftLegArmorDecoOverrides (5,245B Copy: 11.6ms Write: 4us Latency: 1.08s)
+17.369 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/Sundial/SundialLLDecoOverrides (7,249B Copy: 17.3ms Write: 6us Latency: 1.08s)
+17.385 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/BaroArmour/BaroArmourLLDecoOverrides (7,247B Copy: 17.5ms Write: 23us Latency: 1.10s)
+17.385 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorEquinox/PrimeArmorEquinoxLegLDecoOverrides (6,894B Copy: 424us Write: 5us Latency: 1.10s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/CrpCircleArmour/CrpCircLLArmorDecoOverrides (7,124B Copy: 19.3ms Write: 11us Latency: 1.11s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GyreDeluxeArmour/GyreDeluxeArmourLRDecoOverrides (7,489B Copy: 19.6ms Write: 4us Latency: 1.11s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/BaroArmour/BaroArmourLRDecoOverrides (7,238B Copy: 20.2ms Write: 3us Latency: 1.11s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/LunaroSetA/LunaroSetALegRightArmorDecoOverrides (7,085B Copy: 21.3ms Write: 3us Latency: 1.11s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TwitchArmor2021/TwitchArmor2021LRDecoOverrides (8,003B Copy: 18.6ms Write: 4us Latency: 1.11s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/GyreDeluxeArmour/GyreDeluxeArmourLLDecoOverrides (7,540B Copy: 18.5ms Write: 2us Latency: 1.11s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/ObsidianAzura/ObsidianAzuraLLArmorDecoOverrides (6,817B Copy: 18.3ms Write: 4us Latency: 1.11s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/RedVeilArmor/RedVeilArmorLLDecoOverrides (7,740B Copy: 18.3ms Write: 3us Latency: 1.11s)
+17.401 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/PrimeArmorEquinox/PrimeArmorEquinoxLegRDecoOverrides (6,832B Copy: 13.8ms Write: 3us Latency: 1.11s)
+17.433 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TitaniaDeluxe/TitaniaDeluxeArmorLegLDecoOverrides (7,107B Copy: 17.2ms Write: 10us Latency: 1.15s)
+17.433 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/TitaniaDeluxe/TitaniaDeluxeArmorLegRDecoOverrides (7,135B Copy: 16.4ms Write: 2us Latency: 1.15s)
+17.433 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/AdultOperatorWaistbandCalDeluxeFemaleCloth_skel.fbx (72,005B Copy: 281ms Write: 11us Latency: 1.15s)
+17.448 Sys [Info]: Used shared /Lotus/Interface/Icons/WorldStatePanel/OperationAntramentumIconSmall.png (2,339B Copy: 76us Write: 6us Latency: 1.16s)
+17.448 Sys [Info]: Used shared /Lotus/Interface/Icons/WorldStatePanel/FolliesHuntIconSmall.png (1,768B Copy: 31us Write: 3us Latency: 1.16s)
+17.448 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/221E441_p.hlsl (87,447B Copy: 1.02s Write: 13us Latency: 1.16s)
+17.448 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MusePerrinSequenceFittingA.level (2,226B Copy: 311us Write: 2us Latency: 1.16s)
+17.467 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/BaroArmourTwo/BaroArmourTwoLRDecoOverrides (7,487B Copy: 18.6ms Write: 6us Latency: 1.18s)
+17.467 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/Cloth/AdultOperatorCloackCalDeluxeFemaleCloth_skel.fbx (93,284B Copy: 305ms Write: 11us Latency: 1.18s)
+17.467 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/NLokaArmor/NLokaArmorLRDecoOverrides (7,357B Copy: 18.6ms Write: 4us Latency: 1.18s)
+17.467 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/RailV2Armor/ItzalArmourLRBaseDecoOverrides (7,273B Copy: 19.4ms Write: 4us Latency: 1.18s)
+17.467 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorHelmetCloseCalDeluxeMale_skel.fbx (140,395B Copy: 510ms Write: 14us Latency: 1.18s)
+17.467 Sys [Info]: Used shared /Lotus/Characters/Tenno/Accessory/Armour/RailV2Armor/ItzalArmourLLBaseDecoOverrides (7,126B Copy: 16.7ms Write: 2us Latency: 1.18s)
+17.467 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorHelmetCloseCalDeluxeFemale_skel.fbx (138,170B Copy: 463ms Write: 15us Latency: 1.18s)
+17.482 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/BardQuestOceanDefense (9,353B Copy: 13.9ms Write: 4us Latency: 1.20s)
+17.482 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/100D7_p.hlsl (71,370B Copy: 1.03s Write: 7us Latency: 1.20s)
+17.482 Sys [Info]: Used shared /Lotus/Interface/InputCountDialog.swf (14,728B Copy: 33.7ms Write: 4us Latency: 1.20s)
+17.482 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/10047_p.hlsl (82,140B Copy: 1.05s Write: 7us Latency: 1.20s)
+17.482 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid (15,500B Copy: 35.9ms Write: 3us Latency: 1.20s)
+17.482 Sys [Info]: Used shared /Lotus/Interface/Icons/WorldStatePanel/OperationAntramentumIcon.png (19,938B Copy: 46.9ms Write: 4us Latency: 1.20s)
+17.482 Sys [Info]: Used shared /Lotus/Levels/Proc/TheNewWar/PartOne/PostWarEidolonLandscape (7,185B Copy: 18.0ms Write: 2us Latency: 1.20s)
+17.499 Sys [Info]: Used shared /Lotus/Interface/ThemedOperatorLoadout.lua (29,670B Copy: 585ms Write: 7us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GalleonPalladinoHarrowQuest (7,490B Copy: 18.1ms Write: 2us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorHelmetCloseCalDeluxeFemale_skel.fbx (141,179B Copy: 505ms Write: 9us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonColonistRescue (9,246B Copy: 24.9ms Write: 2us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Duviri/DuviriLandscapeAngry (10,245B Copy: 22.2ms Write: 2us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Duviri/DuviriLandscapeHappy (10,202B Copy: 22.7ms Write: 2us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerFortressRescue (11,591B Copy: 29.6ms Write: 2us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonExterminateDagath (12,738B Copy: 30.3ms Write: 3us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonCapture (13,349B Copy: 40.3ms Write: 3us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerShipyardsUmbraChase (12,316B Copy: 25.1ms Write: 3us Latency: 1.21s)
+17.499 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerGalleonGlassQuest (9,400B Copy: 17.1ms Write: 1us Latency: 1.21s)
+17.515 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/NarmerGrineerForestInterception (5,038B Copy: 4.86ms Write: 3us Latency: 1.23s)
+17.515 Sys [Info]: Used shared /Lotus/Types/Gameplay/1999Wf/Dialogue/RoatheDialogue_rom.dialogue (91,147B Copy: 290ms Write: 10us Latency: 1.23s)
+17.515 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestInterception (5,019B Copy: 9.48ms Write: 1us Latency: 1.23s)
+17.515 Sys [Info]: Used shared /Lotus/Interface/TennoHubScreenLauncher.lua (44,882B Copy: 786ms Write: 6us Latency: 1.23s)
+17.515 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerForestFairyQuest (7,325B Copy: 16.2ms Write: 1us Latency: 1.23s)
+17.532 Sys [Info]: Used shared /Lotus/Interface/ThemedDetailedPurchaseDialog.swf (30,998B Copy: 73.0ms Write: 6us Latency: 1.25s)
+17.532 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/18411_p.hlsl (71,111B Copy: 1.07s Write: 6us Latency: 1.25s)
+17.532 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/4318421_p.hlsl (79,410B Copy: 1.08s Write: 9us Latency: 1.25s)
+17.547 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorTorsoCalDeluxeFemale_skel.fbx (180,266B Copy: 592ms Write: 24us Latency: 1.26s)
+17.547 Sys [Info]: Used shared /Lotus/Levels/Proc/Duviri/DuviriLandscapeJealous (10,199B Copy: 28.3ms Write: 2us Latency: 1.26s)
+17.547 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidBossKela (16,163B Copy: 38.6ms Write: 3us Latency: 1.26s)
+17.547 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/CorpusToGrineerCapture (26,853B Copy: 68.1ms Write: 4us Latency: 1.26s)
+17.547 Sys [Info]: Used shared /Lotus/Levels/Proc/Narmer/NarmerArchonBossForestExtended (12,285B Copy: 32.0ms Write: 2us Latency: 1.26s)
+17.547 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/631E425_p.hlsl (107,134B Copy: 1.09s Write: 10us Latency: 1.26s)
+17.547 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/8018037_p.hlsl (78,543B Copy: 1.14s Write: 7us Latency: 1.26s)
+17.547 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseArbitersFittingA.level (2,253B Copy: 3.02ms Write: 1us Latency: 1.26s)
+17.547 Sys [Info]: Used shared /Lotus/Levels/Muse/Prefabs/MuseHubDoor5x3.level (2,071B Copy: 2.95ms Write: 2us Latency: 1.26s)
+17.562 Sys [Info]: Downloaded 8491727/15930585
+17.564 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense (12,824B Copy: 40.5ms Write: 5us Latency: 1.28s)
+17.564 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/PriestFrameQuestSealabSiphonTwo (8,899B Copy: 29.8ms Write: 2us Latency: 1.28s)
+17.564 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanDarkSector (5,421B Copy: 14.0ms Write: 1us Latency: 1.28s)
+17.564 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestExcavationSmall (12,534B Copy: 28.8ms Write: 2us Latency: 1.28s)
+17.564 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorTorsoCalDeluxeMale_skel.fbx (183,771B Copy: 582ms Write: 10us Latency: 1.28s)
+17.564 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestExterminate (14,866B Copy: 48.3ms Write: 2us Latency: 1.28s)
+17.564 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonBoss (12,560B Copy: 27.9ms Write: 1us Latency: 1.28s)
+17.581 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/411E401_p.hlsl (86,429B Copy: 1.11s Write: 11us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/431E401_p.hlsl (85,708B Copy: 1.12s Write: 8us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/CivilianHubs/EidolonLandscape (6,636B Copy: 15.9ms Write: 2us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanExterminate (15,357B Copy: 47.5ms Write: 2us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipExterminate (15,415B Copy: 44.6ms Write: 2us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/231A421_p.hlsl (93,441B Copy: 1.16s Write: 8us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanSurvival (7,249B Copy: 18.9ms Write: 2us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalMech (9,343B Copy: 30.0ms Write: 2us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/Orokin/OrokinMoonSurvivalVoidEclipse (11,957B Copy: 35.4ms Write: 2us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerForestSentientSalvage (8,733B Copy: 35.0ms Write: 2us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/100C7_p.hlsl (84,093B Copy: 1.12s Write: 8us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/GrineerCrewShipAsteroidInteriorProc (14,436B Copy: 47.2ms Write: 3us Latency: 1.29s)
+17.581 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption (10,571B Copy: 31.9ms Write: 3us Latency: 1.29s)
+17.596 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/GrineerCrewShipGalleonNemesisAssassinateInteriorProc (10,773B Copy: 31.8ms Write: 3us Latency: 1.31s)
+17.596 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/NarmerGrineerForestExcavation (12,492B Copy: 32.4ms Write: 3us Latency: 1.31s)
+17.596 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/18123_p.hlsl (84,586B Copy: 1.13s Write: 7us Latency: 1.31s)
+17.596 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerFortressSabotage (11,570B Copy: 31.8ms Write: 2us Latency: 1.31s)
+17.596 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestMobileDefense (10,310B Copy: 31.7ms Write: 1us Latency: 1.31s)
+17.596 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsAssassinate (20,737B Copy: 66.9ms Write: 4us Latency: 1.31s)
+17.596 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestExcavation (12,456B Copy: 38.7ms Write: 2us Latency: 1.31s)
+17.596 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/411E421_p.hlsl (87,152B Copy: 1.16s Write: 7us Latency: 1.31s)
+17.596 Sys [Info]: Used shared /Lotus/Levels/Proc/TheNewWar/PartTwo/TNWArchonBossForest (4,653B Copy: 9.64ms Write: 2us Latency: 1.31s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/Proc/Duviri/DuviriLandscape (10,147B Copy: 32.2ms Write: 3us Latency: 1.33s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidBossGrineer (15,808B Copy: 52.1ms Write: 3us Latency: 1.33s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/Proc/Orokin/OrokinMoonSpy (14,641B Copy: 47.8ms Write: 3us Latency: 1.33s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/CorpusCapitalShipExterminateInteriorProc (11,590B Copy: 40.2ms Write: 2us Latency: 1.33s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseRedVeilFittingA.level (2,227B Copy: 2.03ms Write: 2us Latency: 1.33s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/PVP/RaceGrineerForest (12,579B Copy: 38.2ms Write: 3us Latency: 1.33s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageForest (19,934B Copy: 67.8ms Write: 4us Latency: 1.33s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/Proc/Duviri/Quests/DuviriQuestM1Start (10,889B Copy: 26.5ms Write: 3us Latency: 1.33s)
+17.613 Sys [Info]: Used shared /Lotus/Levels/Proc/Hub/RelayStationHubTwoB (8,182B Copy: 17.6ms Write: 2us Latency: 1.33s)
+17.628 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseCodexFittingA.level (2,224B Copy: 302us Write: 2us Latency: 1.34s)
+17.628 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseCephalonSudaFittingA.level (2,235B Copy: 261us Write: 1us Latency: 1.34s)
+17.628 Sys [Info]: Used shared /Lotus/Levels/Proc/Zariman/Quests/AOTZCorruption (10,337B Copy: 24.6ms Write: 3us Latency: 1.34s)
+17.628 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/GrineerCrewShipGalleonInteriorProc (8,038B Copy: 23.6ms Write: 2us Latency: 1.34s)
+17.628 Sys [Info]: Used shared /Lotus/Levels/Proc/Hub/RelayStationHubTwoBBoss (5,058B Copy: 9.66ms Write: 1us Latency: 1.34s)
+17.628 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/CrpCapitalShipSurvivalInteriorProc (11,752B Copy: 36.1ms Write: 2us Latency: 1.34s)
+17.628 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerForestIntelTutorial (7,128B Copy: 3.83ms Write: 1us Latency: 1.34s)
+17.644 Sys [Info]: Used shared /Lotus/Types/Lore/CodexStorePairManifest (120,214B Copy: 357ms Write: 14us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerOceanSurvivalSentientQuest (5,523B Copy: 15.9ms Write: 2us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Zariman/ZarimanCorruption (13,101B Copy: 39.5ms Write: 3us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/535A425_p.hlsl (105,905B Copy: 1.22s Write: 10us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Hub/RelayStationHubTrading (2,459B Copy: 1.21ms Write: 2us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/PriestFrameQuestForestSiphonThree (10,624B Copy: 28.7ms Write: 2us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Events/GrineerOceanClemRetrieval (8,333B Copy: 21.6ms Write: 2us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidBossVor (16,329B Copy: 44.1ms Write: 3us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanMobileDefense (7,199B Copy: 24.1ms Write: 2us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate (13,260B Copy: 43.7ms Write: 3us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerFortressDefense (3,485B Copy: 7.63ms Write: 2us Latency: 1.36s)
+17.645 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanDefense (4,788B Copy: 12.0ms Write: 1us Latency: 1.36s)
+17.661 Sys [Info]: Used shared /Lotus/Levels/Proc/Hub/RelayStationHubHydroid (8,228B Copy: 18.6ms Write: 4us Latency: 1.37s)
+17.661 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaveSingleTarget (10,301B Copy: 33.1ms Write: 2us Latency: 1.37s)
+17.661 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/NarmerGrineerForestMobileDefense (10,323B Copy: 31.4ms Write: 2us Latency: 1.37s)
+17.661 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerOceanSpyMoonQuest (7,889B Copy: 21.2ms Write: 2us Latency: 1.37s)
+17.661 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanSpy (10,565B Copy: 34.4ms Write: 2us Latency: 1.37s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid (12,136B Copy: 44.3ms Write: 4us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerOceanSurvivalClemQuest (7,000B Copy: 19.1ms Write: 2us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/VorsPrizeGalleonRaidSabotage (6,713B Copy: 22.0ms Write: 2us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerOceanHunhowDigMoonQuest (9,070B Copy: 29.5ms Write: 2us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseConclaveFittingA.level (2,280B Copy: 4.89ms Write: 1us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidCapture (13,942B Copy: 39.5ms Write: 3us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonExterminateSimple (11,078B Copy: 37.2ms Write: 2us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseSteelMeridianFittingA.level (2,215B Copy: 4.74ms Write: 1us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipRescue (15,949B Copy: 55.4ms Write: 3us Latency: 1.39s)
+17.677 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipArmoredJackalBoss (15,039B Copy: 49.5ms Write: 2us Latency: 1.39s)
+17.692 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseNewLokaFittingA.level (2,238B Copy: 4.43ms Write: 2us Latency: 1.41s)
+17.692 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanExterminateAnywhere (6,482B Copy: 22.1ms Write: 2us Latency: 1.41s)
+17.692 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerFortressSpy (15,529B Copy: 52.2ms Write: 2us Latency: 1.41s)
+17.692 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestKubrowQuestTwo (14,576B Copy: 52.8ms Write: 2us Latency: 1.41s)
+17.710 Sys [Info]: Used shared /EE/Shaders/Deferred/GlassDeferred/212587_p.hlsl (99,252B Copy: 1.25s Write: 11us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsRJHunt (20,159B Copy: 74.6ms Write: 3us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerFortressQueensWarWithinQuest (7,153B Copy: 27.4ms Write: 2us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Muse/MuseHubSyndicatePerrinSequence.level (11,015B Copy: 29.2ms Write: 3us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue (20,829B Copy: 71.5ms Write: 3us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseMissionControlFittingA.level (2,223B Copy: 2.21ms Write: 1us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerShipyardsRescueToSpyDragonQuest (13,480B Copy: 50.3ms Write: 2us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/NarmerGrineerForestCapture (14,724B Copy: 51.9ms Write: 2us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Muse/Fittings/MuseDarvoMarketFittingA.level (2,257B Copy: 172us Write: 1us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Orokin/OrokinTowerSabotageForest (20,020B Copy: 65.0ms Write: 3us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/CorpusCapitalShipSpyInteriorProc (13,076B Copy: 55.1ms Write: 2us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaves (11,137B Copy: 36.3ms Write: 1us Latency: 1.42s)
+17.710 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate (14,929B Copy: 45.5ms Write: 2us Latency: 1.42s)
+17.725 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerFortressDisruption (7,910B Copy: 17.3ms Write: 2us Latency: 1.44s)
+17.725 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/GrineerToCorpusRescue (27,890B Copy: 96.2ms Write: 4us Latency: 1.44s)
+17.725 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestIntel (15,787B Copy: 44.7ms Write: 2us Latency: 1.44s)
+17.725 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/Quest/CorpusShipProteaFinalPurg (14,531B Copy: 54.2ms Write: 2us Latency: 1.44s)
+17.725 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/NarmerGrineerForestIntel (15,814B Copy: 55.9ms Write: 2us Latency: 1.44s)
+17.743 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsMobileDefense (18,063B Copy: 60.3ms Write: 3us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonRescue (15,039B Copy: 53.0ms Write: 2us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShip (15,280B Copy: 53.0ms Write: 3us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorLeggingsCalDeluxeFemale_skel.fbx (166,530B Copy: 518ms Write: 16us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage (15,377B Copy: 47.7ms Write: 2us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Levels/Muse/MuseHubCodexRoom.level (14,370B Copy: 52.6ms Write: 3us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotageEasy (15,048B Copy: 50.7ms Write: 2us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonIntel (15,613B Copy: 50.6ms Write: 2us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorTorsoCalDeluxeFemale_skel.fbx (182,364B Copy: 596ms Write: 17us Latency: 1.46s)
+17.743 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorLeggingsCalDeluxeMale_skel.fbx (168,134B Copy: 531ms Write: 15us Latency: 1.46s)
+17.758 Sys [Info]: Used shared /Lotus/Interface/Codex.lua (81,312B Copy: 998ms Write: 10us Latency: 1.47s)
+17.758 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerFortressMobileDefense (16,121B Copy: 46.5ms Write: 3us Latency: 1.47s)
+17.758 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerFortressIntroWarWithinQuest (8,547B Copy: 36.1ms Write: 3us Latency: 1.47s)
+17.758 Sys [Info]: Used shared /Lotus/Levels/Proc/Duviri/DuviriLandscapeScared (10,242B Copy: 32.8ms Write: 2us Latency: 1.47s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestExterminateHaloween (8,152B Copy: 29.0ms Write: 2us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerFortressSurvival (12,198B Copy: 49.2ms Write: 2us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel (18,107B Copy: 67.5ms Write: 2us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate (12,713B Copy: 49.6ms Write: 2us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Photobooth/PBEidolonLandscape (6,639B Copy: 29.3ms Write: 2us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Hub/RelayStationHubTennoConVIP (8,109B Copy: 23.1ms Write: 2us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestExterminateHaloweenTimeAttack (8,166B Copy: 29.4ms Write: 1us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/Quests/GrineerForestSacrificeQuestFinale (6,401B Copy: 28.2ms Write: 2us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Levels/Proc/Hub/RelayStationHubDevstreamShowroom (8,308B Copy: 28.7ms Write: 2us Latency: 1.49s)
+17.776 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorSleevesCalDeluxeMale_skel.fbx (253,971B Copy: 799ms Write: 14us Latency: 1.49s)
+17.791 Sys [Info]: Used shared /Lotus/Levels/Proc/Hub/RelayStationHubMain (8,109B Copy: 30.1ms Write: 3us Latency: 1.50s)
+17.791 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense (14,997B Copy: 65.2ms Write: 3us Latency: 1.50s)
+17.791 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/NarmerGrineerForestExterminate (14,831B Copy: 60.5ms Write: 3us Latency: 1.50s)
+17.791 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestBoss (10,409B Copy: 41.1ms Write: 2us Latency: 1.50s)
+17.791 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/OperatorSleevesCalDeluxeFemale_skel.fbx (250,673B Copy: 806ms Write: 21us Latency: 1.50s)
+17.791 Sys [Info]: Used shared /Lotus/Levels/Photobooth/PBMuseRelayHangar.level (25,108B Copy: 89.6ms Write: 5us Latency: 1.50s)
+17.791 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanCapture (10,062B Copy: 40.9ms Write: 3us Latency: 1.50s)
+17.791 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanExterminateSharkwing (11,131B Copy: 40.2ms Write: 2us Latency: 1.50s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/Proc/TheNewWar/PartTwo/TNWGrineerOceanNarmerLab (6,297B Copy: 27.2ms Write: 3us Latency: 1.52s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/Proc/Hub/RelayStationHubTwoA (8,280B Copy: 26.7ms Write: 2us Latency: 1.52s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/CrpCapitalShipAssassinateInteriorProc (11,849B Copy: 54.3ms Write: 2us Latency: 1.52s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanRescue (11,681B Copy: 53.7ms Write: 2us Latency: 1.52s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidBossInfested (14,725B Copy: 57.0ms Write: 2us Latency: 1.52s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestSabotage (14,533B Copy: 57.4ms Write: 2us Latency: 1.52s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/NarmerGrineerForestSabotage (14,545B Copy: 58.0ms Write: 2us Latency: 1.52s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/DevilTower/BossArenaUriel.level (91,062B Copy: 322ms Write: 8us Latency: 1.52s)
+17.809 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/CorpusCapitalShipVolatileInteriorProc (12,106B Copy: 52.6ms Write: 3us Latency: 1.52s)
+17.824 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue (16,291B Copy: 64.3ms Write: 3us Latency: 1.54s)
+17.824 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipHyenaAssassinate (15,253B Copy: 61.9ms Write: 3us Latency: 1.54s)
+17.824 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestRJHunt (15,180B Copy: 71.0ms Write: 2us Latency: 1.54s)
+17.824 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerOceanSabotage (16,362B Copy: 65.9ms Write: 2us Latency: 1.54s)
+17.824 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/GrineerToCorpusSabotage (29,026B Copy: 131ms Write: 4us Latency: 1.54s)
+17.824 Sys [Info]: Used shared /Lotus/Levels/Proc/EntratiLab/EntratiLabDisruption (15,260B Copy: 64.9ms Write: 2us Latency: 1.54s)
+17.824 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/CorpusCapitalShipRescueInteriorProc (11,971B Copy: 50.6ms Write: 2us Latency: 1.54s)
+17.824 Sys [Info]: Used shared /Lotus/Interface/ThemedDetailedPurchaseDialog.lua (90,806B Copy: 911ms Write: 9us Latency: 1.54s)
+17.824 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/CorpusCapitalShipCaptureInteriorProc (11,836B Copy: 49.0ms Write: 2us Latency: 1.54s)
+17.840 Sys [Info]: Used shared /Lotus/Levels/Proc/Railjack/CorpusCapitalShipSabotageInteriorProc (13,116B Copy: 57.1ms Write: 3us Latency: 1.55s)
+17.840 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/CorpusToGrineerSabotage (28,719B Copy: 144ms Write: 5us Latency: 1.55s)
+17.840 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerFortressExterminate (15,648B Copy: 54.0ms Write: 2us Latency: 1.55s)
+17.840 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipJackalBoss (15,702B Copy: 61.5ms Write: 3us Latency: 1.55s)
+17.840 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy (16,594B Copy: 59.1ms Write: 3us Latency: 1.55s)
+17.840 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval (18,203B Copy: 71.8ms Write: 3us Latency: 1.55s)
+17.840 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsExterminate (20,008B Copy: 71.8ms Write: 2us Latency: 1.55s)
+17.840 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage (17,019B Copy: 56.7ms Write: 3us Latency: 1.55s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Corpus/CorpusShipCapture (16,261B Copy: 46.6ms Write: 6us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/CorpusShipRemaster/CSRBoss (14,903B Copy: 52.0ms Write: 4us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense (15,420B Copy: 51.9ms Write: 4us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerForestSurvival (14,980B Copy: 49.6ms Write: 2us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroid (16,514B Copy: 48.7ms Write: 2us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/GrineerToCorpusCapture (27,728B Copy: 104ms Write: 3us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsSpy (22,113B Copy: 73.2ms Write: 4us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Muse/MuseRelayHangar.level (30,005B Copy: 144ms Write: 6us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsCapture (20,719B Copy: 71.1ms Write: 3us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerShipyardsSabotage (21,009B Copy: 59.4ms Write: 3us Latency: 1.57s)
+17.857 Sys [Info]: Used shared /Lotus/Levels/Proc/Grineer/GrineerAsteroidIntelEasy (17,226B Copy: 51.3ms Write: 2us Latency: 1.57s)
+17.873 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/GrineerToCorpusIntel (29,261B Copy: 65.0ms Write: 5us Latency: 1.59s)
+17.873 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/CorpusToGrineerIntel (29,382B Copy: 144ms Write: 7us Latency: 1.59s)
+17.904 Sys [Info]: Used shared /Lotus/Characters/Tenno/Operator/Clothes/CalDeluxOutfit/AdultOperatorSleevesCalDeluxeFemale_skel.fbx (252,226B Copy: 745ms Write: 46us Latency: 1.62s)
+17.904 Sys [Info]: Used shared /Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/Gauss.png (151,002B Copy: 462ms Write: 19us Latency: 1.62s)
+17.904 Sys [Info]: Used shared /Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/Grendel.png (151,188B Copy: 462ms Write: 17us Latency: 1.62s)
+17.904 Sys [Info]: Used shared /Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/GaussGrendelDuoPack.png (155,961B Copy: 468ms Write: 18us Latency: 1.62s)
+17.920 Sys [Info]: Used shared /Lotus/Levels/Muse/MuseHubMissionControl.level (12,081B Copy: 239ms Write: 12us Latency: 1.63s)
+17.920 Sys [Info]: Used shared /Lotus/Levels/Tenno/SimulacrumEnemySpawnerDevilTowerUrielArena.level (95,402B Copy: 191ms Write: 10us Latency: 1.63s)
+17.953 Sys [Info]: Used shared /Lotus/Levels/Muse/MuseHubConcourse.level (78,808B Copy: 145ms Write: 15us Latency: 1.67s)
+18.001 Sys [Info]: Used shared /Lotus/Objects/Natural/SandPackMap (368,349B Copy: 557ms Write: 67us Latency: 1.71s)
+18.001 Sys [Info]: Used shared /Lotus/Objects/Grineer/Structural/Rocks/RoughSandPackMap (366,359B Copy: 555ms Write: 60us Latency: 1.71s)
+18.001 Sys [Info]: Used shared /Lotus/Objects/Grineer/Structural/Rocks/CmpRoadBasePackMap (435,685B Copy: 560ms Write: 34us Latency: 1.71s)
+18.017 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/CorpusToGrineerRescue (27,666B Copy: 320ms Write: 16us Latency: 1.73s)
+18.130 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/CorpusToGrineerExterminate (27,038B Copy: 449ms Write: 14us Latency: 1.84s)
+18.179 Sys [Info]: Used shared /Lotus/Interface/1999/RetroMessenger.swf (29,814B Copy: 500ms Write: 15us Latency: 1.89s)
+18.340 Sys [Info]: Used shared /Lotus/Levels/Proc/Transitional/GrineerToCorpusExterminate (27,480B Copy: 640ms Write: 16us Latency: 2.05s)
+18.372 Sys [Info]: Used shared /Lotus/Characters/Tenno/Devourer/GrendelDeluxe/GrendelDeluxeIIBody_skel.fbx (990,659B Copy: 1.16s Write: 70us Latency: 2.09s)
+18.517 Sys [Info]: Used shared /Lotus/Levels/Photobooth/PBMuseHubConcourse.level (78,723B Copy: 721ms Write: 24us Latency: 2.23s)
+18.533 Sys [Info]: Collecting garbage...
+18.711 Sys [Info]: Deleted 6
+18.713 Sys [Info]: Downloaded 15930585/15930585
+18.713 Sys [Info]: Done.
+18.723 Sys [Info]: /Cache.Windows/B.AnimRetarget.cache 170,187 / 142,665,979 bytes wasted (0%)
+18.723 Sys [Info]: /Cache.Windows/B.Font.cache 781,142 / 23,616,724 bytes wasted (3%)
+18.724 Sys [Info]: /Cache.Windows/B.Misc.cache 3,278,994 / 4,729,513,014 bytes wasted (0%)
+18.724 Sys [Info]: /Cache.Windows/B.ShaderPermutationDx11.cache 1,367,601 / 266,893,326 bytes wasted (0%)
+18.724 Sys [Info]: /Cache.Windows/B.Texture.cache 22,137 / 818,046,932 bytes wasted (0%)
+18.724 Sys [Info]: /Cache.Windows/F.Misc.cache 589,650 / 9,250,398,734 bytes wasted (0%)
+18.724 Sys [Info]: /Cache.Windows/F.VideoTexture.cache 2,321,580 / 516,818,764 bytes wasted (0%)
+18.724 Sys [Info]: /Cache.Windows/H.AnimRetarget.cache 830,264 / 80,168,966 bytes wasted (1%)
+18.724 Sys [Info]: /Cache.Windows/H.Font.cache 13,903 / 2,526,729 bytes wasted (0%)
+18.724 Sys [Info]: /Cache.Windows/H.Misc.cache 97,623,211 / 274,223,746 bytes wasted (35%)
+18.724 Sys [Info]: /Cache.Windows/H.Misc_en.cache 9,561,964 / 23,580,422 bytes wasted (40%)
+18.724 Sys [Info]: /Cache.Windows/H.ShaderDx11.cache 3,793 / 589,149 bytes wasted (0%)
+18.724 Sys [Info]: /Cache.Windows/H.ShaderPermutationDx11.cache 8,887 / 5,611,556 bytes wasted (0%)
+18.724 Sys [Info]: /Cache.Windows/H.Texture.cache 468 / 17,142,662 bytes wasted (0%)
+18.725 Sys [Info]: /Cache.Windows/H.VideoTexture.cache 84 / 4,539 bytes wasted (1%)
+18.725 Sys [Info]: Wasted cache space: 116,573,865 bytes (0%)
+18.725 Sys [Info]: All stripped assets preprocessed
+18.725 Sys [Info]: Main Shutdown Initiated.
+18.726 Sys [Info]: TypeMgr cleaned 0 instances (0us) and unbuilt 0 types (1.80ms) in 1.80ms
+18.727 Sys [Info]: Shutting down content update...
+18.849 Net [Info]: MatchingService::DeleteSession
+18.849 Net [Info]: DeleteSessionCallback(1, )
+18.850 Net [Info]: Deleted session
+18.850 Net [Info]: MatchingServiceWeb::LeavePlatformPartyDone
+18.850 Sys [Info]: Redirecting package save to: C:\users\steamuser\AppData\Local\Warframe\EE.cfg
+18.851 Sys [Info]: Skipping SavePackage for /Configs/EE.cfg (no changes detected)
+18.853 Sys [Info]: Saved package: /Configs/EE.cfg
+18.860 Sys [Info]: Used 480 shared assets (473 async, 7 sync)
+18.860 Sys [Info]: Copied 61,004,334 bytes at 0.71 MB/s
+18.861 Phys [Info]: PhysX SDK shutdown.
+18.861 Phys [Info]: PhysX scene manager shutdown.
+Sys [Info]: All smart pointers were destroyed!
+18.906 Sys [Info]: Main Shutdown Complete.
+Process returned 0
+Finished Preprocess (19.0 seconds)
+Finished Defrag1 (0.0 seconds)
+Total time: 23.7 seconds
+WINHTTP_OPTION_IPV6_FAST_FALLBACK() failed(ERROR_WINHTTP_INVALID_OPTION)
+POST /stats/launcherUpload.php HTTP/1.1
+Content-Encoding: gzip
+Host: api.warframe.com
+Content-Length: 314
+Connection: Keep-Alive
+Pragma: no-cache
+Cache-Control: no-cache
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Expires: Mon, 30 Mar 2026 20:25:01 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 30 Mar 2026 20:25:01 GMT
+Connection: keep-alive
+

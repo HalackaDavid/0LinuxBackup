@@ -1,0 +1,243 @@
+0.047 Sys [Diag]: Process Command-line: -silent -log:/Defrag.log -graphicsDriver:dx11 -cluster:public -language:en -applet:/EE/Types/Framework/CacheDefraggerIOCP /Tools/CachePlan.txt
+0.047 Sys [Diag]: Build Label: 2026.03.25.08.06 Retail Windows x64 [Stripped]
+0.047 Sys [Diag]: Build Unique ID: 421083114
+0.048 Sys [Diag]: Windows user-name: steamuser
+0.049 Sys [Diag]: Windows computer-name: blackarch
+0.049 Sys [Diag]: Current time: Wed Mar 25 19:43:23 2026 [UTC: Wed Mar 25 18:43:23 2026]
+0.049 Sys [Diag]: Current directory: Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Tools
+0.103 Sys [Diag]: Processor: Intel Quad Core i5-7300HQ 2500MHz SSE/SSE2/SSE3/SSSE3/SSE41/SSE42/AVX/AVX2/POPCNT/F16C/FMA3/BMI1/BMI2 F/M/S/EF/EM/UC: 6/E/9/0/9/0
+0.103 Sys [Diag]: Physical Memory: 25GB / 31GB free
+0.103 Sys [Diag]: Address Space: 128TB / 128TB free
+0.104 Sys [Diag]: No page file found!
+0.104 Sys [Diag]: Page size: 4KB (Granularity: 64KB)
+0.104 Sys [Diag]: Operating System: WINE 10.0
+0.104 Sys [Diag]: Mitigation Policies:
+0.106 Sys [Diag]: System Processes: 18
+0.106 Sys [Diag]: System Threads: 143
+0.106 Sys [Diag]: System Handles: 4,352
+0.106 Sys [Diag]: System GDI Objects: 0
+0.106 Sys [Diag]: System USER Objects: 0
+0.106 Sys [Diag]: System Up-Time: 0d 0h 9m 16s
+0.106 Sys [Diag]: Free Disk Space on C: 726,620,524,544 bytes
+0.106 Sys [Diag]: Free Disk Space on Z: 16,763,498,496 bytes
+0.146 Sys [Diag]: Found Monitor: (0, 0) - (1920, 1080) : 1920x1080
+0.146 Sys [Diag]: Process is DPI-aware
+0.146 Sys [Diag]: Clock frequency: 10,000,000Hz
+0.158 Gfx [Info]: Private shader options need 22 bits
+0.158 Sys [Info]: CancelJobs batchcount 0
+0.172 Sys [Info]: Loading packages took 0.0ms
+0.172 Sys [Info]: Redirecting package load to: C:\users\steamuser\AppData\Local\Warframe\Editor.cfg
+0.173 Sys [Info]: Cache languages enabled: _en
+0.173 Sys [Error]: WINHTTP_OPTION_IPV6_FAST_FALLBACK() failed (ERROR_WINHTTP_INVALID_OPTION)
+0.176 Sys [Info]: Scanning Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\ for cache blocks...
+0.176 Sys [Info]: Found 34 cache blocks...
+0.179 Sys [Info]: Downloading cache manifest index...
+1.109 Sys [Info]: Loaded TOC for Windows/H.Misc (took 562ms, loaded 242406 entries, found 7600 deleted)
+1.109 Sys [Info]: Used shared /H.Cache.bin (571B Copy: 125us Write: 562ms Latency: 930ms)
+1.122 Sys [Info]: Budget overrun restarting async IO (3.04 ms)
+1.152 Sys [Info]: Loaded TOC for Windows/H.Font (took 26.5ms, loaded 5232 entries, found 775 deleted)
+1.167 Sys [Info]: Loaded TOC for Windows/B.Font (took 10.9ms, loaded 5222 entries, found 498 deleted)
+1.222 Sys [Info]: Loaded TOC for Windows/H.AnimRetarget (took 48.7ms, loaded 11047 entries, found 446 deleted)
+1.270 Sys [Info]: Loaded TOC for Windows/B.AnimRetarget (took 31.8ms, loaded 9156 entries, found 442 deleted)
+1.421 Sys [Info]: Loaded TOC for Windows/B.Misc (took 149ms, loaded 149084 entries, found 1456 deleted)
+1.424 Sys [Info]: Loaded TOC for Windows/H.CharacterCodesCache (took 28us, loaded 1 entries, found 2 deleted)
+1.520 Sys [Info]: Loaded TOC for Windows/H.LightMap (took 24.4ms, loaded 58353 entries, found 512 deleted)
+1.522 Sys [Info]: Loaded TOC for Windows/B.CharacterCodesCache (took 17us, loaded 1 entries, found 0 deleted)
+2.006 Sys [Info]: Cache manifest hash ++0NsFOVGua180wtCUTCEA
+2.097 Sys [Info]: Loaded TOC for Windows/B.Texture (took 88.3ms, loaded 52148 entries, found 281 deleted)
+2.100 Sys [Info]: Loaded TOC for Windows/H.VideoTexture (took 251us, loaded 48 entries, found 2 deleted)
+2.217 Sys [Info]: Loaded TOC for Windows/H.Texture (took 118ms, loaded 66810 entries, found 126 deleted)
+2.237 Sys [Info]: Loaded TOC for Windows/B.VideoTexture (took 24us, loaded 1 entries, found 0 deleted)
+2.258 Sys [Info]: Loaded TOC for Windows/B.LightMap (took 21.3ms, loaded 55964 entries, found 845 deleted)
+2.261 Sys [Info]: Loaded TOC for Windows/H.VideoTextureStreaming (took 583us, loaded 241 entries, found 0 deleted)
+2.471 Sys [Info]: Initialize dictionary: 1048576b
+3.706 Sys [Info]: Loading package cache took 1.4s (Parse: 1.2s)
+3.721 Sys [Info]: Loaded TOC for Windows/F.LightMap (took 12.7ms, loaded 36281 entries, found 344 deleted)
+3.791 Sys [Info]: Loaded TOC for Windows/F.Misc (took 68.6ms, loaded 54935 entries, found 176 deleted)
+4.418 Sys [Info]: Load deps cache took 712ms
+4.567 Sys [Info]: ResourceMgr release queue size=128
+4.567 Net [Info]: RMI::Initialize - Methods: 431 Hash: 1296882635015985376
+4.567 Sys [Info]: Redirecting package load to: C:\users\steamuser\AppData\Local\Warframe\EE.cfg
+4.569 Sys [Diag]: Engine config profile: /Configs/EE.cfg/Windows_Config
+4.569 Sys [Info]: JobMgr: 3 threads (+3 low)
+4.571 Phys [Info]: Custom physx allocator in use
+4.616 Phys [Info]: PhysX Core Version: 4.1.1.0
+4.617 Phys [Info]: PhysX SDK initialized.
+4.617 Phys [Info]: PhysX scene manager initialized.
+4.650 Sys [Info]: Driver registered: ScriptDriver Supported types: [Script]
+4.651 Script [Info]: ScriptMgr::Initialize() 0 bytes, 0 allocs
+4.651 Sys [Info]: Using language: _en
+4.674 Sys [Info]: Loaded TOC for Windows/H.Misc_en (took 22.9ms, loaded 29796 entries, found 179 deleted, spot-loaded)
+4.676 Sys [Info]: Loaded TOC for Windows/F.VideoTextureStreaming (took 340us, loaded 241 entries, found 1 deleted)
+4.676 Sys [Info]: Loaded TOC for Windows/F.VideoTexture (took 93us, loaded 47 entries, found 2 deleted)
+4.737 Sys [Info]: Loaded TOC for Windows/F.Texture (took 60.6ms, loaded 58454 entries, found 438 deleted)
+5.089 Sys [Info]: Loading language cache took 0.437952s
+5.089 Sys [Diag]: Command line: -silent -log:/Defrag.log -graphicsDriver:dx11 -cluster:public -language:en -applet:/EE/Types/Framework/CacheDefraggerIOCP /Tools/CachePlan.txt
+5.089 Sys [Diag]: SRand seeded with: 4254957223424285360
+5.089 Sys [Info]: ResourceLoader 0x000000000AAA26A0 (/EE/Types/GameRules/GameConfig) Found 5 items to load (0ms) [Heap: 160,198,528/160,890,880 Footprint: 273,137,664 Handles: 0]
+5.089 Sys [Info]: Resloader 0x000000000AAA26A0 (/EE/Types/GameRules/GameConfig) starting
+5.089 Sys [Info]: Loaded TOC for Windows/H.Texture_en (took 95us, loaded 11 entries, found 0 deleted)
+5.111 Sys [Info]: Loaded TOC for Windows/B.Misc_en (took 21.9ms, loaded 29795 entries, found 169 deleted)
+5.113 Sys [Error]: Could not find game rules: /EE/Types/GameRules/DefaultGameRules
+5.113 Sys [Error]: Required by game config /EE/Types/GameRules/GameConfig
+5.113 Sys [Error]: Failed to create run-time type: DefaultGameRules (parent GameRules is abstract)
+5.113 Sys [Error]: Could not find game rules: /EE/Types/GameRules/MultiplayerGameRules
+5.113 Sys [Error]: Required by game config /EE/Types/GameRules/GameConfig
+5.113 Sys [Error]: Failed to create run-time type: MultiplayerGameRules (parent GameRules is abstract)
+5.114 Sys [Error]: Could not find platform icon collection: /EE/Types/GraphicsRes/DefaultPlatformIconCollection
+5.114 Sys [Error]: Required by game config /EE/Types/GameRules/GameConfig
+5.114 Sys [Info]: Finished load of Flyweight batch (1) [0.00s and 0 frames at 2 ms/frame avg, 25 ms/update peak], 1/1/1, 5 item(s), 0k total so far, 0.00% utilization
+5.114 Sys [Info]: Resource load completed 0x000000000AAA26A0 (/EE/Types/GameRules/GameConfig) in one pass and 0.0s (I/O ~= 0.0%, inherited 0 of 5)
+5.151 Sys [Info]: Loaded TOC for Windows/F.Misc_en (took 21.1ms, loaded 29783 entries, found 168 deleted)
+5.151 Sys [Info]: Loaded TOC for Windows/B.Texture_en (took 143us, loaded 11 entries, found 0 deleted)
+5.151 Sys [Info]: ResourceLoader 0x000000000AAA26A0 (/EE/Types/GameRules/GameConfig) spot-loaded in 62.4ms
+5.152 Net [Info]: UPnP enabled.
+5.152 Net [Info]: NAT-PMP enabled.
+5.152 Sys [Info]: Driver registered: MaterialLibrary Supported types: [PhysicsMaterial]
+5.152 Sys [Error]: Ignoring unknown arg: /Tools/CachePlan.txt
+6.440 Sys [Info]: Loaded TOC for Dx11/H.Shader (took 861us, loaded 407 entries, found 89 deleted)
+6.445 Sys [Info]: Aquired SE_MANAGE_VOLUME_NAME privilege
+6.447 Sys [Info]: TypeMgr cleaned 0 instances (0us) and unbuilt 0 types (1.88ms) in 1.88ms
+6.447 Sys [Info]: Startup time: 6.45s
+6.447 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.AnimRetarget.cache
+7.135 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 163,029,964 bytes at 237,307,080 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.AnimRetarget.cache.tmp
+7.151 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.CharacterCodesCache.cache
+7.152 Sys [Info]: 'CacheDefraggerIOCPApplet' Skipping unnecessary defrag
+7.152 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.Font.cache
+7.448 Sys [Info]: Defragged 182262591/53606588744
+7.539 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 27,941,241 bytes at 72,386,634 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.Font.cache.tmp
+7.542 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.LightMap.cache
+9.449 Sys [Info]: Defragged 864915274/53606588744
+10.450 Sys [Info]: Defragged 1459218161/53606588744
+11.450 Sys [Info]: Defragged 1997311167/53606588744
+11.741 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 1,982,416,914 bytes at 472,341,413 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.LightMap.cache.tmp
+11.774 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.Misc.cache
+15.304 Sys [Info]: Defragged 2173402730/53606588744
+16.305 Sys [Info]: Defragged 2540427474/53606588744
+17.313 Sys [Info]: Defragged 2914451164/53606588744
+18.314 Sys [Info]: Defragged 3337374159/53606588744
+20.320 Sys [Info]: Defragged 4155224364/53606588744
+22.321 Sys [Info]: Defragged 5081698216/53606588744
+24.327 Sys [Info]: Defragged 6118522121/53606588744
+25.328 Sys [Info]: Defragged 6676338141/53606588744
+25.914 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 4,838,931,494 bytes at 342,215,805 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.Misc.cache.tmp
+26.034 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.Misc_en.cache
+26.400 Sys [Info]: Defragged 7012334224/53606588744
+26.822 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 96,893,823 bytes at 123,431,621 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.Misc_en.cache.tmp
+26.826 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.Misc_xx.cache
+27.125 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 26,847,715 bytes at 90,396,346 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.Misc_xx.cache.tmp
+27.128 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.ShaderDictionaryDx11.cache
+27.129 Sys [Info]: 'CacheDefraggerIOCPApplet' Skipping unnecessary defrag
+27.129 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.ShaderDx11.cache
+27.138 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 7,537,586 bytes at 837,509,555 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.ShaderDx11.cache.tmp
+27.139 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.ShaderPermutationDx11.cache
+27.400 Sys [Info]: Defragged 7376113986/53606588744
+27.816 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 730,097,918 bytes at 1,080,026,505 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.ShaderPermutationDx11.cache.tmp
+27.846 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.Texture.cache
+28.636 Sys [Info]: Defragged 7874550991/53606588744
+29.638 Sys [Info]: Defragged 8470026176/53606588744
+30.031 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 820,833,189 bytes at 375,839,372 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\B.Texture.cache.tmp
+30.051 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.Texture_en.cache
+30.052 Sys [Info]: 'CacheDefraggerIOCPApplet' Skipping unnecessary defrag
+30.052 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/B.VideoTexture.cache
+30.053 Sys [Info]: 'CacheDefraggerIOCPApplet' Skipping unnecessary defrag
+30.053 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/F.LightMap.cache
+30.641 Sys [Info]: Defragged 8987886279/53606588744
+32.643 Sys [Info]: Defragged 12142961016/53606588744
+33.645 Sys [Info]: Defragged 13568355983/53606588744
+34.648 Sys [Info]: Defragged 15149171451/53606588744
+36.650 Sys [Info]: Defragged 17987234645/53606588744
+37.653 Sys [Info]: Defragged 19591189642/53606588744
+37.744 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 10,972,378,845 bytes at 1,426,651,780 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\F.LightMap.cache.tmp
+38.216 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/F.Misc.cache
+39.157 Sys [Info]: Defragged 19692232251/53606588744
+40.159 Sys [Info]: Defragged 21035787882/53606588744
+42.162 Sys [Info]: Defragged 23721928720/53606588744
+43.163 Sys [Info]: Defragged 25313670955/53606588744
+45.172 Sys [Info]: Defragged 28721081365/53606588744
+45.558 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 9,269,757,519 bytes at 1,263,081,825 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\F.Misc.cache.tmp
+45.859 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/F.Misc_en.cache
+46.225 Sys [Info]: Defragged 28961989770/53606588744
+47.120 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 1,251,337,450 bytes at 995,495,186 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\F.Misc_en.cache.tmp
+47.170 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/F.Misc_xx.cache
+47.303 Sys [Info]: Defragged 30213327220/53606588744
+47.638 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 345,355,060 bytes at 744,299,698 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\F.Misc_xx.cache.tmp
+47.651 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/F.Texture.cache
+48.518 Sys [Info]: Defragged 30558682280/53606588744
+49.518 Sys [Info]: Defragged 35541603865/53606588744
+50.522 Sys [Info]: Defragged 38254272698/53606588744
+51.524 Sys [Info]: Defragged 40481151325/53606588744
+52.525 Sys [Info]: Defragged 42033945015/53606588744
+54.530 Sys [Info]: Defragged 44624145729/53606588744
+55.532 Sys [Info]: Defragged 46088660317/53606588744
+56.535 Sys [Info]: Defragged 47456220977/53606588744
+57.541 Sys [Info]: Defragged 48650795420/53606588744
+58.543 Sys [Info]: Defragged 50214305071/53606588744
+59.548 Sys [Info]: Defragged 51381834470/53606588744
+60.333 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 21,700,330,092 bytes at 1,711,247,542 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\F.Texture.cache.tmp
+60.884 Sys [Info]: Defragged 52259012372/53606588744
+60.885 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/F.VideoTexture.cache
+61.264 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 520,295,460 bytes at 1,376,443,015 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\F.VideoTexture.cache.tmp
+61.280 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/F.VideoTextureStreaming.cache
+61.508 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 353,641,936 bytes at 1,557,893,991 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\F.VideoTextureStreaming.cache.tmp
+61.532 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.AnimRetarget.cache
+62.112 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 88,225,448 bytes at 152,112,841 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.AnimRetarget.cache.tmp
+62.116 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.CharacterCodesCache.cache
+62.118 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 19,103 bytes at 19,103,000 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.CharacterCodesCache.cache.tmp
+62.119 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.Font.cache
+62.255 Sys [Info]: Defragged 53221978195/53606588744
+62.422 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 3,218,416 bytes at 10,621,834 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.Font.cache.tmp
+62.423 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.LightMap.cache
+63.255 Sys [Info]: Defragged 53225067907/53606588744
+64.256 Sys [Info]: Defragged 53231812491/53606588744
+65.163 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 12,767,864 bytes at 4,661,505 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.LightMap.cache.tmp
+65.165 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.Misc.cache
+70.561 Sys [Info]: Defragged 53237180599/53606588744
+71.562 Sys [Info]: Defragged 53268862568/53606588744
+72.564 Sys [Info]: Defragged 53299452231/53606588744
+73.564 Sys [Info]: Defragged 53335803477/53606588744
+74.565 Sys [Info]: Defragged 53380697646/53606588744
+75.565 Sys [Info]: Defragged 53427269046/53606588744
+76.566 Sys [Info]: Defragged 53473614568/53606588744
+77.567 Sys [Info]: Defragged 53513407931/53606588744
+78.343 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 310,257,426 bytes at 23,543,589 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.Misc.cache.tmp
+78.357 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.Misc_en.cache
+78.725 Sys [Info]: Defragged 53547438025/53606588744
+78.998 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 27,324,139 bytes at 42,693,967 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.Misc_en.cache.tmp
+79.000 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.Misc_xx.cache
+79.201 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 3,487,750 bytes at 17,438,750 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.Misc_xx.cache.tmp
+79.202 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.ShaderDictionaryDx11.cache
+79.203 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 258 bytes at 258,000 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.ShaderDictionaryDx11.cache.tmp
+79.204 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.ShaderDx11.cache
+79.224 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 768,726 bytes at 38,436,300 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.ShaderDx11.cache.tmp
+79.225 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.ShaderPermutationDx11.cache
+79.726 Sys [Info]: Defragged 53586974929/53606588744
+79.837 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 10,362,392 bytes at 16,932,013 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.ShaderPermutationDx11.cache.tmp
+79.838 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.Texture.cache
+80.870 Sys [Info]: Defragged 53589381290/53606588744
+81.871 Sys [Info]: Defragged 53602521383/53606588744
+82.179 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 17,178,772 bytes at 7,341,355 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.Texture.cache.tmp
+82.184 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.Texture_en.cache
+82.188 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 2,809 bytes at 1,404,500 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.Texture_en.cache.tmp
+82.188 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.VideoTexture.cache
+82.190 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 4,733 bytes at 2,366,500 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.VideoTexture.cache.tmp
+82.191 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmenting /Cache.Windows/H.VideoTextureStreaming.cache
+82.196 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 21,140 bytes at 5,285,000 B/s to Z:\home\chromagor\.local\share\Steam\steamapps\common\Warframe\Cache.Windows\H.VideoTextureStreaming.cache.tmp
+82.197 Sys [Info]: Main Shutdown Initiated.
+82.200 Sys [Info]: TypeMgr cleaned 0 instances (0us) and unbuilt 0 types (2.19ms) in 2.19ms
+82.201 Sys [Info]: 'CacheDefraggerIOCPApplet' Defragmented blocks: 30/34
+82.201 Sys [Info]: 'CacheDefraggerIOCPApplet' Wrote 53,606,588,744 total bytes at 695,755,746 B/s in 77s
+82.201 Sys [Info]: Cache languages enabled: _en
+82.231 Net [Info]: MatchingService::DeleteSession
+82.233 Net [Info]: DeleteSessionCallback(1, )
+82.234 Net [Info]: Deleted session
+82.234 Net [Info]: MatchingServiceWeb::LeavePlatformPartyDone
+82.235 Sys [Info]: Redirecting package save to: C:\users\steamuser\AppData\Local\Warframe\EE.cfg
+82.238 Sys [Info]: Skipping SavePackage for /Configs/EE.cfg (no changes detected)
+82.239 Sys [Info]: Saved package: /Configs/EE.cfg
+82.244 Sys [Info]: Used 1 shared assets (0 async, 1 sync)
+82.244 Sys [Info]: Copied 571 bytes at 4.33 MB/s
+82.244 Phys [Info]: PhysX SDK shutdown.
+82.245 Phys [Info]: PhysX scene manager shutdown.
+Sys [Info]: All smart pointers were destroyed!
+82.253 Sys [Info]: Main Shutdown Complete.
