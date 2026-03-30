@@ -282,6 +282,8 @@ chmod +x strap.sh
 
 sudo ./strap.sh
 
+rm strap.sh
+
 ------------------------------------------------------------
 17. MY DATA AND SHIT
 ------------------------------------------------------------
@@ -292,6 +294,9 @@ git clone <REPO WITH MY HOME>
 mv <GIT FOLDER>/* $HOME
 
 ln -sf ~/.data/git/config ~/.git/config
+
+
+
 
 ------------------------------------------------------------
 18. BROWSER DOWNLOAD
