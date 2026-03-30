@@ -1,1 +1,1 @@
-/home/ncor/data/NCORLinux_data/manual_install/global_manual
+USE ARCH MANUAL INSTALL AND YOU WILL BE FINE
