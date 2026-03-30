@@ -1,1 +1,1 @@
-data/NCORLinux_data/manual_install/global_manual
+/home/ncor/data/NCORLinux_data/manual_install/global_manual
