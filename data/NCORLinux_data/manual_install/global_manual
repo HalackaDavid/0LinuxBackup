@@ -132,7 +132,6 @@ echo "<HOSTNAME>" > /etc/hostname
 # sudo systemctl start iwd will bypass systemd passwd
 
 systemctl enable dhcpcd
-systemctl enable iwd
 
 ------------------------------------------------------------
 10. USERS & SECURITY
