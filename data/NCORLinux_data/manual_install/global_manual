@@ -291,7 +291,7 @@ git clone <REPO WITH MY HOME>
 
 mv <GIT FOLDER>/* $HOME
 
-cp -r data/git/config ~/.git
+ln -sf ~/.data/git/config ~/.git/config
 
 ------------------------------------------------------------
 18. BROWSER DOWNLOAD
