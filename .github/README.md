@@ -1,10 +1,1 @@
-Last Setup
-----
-
-```
-cp ~/data/git/config ~/.git
-
-sudo ~/data/NCORLinux_data/ncor_init
-```
-
-
+data/NCORLinux_data/manual_install/global_manual
