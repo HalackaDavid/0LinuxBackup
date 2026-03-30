@@ -295,8 +295,9 @@ mv <GIT FOLDER>/* $HOME
 
 ln -sf ~/.data/git/config ~/.git/config
 
-
-
+# if group ncor does not exists on your $USER
+    sudo addgroup ncor
+    sudo usermod -aG ncor $USER
 
 ------------------------------------------------------------
 18. BROWSER DOWNLOAD
