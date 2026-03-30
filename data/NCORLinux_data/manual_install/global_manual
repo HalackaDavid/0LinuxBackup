@@ -291,10 +291,17 @@ git clone <REPO WITH MY HOME>
 
 mv <GIT FOLDER>/* $HOME
 
+cp -r data/git/config ~/.git
+
 ------------------------------------------------------------
 18. BROWSER DOWNLOAD
 ------------------------------------------------------------
-yay -Sy brave-bin
+# instaling brave
+    yay -Sy brave-bin
+    
+    # getting back profile ....
+        scp -r host~/.config/BraveBrowser ~/.config
+
 
 sudo pacman -Sy steam discord
 
