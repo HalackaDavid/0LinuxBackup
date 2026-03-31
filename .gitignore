@@ -76,6 +76,18 @@
 !.local/share/
 !.local/share/applications/
 !.local/share/applications/*.desktop
+!.local/share/Steam
+!.local/share/Steam/steamapps
+!.local/share/Steam/steamapps/compatdata
+!.local/share/Steam/steamapps/compatdata/230410
+!.local/share/Steam/steamapps/compatdata/230410/pfx
+!.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c
+!.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users
+!.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser
+!.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData
+!.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local
+!.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe
+!.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe/**
 
 !data/
 !data/**
