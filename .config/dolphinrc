@@ -10,6 +10,7 @@ PreviewSize=160
 HiddenFilesShown=true
 
 [General]
+OpenNewTabAfterLastTab=true
 ShowFullPath=true
 ShowFullPathInTitlebar=true
 Version=202
