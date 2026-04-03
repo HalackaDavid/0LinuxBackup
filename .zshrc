@@ -33,7 +33,7 @@ export myFSPath=/mnt
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 export EDITOR="nvim"
 export PULSE_COOKIE="$HOME/.cache/pulse/cookie"
-export PYTHON_HISTORY="$HOME/.cache/python/history"
+export PYTHON_HISTORY="$HOME/.cache/python_history"
 
 var="$myAppsPath/App:$HOME/.local/bin"
 export PATH="$var:$PATH"
