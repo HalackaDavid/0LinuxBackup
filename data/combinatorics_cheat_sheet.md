@@ -1,12 +1,5 @@
 # Combinatorics Cheat Sheet
 
-## 🔢 Faktoriál
-```
-n! = n * (n-1) * ... * 1
-```
-
----
-
 ## 🔁 Permutace (všechny prvky)
 ### Bez opakování
 ```
@@ -42,36 +35,21 @@ C(n,k) = n! / (k! * (n-k)!)
 ```
 ### S opakováním
 ```
-C'(n,k) = C(n+k-1,k)
+C'(n,k) -> C(n+k-1,k) = n! / (k! * (n-k)!)
 ```
 
 ---
 
 ## 🔥 Rozhodovák
 ```
-bereš všechny? → permutace
-bereš část:
-    záleží na pořadí?
-        ano → variace
-        ne  → kombinace
-    kombinace typ:
-        objekty různé, bez opakování → C(n,k)
-        objekty stejné, rozdělení do skupin → C(n+k-1,k)
-opakování?
-    ano → "s opakováním"
-    ne  → "bez opakování"
+všechny prvky → permutace
+část prvků:
+    zálež na pořadí → variace
+    nezálež na pořadí → kombinace
 ```
 
 ---
-
-## ⚡ Bonus triky
 ```
-C(n,k) = C(n,n-k)
-C(n+k-1,k) → hvězdičky a čárky
-```
-
----
-
 ## 🧠 1 věta na vše
 - pořadí → variace
 - bez pořadí → kombinace
