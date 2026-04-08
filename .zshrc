@@ -17,9 +17,12 @@ if [[ -z $TMUX && $- == *i* && -t 0 ]]; then
     fi
 fi
 
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
 case $(uname -m) in 
 aarch64)
     export myDevicePath=/dev/block
+    PATH="$PATH"
     ;;
 x86_64)
     export myDevicePath=/dev
@@ -30,8 +33,6 @@ export myData=$HOME/data
 export myAppsPath=$myData/Apps
 export myFSPath=/mnt
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-export EDITOR="nvim"
 export PULSE_COOKIE="$HOME/.cache/pulse/cookie"
 export PYTHON_HISTORY="$HOME/.cache/python_history"
 
@@ -248,6 +249,7 @@ alias neton='sudo systemctl start iwd'
 alias netoff='sudo systemctl stop iwd'
 
 alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_login ~/.bash_history 2>/dev/null'
-alias hpr='echo "" > ~/.config/hypr/monitor.conf'
 alias hyprdown='command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit'
+
+#Unset
 unset var;
