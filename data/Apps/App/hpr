@@ -1,2 +1,6 @@
 #!/bin/zsh
-echo "" > ~/.config/hypr/monitor.conf
+
+case "$1" in
+    "1") echo "111";;
+    *) echo "" > ~/.config/hypr/monitor.conf;;
+esac
