@@ -8,7 +8,10 @@ for i in range(r_ar+1):
     scorn=350*strg/100
     fury=275*strg/100
     vexh=1*5*strg/100/100
-    print(f"HP:    {hp_formula}\nStrg:  {strg}\nScorn: {scorn}\nFury:  {fury}\nVexH:  {vexh}\nVex2:  {hp_formula*vexh/3}\n")
+    nu_d=45*strg/100
+    nu_e=1+0.6*strg/100
+
+    print(f"HP:    {hp_formula}\nStrg:  {strg}\nScorn: {scorn}\nFury:  {fury}\nVexH:  {vexh}\nVex2:  {hp_formula*vexh/3}\nNurD:  {nu_d}\nNurE:  {nu_e}\n")
     
     b_ar+=1
     r_ar-=1
