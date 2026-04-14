@@ -1,3 +1,4 @@
+#!/bin/zsh
 conf="$HyprConfigPath/monitor.conf"
 
 NEW() {
