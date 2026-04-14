@@ -1,7 +1,0 @@
-#!/bin/zsh
-
-case "$1" in
-    "hc") echo "hc";;
-    "ws") echo "wpctl status";;
-    *) echo "" > ~/.config/hypr/monitor.conf;;
-esac

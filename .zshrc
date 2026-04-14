@@ -252,5 +252,9 @@ alias netoff='sudo systemctl stop iwd'
 alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_login ~/.bash_history 2>/dev/null'
 alias hyprdown='command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit'
 
+if [[ $(command -v hyprctl) ]]; then
+    alias ws='wpctl status'
+fi
+
 #Unset
-unset var;
+unset var
