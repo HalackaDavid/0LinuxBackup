@@ -33,7 +33,6 @@ export myData=$HOME/data
 export myAppsPath=$myData/Apps
 export myFSPath=/mnt
 
-export PULSE_COOKIE="$HOME/.cache/pulse/cookie"
 export PYTHON_HISTORY="$HOME/.cache/python_history"
 
 var="$myAppsPath/App:$HOME/.local/bin"
@@ -253,7 +252,7 @@ alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_logi
 alias hyprdown='command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit'
 
 alias ws='wpctl status'
-alias wa='print -n "SINKS : " && wpctl get-volume @DEFAULT_SINK@ && print -n "SOURCE: " && wpctl get-volume @DEFAULT_SOURCE@'
+alias wa='print -n "AUDIO: " && wpctl get-volume @DEFAULT_SINK@ && print -n "MIC  : " && wpctl get-volume @DEFAULT_SOURCE@'
 
 #Unset
 unset var

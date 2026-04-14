@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+HyprWallpaperPath="$HOME/data/Wallpapers"
+
 Wallpaper() {
     if [[ -f $HyprWallpaperPath/wallpaper.active ]]; then
         setsid swaybg -i $HyprWallpaperPath/wallpaper.active -m fill  >/dev/null 2>&1 </dev/null &
@@ -15,7 +17,6 @@ Kill() {
 if [[ $1 == "hypr_script" && ${#HyprWallpaperPath} > 0 ]]; then
     Kill
     Wallpaper
-    exit
 elif [[ ${#HyprWallpaperPath} > 0 ]]; then 
     print -l $HyprWallpaperPath/0/*(:t:r)
     echo -n ">>> "
