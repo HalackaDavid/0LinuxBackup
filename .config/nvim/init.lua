@@ -3,7 +3,6 @@
 ----------------------
 local spaceWidth = 4
 
-
 -- Basic settings
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -26,6 +25,8 @@ vim.keymap.set('n', '<Space>e','<cmd>Explore<CR>')
 vim.keymap.set('n', '<A-j>', '<C-e>', { noremap = true, silent = true })
 vim.keymap.set('n', '<A-k>', '<C-y>', { noremap = true, silent = true })
 vim.g.mapleader = " "
+
+--vim.env.PATH = vim.env.PATH .. ':$HOME/data/Apps/App/gc'
 
 vim.api.nvim_create_autocmd('TextYankPost', {
     desc = 'Highlight when yanking (copying) text',
