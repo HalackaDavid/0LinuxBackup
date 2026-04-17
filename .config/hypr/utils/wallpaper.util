@@ -1,10 +1,8 @@
 #!/bin/zsh
 
-HyprWallpaperPath="$HOME/data/Media/Wallpapers"
-
 Wallpaper() {
-    if [[ -f $HyprWallpaperPath/wallpaper.active ]]; then
-        setsid swaybg -i $HyprWallpaperPath/wallpaper.active -m fill  >/dev/null 2>&1 </dev/null &
+    if [[ -f $NCORMediaPath/wallpaper.active ]]; then
+        setsid swaybg -i $NCORMediaPath/wallpaper.active -m fill  >/dev/null 2>&1 </dev/null &
     else
         setsid swaybg -c "#000000" -m solid_color  >/dev/null 2>&1 </dev/null &
     fi
@@ -14,18 +12,18 @@ Kill() {
     pkill -x swaybg 2>/dev/null
 }
 
-if [[ ${#HyprWallpaperPath} < 0 ]]; then
+if [[ ${#NCORMediaPath} < 0 ]]; then
     print "Wallpapar Path has 0 lenght."
     exit
 fi
 
 case $1 in
     "0")
-        print -l $HyprWallpaperPath/0/*(:t:r)
+        print -l $NCORMediaPath/0/*(:t:r)
         echo -n ">>> "
         
         read UserInput
-        ln -sf "$HyprWallpaperPath/0/$UserInput".png "$HyprWallpaperPath/wallpaper.active"
+        ln -sf "$NCORMediaPath/0/$UserInput".png "$NCORMediaPath/wallpaper.active"
         Kill
         Wallpaper
         unset UserInput
