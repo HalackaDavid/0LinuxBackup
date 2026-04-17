@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-HyprWallpaperPath="$HOME/data/Wallpapers"
+HyprWallpaperPath="$HOME/data/Media/Wallpapers"
 
 Wallpaper() {
     if [[ -f $HyprWallpaperPath/wallpaper.active ]]; then
