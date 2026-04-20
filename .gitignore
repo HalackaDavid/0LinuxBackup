@@ -25,6 +25,10 @@
 !.termux
 !.termux/**
 
+!data/
+!data/**
+data/Media/Wallpapers/wallpaper.active
+
 !.config/
 !.config/**
 .config/discord/
@@ -90,7 +94,3 @@
 !.local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe/**
 .local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe/**.log
 .local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe/Crashes
-
-!data/
-!data/**
-data/Media/Wallpapers/wallpaper.active
