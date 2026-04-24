@@ -4,7 +4,7 @@ NCORWallpaperPath="$NCORMediaPath/Wallpapers"
 
 Wallpaper() {
     if [[ -f $NCORWallpaperPath/wallpaper.active ]]; then
-        setsid swaybg -i $NCORWallpaperPath/wallpaper.active -m fill  >/dev/null 2>&1 </dev/null &
+        setsid swaybg -i $NCORWallpaperPath/wallpaper.active -m fill >/dev/null 2>&1 </dev/null &
     else
         setsid swaybg -c "#000000" -m solid_color  >/dev/null 2>&1 </dev/null &
     fi
