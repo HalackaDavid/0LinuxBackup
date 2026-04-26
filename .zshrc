@@ -245,9 +245,9 @@ alias tree='tree --dirsfirst -a'
 alias date='TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss"'
 alias c='clear'
 alias ff='fastfetch'
+
 alias neton='sudo systemctl start iwd'
 alias netoff='sudo systemctl stop iwd'
-
 alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_login ~/.bash_history 2>/dev/null'
 alias hyprdown='command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit'
 
