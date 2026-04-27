@@ -98,7 +98,7 @@ pacstrap /mnt \
   xdg-desktop-portal xdg-desktop-portal-wlr \
   hyprland wl-clipboard wofi swaybg hyprlock brightnessctl foot foot-terminfo \
   dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs \
-  sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh tree viu xplr fastfetch 
+  sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh tree viu xplr fastfetch bat
 
 ------------------------------------------------------------
 6. FSTAB
@@ -263,9 +263,9 @@ b. -> ASUS TUF GAMING A16
 
         nvidia-smi
 
--------
+-----------
 GAMING
--------
+-----------
 sudo pacman -S vulkan-tools vulkan-icd-loader lib32-vulkan-icd-loader egl-wayland
 
 vulkaninfo | less
@@ -292,7 +292,7 @@ git clone <REPO WITH MY HOME>
 
 mv <GIT FOLDER>/* $HOME
 
-ln -sf ~/.data/git/config ~/.git/config
+ln -sf ~/data/git/config ~/.git/config
 
 # if group ncor does not exists on your $USER
     sudo addgroup ncor
