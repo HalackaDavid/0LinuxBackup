@@ -7,6 +7,3 @@ Dialog Size=600,480
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
-
-[Colors:View]
-BackgroundNormal=#31363B

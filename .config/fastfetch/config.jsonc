@@ -241,6 +241,12 @@
       }
     },
     {
+      "type": "separator",
+      "string": " ",
+      "outputColor": "",
+      "times": 0
+    },
+    {
       "type": "battery",
       "keyIcon": "",
       "temp": false,
@@ -253,6 +259,13 @@
     {
       "type": "poweradapter",
       "keyIcon": "󰚥"
+    },
+    {
+      "type": "brightness",
+      "key": "Brightness: ",
+      "percent": {
+        "type": ["num"]
+      }
     },
     "break",
   ]

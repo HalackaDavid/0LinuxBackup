@@ -252,7 +252,6 @@ alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_logi
 alias hyprdown='command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit'
 
 alias ws='wpctl status'
-alias wa='print -n "AUDIO: " && wpctl get-volume @DEFAULT_SINK@ && print -n "MIC  : " && wpctl get-volume @DEFAULT_SOURCE@'
-
+alias wa='print -n "AUDIO: $(wpctl get-volume @DEFAULT_SINK@)\nMIC  : $(wpctl get-volume @DEFAULT_SOURCE@)\n"'
 #Unset
 unset var
