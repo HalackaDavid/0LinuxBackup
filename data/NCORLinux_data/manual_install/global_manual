@@ -97,9 +97,8 @@ pacstrap /mnt \
   dhcpcd iwd pipewire pipewire-pulse pipewire-alsa wireplumber mesa /
   xdg-desktop-portal xdg-desktop-portal-wlr \
   hyprland wl-clipboard wofi swaybg hyprlock brightnessctl foot foot-terminfo \
-  dolphin kdegraphics-thumbnailers kimageformats ffmpegthumbs \
+  thunar tumbler ffmpegthumbnailer poppler-glib \
   sudo git neovim zsh tmux man-db man-pages less htop curl wget rsync unzip zip tar openssh tree viu xplr fastfetch bat
-
 ------------------------------------------------------------
 6. FSTAB
 ------------------------------------------------------------
