@@ -1,2 +1,1 @@
-sudo pacman -S ueberzugpp
-
+sudo pacman -S thunar tumbler ffmpegthumbnailer poppler-glib
