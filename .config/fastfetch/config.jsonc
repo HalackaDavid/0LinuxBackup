@@ -241,12 +241,6 @@
       }
     },
     {
-      "type": "separator",
-      "string": " ",
-      "outputColor": "",
-      "times": 0
-    },
-    {
       "type": "battery",
       "keyIcon": "",
       "temp": false,
@@ -254,17 +248,6 @@
         "green": 50,
         "yellow": 20,
         "type": 0
-      }
-    },
-    {
-      "type": "poweradapter",
-      "keyIcon": "󰚥"
-    },
-    {
-      "type": "brightness",
-      "key": "Brightness: ",
-      "percent": {
-        "type": ["num"]
       }
     },
     "break",
