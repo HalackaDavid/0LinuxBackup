@@ -96,4 +96,4 @@ data/Media/Wallpapers/wallpaper.active
 .local/share/Steam/steamapps/compatdata/230410/pfx/drive_c/users/steamuser/AppData/Local/Warframe/Crashes
 
 **/.lock
-**/*.nbk
+**/*.nobk
