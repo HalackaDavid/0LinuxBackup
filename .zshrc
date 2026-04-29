@@ -33,7 +33,7 @@ export myData=$HOME/data
 export myAppsPath=$myData/Apps
 export myFSPath=/mnt
 
-export PYTHON_HISTORY="$HOME/.cache/python_history"
+#export PYTHON_HISTORY="$HOME/.cache/python_history"
 
 var="$myAppsPath/App:$HOME/.local/bin"
 export PATH="$var:$PATH"
