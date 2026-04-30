@@ -47,35 +47,30 @@ Main() {
             sudo mkdir $mountpoint/$usbname;
         fi   
         
+        if [[ $(findmnt "$myDevicePath/$usbname") ]]; then
+            #UMOUNTING
+            echo "Umounting...";
+            
+            sudo umount $myDevicePath/$usbname;
+            if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
+                sudo mv -fv $mountpoint/$usbname /tmp;
+            fi
 
-        
+            echo "Done";
+        elif [[ ! $(findmnt "$myDevicePath/$usbname") ]]; then
+            #MOUNTING
+            sudo mount $myDevicePath/$usbname $mountpoint/$usbname;
+            
+            echo "Mounting...";
+            if [[ $(findmnt "$myDevicePath/$usbname") ]]; then
+                echo ">>> $mountpoint/$usbname <<<";
+            else
+                if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
+                    sudo mv -fv $mountpoint/$usbname /tmp;
+                fi
+            fi
 
-
-
-#        if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
-#            #UMOUNTING
-#            echo "Umounting...";
-#            
-#            sudo umount $myDevicePath/$usbname;
-#            if [[ ! $(findmnt --source "$mountpoint/$usbname") ]]; then
-#                sudo mv -fv $mountpoint/$usbname /tmp;
-#            fi
-#
-#            echo "Done";
-#        elif [[ ! $(findmnt --source "$myDevicePath/$usbname") ]]; then
-#            #MOUNTING
-#            sudo mount $myDevicePath/$usbname $mountpoint/$usbname;
-#            
-#            echo "Mounting...";
-#            if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
-#                echo ">>> $mountpoint/$usbname <<<";
-#            else
-#                if [[ ! $(findmnt --source "$mountpoint/$usbname") ]]; then
-#                    sudo mv -fv $mountpoint/$usbname /tmp;
-#                fi
-#            fi
-#
-#        fi
+        fi
     fi
 }
 
