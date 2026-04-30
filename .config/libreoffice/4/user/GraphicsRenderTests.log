@@ -1,20 +1,11 @@
 Graphics Backend used: svp
-Passed Tests: 50
-Quirky Tests: 43
-Failed Tests: 10
+Passed Tests: 66
+Quirky Tests: 36
+Failed Tests: 1
 Skipped Tests: 6
 
 ---Name of the tests that failed---
 testDrawInvertN50WithRectangle
-testDrawBitmap24bpp
-testDrawTransformedBitmap24bpp
-testComplexDrawTransformedBitmap24bpp
-testDrawBitmapExWithAlpha24bpp
-testDrawMask24bpp
-testDrawBlend24bpp
-testTextDrawing
-testDrawBitmap8bppGreyScale
-testDrawTransformedBitmap8bppGreyScale
 
 ---Name of the tests that were Quirky---
 testDrawRectWithLine
@@ -22,23 +13,19 @@ testDrawRectWithPolygon
 testDrawRectWithPolyLine
 testDrawRectWithPolyPolygon
 testDrawRectWithPolyPolygonB2D
-testDrawDiamondWithPolygon
 testDrawDiamondWithLine
-testDrawDiamondWithPolyline
+testComplexDrawTransformedBitmap24bpp
+testDashedLine
+testLinearGradientBorder
 testLinearGradientSteps
 testRadialGradient
 testRadialGradientOfs
-testDrawDropShapeWithPolyline
-testDrawDropShapeWithPolygon
 testHalfEllipseWithPolyLine
 testHalfEllipseAAWithPolyLine
-testHalfEllipseWithPolyLineB2D
 testHalfEllipseAAWithPolyLineB2D
 testHalfEllipseWithPolygon
 testHalfEllipseAAWithPolygon
-testClosedBezierWithPolyline
-testClosedBezierWithPolygon
-testFilledAsymmetricalDropShape
+testTextDrawing
 testDrawRectangleOnSize1028WithPixel
 testDrawRectangleOnSize4096WithPixel
 testDrawRectangleOnSize1028WithLine
@@ -54,12 +41,9 @@ testDrawRectangleOnSize4096WithPolyPolygon
 testDrawRectangleOnSize1028WithPolyPolygonB2D
 testDrawRectangleOnSize4096WithPolygonPolygonB2D
 testDrawOpenPolygonWithPolyLine
-testDrawOpenPolygonWithPolyLineB2D
 testDrawOpenPolygonWithPolygon
 testDrawOpenPolygonWithPolyPolygon
 testDrawOpenPolygonWithPolyPolygonB2D
-testDrawOpenBezierWithPolyLine
-testDrawOpenBezierWithPolyLineB2D
 
 ---Name of the tests that were Skipped---
 testDrawInvertTrackFrameWithRectangle
