@@ -94,7 +94,7 @@ mount /dev/<TARGET_DISK>1 /mnt/boot
 pacstrap /mnt \
   base linux linux-headers linux-firmware \
   efibootmgr dosfstools \
-  dhcpcd iwd pipewire pipewire-pulse pipewire-alsa wireplumber mesa /
+  dhcpcd iwd pipewire pipewire-pulse pipewire-alsa wireplumber mesa \
   xdg-desktop-portal xdg-desktop-portal-wlr \
   hyprland wl-clipboard wofi swaybg hyprlock brightnessctl foot foot-terminfo \
   thunar tumbler ffmpegthumbnailer poppler-glib \
@@ -115,8 +115,9 @@ arch-chroot /mnt
 ln -sf /usr/share/zoneinfo/<REGION>/<CITY> /etc/localtime
 hwclock --systohc
 
-Edit /etc/locale.gen:
-- uncomment: en_US.UTF-8 UTF-8
+nvim /etc/locale.gen
+    #uncomment: en_US.UTF-8 UTF-8
+
 locale-gen
 
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
@@ -135,7 +136,7 @@ systemctl enable dhcpcd
 ------------------------------------------------------------
 10. USERS & SECURITY
 ------------------------------------------------------------
-passwd   # set root password temporarily
+passwd
 useradd -m -G wheel -s /bin/zsh <USERNAME>
 passwd <USERNAME>
 
@@ -201,12 +202,13 @@ cd yay
 makepkg -si
 
 ------------------------------------------------------------
-14. Configure ly-dm or tty login
+13. Cloning home dir
 ------------------------------------------------------------
-tty-login -> need to clone repo first 
+scp -r ~/.ssh to new machine from old one or get new key
+
 
 ------------------------------------------------------------
-15. AUDIO
+14. AUDIO
 ------------------------------------------------------------
 #PipeWire enabled per-user
 #Verify:
@@ -216,7 +218,20 @@ pactl info
 wpctl status
 
 ------------------------------------------------------------
-13. NVIDIA GPU
+15. BlackArch repo
+------------------------------------------------------------
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+
+#Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials
+#it is around last
+
+sudo ./strap.sh
+
+rm strap.sh
+
+------------------------------------------------------------
+16. NVIDIA GPU
 ------------------------------------------------------------
 a. -> ACER NITRO 5
 b. -> ASUS TUF GAMING A16
@@ -268,19 +283,6 @@ GAMING
 sudo pacman -S vulkan-tools vulkan-icd-loader lib32-vulkan-icd-loader egl-wayland
 
 vulkaninfo | less
-
-------------------------------------------------------------
-16. BlackArch repo
-------------------------------------------------------------
-curl -O https://blackarch.org/strap.sh
-chmod +x strap.sh
-
-#Now only find and delete something like -> pacman -S --noconfirm --needed blackarch-officials
-#it is around last
-
-sudo ./strap.sh
-
-rm strap.sh
 
 ------------------------------------------------------------
 17. MY DATA AND SHIT
