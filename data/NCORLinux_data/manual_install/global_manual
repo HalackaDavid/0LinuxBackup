@@ -307,7 +307,8 @@ vulkaninfo | less
     yay -Sy brave-bin
     
     # getting back profile ....
-        scp -r host~/.config/BraveBrowser ~/.config
+        mv ~/.config/BraveBrowser /tmp
+        scp -r host@ip:~/.config/BraveBrowser ~/.config
 
 
 sudo pacman -Sy steam discord
