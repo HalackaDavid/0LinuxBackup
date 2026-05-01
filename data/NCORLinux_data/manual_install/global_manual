@@ -202,13 +202,7 @@ cd yay
 makepkg -si
 
 ------------------------------------------------------------
-13. Cloning home dir
-------------------------------------------------------------
-scp -r ~/.ssh to new machine from old one or get new key
-
-
-------------------------------------------------------------
-14. AUDIO
+13. AUDIO
 ------------------------------------------------------------
 #PipeWire enabled per-user
 #Verify:
@@ -218,7 +212,7 @@ pactl info
 wpctl status
 
 ------------------------------------------------------------
-15. BlackArch repo
+14. BlackArch repo
 ------------------------------------------------------------
 curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
@@ -231,7 +225,7 @@ sudo ./strap.sh
 rm strap.sh
 
 ------------------------------------------------------------
-16. NVIDIA GPU
+15. NVIDIA GPU
 ------------------------------------------------------------
 a. -> ACER NITRO 5
 b. -> ASUS TUF GAMING A16
@@ -285,7 +279,7 @@ sudo pacman -S vulkan-tools vulkan-icd-loader lib32-vulkan-icd-loader egl-waylan
 vulkaninfo | less
 
 ------------------------------------------------------------
-17. MY DATA AND SHIT
+16. MY DATA AND SHIT
 ------------------------------------------------------------
 rm -rf /home/$USER/*
 
@@ -300,7 +294,7 @@ ln -sf ~/data/git/config ~/.git/config
     sudo usermod -aG ncor $USER
 
 ------------------------------------------------------------
-18. BROWSER DOWNLOAD
+17. BROWSER DOWNLOAD
 ------------------------------------------------------------
 # instaling brave
     yay -Sy brave-bin
