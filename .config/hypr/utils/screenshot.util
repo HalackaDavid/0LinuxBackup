@@ -2,7 +2,6 @@
 
 screenshotPath="$NCORMediaPath/Screenshots"
 
-
 case $1 in
     "1")
         grim $screenshotPath/$(date +"%d.%m.%Y-%Hh%Mm%Ss_%3N").png
@@ -14,4 +13,3 @@ case $1 in
 esac
 
 unset screenshotPath
-unset scname
