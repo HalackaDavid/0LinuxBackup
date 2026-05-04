@@ -1,11 +1,15 @@
 #!/bin/zsh
 
+screenshotPath="$NCORMediaPath/Screenshots"
+
 case $1 in
     "1")
-        grim $mediaPath/$(date)_1.png
+        grim "$screenshotPath/$(date)_1.png"
         ;;
 
     "2")
-        grim -g "$(slurp)" $mediaPath/$(date)_2.png
+        grim -g "$(slurp)" "$screenshotPath/$(date)_2.png"
         ;;
 esac
+
+unset screenshotPath

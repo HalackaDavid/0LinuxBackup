@@ -242,7 +242,7 @@ alias la='ls -A'
 alias ll='ls -l'
 alias lla='ls -la'
 alias tree='tree --dirsfirst -a'
-alias date='TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss"'
+alias date='date +"%d.%m.%Y-%Hh%Mm%Ss"'
 alias c='clear'
 alias ff='fastfetch'
 
