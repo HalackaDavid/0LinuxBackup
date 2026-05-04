@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+case $1 in
+    "1")
+        grim $mediaPath/$(date)_1.png
+        ;;
+
+    "2")
+        grim -g "$(slurp)" $mediaPath/$(date)_2.png
+        ;;
+esac
