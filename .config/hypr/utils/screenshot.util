@@ -5,11 +5,11 @@ scname="$screenshotPath/$(date +'%d.%m.%Y-%Hh%Mm%Ss_%3N').png"
 
 case $1 in
     "1")
-        grim "$screenshotPath/$(date +"%d.%m.%Y-%Hh%Mm%Ss_%3N").png"
+        grim "$screenshotPath/$scname
         ;;
 
     "2")
-        grim -g "$(slurp)" "$screenshotPath/$(date +"%d.%m.%Y-%Hh%Mm%Ss_%3N").png"
+        grim -g "$(slurp)" "$screenshotPath/$scname
         ;;
 esac
 
