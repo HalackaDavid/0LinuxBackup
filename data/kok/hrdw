@@ -65,3 +65,18 @@ technologie výroby LCD
 
 výrobci
 
+centrální databáze k ukládání
+všech technických informací o hardware, software, nastavení softwaru a voleb pro uživatele
+registry obsahují data nainstalovaný software a aplikace, uživatelské profily a jejich nastavení a nastavení kernelu
+    5 větví
+    - HKEY_CLASSES_ROOT - asociace souborů vči programu spouštějící je
+        nastavení klíčů, podklíčů
+    - HKEY_CURRENT_USER - data aktuálně přihlášeného uživatele
+    - HKEY_LOCAL_MACHINe - nastavení complet pc, hardware, kernel, ...
+    - HKEY_USERS - info o všech uživatelích
+    - HKEY_CURRENT_CONFIG - profil hardware
+    
+datové typy v registrech
+    - reg_sz -> textový řetězec
+    - reg_deword -> 32 bit číslo, často logické může značit 0,1
+    - reg_binary -> surová binární informace
