@@ -20,13 +20,13 @@ fi
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
 case $(uname -m) in 
-aarch64)
-    export myDevicePath=/dev/block
-    PATH="$PATH"
-    ;;
-x86_64)
-    export myDevicePath=/dev
-    ;;
+    aarch64)
+        export myDevicePath=/dev/block
+        PATH="$PATH"
+        ;;
+    x86_64)
+        export myDevicePath=/dev
+        ;;
 esac
 
 export myData=$HOME/data
