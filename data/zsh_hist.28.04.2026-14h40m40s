@@ -2972,3 +2972,1109 @@ cat install
 c
 cp ~/.zsh_history zsh_hist.$(data)
 cp ~/.zsh_history zsh_hist.$(date)
+ls
+bak 1
+bak 0
+nvim data/NCORLinux_data/manual_install/global_manual
+cd .config/nvim/
+ls
+cp init.lua init.lua.withLSP
+nvim init.lua
+bak 1
+cat lazy-lock.json
+nvim init.lua
+cat lazy-lock.json
+bak 23
+git status
+git remote -v
+cd
+ls ~/.git/config
+cat ~/.git/config
+nvim data/NCORLinux_data/manual_install/global_manual
+ln -sf ~/data/git/config ~/.git/config
+ls .git
+bak 3
+cat .git/config
+bak 23
+clear
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+nvim strap.sh
+uname -r
+c
+uname -a
+uname
+uname --all
+c
+ff
+clear
+sudo pacman -Sy libreoffice-still
+./strap.sh
+sudo strap.sh
+sudo ./strap.sh
+c
+ls
+rm strap.sh
+ls
+ff
+sudo pacman -Sy nvidia-dkms nvidia-utils lib32-nvidia-utils
+cd data/NCORLinux_data/
+tree
+root-x86_64
+ls
+cp usr/lib/os-release /usr/lib/os-release
+sudo cp usr/lib/os-release /usr/lib/os-release
+ff
+c
+ls
+sudo cp etc/hosts /etc/hosts
+sudo cp etc/pacman.conf /etc/pacman.conf
+sudo cp etc/sudoers /etc/sudoers
+ls
+clear
+diff /etc/sudoers
+diff etc/sudoers /etc/sudoers
+sudo diff etc/sudoers /etc/sudoers
+sudo diff etc/hosts /etc/hosts
+sudo diff etc/pacman.conf /etc/pacman.conf
+clear
+sudo pacman -Sy nvidia-dkms nvidia-utils lib32-nvidia-utils
+ff
+clear
+nvidia-smi 
+bak 1
+bak 23
+reboot
+nvidia-smi
+cat /sys/module/nvidia_drm/parameters/modeset
+sudo cat /sys/module/nvidia_drm/parameters/modeset
+c
+clear
+exit
+nvim data/NCORLinux_data/manual_install/global_manual 
+nvim /etc/modprobe.d/nvidia.conf
+sudo nvim /etc/mkinitcpio.conf
+mkinitcpio -P
+sudo mkinitcpio -P
+nvidia-smi
+sudo pacman -S vulkan-tools vulkan-icd-loader lib32-vulkan-icd-loader egl-wayland
+c
+vulkaninfo | less
+sudo pacman -Sy steam discord
+htop
+bak 1
+htop
+nvim /usr/share/application/steam.desktop
+nvim /usr/share/applications/steam.desktop
+sudo nvim /usr/share/applications/steam.desktop
+killall steam
+killall Steam
+killall steam
+sudo cp /usr/share/applications/steam.desktop ~/.local/share/applications/
+clear
+sudo nvim /usr/share/applications/steam.desktop
+killall steam
+killall Steam
+git status
+killall Steam
+killall steam
+bak 23
+rm .local/share/applications/steam.desktop
+lla .local/share/applications/steam.desktop
+lla .local/share/applications/
+ls /usr/share/applications/steam.desktop
+killall steam
+bak 1
+git restore .local/share/applications/steam.desktop
+clear
+(cd .config/hypr/utils && ./monitor.util && wallpaper.util 1)
+exit
+exit
+ls .config/hypr/utils
+(cd .config/hypr/utils && wallpaper.util 1)
+(cd .config/hypr/utils && ./monitor.util && ./wallpaper.util 1)
+clear
+bak 1
+c
+bak 0
+c
+yay -S brave-bin
+c
+nvim data/NCORLinux_data/manual_install/global_manual
+ls .config
+scp -r chromagor@192.168.10.123:~/Homer/.config/BraveSoftware ~/.config
+exit
+exit
+bak 1
+bak 23
+c
+bak 1
+poweroff
+(cd .config/hypr/utils && ./monitor.uitl && ./wallpaper.util)
+(cd .config/hypr/utils && ./monitor.util && ./wallpaper.util)
+(cd .config/hypr/utils && ./monitor.util && ./wallpaper.util 1)
+c
+nvim data/rnd/games/warframe/buy
+killall Discord
+killall discord
+killall Discord
+scp -r chromagor@192.168.10.123:~/Homer/.cache/wofi-drun .
+c
+hyprctl clients
+c
+pwd
+data/rnd/games/warframe/buy
+data/rnd/games/warframe/
+pwd
+cd
+nvim data/rnd/games/warframe/buy
+bak 1
+c
+hyprctl clients
+c
+wa
+nvim data/rnd/games/warframe/buy
+c
+bak 1
+bak 23
+bak 0
+git repase --abort
+git rebase --abort
+git status
+git pull
+git rebase ddd8633
+git stash 
+git push -f origin
+bak 0
+git merge origin
+git status
+bak 23
+git branch
+bak 0
+clear
+bak 
+bak 1
+bak 23
+c
+ls
+cat wofi-drun
+cat .cache/wofi-drun
+cat wofi-drun > .cache/wofi-drun
+cat .cache/wofi-drun
+rm wofi-drun
+ls
+ping 8.8.8.8
+c
+bak 1
+clear
+scp -r chromagor@192.168.10.123:~/P .
+ls
+du -sh P
+exit
+nvim TODO
+exit
+c
+du -s P
+viu data/Media/screenshot1.png
+viu data/Media/screenshot2.png
+thunar data/Media/screenshot1.png
+c
+bak 1
+bak 23
+c
+poweroff
+wa
+nvim data/rnd/games/warframe/warframe.market
+nvim data/rnd/games/warframe/buy
+c
+bak 1
+c
+nvim data/kok/hoz
+data/ZpravaPraxe
+ls
+cp Main1.1.odt Main1.2.odt
+nvim 
+clear
+bak 1
+ls
+cd
+data/Media
+ls
+ls Screenshot
+ls Screenshots
+ls
+mv screenshot2.png screenshot3.png
+mv screenshot1.png screenshot2.png
+ls
+mv *.jpg Screenshots
+mv *.png Screenshots
+cd Screenshots
+ls
+viu *
+clear
+viu screenshot1.png
+viu screenshot2.png
+viu screenshot3.png
+c
+cd
+c
+bak 1
+bak 23
+poweroff
+nvim
+bak 23
+bak 1
+poweroff
+neton
+iwctl station wlan0 connect 0011
+celar
+clear
+ip a
+systectl start iwd
+systemctl start iwd
+clear
+data/ZpravaPraxe
+ls
+cat ~/.zsh_history | grep libre
+cat ~/.zsh_history | grep odt
+nvim ~/.zsh_history 
+clear
+ls
+c
+libreoffice --headless --conver-to odt titulni_stranka\ IT.docx
+libreoffice --headless --convert-to odt titulni_stranka\ IT.docx
+ls
+ooo_cat -o merged.odt Main1.1.odt titulni_stranka\ IT.odt
+clear
+ls
+exit
+clear
+ls
+libreoffice titulni_stranka\ IT.
+libreoffice titulni_stranka\ IT.odt
+clear
+ls
+cp titulni_stranka\ IT.odt Main1.3.odt
+clear
+libreoffice Main1.3.odt
+c
+l
+cat a
+rm a
+c
+libreoffice Main1.3.odt
+wa
+date
+c
+c
+ls
+mkdir docx
+mv *.docx docx
+lla
+c
+wa
+c
+ls
+cp Main1.3.odt.bk
+cp Main1.3.odt Main1.3.odt.bk
+ls
+libreoffice Main1.3.odt
+ls
+cat ~/.zsh_history| libre
+cat ~/.zsh_history| grep libre
+libreoffice --headless --conver-to docx Main1.3.odt
+libreoffice --headless --convert-to docx Main1.3.odt
+ls
+m
+/mnt/sda1
+ls
+sudo cp -r ~/data/ZpravaPraxe .
+ls
+m
+cd
+m
+ls
+m
+c
+date
+exit
+ls
+bak 1
+bak 0
+bak 23
+clear
+ls
+ls Downloads
+clear
+ls
+cat TODO
+c
+mv P data/Media/Images/
+data/Media/Images/
+ls
+cat ~/TODO
+cat ~/.gitignore
+mv P P.nobk
+bak 1
+c
+cd
+ls
+c
+ff
+c
+ff
+bak 0
+c
+bak 1
+ipa 
+ip a
+c
+git reset --hard origin main
+git reset --hard origin/main
+bak 1
+c
+data
+ls
+cat install
+rm install
+l
+Media
+l
+c
+nvim ~/.config/hypr/utils
+nvim ~/.config/hypr/
+nvim ~/.config/hypr/hyprland.conf
+cd ~/.config/hypr/utils
+c
+ls
+nvim screenshot.util
+bak 1
+bak 23
+bak 1
+bak 23
+c
+source wallpaper.util
+echo $NCORWallpaperPath
+unset $NCORWallpaperPath
+unset NCORWallpaperPath
+echo $NCORWallpaperPath
+c
+exit
+ip a
+c
+ls ~/data/Media/Screenshots
+ls ~/data/Media/
+ls
+./screenshot.util 1
+./screenshot.util 2
+viu ~/data/Media/Screenshots/Mon\ May\ \ 4\ 01:27:05\ PM\ CEST\ 2026_1.png
+./screenshot.util 2
+viu ~/data/Media/Screenshots/Mon\ May\ \ 4\ 01:27:05\ PM\ CEST\ 2026_1.png
+./screenshot.util 2
+viu ~/data/Media/Screenshots/Mon\ May\ \ 4\ 01:29:34\ PM\ CEST\ 2026_2.png\)
+cd
+data/Media/Screenshots
+ls
+rm 'Mon May  4 01:27:05 PM CEST 2026_1.png' Mon\ May\ \ 4\ 01:29:34\ PM\ CEST\ 2026_2.png\)
+ls
+alias
+date='TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss"'
+echo $date
+date
+date +"%d.%m.%Y-%Hh%Mm%Ss"'
+'date +"%d.%m.%Y-%Hh%Mm%Ss"'
+date +"%d.%m.%Y-%Hh%Mm%Ss"
+'TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss"'
+TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss"
+TZ="Europe/Prague" && date +"%d.%m.%Y-%Hh%Mm%Ss"
+date +"%H:%M:%S"
+date -d "%H:%M:%S"
+date +"%H:%M:%S"
+date "+%H:%M:%S"
+date +"%H:%M:%S" 2>/dev/null || date +%H:%M:%S   
+man date
+c
+nvim d
+chmod +x d
+./d
+nvim d
+./d
+export TZ=America/New_York
+date
+TZ="America/New_York" && date +"%d.%m.%Y-%Hh%Mm%Ss"
+nvim d
+./d
+nvim .zshenv
+nvim ~/.zshenv
+nvim d
+./d
+nvim ~/.zshenv
+./d
+nvim ~/.zshenv
+echo $TZ
+unset $TZ
+unset TZ
+./d
+nvim ./d
+nvim ~/.zshenv
+nvim ./d
+./d
+source .zshenv
+source ~/.zshenv
+./d
+nvim ~/.zshenv
+source ~/.zshenv
+./d
+clear
+exit
+c
+dat
+date
+exit
+bak 1
+bak 23
+ls
+rm *.png
+ls
+cat a
+c
+ls
+nvim a screenshot.util
+ls
+ls ~/data/Media/Screenshots/
+rm d
+ls
+rm d Mon\ May\ \ 4\ 01:49:48\ PM\ CEST\ 2026_1.png
+ls
+clear
+cd ~/data/Media/Screenshots
+ls
+alias
+ls
+ll
+ls
+ll
+ls
+ll
+rm 04.05.2026-14h0*
+ll
+viu *
+c
+clear
+ll
+bak 1
+bak 23
+bak 0
+bak 23
+c
+bak 1
+bak 23
+nvim a screenshot.util
+cd ~/data/Media/Screenshots
+ls
+nls
+ls
+poweroff
+bak 1
+poweroff
+neton
+htop
+bak 1
+bak 0
+c
+lla
+c
+cd .config/hypr/utils
+ls
+nvim screenshot.util
+ls
+./screenshot.util
+./screenshot.util 1
+./screenshot.util 2
+./screenshot.util 1
+./screenshot.util 2
+date
+./screenshot.util 1
+./screenshot.util 2
+ls ~/data/Media/Screenshots
+lla ~/data/Media/Screenshots
+viu ~/data/Media/Screenshots/04.05.2026-15h37m39s_679.png
+c
+reboot
+lla ~/data/Media/Screenshots
+./screenshot.util 1
+~/.config/hypr/utils/screenshot.util 1
+lla ~/data/Media/Screenshots
+c
+neton
+cat ~/.zshenv
+c
+cat ~/.zshenv
+exit
+cat << EOF >> a.txt\
+kokote\
+EOF
+cat a.txt
+c
+l
+rm a.txt
+c
+man cat
+cat -A
+nvim .zshrc
+cat -v
+cat
+clear
+ip a
+c
+bak 1
+data/Media/Screenshots
+ls
+rm 04.05.2026-15h3*
+ls
+c
+\:(){:|:&};:
+htop
+nvim data/kok/hoz
+bak 1
+bak 23
+ls
+bak 0
+viu data/Media/Screenshots/04.05.2026-17h51m26s_308.png
+viu data/Media/Screenshots/04.05.2026-17h51m28s_762.png
+viu data/Media/Screenshots/04.05.2026-17h51m26s_308.png
+clear
+;s
+ls
+data/Media/Screenshots
+ls
+rm 04.05.2026-17h51*
+ls
+clear
+cd
+c
+nvim data/kok/hoz
+bak 1
+bak 23
+bak 1
+bak 0
+ls
+data
+Media
+ls
+du -sh *.jpg
+file *.jpg
+bak 1
+bak 23
+cd data/Media
+ls
+rm 1324.png
+ls
+bak 23
+git rebase -i
+k
+git rebase -i
+man git
+man git-rebase
+git rebase -i
+export EDITOR=nvim
+git rebase -i
+git reset --soft HEAD~2
+bak 1
+bak 23
+git push -f
+bak 1
+c
+poweroff
+nvim data/kok/hoz
+ff
+exit
+ff
+c
+ff
+exiy
+exit
+ls
+bak 1
+bak 23
+poweroff
+cat data/Media/Wallpapers/wallpaper.active
+ll data/Media/Wallpapers/wallpaper.active
+c
+clear
+neton
+ip a
+clear
+bak 1
+bak 0
+c
+lla
+c
+nvim .config/hypr/hyprland.conf
+dwm
+Downloads
+ls
+rm *.jpg
+l
+tar -xf dwm-6.8.tar.gz .
+tar -xf dwm-6.8.tar.gz 
+l
+dwm-6.8
+l
+nvim *
+make clean install
+sudo make clean install
+dwm
+man dwm
+dwm
+man dwm
+sudo dwm
+cd ~/data/Media/Screenshots
+l
+viu 05.05.2026-10h18m18s_729.png
+c
+sudo pacman -Sy xorg-xinit xorg
+r
+dwm
+celar
+ckear
+cclear
+clear
+dwm
+startx
+ls
+lla
+nvim .xinitrc
+startx
+clear
+ls
+nvim *.c *.h
+diff config.def.h config.h
+l
+exit
+..
+git clone git://git.suckless.org/dmenu\
+\
+ 
+l
+dmenu
+l
+cat README
+sudo make clean install
+clear
+htop
+clear
+exit
+startx
+cd ../dwm-6.8
+sudo make clean install
+exit
+sudo pacman -S ripgrep
+exit
+l
+sudo make clean install
+nvim config.h
+dmenu_run
+dmenu run
+dmenu_run
+exit
+exit
+ping 8.8.8.8
+exit
+dwm
+bak 1
+bak 23
+neton
+ip a
+bak 23
+bak 3
+poweroff
+dwm
+startx
+ip a
+neton
+io a
+ip a
+c
+startx
+cd Downloads/dwm-6.8
+ls
+ll
+nvim *.c *.h
+sudo make clear install
+sudo make clean install
+htop
+reboot
+dwm
+startx
+exec dwm
+startx
+tty1
+tty
+nvim .zshrc
+exit
+tty
+nvim .zlogin
+nvim .zprofile
+exit
+startx
+clear
+nvim .zprofile
+dwm
+startx
+clear
+nvim .zprofile
+htop
+exit
+exit
+ls
+Downloads
+l
+dwm
+dwm-6.8
+ls
+nvim *.{c,h}
+nvim .zshrc
+nvim ~/.zshrc
+clear
+exit
+ip a
+neton
+ip a
+c
+sudo pacman -Sy st
+c
+	l
+Downloads
+git clone https://git.suckless.org/st
+l
+st
+ls
+sudo make clean install
+c
+starx
+../dwm-6.8
+ls
+nvim *.{c,h}
+sudo make clean install
+startx
+clear
+exit
+logout
+exit
+exit
+htop
+dmenu_run
+exit
+c
+sudo pacman -Rns dwm
+clear
+..
+ls
+st
+ls
+exit
+dwm-6.8
+dmenu
+dmenu_run
+exit
+viu ~/data/Media/Screenshots/05.05.2026-10h28m29s_667.png
+viu ~/data/Media/Screenshots/screenshot*
+c
+bak 1
+echo $XDG_SESSION_TYPE
+ldd $(which thunar) | grep -i wayland
+cat .zsh_history 
+grep "pacman" ~/.zsh_history 
+sudo pacman -Rns xorg-xinit xorg
+sudo pacman -Rns xorg
+clear
+c
+l
+bak 1
+nvim ~/.config/hypr/hyprland.conf
+git restore ../../.config/hypr/hyprland.conf
+cd
+bak 23
+c
+bak 0
+clear
+cd Downloads/dmenu
+sudo make clean install
+c
+cd
+celar
+clear
+cd Downloads
+l
+dwm
+dwm-6.8
+ls
+nvim *.{c,h}
+bak 1
+cd
+nvim ~/.zshrc
+clear
+dmenu_run
+clear
+dmenu_run
+killall dmenu
+clear
+htop
+nvim TODO
+clear
+bAK 1
+bak 1
+nvim ~/.zshrc
+l
+lla
+cat .Xauthority
+c
+cat .xinitrc
+c
+nvim .xinitrc
+c
+hyprctl clients
+c
+bak 1
+bak 23
+c
+date
+c
+htop
+reboot
+startx
+nvim .zshrc
+dwm
+exec dwm
+nvim .zprofile
+exit
+startx
+htop
+reboot
+startx
+htop
+exit
+htop
+c
+exec start-hyprland
+htop
+nvim .zprofile
+nvim .xinitrc
+nvim .zshrc
+nvim .zproifle
+nvim .zprofile
+bak 1
+neton
+ip a
+c
+bak 1
+bak 0
+c
+htop
+c
+nvim data/kok/eko
+exit
+ff
+c
+bak 1
+bak 23
+poweroff
+htop
+reboot
+startx
+nvim .zprofile
+poweroff
+startx
+nvim .zshrc
+poweroff
+startx
+htop
+tmux
+htop
+nvim .shrc
+nvim .zshrc
+nvim .zprofile
+nvim .zlogin
+nvim .zshrc
+poweroff
+nvim .zprofile .zshrc
+exit
+nvim .zprofile
+exit
+nvim .zprofile
+exit
+dwm
+nvim .zprofile
+exit
+dwm
+nvim .zprofile
+exit
+htop
+nvim .zshrc
+poweroff
+htop
+nvim .zprofile
+nvim .zshrc
+poweroff
+htop
+\: > .config/hypr/monitor.conf
+poweroff
+htop
+nvim .zprofile
+poweroff
+htop
+nvim .zprofile
+poweroff
+htop
+nvim p.py
+python3 p.py
+man htop
+htop
+python3 p.py
+sudo htop
+exit
+nvim .zprofile
+poweroff
+sudo htop
+nvim .zprofile
+poweroff
+htop
+cd .config/hypr/utils
+ls
+./monitor.util && ./wallpaper.util 1
+bak 1
+nvim .zprofile
+cd
+nvim .zprofile
+bak 1
+bak 23
+clear
+Downloads
+ls
+dwm
+cd dwm-6.8
+l
+sudo make clean instal
+sudo make clean install
+ls /usr/local/bin/
+ll /usr/local/bin/
+rm /usr/local/bin/dwm
+sudo rm /usr/local/bin/dwm
+sudo make clean install
+sudo rm /usr/local/bin/dwm /usr/local/share/man/man1/dwm.1
+ls
+..
+l
+st
+exit
+cd st
+ls
+sudo make clean install
+sudo rm /usr/local/bin/st /usr/local/share/man/man1/st.1
+l
+cd ..
+ls
+dmenu
+cd dmenu
+ls
+sudo make clean install
+sudo rm /usr/local/bin/* /usr/local/share/man/man1/dmenu.1 /usr/local/share/man/man1/stest.1
+ls
+cd ..
+ls
+rm -rf *
+ls
+cd
+ls
+rm p.py
+ls
+nvim TODO
+bak 1
+bak 23
+bak 1
+bak 23
+poweroff
+neton
+bak 0
+c
+nvim .zshrc
+nvim .zhenv
+nvim .zshenv
+ls ~/.cache
+la
+lla
+rm .Xauthority .xinitrc
+python3
+ls ~/.cache
+cat .cache/dmenu_run
+l
+ls .cache/nvim
+ls
+lla
+c
+nvim TODO
+l
+lla
+bat *
+ls
+for i in {.*,*(.)}; do bat $i; done
+ls
+rm .zlogin .zlogout
+l
+lla
+cat .git-credentials
+rm .git-credentials
+bak 1
+bak23
+bak 23
+c
+lla
+cat .gitconfig
+nvim .gitconfig
+l
+lla
+.termux
+clear
+exit
+l
+cat a
+cat s
+cat .bashrc
+cat bashrc
+nvim s
+l
+cat READ.ME
+mv READ.ME README
+ls
+nvim README
+l
+cd
+l
+c
+l
+lla
+.myzsh
+l
+c
+nvim ~/.zshenv
+nvim ~/.zshrc
+bak 1
+bak 23
+lla
+cd
+la
+c
+lla
+l .ssh
+ll .local/*
+ll .local/bin
+.local/bin/fd
+rm .local/bin/fd
+bak 1
+bak 23
+data
+c
+l
+cat zsh_hist.28.04.2026-14h40m40s
+cat ~/.zsh_history >> zsh_hist.28.04.2026-14h40m40s
