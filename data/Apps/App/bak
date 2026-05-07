@@ -26,7 +26,7 @@ Main() {
         fi
 
         #print -n "NO ARGS PASSED\n0 -> fetch\n1 -> status\n2 -> commit all\n3 -> push\n"
-        print -n "NO ARGS PASSED\nbak ARG1 ARG2\nARG1 -> command | ARG2 -> PATH\n\n0 -> fetch\n1 -> status\n2 -> add ./\$ARG2 (ARG2 not needed) && commit\n3 -> push\n8 -> reset\n9 -> reset --hard\n"
+        print -n "NO ARGS PASSED\nbak ARG1 ARG2\nARG1 -> command | ARG2 -> PATH\n\n0 -> fetch\n1 -> status\n2 -> add ./\$ARG2 (ARG2 not needed) && commit\n3 -> push\n8 -> soft mirror \n9 -> hard mirror\n"
     )
 }
 Main $1 $2
