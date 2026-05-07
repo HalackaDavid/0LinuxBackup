@@ -74,5 +74,4 @@ Main() {
     fi
 }
 
-sudo -v || return 1;
 Main $1;
