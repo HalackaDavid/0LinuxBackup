@@ -1,29 +1,31 @@
 #!/bin/zsh
 
-Foo() {
-    for i in $@; do
-        case $i in
-            "0") git stash push -u && git pull --rebase && git stash pop || true;;
-            "1") git status;;
-            "2") git add . && git commit -m "$(TZ="Europe/Prague" date +"%d.%m.%Y-%Hh%Mm%Ss")";;
-            "3") git push;;
-        esac
-    done
-    unset i
-}
-
 Main() {
     (
         cd ~
         
         if [[ ! ${#@} -eq 0 ]]; then 
-            chars=(${(s::)1})
-            Foo $chars
-            unset chars
-            return;
+            c=(${(s::)1})
+
+            for i in $c; do
+                case $i in
+                    "0") git stash push -u && git pull --rebase && git stash pop || true;;
+                    "1") git status;;
+                    "2") git add ./$2 && git commit -m "$(date +"%d.%m.%Y-%Hh%Mm%Ss")";;
+                    "3") git push;;
+                    "8") git reset origin/main;;
+                    "9") git reset --hard origin/main;;
+
+                esac
+            done
+            unset i
+
+            unset c
+            return
         fi
 
-        print -n "NO ARGS PASSED\n0 -> fetch\n1 -> status\n2 -> commit all\n3 -> push\n"
+        #print -n "NO ARGS PASSED\n0 -> fetch\n1 -> status\n2 -> commit all\n3 -> push\n"
+        print -n "NO ARGS PASSED\nbak ARG1 ARG2\nARG1 -> command | ARG2 -> PATH\n\n0 -> fetch\n1 -> status\n2 -> add ./\$ARG2 (ARG2 not needed) && commit\n3 -> push\n8 -> reset\n9 -> reset --hard\n"
     )
 }
-Main $1
+Main $1 $2
