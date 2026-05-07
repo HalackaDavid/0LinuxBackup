@@ -9,7 +9,7 @@ Main() {
 
             for i in $c; do
                 case $i in
-                    "0") git fetch -v origin/main;;
+                    "0") git fetch -v origin;;
                     "1") git status;;
                     "2") git add ./$2 && git commit -m "$(date +"%d.%m.%Y-%Hh%Mm%Ss")";;
                     "3") git push;;
