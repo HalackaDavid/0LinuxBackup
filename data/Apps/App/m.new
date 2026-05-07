@@ -74,4 +74,5 @@ Main() {
     fi
 }
 
+sudo -n -l &>/dev/null || sudo -l &>/dev/null
 Main $1;
