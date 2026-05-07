@@ -74,5 +74,5 @@ Main() {
     fi
 }
 
-sudo -n -l &>/dev/null || sudo -l &>/dev/null
+sudo -n -l &>/dev/null || sudo -l &>/dev/null || print "need sudo that you dont have"; return 1
 Main $1;
