@@ -9,10 +9,11 @@ Main() {
 
             for i in $c; do
                 case $i in
-                    "0") git stash push -u && git pull --rebase && git stash pop || true;;
+                    "0") git fetch -v origin;;
                     "1") git status;;
                     "2") git add ./$2 && git commit -m "$(date +"%d.%m.%Y-%Hh%Mm%Ss")";;
                     "3") git push;;
+                    "7") git stash push -u && git pull --rebase && git stash pop || true;;
                     "8") git reset origin/main;;
                     "9") git reset --hard origin/main;;
 
