@@ -1,4 +1,5 @@
 [Added Associations]
+application/octet-stream=brave-browser.desktop;
 
 [Removed Associations]
 image/png=xgps.desktop;
@@ -9,3 +10,4 @@ x-scheme-handler/http=brave-browser.desktop
 x-scheme-handler/https=brave-browser.desktop
 x-scheme-handler/about=brave-browser.desktop
 x-scheme-handler/unknown=brave-browser.desktop
+application/octet-stream=brave-browser.desktop

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Green Hell
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/815370
+Icon=steam_icon_815370
+Terminal=false
+Type=Application
+Categories=Game;
