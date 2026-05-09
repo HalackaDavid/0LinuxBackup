@@ -7,13 +7,14 @@ Main() {
         if [[ ! ${#@} -eq 0 ]]; then 
             c=(${(s::)1})
 
+            #git stash push -u && git pull --rebase && git stash pop || true;;
             for i in $c; do
                 case $i in
                     "0") git fetch -v origin;;
                     "1") git status;;
                     "2") git add ./$2 && git commit -m "$(date +"%d.%m.%Y-%Hh%Mm%Ss")";;
                     "3") git push;;
-                    #"7") git stash push -u && git pull --rebase && git stash pop || true;;
+                    "5") git pull --rebase;;
                     "6") git stash push -u ;;
                     "7") git stash pop || true;;
                     "8") git reset origin/main;;
@@ -28,7 +29,7 @@ Main() {
         fi
 
         #print -n "NO ARGS PASSED\n0 -> fetch\n1 -> status\n2 -> commit all\n3 -> push\n"
-        print -n "NO ARGS PASSED\nbak ARG1 ARG2\nARG1 -> command | ARG2 -> PATH\n\n0 -> fetch\n1 -> status\n2 -> add ./\$ARG2 (ARG2 not needed) && commit\n3 -> push\n6 -> stash\n7 -> stash pop\n8 -> soft mirror \n9 -> hard mirror\n"
+        print -n "NO ARGS PASSED\nbak ARG1 ARG2\nARG1 -> command | ARG2 -> PATH (NOT NEEDED)\n\n0 -> fetch\n1 -> status\n2 -> add ./\$ARG2 (ARG2 not needed) && commit\n3 -> push\n5 -> pull rebase\n6 -> stash\n7 -> stash pop\n8 -> soft mirror \n9 -> hard mirror\n"
     )
 }
 Main $1 $2
