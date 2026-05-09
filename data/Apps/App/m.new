@@ -6,8 +6,7 @@ Main() {
     local usbname;
     local list_dev;
 
-    echo $1
-    return 69;
+    #echo $1 return 69;
 
     if [[ ! $myDevicePath ]]; then
         echo "ERROR \$myDevicePath NOT FOUND";
@@ -46,6 +45,7 @@ Main() {
         echo "ERROR DEV NOT FOUND";
         return;
     else
+        # if /mnt/<diskname> is not 0
         if [[ ! -d $mountpoint/$usbname ]]; then
             sudo mkdir $mountpoint/$usbname;
         fi   
@@ -77,5 +77,5 @@ Main() {
     fi
 }
 
-sudo -n -l &>/dev/null || sudo -l &>/dev/null #|| (print "need sudo that you dont have" && return 69)
-#Main $1;
+sudo -n -l &>/dev/null || sudo -l &>/dev/null || {print "need sudo that you dont have" && return 69}
+Main $1;
