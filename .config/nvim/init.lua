@@ -35,6 +35,16 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     end,
 })
 
+vim.api.nvim_set_hl(0, "LineNr", {
+    fg = "#ffffff",
+    --bold = true
+})
+
+vim.api.nvim_set_hl(0, "CursorLineNr", {
+    fg = "#ffffff",
+    bold = true
+})
+
 vim.cmd([[
   highlight Normal guibg=none
   highlight NonText guibg=none
