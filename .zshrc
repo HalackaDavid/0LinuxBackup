@@ -22,7 +22,6 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 case $(uname -m) in 
     aarch64)
         export myDevicePath=/dev/block
-        PATH="$PATH"
         ;;
     x86_64)
         export myDevicePath=/dev
@@ -33,10 +32,9 @@ export myData=$HOME/data
 export myAppsPath=$myData/Apps
 export myFSPath=/mnt
 
-#export PYTHON_HISTORY="$HOME/.cache/python_history"
+export PATH="$myAppsPath/App:$HOME/.local/bin:$PATH"
 
-var="$myAppsPath/App:$HOME/.local/bin"
-export PATH="$var:$PATH"
+export PYTHON_HISTORY="/dev/null"
 
 autoload -U colors && colors
 PS1=$'%F{244}%B[%b%F{247}%n%F{250}%B@%b%F{247}%m%F{244}%B]-%b%F{244}%B[%b%F{256}%~%F{244}%B]%b\n%F{247}%B>>>%f%b%k '
@@ -254,5 +252,3 @@ alias hmon='(cd .config/hypr/utils && ./monitor.util && ./wallpaper.util 1)'
 
 alias ws='wpctl status'
 alias wa='print -n "AUDIO: $(wpctl get-volume @DEFAULT_SINK@)\nMIC  : $(wpctl get-volume @DEFAULT_SOURCE@)\n"'
-#Unset
-unset var
