@@ -6,6 +6,8 @@ Main() {
     local usbname;
     local list_dev;
 
+    #echo $1 return 69;
+
     if [[ ! $myDevicePath ]]; then
         echo "ERROR \$myDevicePath NOT FOUND";
         return;
@@ -43,30 +45,34 @@ Main() {
         echo "ERROR DEV NOT FOUND";
         return;
     else
+        # if /mnt/<diskname> is not 0
         if [[ ! -d $mountpoint/$usbname ]]; then
             sudo mkdir $mountpoint/$usbname;
         fi   
         
         if [[ $(findmnt "$myDevicePath/$usbname") ]]; then
+            #UMOUNTING
             echo "Umounting...";
             
             sudo umount $myDevicePath/$usbname;
+            if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
+                sudo mv -fv $mountpoint/$usbname /tmp;
+            fi
 
             echo "Done";
         elif [[ ! $(findmnt "$myDevicePath/$usbname") ]]; then
-            echo "Mounting...";
-
+            #MOUNTING
             sudo mount $myDevicePath/$usbname $mountpoint/$usbname;
             
+            echo "Mounting...";
             if [[ $(findmnt "$myDevicePath/$usbname") ]]; then
                 echo ">>> $mountpoint/$usbname <<<";
+            else
+                if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
+                    sudo mv -fv $mountpoint/$usbname /tmp;
+                fi
             fi
 
-        fi
-        
-        if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
-            print "$mountpoint/$usbname >> /tmp/$usbname"
-            sudo mv -f $mountpoint/$usbname /tmp;
         fi
     fi
 }
