@@ -35,7 +35,7 @@ data/Media/Wallpapers/wallpaper.active
 .config/mozilla/
 .config/pulse/pulse-auth
 .config/pulse/cookie
-.config/nvim/nvim_plugins/*
+!.config/nvim/nvim_plugins/*
 .config/hypr/monitor.conf
 .config/BraveSoftware/Brave-Browser/*
 .config/BraveSoftware/Brave-Browser/Default
