@@ -13,6 +13,7 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.wrap = false
 vim.opt.linebreak = true
+vim.opt.cursorline = true
 vim.opt.mouse = ""
 vim.opt.clipboard = "unnamedplus"
 --vim.opt.swapfile = false
@@ -33,6 +34,13 @@ vim.api.nvim_create_autocmd('TextYankPost', {
         vim.highlight.on_yank()
     end,
 })
+
+vim.cmd([[
+  highlight Normal guibg=none
+  highlight NonText guibg=none
+  highlight Normal ctermbg=none
+  highlight NonText ctermbg=none
+]])   
 
 -------------
 -- Plugins --
