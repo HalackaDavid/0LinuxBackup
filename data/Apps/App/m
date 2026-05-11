@@ -39,38 +39,33 @@ Main() {
 
     if [[ $usbname == "" ]]; then
         return;
-#    elif [[ $usbname == ?"?"* ]]; then
-#        case $usbname in
-#        "n?");;
-#        "i?");;
-#        esac
     elif [[ ! -e "$myDevicePath/$usbname" ]]; then
         echo "ERROR DEV NOT FOUND";
         return;
     else
+        # if /mnt/<diskname> is not 0
         if [[ ! -d $mountpoint/$usbname ]]; then
             sudo mkdir $mountpoint/$usbname;
         fi   
-
-        if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
+        
+        if [[ $(findmnt "$myDevicePath/$usbname") ]]; then
             #UMOUNTING
             echo "Umounting...";
             
             sudo umount $myDevicePath/$usbname;
-            if [[ ! $(findmnt --source "$mountpoint/$usbname") ]]; then
+            if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
                 sudo mv -fv $mountpoint/$usbname /tmp;
             fi
 
-            echo "Done";
-        elif [[ ! $(findmnt --source "$myDevicePath/$usbname") ]]; then
+        elif [[ ! $(findmnt "$myDevicePath/$usbname") ]]; then
             #MOUNTING
             sudo mount $myDevicePath/$usbname $mountpoint/$usbname;
             
             echo "Mounting...";
-            if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
+            if [[ $(findmnt "$myDevicePath/$usbname") ]]; then
                 echo ">>> $mountpoint/$usbname <<<";
             else
-                if [[ ! $(findmnt --source "$mountpoint/$usbname") ]]; then
+                if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
                     sudo mv -fv $mountpoint/$usbname /tmp;
                 fi
             fi
@@ -79,8 +74,5 @@ Main() {
     fi
 }
 
-#if /etc/sudoers my user has no 
-#chromagor ALL=(ALL:ALL) NOPASSWD: ALL
-
-#sudo -v || return 1;
+sudo -n -l &>/dev/null || sudo -l &>/dev/null || {print "need sudo that you dont have" && return 69}
 Main $1;

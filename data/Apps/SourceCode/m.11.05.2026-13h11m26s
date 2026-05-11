@@ -6,8 +6,6 @@ Main() {
     local usbname;
     local list_dev;
 
-    #echo $1 return 69;
-
     if [[ ! $myDevicePath ]]; then
         echo "ERROR \$myDevicePath NOT FOUND";
         return;
@@ -41,34 +39,38 @@ Main() {
 
     if [[ $usbname == "" ]]; then
         return;
+#    elif [[ $usbname == ?"?"* ]]; then
+#        case $usbname in
+#        "n?");;
+#        "i?");;
+#        esac
     elif [[ ! -e "$myDevicePath/$usbname" ]]; then
         echo "ERROR DEV NOT FOUND";
         return;
     else
-        # if /mnt/<diskname> is not 0
         if [[ ! -d $mountpoint/$usbname ]]; then
             sudo mkdir $mountpoint/$usbname;
         fi   
-        
-        if [[ $(findmnt "$myDevicePath/$usbname") ]]; then
+
+        if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
             #UMOUNTING
             echo "Umounting...";
             
             sudo umount $myDevicePath/$usbname;
-            if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
+            if [[ ! $(findmnt --source "$mountpoint/$usbname") ]]; then
                 sudo mv -fv $mountpoint/$usbname /tmp;
             fi
 
             echo "Done";
-        elif [[ ! $(findmnt "$myDevicePath/$usbname") ]]; then
+        elif [[ ! $(findmnt --source "$myDevicePath/$usbname") ]]; then
             #MOUNTING
             sudo mount $myDevicePath/$usbname $mountpoint/$usbname;
             
             echo "Mounting...";
-            if [[ $(findmnt "$myDevicePath/$usbname") ]]; then
+            if [[ $(findmnt --source "$myDevicePath/$usbname") ]]; then
                 echo ">>> $mountpoint/$usbname <<<";
             else
-                if [[ ! $(findmnt "$mountpoint/$usbname") ]]; then
+                if [[ ! $(findmnt --source "$mountpoint/$usbname") ]]; then
                     sudo mv -fv $mountpoint/$usbname /tmp;
                 fi
             fi
@@ -77,5 +79,8 @@ Main() {
     fi
 }
 
-sudo -n -l &>/dev/null || sudo -l &>/dev/null || {print "need sudo that you dont have" && return 69}
+#if /etc/sudoers my user has no 
+#chromagor ALL=(ALL:ALL) NOPASSWD: ALL
+
+#sudo -v || return 1;
 Main $1;
