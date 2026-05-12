@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Operation Food to Gold
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/2678280
-Icon=steam_icon_2678280
-Terminal=false
-Type=Application
-Categories=Game;
