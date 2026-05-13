@@ -1,5 +1,6 @@
+import os
 from config import SAMPLE_INPUTS, SAMPLE_OUTPUTS
-from moviepy.editor import *
+from moviepy import *
 from PIL import Image
 
 def Directories():
@@ -39,7 +40,7 @@ def Main():
 
         print("=" * 10)
         print(clip.reader.fps)
-        print(clip.reader.nframes)
+        print(clip.reader.n_frames)
         print(clip.duration)
         print(f"Dirname >> {count}")
         print(f"Source >> {source_path}")
@@ -51,8 +52,8 @@ def Main():
             new_img = Image.fromarray(frame)
             new_img.save(new_img_path)
             c+=1
-            print(f"{c}/{clip.reader.nframes}", end='\r')
-        print(f"{c}/{clip.reader.nframes}")
+            print(f"{c}/{clip.reader.n_frames}", end='\r')
+        print(f"{c}/{clip.reader.n_frames}")
 
         os.rename(source_path, "outputs/thumbnails_per_frame/" + str(count) + "/" + os.path.basename(source_path))
 Main()

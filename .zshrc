@@ -243,6 +243,7 @@ alias tree='tree --dirsfirst -a'
 alias date='date +"%d.%m.%Y-%Hh%Mm%Ss"'
 alias c='clear'
 alias ff='fastfetch'
+alias wget='wget --hsts-file=/dev/null'
 
 alias neton='sudo systemctl start iwd'
 alias netoff='sudo systemctl stop iwd'
