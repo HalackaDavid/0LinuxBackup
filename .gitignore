@@ -100,3 +100,4 @@ data/Media/Wallpapers/wallpaper.active
 .lock
 *.nobk
 .~lock.*#
+__pycache__

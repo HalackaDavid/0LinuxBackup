@@ -1,0 +1,5 @@
+tar -xf moviepy_env.tar.gz
+
+source moviepy_env/bin/activate
+
+python3 main.py
