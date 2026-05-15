@@ -57,13 +57,12 @@ end)
 hl.bind(mainMod .. " + Q",       hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + R",       hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + ALT + P", hl.dsp.exec_cmd(terminal .. " -e " .. utilsPath .. "/wallpaper.util 0"))
+hl.bind("ALT + F4", hl.dsp.window.close())
+hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd(hyprlock))
+hl.bind(mainMod .. " + V", hl.dsp.window.float()))
+hl.bind(mainMod .. " + P", hl.dsp.window.pseudo()) 
 
 --[[
-hl.bind("ALT +F4", killactive)
-hl.bind($mainMod SHIFT, L, exec, hyprlock
-hl.bind($mainMod, V, togglefloating,
-hl.bind($mainMod, P, togglesplit, -- dwindle
-
 -- Keyboard Layout
 hl.bind($mainMod, F1, exec, hyprctl switchxkblayout all 0
 hl.bind($mainMod, F2, exec, hyprctl switchxkblayout all 1
