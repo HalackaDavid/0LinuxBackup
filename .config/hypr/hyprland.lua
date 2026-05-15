@@ -56,7 +56,7 @@ end)
 -------------------
 hl.bind(mainMod .. " + Q",       hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + R",       hl.dsp.exec_cmd(menu))
---hl.bind(mainMod .. " + ALT + P", hl.dsp.exec_cmd(terminal .. " -e " .. utilsPath .. "/wallpaper.util 0"))
+hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(terminal .. " -e " .. utilsPath .. "/wallpaper.util 0"))
 
 --[[
 hl.bind("ALT +F4", killactive)
