@@ -62,7 +62,7 @@ hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + V", hl.dsp.window.float())
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo()) 
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(utilsPath .. "/screenshot.util 1"))
-hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd(utilsPath .. "/screenshot.util 2")
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd(utilsPath .. "/screenshot.util 2"))
 
 -- Keyboard Layout
 hl.bind(mainMod .. " + F1", hl.dsp.exec_cmd("hyprctl switchxkblayout all 0")
