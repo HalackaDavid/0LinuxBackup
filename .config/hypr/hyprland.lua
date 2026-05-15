@@ -169,7 +169,7 @@ hl.config({
     },
 
     misc = {
-        force_defalt_wallpaper = 0,
+        force_default_wallpaper = 0,
         disable_hyprland_logo = true,
         initial_workspace_tracking = 2
     },
