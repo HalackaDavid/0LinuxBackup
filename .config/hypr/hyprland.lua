@@ -172,7 +172,7 @@ dwindle {
 --- INPUT ---
 -------------
 
-hl.config = ({
+hl.config({
     input = {
         kb_layout = "ru",
         kb_variant = "",
