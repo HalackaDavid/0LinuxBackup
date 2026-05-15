@@ -9,6 +9,7 @@ local mediaPath = HOME .. "/data/Media"
 
 local terminal = "foot"
 local menu = "wofi"
+
 -----------------------------
 --- ENVIRONMENT VARIABLES ---
 -----------------------------
@@ -109,9 +110,7 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 ------------------------------
 --- WINDOWS AND WORKSPACES ---
 ------------------------------
-
---hl.window_rule({ match = { class = "workspace w[t1]" }, border_size = 0 })
---windowrule = border_size 0, match:workspace w[t1]
+hl.window_rule({match = { workspace = "w[t1]" }, border_size = 0})
 
 ---------------------
 --- LOOK AND FEEL ---
@@ -153,20 +152,6 @@ hl.config({
 
     animations = {enabled = false,},
 })
-
---[[
-scrolling {
-    fullscreen_on_one_column = true
-    column_width = 0.99
-    direction = right
-
-}
-
-dwindle {
-    preserve_split = true
-    force_split = 2
-}
-]]--
 
 -------------
 --- INPUT ---
