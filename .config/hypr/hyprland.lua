@@ -110,7 +110,7 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 ------------------------------
 --- WINDOWS AND WORKSPACES ---
 ------------------------------
-hl.window_rule({match = { workspace = "w[t1]" }, border_size = 0})
+--hl.window_rule({match = { workspace = "w[t1]" }, border_size = 0})
 
 ---------------------
 --- LOOK AND FEEL ---
