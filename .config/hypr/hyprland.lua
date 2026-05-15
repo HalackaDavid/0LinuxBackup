@@ -31,10 +31,11 @@ hl.monitor({
 })
 
 hl.monitor({
-  output = "desc: BOE NE160QDM-NYM",
-  mode = "2560x1600@60",
-  position = "0x0",
-  scale = 1.25,
+    output = "desc: BOE NE160QDM-NYM",
+    mode = "2560x1600@60",
+    position = "0x0",
+    scale = 1.25,
+    disabled = true
 })
 
 ---------------
