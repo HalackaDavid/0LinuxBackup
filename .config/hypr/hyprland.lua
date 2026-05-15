@@ -156,17 +156,17 @@ hl.config({
 --- INPUT ---
 -------------
 
---hl.config({
---    input = {
---        kb_layout = "cz,ru",
---        kb_variant = "coder,",
---        follow_mouse = 1,
---        sensitivity = 0,
---
---        touchpad = {
---            disable_while_typing = 1,
---            natural_scroll = 1,
---            clickfinger_behavior = 1, -- --> one finger click - left click | two finger -> right click | three finger -> middle click
---        },
---    }
---})
+hl.config({
+    input = {
+        kb_layout = "cz,ru",
+        kb_variant = "coder,",
+        follow_mouse = 1,
+        sensitivity = 0,
+
+        touchpad = {
+            disable_while_typing = 1,
+            natural_scroll = 1,
+            clickfinger_behavior = 1, -- --> one finger click - left click | two finger -> right click | three finger -> middle click
+        },
+    }
+})
