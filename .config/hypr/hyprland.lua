@@ -41,7 +41,7 @@ hl.monitor({
 ---------------
 
 hl.on("hyprland.start", function () 
-    hl.exec_cmd(utilsPath .. "/monitor.util && " .. utilsPath .. "/wallpaper.util 1 && hyprctl dispatch workspace 1 && " .. terminal)
+    hl.exec_cmd(utilsPath .. "/monitor.util & " .. utilsPath .. "/wallpaper.util 1 & hyprctl dispatch workspace 1 & " .. terminal)
     hl.exec_cmd("hyprsunset")
 end)
 --exec-once = $utilsPath/monitor.util && $utilsPath/wallpaper.util 1 && hyprctl dispatch workspace 1 && $terminal
