@@ -183,4 +183,4 @@ input = {
         natural_scroll = 1,
         clickfinger_behavior = 1, -- --> one finger click - left click | two finger -> right click | three finger -> middle click
     },
-},
+}
