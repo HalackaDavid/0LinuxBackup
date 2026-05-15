@@ -74,13 +74,19 @@ hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
 hl.bind(mainMod .. " + up", hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + down", hl.dsp.focus({ direction = "down" }))
 
---[[
 -- Move focus with vim like
-hl.bind($mainMod, L, movefocus, l
-hl.bind($mainMod, H, movefocus, r
-hl.bind($mainMod, K, movefocus, u
-hl.bind($mainMod, J, movefocus, d
+hl.bind(mainMod .. " + L", hl.dsp.focus({ direction = "left" }))
+hl.bind(mainMod .. " + H", hl.dsp.focus({ direction = "right" }))
+hl.bind(mainMod .. " + K", hl.dsp.focus({ direction = "up" }))
+hl.bind(mainMod .. " + J", hl.dsp.focus({ direction = "down" }))
 
+for i = 1, 10 do
+    local key = i % 10 -- 10 maps to key 0
+    hl.bind(mainMod .. " + " .. key,         hl.dsp.focus({ workspace = i}))
+    hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
+end
+
+--[[
 -- Switch workspaces with mainMod + [0-9]
 hl.bind($mainMod, 1, workspace, 1
 hl.bind($mainMod, 2, workspace, 2
