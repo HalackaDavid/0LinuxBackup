@@ -131,7 +131,7 @@ hl.config({
 
     decoration = {
         shadow = {enabled = false},
-        blur = {enabled = false}
+        blur = {enabled = false},
     },
 
     xwayland = {
