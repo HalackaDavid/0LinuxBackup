@@ -59,7 +59,7 @@ hl.bind(mainMod .. " + R",       hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + ALT + P", hl.dsp.exec_cmd(terminal .. " -e " .. utilsPath .. "/wallpaper.util 0"))
 hl.bind("ALT + F4", hl.dsp.window.close())
 hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd(hyprlock))
-hl.bind(mainMod .. " + V", hl.dsp.window.float()))
+hl.bind(mainMod .. " + V", hl.dsp.window.float())
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo()) 
 
 --[[
