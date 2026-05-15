@@ -110,7 +110,7 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 --- WINDOWS AND WORKSPACES ---
 ------------------------------
 
-hl.window_rule({ match = { class = "workspace w[t1]" }, border_size = 0 })
+--hl.window_rule({ match = { class = "workspace w[t1]" }, border_size = 0 })
 --windowrule = border_size 0, match:workspace w[t1]
 
 ---------------------
@@ -144,7 +144,7 @@ hl.config({
     misc = {
         force_default_wallpaper = 0,
         disable_hyprland_logo = true,
-        initial_workspace_tracking = 2
+        initial_workspace_tracking = 2,
     },
 
     debug = {
