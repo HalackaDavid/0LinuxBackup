@@ -163,18 +163,18 @@ hl.config({
         blur = {enabled = false,},
     },
 
---    xwayland {
---        enabled = true,
---        force_zero_scaling = false,
---    },
+    xwayland = {
+        enabled = true,
+        force_zero_scaling = false,
+    },
 
-    misc {
+    misc = {
         force_defalt_wallpaper = 0,
         disable_hyprland_logo = true,
         initial_workspace_tracking = 2
     },
 
-    debug {
+    debug = {
         vfr = true,
     },
 
