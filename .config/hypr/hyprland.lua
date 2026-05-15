@@ -3,9 +3,9 @@
 -----------------
 
 local mainMod = SUPER
---local configPath = HOME .. "/.config/hypr"
---local utilsPath = configPath .. "/utils"
---local mediaPath = HOME .. "/data/Media"
+local configPath = HOME .. "/.config/hypr"
+local utilsPath = configPath .. "/utils"
+local mediaPath = HOME .. "/data/Media"
 
 local terminal = foot
 local menu = wofi  
