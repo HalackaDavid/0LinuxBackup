@@ -1,6 +1,7 @@
 -----------------
 --- VARIABLES ---
 -----------------
+
 $mainMod = SUPER
 $configPath = $HOME/.config/hypr
 $utilsPath = $configPath/utils
