@@ -19,9 +19,9 @@ hl.env("NCORConfigPath", configPath)
 hl.env("NCORUtilsPath", utilsPath)
 hl.env("NCORMediaPath", mediaPath)
 
-------------
-- MONITORS -
-------------
+--------------
+-- MONITORS --
+--------------
 hl.monitor({
     output = "",
     mode = "preferred",
