@@ -54,8 +54,8 @@ end)
 -------------------
 --- KEYBINDINGS ---
 -------------------
-hl.bind(mainMod .. " + Q", hl.exec_cmd(terminal))
-hl.bind(mainMod .. " + R", hl.exec_cmd(menu))
+hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 
 --[[
 hl.bind(mainMod + "ALT" + "P", exec, $terminal -e $utilsPath/wallpaper.util 0
