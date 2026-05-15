@@ -49,14 +49,15 @@ end)
 --------------
 --- SOURCE ---
 --------------
-source = $configPath/monitor.conf
+--source = $configPath/monitor.conf
 
 -------------------
 --- KEYBINDINGS ---
 -------------------
-hl.bind(mainMod + "Q", hl.exec_cmd(terminal))
-hl.bind(mainMod + "R", hl.exec_cmd(menu))
+hl.bind(mainMod .. " + Q", hl.exec_cmd(terminal))
+hl.bind(mainMod .. " + R", hl.exec_cmd(menu))
 
+--[[
 hl.bind(mainMod + "ALT" + "P", exec, $terminal -e $utilsPath/wallpaper.util 0
 hl.bind("ALT +F4", killactive)
 hl.bind($mainMod SHIFT, L, exec, hyprlock
@@ -236,3 +237,4 @@ input {
         clickfinger_behavior = 1 -- --> one finger click - left click | two finger -> right click | three finger -> middle click
     }
 }
+]]--
