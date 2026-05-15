@@ -173,7 +173,7 @@ dwindle {
 -------------
 
 input = {
-    kb_layout = "cz",
+    kb_layout = "us",
     kb_variant = "coder",
     follow_mouse = 1,
     sensitivity = 0,
