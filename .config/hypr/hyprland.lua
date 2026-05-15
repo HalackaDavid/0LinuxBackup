@@ -159,8 +159,8 @@ hl.config({
     },
 
     decoration = {
-        shadow = {enabled = false},
-        blur = {enabled = false},
+        shadow = {enabled = false,},
+        blur = {enabled = false,},
     },
 
     xwayland {
@@ -178,7 +178,7 @@ hl.config({
         vfr = true,
     },
 
-    animations = {enabled = false},
+    animations = {enabled = false,},
 })
 
 --[[
