@@ -163,30 +163,25 @@ hl.config({
         blur = {enabled = false},
     },
 
+    xwayland {
+        enabled = true,
+        force_zero_scaling = false,
+    },
+
+    misc {
+        force_defalt_wallpaper = 0,
+        disable_hyprland_logo = true,
+        initial_workspace_tracking = 2,
+    },
+
+    debug {
+        vfr = true,
+    },
+
     animations = {enabled = false},
 })
 
 --[[
-general {
-    gaps_in = 5
-    gaps_out = 0
-    border_size = 1 
-    col.active_border = rgba(c9c5c5cc)
-    col.inactive_border = rgba(595959aa)
-    resize_on_border = false
-    layout = dwindle
-    --layout = scrolling
-}
-
-decoration {
-    shadow { 
-        enabled = false
-    }
-    blur { 
-        enabled = false
-    }
-}
-
 scrolling {
     fullscreen_on_one_column = true
     column_width = 0.99
@@ -199,49 +194,6 @@ dwindle {
     force_split = 2
 }
 
-xwayland {
-    force_zero_scaling = true
-}
-
-misc {
-    force_default_wallpaper = 0
-    disable_hyprland_logo = true
-    initial_workspace_tracking = 2
-    vfr = true
-}
-
-animations {
-    enabled = yes
-
-    -- Default curves, see https://wiki.hypr.land/Configuring/Animations/#curves
-    --       NAME,           X0,   Y0,   X1,   Y1
---    bezier = easeOutQuint,   0.23, 1,    0.32, 1
---    bezier = easeInOutCubic, 0.65, 0.05, 0.36, 1
---    bezier = linear,         0,    0,    1,    1
---    bezier = almostLinear,   0.5,  0.5,  0.75, 1
---    bezier = quick,          0.15, 0,    0.1,  1
-
-    -- Default animations, see https://wiki.hypr.land/Configuring/Animations/
-    --          NAME,          ONOFF, SPEED, CURVE,        [STYLE]
-    animation = global,        0,     10,    default
-    animation = border,        0,     5.39,  easeOutQuint
-    animation = windows,       0,     4.79,  easeOutQuint
-    animation = windowsIn,     0,     4.1,   easeOutQuint, popin 87%
-    animation = windowsOut,    0,     1.49,  linear,       popin 87%
-    animation = fadeIn,        0,     1.73,  almostLinear
-    animation = fadeOut,       0,     1.46,  almostLinear
-    animation = fade,          0,     3.03,  quick
-    animation = layers,        0,     3.81,  easeOutQuint
-    animation = layersIn,      0,     4,     easeOutQuint, fade
-    animation = layersOut,     0,     1.5,   linear,       fade
-    animation = fadeLayersIn,  0,     1.79,  almostLinear
-    animation = fadeLayersOut, 0,     1.39,  almostLinear
-    animation = workspaces,    0,     1.94,  almostLinear, fade
-    animation = workspacesIn,  0,     1.21,  almostLinear, fade
-    animation = workspacesOut, 0,     1.94,  almostLinear, fade
-    animation = zoomFactor,    0,     7,     quick
-}
---[[
 -------------
 --- INPUT ---
 -------------
