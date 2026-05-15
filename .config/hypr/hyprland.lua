@@ -115,42 +115,42 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 --- LOOK AND FEEL ---
 ---------------------
 
---hl.config({
---    general = {
---        gaps_in  = 5,
---        gaps_out = 0,
---        border_size = 1,
---        col = {
---            active_border = "rgba(c9c5c5cc)",
---            inactive_border = "rgba(595959aa)"
---        },
---        resize_on_border = false,
---        allow_tearing = false,
---        layout = "dwindle"
---    },
---
---    decoration = {
---        shadow = {enabled = false},
---        blur = {enabled = false},
---    },
---
---    xwayland = {
---        enabled = true,
---        force_zero_scaling = false
---    },
---
---    misc = {
---        force_default_wallpaper = 0,
---        disable_hyprland_logo = true,
---        initial_workspace_tracking = 2
---    },
---
---    debug = {
---        vfr = true
---    },
---
---    animations = {enabled = false},
---})
+hl.config({
+    general = {
+        gaps_in  = 5,
+        gaps_out = 0,
+        border_size = 1,
+        col = {
+            active_border = "rgba(c9c5c5cc)",
+            inactive_border = "rgba(595959aa)"
+        },
+        resize_on_border = false,
+        allow_tearing = false,
+        layout = "dwindle"
+    },
+
+    decoration = {
+        shadow = {enabled = false},
+        blur = {enabled = false},
+    },
+
+    xwayland = {
+        enabled = true,
+        force_zero_scaling = false
+    },
+
+    misc = {
+        force_default_wallpaper = 0,
+        disable_hyprland_logo = true,
+        initial_workspace_tracking = 2
+    },
+
+    debug = {
+        vfr = true
+    },
+
+    animations = {enabled = false},
+}),
 
 -------------
 --- INPUT ---
