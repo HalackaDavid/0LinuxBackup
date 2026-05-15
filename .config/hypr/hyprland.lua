@@ -174,8 +174,8 @@ dwindle {
 
 hl.config = ({
     input = {
-        kb_layout = "cz", "ru",
-        kb_variant = "coder", "",
+        kb_layout = "ru",
+        kb_variant = "",
         follow_mouse = 1,
         sensitivity = 0,
 
