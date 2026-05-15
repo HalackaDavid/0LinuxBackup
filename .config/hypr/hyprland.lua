@@ -45,7 +45,6 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd(utilsPath .. "/monitor.util & " .. utilsPath .. "/wallpaper.util 1 & hyprctl dispatch workspace 1 & " .. terminal)
     hl.exec_cmd("hyprsunset")
 end)
---exec-once = $utilsPath/monitor.util && $utilsPath/wallpaper.util 1 && hyprctl dispatch workspace 1 && $terminal
 
 --------------
 --- SOURCE ---
@@ -55,14 +54,14 @@ end)
 -------------------
 --- KEYBINDINGS ---
 -------------------
-hl.bind(mainMod .. " + Q",       hl.dsp.exec_cmd(terminal))
-hl.bind(mainMod .. " + R",       hl.dsp.exec_cmd(menu))
-hl.bind(mainMod .. " + ALT + P", hl.dsp.exec_cmd(terminal .. " -e " .. utilsPath .. "/wallpaper.util 0"))
-hl.bind("ALT + F4", hl.dsp.window.close())
+hl.bind(mainMod .. " + Q",         hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + R",         hl.dsp.exec_cmd(menu))
+hl.bind(mainMod .. " + ALT + P",   hl.dsp.exec_cmd(terminal .. " -e " .. utilsPath .. "/wallpaper.util 0"))
+hl.bind(           "   ALT + F4",     hl.dsp.window.close())
 hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
-hl.bind(mainMod .. " + V", hl.dsp.window.float())
-hl.bind(mainMod .. " + P", hl.dsp.window.pseudo()) 
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(utilsPath .. "/screenshot.util 1"))
+hl.bind(mainMod .. " + V",         hl.dsp.window.float())
+hl.bind(mainMod .. " + P",         hl.dsp.window.pseudo()) 
+hl.bind(mainMod .. " + S",         hl.dsp.exec_cmd(utilsPath .. "/screenshot.util 1"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd(utilsPath .. "/screenshot.util 2"))
 
 -- Keyboard Layout
@@ -70,10 +69,10 @@ hl.bind(mainMod .. " + F1", hl.dsp.exec_cmd("hyprctl switchxkblayout all 0"))
 hl.bind(mainMod .. " + F2", hl.dsp.exec_cmd("hyprctl switchxkblayout all 1"))
 
 -- Move focus with mainMod + arrow keys
-hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
+hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
-hl.bind(mainMod .. " + up", hl.dsp.focus({ direction = "up" }))
-hl.bind(mainMod .. " + down", hl.dsp.focus({ direction = "down" }))
+hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up" }))
+hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
 
 -- Move focus with vim like
 hl.bind(mainMod .. " + L", hl.dsp.focus({ direction = "left" }))
@@ -123,34 +122,34 @@ hl.config({
         border_size = 1,
         col = {
             active_border = "rgba(c9c5c5cc)",
-            inactive_border = "rgba(595959aa)",
+            inactive_border = "rgba(595959aa)"
         },
         resize_on_border = false,
         allow_tearing = false,
-        layout = "dwindle",
+        layout = "dwindle"
     },
 
     decoration = {
-        shadow = {enabled = false,},
-        blur = {enabled = false,},
+        shadow = {enabled = false},
+        blur = {enabled = false},
     },
 
     xwayland = {
         enabled = true,
-        force_zero_scaling = false,
+        force_zero_scaling = false
     },
 
     misc = {
         force_default_wallpaper = 0,
         disable_hyprland_logo = true,
-        initial_workspace_tracking = 2,
+        initial_workspace_tracking = 2
     },
 
     debug = {
-        vfr = true,
+        vfr = true
     },
 
-    animations = {enabled = false,},
+    animations = {enabled = false},
 })
 
 -------------
