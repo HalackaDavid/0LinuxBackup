@@ -61,15 +61,14 @@ hl.bind("ALT + F4", hl.dsp.window.close())
 hl.bind(mainMod .. " + SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 hl.bind(mainMod .. " + V", hl.dsp.window.float())
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo()) 
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(utilsPath .. "/screenshot.util 1")
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd(utilsPath .. "/screenshot.util 2")
+
+-- Keyboard Layout
+hl.bind(mainMod .. " + F1", hl.dsp.exec_cmd("hyprctl switchxkblayout all 0")
+hl.bind(mainMod .. " + F2", hl.dsp.exec_cmd("hyprctl switchxkblayout all 1")
 
 --[[
--- Keyboard Layout
-hl.bind($mainMod, F1, exec, hyprctl switchxkblayout all 0
-hl.bind($mainMod, F2, exec, hyprctl switchxkblayout all 1
-
-hl.bind($mainMod, S, exec, $utilsPath/screenshot.util 1
-hl.bind($mainMod SHIFT, S, exec, $utilsPath/screenshot.util 2
-
 -- Move focus with mainMod + arrow keys
 hl.bind($mainMod, left, movefocus, l
 hl.bind($mainMod, right, movefocus, r
