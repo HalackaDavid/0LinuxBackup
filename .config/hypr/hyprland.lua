@@ -3,13 +3,12 @@
 -----------------
 local HOME = os.getenv("HOME")
 local mainMod = "SUPER"
-
 local configPath = HOME .. "/.config/hypr"
 local utilsPath = configPath .. "/utils"
 local mediaPath = HOME .. "/data/Media"
 
-local terminal = foot
-local menu = wofi  
+local terminal = "foot"
+local menu = "wofi"
 -----------------------------
 --- ENVIRONMENT VARIABLES ---
 -----------------------------
