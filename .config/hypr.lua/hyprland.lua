@@ -2,42 +2,49 @@
 --- VARIABLES ---
 -----------------
 
-$mainMod = SUPER
-$configPath = $HOME/.config/hypr
-$utilsPath = $configPath/utils
-$mediaPath = $HOME/data/Media
+local mainMod = SUPER
+local configPath = $HOME/.config/hypr
+local utilsPath = $configPath/utils
+local mediaPath = $HOME/data/Media
 
+local terminal = foot
+local menu = wofi  
 -----------------------------
 --- ENVIRONMENT VARIABLES ---
 -----------------------------
-env = XCURSOR_SIZE,24
-env = HYPRCURSOR_SIZE,24
+hl.env("XCURSOR_SIZE","24")
+hl.env("HYPRCURSOR_SIZE","24")
 
-env = NCORConfigPath, $configPath
-env = NCORUtilsPath, $utilsPath
-env = NCORMediaPath, $mediaPath
-
--------------------
---- MY PROGRAMS ---
--------------------
-$terminal = foot
-$menu = wofi  
-
-----------------
---- DEFAULTS ---
-----------------
+hl.env("NCORConfigPath", configPath)
+hl.env("NCORUtilsPath", utilsPath)
+hl.env("NCORMediaPath", mediaPath)
 
 ------------
 - MONITORS -
 ------------
-monitor=, preferred, auto, 1
-monitor=desc: BOE NE160QDM-NYM, 2560x1600@60, 0x0, 1.25
+hl.monitor({
+    output = "",
+    mode = "preferred",
+    position = "auto",
+    scale = 1,
+})
+
+hl.monitor({
+  output = "desc: BOE NE160QDM-NYM",
+  mode = "2560x1600@60",
+  position = "0x0",
+  scale = 1.25,
+})
 
 ---------------
 --- STARTUP ---
 ---------------
-exec-once = $utilsPath/monitor.util && $utilsPath/wallpaper.util 1 && hyprctl dispatch workspace 1 && $terminal
-exec-once = hyprsunset
+hl.on("hyprland.start", function () 
+    hl.exec_cmd("$utilsPath/monitor.util && $utilsPath/wallpaper.util 1 && hyprctl dispatch workspace 1 && $terminal")
+    hl.exec_cmd("hyprsunset")
+end)
+
+--exec-once = $utilsPath/monitor.util && $utilsPath/wallpaper.util 1 && hyprctl dispatch workspace 1 && $terminal
 
 --------------
 --- SOURCE ---
@@ -47,56 +54,57 @@ source = $configPath/monitor.conf
 -------------------
 --- KEYBINDINGS ---
 -------------------
-bind = $mainMod, Q, exec, $terminal
-bind = $mainMod, R, exec, $menu
-bind = $mainMod ALT, P, exec, $terminal -e $utilsPath/wallpaper.util 0
-bind = ALT, F4, killactive
-bind = $mainMod SHIFT, L, exec, hyprlock
-bind = $mainMod, V, togglefloating,
-bind = $mainMod, P, togglesplit, -- dwindle
+hl.bind(mainMod + "Q", hl.exec_cmd(terminal))
+hl.bind(mainMod + "R", hl.exec_cmd(menu))
+
+hl.bind(mainMod + "ALT" + "P", exec, $terminal -e $utilsPath/wallpaper.util 0
+hl.bind("ALT +F4", killactive)
+hl.bind($mainMod SHIFT, L, exec, hyprlock
+hl.bind($mainMod, V, togglefloating,
+hl.bind($mainMod, P, togglesplit, -- dwindle
 
 -- Keyboard Layout
-bind = $mainMod, F1, exec, hyprctl switchxkblayout all 0
-bind = $mainMod, F2, exec, hyprctl switchxkblayout all 1
+hl.bind($mainMod, F1, exec, hyprctl switchxkblayout all 0
+hl.bind($mainMod, F2, exec, hyprctl switchxkblayout all 1
 
-bind = $mainMod, S, exec, $utilsPath/screenshot.util 1
-bind = $mainMod SHIFT, S, exec, $utilsPath/screenshot.util 2
+hl.bind($mainMod, S, exec, $utilsPath/screenshot.util 1
+hl.bind($mainMod SHIFT, S, exec, $utilsPath/screenshot.util 2
 
 -- Move focus with mainMod + arrow keys
-bind = $mainMod, left, movefocus, l
-bind = $mainMod, right, movefocus, r
-bind = $mainMod, up, movefocus, u
-bind = $mainMod, down, movefocus, d
+hl.bind($mainMod, left, movefocus, l
+hl.bind($mainMod, right, movefocus, r
+hl.bind($mainMod, up, movefocus, u
+hl.bind($mainMod, down, movefocus, d
 
 -- Move focus with vim like
-bind = $mainMod, L, movefocus, l
-bind = $mainMod, H, movefocus, r
-bind = $mainMod, K, movefocus, u
-bind = $mainMod, J, movefocus, d
+hl.bind($mainMod, L, movefocus, l
+hl.bind($mainMod, H, movefocus, r
+hl.bind($mainMod, K, movefocus, u
+hl.bind($mainMod, J, movefocus, d
 
 -- Switch workspaces with mainMod + [0-9]
-bind = $mainMod, 1, workspace, 1
-bind = $mainMod, 2, workspace, 2
-bind = $mainMod, 3, workspace, 3
-bind = $mainMod, 4, workspace, 4
-bind = $mainMod, 5, workspace, 5
-bind = $mainMod, 6, workspace, 6
-bind = $mainMod, 7, workspace, 7
-bind = $mainMod, 8, workspace, 8
-bind = $mainMod, 9, workspace, 9
-bind = $mainMod, 0, workspace, 10
+hl.bind($mainMod, 1, workspace, 1
+hl.bind($mainMod, 2, workspace, 2
+hl.bind($mainMod, 3, workspace, 3
+hl.bind($mainMod, 4, workspace, 4
+hl.bind($mainMod, 5, workspace, 5
+hl.bind($mainMod, 6, workspace, 6
+hl.bind($mainMod, 7, workspace, 7
+hl.bind($mainMod, 8, workspace, 8
+hl.bind($mainMod, 9, workspace, 9
+hl.bind($mainMod, 0, workspace, 10
 
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]
-bind = $mainMod SHIFT, 1, movetoworkspace, 1
-bind = $mainMod SHIFT, 2, movetoworkspace, 2
-bind = $mainMod SHIFT, 3, movetoworkspace, 3
-bind = $mainMod SHIFT, 4, movetoworkspace, 4
-bind = $mainMod SHIFT, 5, movetoworkspace, 5
-bind = $mainMod SHIFT, 6, movetoworkspace, 6
-bind = $mainMod SHIFT, 7, movetoworkspace, 7
-bind = $mainMod SHIFT, 8, movetoworkspace, 8
-bind = $mainMod SHIFT, 9, movetoworkspace, 9
-bind = $mainMod SHIFT, 0, movetoworkspace, 10
+hl.bind($mainMod SHIFT, 1, movetoworkspace, 1
+hl.bind($mainMod SHIFT, 2, movetoworkspace, 2
+hl.bind($mainMod SHIFT, 3, movetoworkspace, 3
+hl.bind($mainMod SHIFT, 4, movetoworkspace, 4
+hl.bind($mainMod SHIFT, 5, movetoworkspace, 5
+hl.bind($mainMod SHIFT, 6, movetoworkspace, 6
+hl.bind($mainMod SHIFT, 7, movetoworkspace, 7
+hl.bind($mainMod SHIFT, 8, movetoworkspace, 8
+hl.bind($mainMod SHIFT, 9, movetoworkspace, 9
+hl.bind($mainMod SHIFT, 0, movetoworkspace, 10
 
 -- Move/resize windows with mainMod + LMB/RMB and dragging
 bindm = $mainMod, mouse:272, movewindow
