@@ -2,7 +2,8 @@
 --- VARIABLES ---
 -----------------
 local HOME = os.getenv("HOME")
-local mainMod = SUPER
+local mainMod = "SUPER"
+
 local configPath = HOME .. "/.config/hypr"
 local utilsPath = configPath .. "/utils"
 local mediaPath = HOME .. "/data/Media"
