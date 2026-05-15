@@ -80,71 +80,39 @@ hl.bind(mainMod .. " + H", hl.dsp.focus({ direction = "right" }))
 hl.bind(mainMod .. " + K", hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + J", hl.dsp.focus({ direction = "down" }))
 
+-- Switch workspaces with mainMod + [0-9]
+-- Move active window to a workspace with mainMod + SHIFT + [0-9]
 for i = 1, 10 do
     local key = i % 10 -- 10 maps to key 0
     hl.bind(mainMod .. " + " .. key,         hl.dsp.focus({ workspace = i}))
     hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
 end
 
---[[
--- Switch workspaces with mainMod + [0-9]
-hl.bind($mainMod, 1, workspace, 1
-hl.bind($mainMod, 2, workspace, 2
-hl.bind($mainMod, 3, workspace, 3
-hl.bind($mainMod, 4, workspace, 4
-hl.bind($mainMod, 5, workspace, 5
-hl.bind($mainMod, 6, workspace, 6
-hl.bind($mainMod, 7, workspace, 7
-hl.bind($mainMod, 8, workspace, 8
-hl.bind($mainMod, 9, workspace, 9
-hl.bind($mainMod, 0, workspace, 10
-
--- Move active window to a workspace with mainMod + SHIFT + [0-9]
-hl.bind($mainMod SHIFT, 1, movetoworkspace, 1
-hl.bind($mainMod SHIFT, 2, movetoworkspace, 2
-hl.bind($mainMod SHIFT, 3, movetoworkspace, 3
-hl.bind($mainMod SHIFT, 4, movetoworkspace, 4
-hl.bind($mainMod SHIFT, 5, movetoworkspace, 5
-hl.bind($mainMod SHIFT, 6, movetoworkspace, 6
-hl.bind($mainMod SHIFT, 7, movetoworkspace, 7
-hl.bind($mainMod SHIFT, 8, movetoworkspace, 8
-hl.bind($mainMod SHIFT, 9, movetoworkspace, 9
-hl.bind($mainMod SHIFT, 0, movetoworkspace, 10
-
 -- Move/resize windows with mainMod + LMB/RMB and dragging
-bindm = $mainMod, mouse:272, movewindow
-bindm = $mainMod, mouse:273, resizewindow
+hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
+hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- Laptop multimedia keys for volume and LCD brightness
-bindel = ,XF86AudioRaiseVolume, exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+
-bindel = ,XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
-bindel = ,XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
-bindel = ,XF86AudioMicMute, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
-bindel = ,XF86MonBrightnessUp, exec, brightnessctl -e4 set 1%+
-bindel = ,XF86MonBrightnessDown, exec, brightnessctl -e4 set 1%-
+hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
+hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"),      { locked = true, repeating = true })
+hl.bind("XF86AudioMute",        hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),     { locked = true, repeating = true })
+hl.bind("XF86AudioMicMute",     hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),   { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessUp",  hl.dsp.exec_cmd("brightnessctl -n2 set 1%+"),                      { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessDown",hl.dsp.exec_cmd("brightnessctl -n2 set 1%-"),                      { locked = true, repeating = true })
 
 -- Requires playerctl
-bindl = , XF86AudioNext, exec, playerctl next
-bindl = , XF86AudioPause, exec, playerctl play-pause
-bindl = , XF86AudioPlay, exec, playerctl play-pause
-bindl = , XF86AudioPrev, exec, playerctl previous
+hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = true })
+hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 ------------------------------
 --- WINDOWS AND WORKSPACES ---
 ------------------------------
 
-windowrule = border_size 0, match:workspace w[t1]
+hl.window_rule({ match = { class = "workspace w[t1]" }, border_size = 0 })
+--windowrule = border_size 0, match:workspace w[t1]
 
-workspace = 1, monitor:HDMI-A-1, default:true
-workspace = 2, monitor:HDMI-A-1, default:true
-workspace = 3, monitor:HDMI-A-1, default:true
-workspace = 4, monitor:HDMI-A-1, default:true
-workspace = 5, monitor:HDMI-A-1, default:true
-workspace = 6, monitor:HDMI-A-1, default:true
-workspace = 7, monitor:HDMI-A-1, default:true
-workspace = 9, monitor:HDMI-A-1, default:true
-workspace = 10, monitor:HDMI-A-1, default:true
-]]--
 ---------------------
 --- LOOK AND FEEL ---
 ---------------------
@@ -198,22 +166,21 @@ dwindle {
     preserve_split = true
     force_split = 2
 }
+]]--
 
 -------------
 --- INPUT ---
 -------------
 
-input {
-    kb_layout = cz,ru
-    kb_variant = coder,
-    follow_mouse = 1
+input = {
+    kb_layout = { "cz", "ru" },
+    kb_variant = { "coder", "" },
+    follow_mouse = 1,
+    sensitivity = 0,
 
-    sensitivity = 0 -- -1.0 - 1.0, 0 means no modification.
-
-    touchpad {
-        disable_while_typing = 1
-        natural_scroll = 1
-        clickfinger_behavior = 1 -- --> one finger click - left click | two finger -> right click | three finger -> middle click
-    }
-}
-]]--
+    touchpad = {
+        disable_while_typing = 1,
+        natural_scroll = 1,
+        clickfinger_behavior = 1, -- --> one finger click - left click | two finger -> right click | three finger -> middle click
+    },
+},
