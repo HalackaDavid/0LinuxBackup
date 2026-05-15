@@ -174,7 +174,7 @@ dwindle {
 
 input = {
     kb_layout = {"cz", "ru",},
-    kb_variant = {"coder", "",},
+    kb_variant = {"coder",},
     follow_mouse = 1,
     sensitivity = 0,
 
