@@ -69,10 +69,10 @@ hl.bind(mainMod .. " + F1", hl.dsp.exec_cmd("hyprctl switchxkblayout all 0"))
 hl.bind(mainMod .. " + F2", hl.dsp.exec_cmd("hyprctl switchxkblayout all 1"))
 
 -- Move focus with mainMod + arrow keys
-hl.bind(mainMod .. " + left", hl.dsp.focus({ destination = "left" })
-hl.bind(mainMod .. " + right", hl.dsp.focus({ destination = "right" })
-hl.bind(mainMod .. " + up", hl.dsp.focus({ destination = "up" })
-hl.bind(mainMod .. " + down", hl.dsp.focus({ destination = "down" })
+hl.bind(mainMod .. " + left", hl.dsp.focus({ destination = "left" }))
+hl.bind(mainMod .. " + right", hl.dsp.focus({ destination = "right" }))
+hl.bind(mainMod .. " + up", hl.dsp.focus({ destination = "up" }))
+hl.bind(mainMod .. " + down", hl.dsp.focus({ destination = "down" }))
 
 --[[
 -- Move focus with vim like
