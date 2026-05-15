@@ -68,13 +68,13 @@ hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd(utilsPath .. "/screenshot.uti
 hl.bind(mainMod .. " + F1", hl.dsp.exec_cmd("hyprctl switchxkblayout all 0")
 hl.bind(mainMod .. " + F2", hl.dsp.exec_cmd("hyprctl switchxkblayout all 1")
 
---[[
 -- Move focus with mainMod + arrow keys
-hl.bind($mainMod, left, movefocus, l
-hl.bind($mainMod, right, movefocus, r
-hl.bind($mainMod, up, movefocus, u
-hl.bind($mainMod, down, movefocus, d
+hl.bind(mainMod .. " + left", hl.dsp.focus({ destination = "left" })
+hl.bind(mainMod .. " + right", hl.dsp.focus({ destination = "right" })
+hl.bind(mainMod .. " + up", hl.dsp.focus({ destination = "up" })
+hl.bind(mainMod .. " + down", hl.dsp.focus({ destination = "down" })
 
+--[[
 -- Move focus with vim like
 hl.bind($mainMod, L, movefocus, l
 hl.bind($mainMod, H, movefocus, r
