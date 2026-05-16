@@ -13,8 +13,8 @@ local menu = "wofi"
 -----------------------------
 --- ENVIRONMENT VARIABLES ---
 -----------------------------
-hl.env("XCURSOR_SIZE","24")
-hl.env("HYPRCURSOR_SIZE","24")
+--hl.env("XCURSOR_SIZE","24")
+--hl.env("HYPRCURSOR_SIZE","24")
 
 hl.env("NCORConfigPath", configPath)
 hl.env("NCORUtilsPath", utilsPath)
@@ -30,20 +30,25 @@ hl.monitor({
     scale    = 1,
 })
 
-hl.monitor({
-    output   = "desc: LG Electronics LG ULTRAGEAR 0x0000B5F6",
-    mode     = "1920x1080@60",
-    position = "0x0",
-    scale    = 1,
-})
+--hl.monitor({
+--    output   = "desc: LG Electronics LG ULTRAGEAR 0x0000B5F6",
+--    mode     = "1920x1080@60",
+--    position = "0x0",
+--    scale    = 1,
+--})
 
 hl.monitor({
     output   = "desc: BOE NE160QDM-NYM",
-    mode     = "2560x1600@60",
-    position = "0x0",
-    scale    = 1.25,
     disabled = true
 })
+
+--hl.monitor({
+--    output   = "desc: BOE NE160QDM-NYM",
+--    mode     = "2560x1600@60",
+--    position = "0x0",
+--    scale    = 1.25,
+--    --disabled = true
+--})
 
 ---------------
 --- STARTUP ---
@@ -153,9 +158,9 @@ hl.config({
         initial_workspace_tracking = 2
     },
 
-    debug = {
-        vfr = true
-    },
+--    debug = {
+--        vfr = true
+--    },
 
     animations = {enabled = false},
 })
@@ -174,7 +179,11 @@ hl.config({
         touchpad = {
             disable_while_typing = 1,
             natural_scroll = 1,
-            clickfinger_behavior = 1, -- --> one finger click - left click | two finger -> right click | three finger -> middle click
+            clickfinger_behavior = 1 -- --> one finger click - left click | two finger -> right click | three finger -> middle click
         },
+    },
+
+    cursor = {
+        no_hardware_cursors = 1
     }
 })
