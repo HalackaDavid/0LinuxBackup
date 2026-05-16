@@ -2,3 +2,4 @@
 ratio = [0, 1, 1]   
 show_hidden = true
 show_symlink = true
+sort_by = "natural"

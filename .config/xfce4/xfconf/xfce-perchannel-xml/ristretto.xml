@@ -5,5 +5,11 @@
     <property name="navigationbar" type="empty">
       <property name="position" type="string" value="bottom"/>
     </property>
+    <property name="thumbnails" type="empty">
+      <property name="size" type="uint" value="3"/>
+    </property>
+  </property>
+  <property name="slideshow" type="empty">
+    <property name="timeout" type="uint" value="1"/>
   </property>
 </channel>
