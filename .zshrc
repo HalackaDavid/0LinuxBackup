@@ -28,6 +28,7 @@ case $(uname -m) in
         ;;
 esac
 
+export EDITOR=nvim
 export myData=$HOME/data
 export myAppsPath=$myData/Apps
 export myFSPath=/mnt

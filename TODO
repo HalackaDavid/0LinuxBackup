@@ -2,13 +2,18 @@
 ### SHIT IMPORTANT ###
 ######################
 
-warframe 717 amp || 147 amp || 117 amp
-
 m app -> moving to existing /tmp/{diskname} directory will stop from removing /tmp/{diskname}, and wrong checking if disk is not mounted or it is
 
 check floride in paste
 
 ai -> video maker
+
+warframe {
+    717 amp || 147 amp || 517 amp
+
+    tromyzone - 5
+    longwinder - 5
+}
 
 {
   .config/hypr/**/monitor.c

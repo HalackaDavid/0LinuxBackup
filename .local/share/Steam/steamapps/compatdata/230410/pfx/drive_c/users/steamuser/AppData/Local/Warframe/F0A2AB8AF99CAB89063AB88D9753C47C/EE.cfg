@@ -2668,7 +2668,6 @@ Graphics.SSAOMode=SSAOM_DISABLED
 Graphics.UpscaleSharpening=0.5
 Graphics.VSyncMode=VSM_NEVER_SYNC
 Graphics.VolumetricFogQuality=VFQ_LOW
-Graphics.WindowMode=MODE_FULLSCREEN
+Graphics.WindowMode=MODE_BORDERLESS
 CrewShip.PilotCenteredReticle=1
 Client.Email=technicdave@gmail.com
-
