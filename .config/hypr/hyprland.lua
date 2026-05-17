@@ -153,9 +153,14 @@ hl.config({
         initial_workspace_tracking = 2
     },
 
---    debug = {
---        vfr = true
---    },
+    debug = {
+        vfr = true
+    },
+
+    ecosystem = {
+        no_update_news = true,
+        no_donation_nag = true
+    },
 
     animations = {enabled = false},
 })
