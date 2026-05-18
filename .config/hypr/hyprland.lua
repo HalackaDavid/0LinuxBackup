@@ -20,16 +20,11 @@ hl.env("NCORConfigPath", configPath)
 hl.env("NCORUtilsPath", utilsPath)
 hl.env("NCORMediaPath", mediaPath)
 
-hl.on("hyprland.start", function () 
-    hl.exec_cmd(utilsPath .. "/monitor.util & " .. utilsPath .. "/wallpaper.util 1 & hyprctl dispatch workspace 1 & " .. terminal)
-    hl.exec_cmd("hyprsunset")
-end)
-
 --------------
 -- MONITORS --
 --------------
 hl.monitor({
-    output   = "",
+    output = "",
     mode     = "preferred",
     position = "auto",
     scale    = 1,
@@ -55,6 +50,10 @@ require("monitor-conf")
 ---------------
 --- STARTUP ---
 ---------------
+hl.on("hyprland.start", function () 
+    hl.exec_cmd(utilsPath .. "/monitor.util & " .. utilsPath .. "/wallpaper.util 1 & hyprctl dispatch workspace 1 & " .. terminal)
+    hl.exec_cmd("hyprsunset")
+end)
 
 --------------
 --- SOURCE ---
