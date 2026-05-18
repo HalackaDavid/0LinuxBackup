@@ -48,7 +48,11 @@ require("monitor-conf")
 --- STARTUP ---
 ---------------
 hl.on("hyprland.start", function () 
-    hl.exec_cmd(utilsPath .. "/monitor.util & " .. utilsPath .. "/wallpaper.util 1 & hyprctl dispatch workspace 1 & " .. terminal)
+    hl.exec_cmd(utilsPath .. "/monitor.util") 
+    hl.exec_cmd(utilsPath .. "/wallpaper.util 1")
+    hl.exec_cmd("hyprctl dispatch workspace 1")
+    hl.exec_cmd(terminal)
+    --hl.exec_cmd(utilsPath .. "/monitor.util && " .. utilsPath .. "/wallpaper.util 1 && hyprctl dispatch workspace 1 && " .. terminal)
     hl.exec_cmd("hyprsunset")
 end)
 

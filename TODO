@@ -2,6 +2,8 @@
 ### SHIT IMPORTANT ###
 ######################
 
+hyprland exec not working in order
+
 m app -> moving to existing /tmp/{diskname} directory will stop from removing /tmp/{diskname}, and wrong checking if disk is not mounted or it is
 
 check floride in paste
