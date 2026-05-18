@@ -1,2 +1,1 @@
-[[ "$TTY" == /dev/tty1 ]] && : > $HOME/.config/hypr/monitor.conf && exec start-hyprland >/dev/null
-#[[ "$TTY" == /dev/tty1 ]] && startx
+[[ "$TTY" == /dev/tty1 ]] && : > $HOME/.config/hypr/monitor-conf.lua && exec start-hyprland >/dev/null

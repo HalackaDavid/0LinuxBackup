@@ -20,6 +20,11 @@ hl.env("NCORConfigPath", configPath)
 hl.env("NCORUtilsPath", utilsPath)
 hl.env("NCORMediaPath", mediaPath)
 
+hl.on("hyprland.start", function () 
+    hl.exec_cmd(utilsPath .. "/monitor.util & " .. utilsPath .. "/wallpaper.util 1 & hyprctl dispatch workspace 1 & " .. terminal)
+    hl.exec_cmd("hyprsunset")
+end)
+
 --------------
 -- MONITORS --
 --------------
@@ -42,17 +47,14 @@ hl.monitor({
     mode     = "2560x1600@60",
     position = "0x0",
     scale    = 1.25,
-    disabled = true
+    --disabled = true
 })
+
+require("monitor-conf")
 
 ---------------
 --- STARTUP ---
 ---------------
-
-hl.on("hyprland.start", function () 
-    hl.exec_cmd(utilsPath .. "/monitor.util & " .. utilsPath .. "/wallpaper.util 1 & hyprctl dispatch workspace 1 & " .. terminal)
-    hl.exec_cmd("hyprsunset")
-end)
 
 --------------
 --- SOURCE ---
@@ -137,6 +139,10 @@ hl.config({
         layout = "dwindle"
     },
 
+    dwindle = {
+        force_split = 2,
+    },
+
     decoration = {
         shadow = {enabled = false},
         blur = {enabled = false}
@@ -162,7 +168,7 @@ hl.config({
         no_donation_nag = true
     },
 
-    animations = {enabled = false},
+    animations = {enabled = false}
 })
 
 -------------
