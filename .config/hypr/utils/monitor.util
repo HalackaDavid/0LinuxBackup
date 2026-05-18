@@ -1,12 +1,12 @@
 #!/bin/zsh
 
 Monitor() {
-    local monitorConfigPath="$NCORConfigPath/monitor.conf"
+    local monitorConfigPath="$NCORConfigPath/monitor-conf.lua"
     local internalName=$(hyprctl monitors all | grep "ID 0" | awk '{print $2}')
     local externalName=$(hyprctl monitors all | grep "Monitor" | grep -v "disconnected" | grep -v "ID 0" | awk '{print $2}' | head -n1)
 
     if [[ -n "$externalName" ]]; then
-        echo "h1.monitor({output=\"$internalName\",disabled=true})" > $monitorConfigPath
+        echo "hl.monitor({output=\"$internalName\",disabled=true})" > $monitorConfigPath
     else
         echo "" > $monitorConfigPath
     fi
