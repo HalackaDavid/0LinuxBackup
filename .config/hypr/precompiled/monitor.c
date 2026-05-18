@@ -46,12 +46,14 @@ int main() {
     
     char buffer[1024];
     while (fgets(buffer, sizeof(buffer), fdopen(sock, "r"))) {
+
+
         if (strncmp(buffer, "monitorremoved>>", 16) == 0) {
             printf("Monitor unplugged: %s", buffer + 16);
         }
 
-        if (strncmp(buffer, "monitoradded>>", 16) == 0) {
-            printf("Monitor added: %s", buffer + 16);
+        if (strncmp(buffer, "monitoradded>>", 14) == 0) {
+            printf("Monitor added: %s", buffer + 14);
         }
     }
     close(sock);
