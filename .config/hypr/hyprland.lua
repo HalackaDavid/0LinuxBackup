@@ -13,6 +13,9 @@ local menu = "wofi"
 -----------------------------
 --- ENVIRONMENT VARIABLES ---
 -----------------------------
+hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
+hl.env("XDG_SESSION_DESKTOP", "Hyprland")
+hl.env("XDG_SESSION_TYPE", "wayland")
 
 hl.env("NCORConfigPath", configPath)
 hl.env("NCORUtilsPath", utilsPath)
@@ -42,13 +45,18 @@ hl.monitor({
     scale    = 1.25,
 })
 
---hl.on("monitorAdded", function (monitor)
---    print("connected: " .. monitor.name)
---end)
---
---hl.on("monitorRemoved", function (monitor)
---    print("removed: " .. monitor.name)
---end)
+-- Triggered when a monitor is connected and ready
+hl.on("monitor.added", function(monitor)
+    -- 'monitor' is a table with info like .name, .width, .height
+    hl.notification.create({ text = "Monitor added: " .. monitor.name, timeout = 10000 })
+    -- Add setup logic here (e.g., move workspaces, set wallpaper)
+end)
+
+-- Triggered when a monitor is disconnected
+hl.on("monitor.removed", function(monitor)
+    hl.notification.create({ text = "Monitor removed: " .. monitor.name, timeout = 10000 })
+    -- Add cleanup logic here
+end)   
 
 ---------------
 --- STARTUP ---
@@ -142,6 +150,7 @@ hl.config({
     },
 
     dwindle = {
+        preserve_split = true,
         force_split = 2,
     },
 
@@ -152,22 +161,22 @@ hl.config({
 
     xwayland = {
         enabled = true,
-        force_zero_scaling = false
+        force_zero_scaling = false,
     },
 
     misc = {
         force_default_wallpaper = 0,
         disable_hyprland_logo = true,
-        initial_workspace_tracking = 2
+        initial_workspace_tracking = 2,
     },
 
     debug = {
-        vfr = true
+        vfr = true,
     },
 
     ecosystem = {
         no_update_news = true,
-        no_donation_nag = true
+        no_donation_nag = true,
     },
 
     animations = {enabled = false}
@@ -195,3 +204,33 @@ hl.config({
         no_hardware_cursors = 1
     }
 })
+
+
+------------
+--- TEST ---
+------------
+--hl.notification.create({ text = "1290381093281-023981-20938-091283-091283-091283-092183-", timeout = 5000 })
+
+--Function to serialize a table to a readable string
+--function TTS(tbl)
+--    local result = {}
+--    for k, v in pairs(tbl) do
+--        local key = (type(k) == "string") and string.format("%q", k) or ("["..tostring(k).."]")
+--        local value = (type(v) == "table") and TTS(v) or tostring(v) -- Use tostring(v)
+--        table.insert(result, key .. " = " .. value)
+--    end
+--    return "{ " .. table.concat(result, ", ") .. " }"
+--end   
+--
+--hl.bind("SUPER + T", function()
+--    local m1 = TTS(hl.get_monitors())
+--    hl.notification.create({ text = m1, timeout = 5000 })
+--
+--    local monitor = TTS(hl.get_active_monitor())
+--    if monitor then
+--        local m2 = TTS(monitor)
+--    else
+--        local m2 = "No active monitor"
+--    end   
+--    hl.notification.create({ text = m2, timeout = 5000 })
+--end)   
