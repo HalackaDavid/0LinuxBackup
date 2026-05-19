@@ -10,6 +10,7 @@ hl.monitor({
     mode     = "2560x1600@60",
     position = "0x0",
     scale    = 1.25,
+    disabled = true
 })
 
 hl.monitor({

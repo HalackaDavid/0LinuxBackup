@@ -25,21 +25,26 @@ hl.env("NCORMediaPath", mediaPath)
 --------------
 -- MONITORS --
 --------------
-require("utils/monitor-util")
+hl.monitor({
+    output   = "",
+    mode     = "preferred",
+    position = "auto",
+    scale    = 1,
+})
 
---
--- get monitor name of ID 0
---
+hl.monitor({
+    output   = "desc: BOE NE160QDM-NYM",
+    mode     = "2560x1600@60",
+    position = "0x0",
+    scale    = 1.25,
+})
 
---local active_monitors = {}
-
-hl.on("monitor.added", function(monitor)
-    hl.notification.create({ text = "[+] " .. monitor.name, timeout = 10000 })
-end)
-
-hl.on("monitor.removed", function(monitor)
-    hl.notification.create({ text = "[-] " .. monitor.name, timeout = 10000 })
-end)   
+hl.monitor({
+    output   = "desc: LG Electronics LG ULTRAGEAR 0x0000B5F6",
+    mode     = "1920x1080@60",
+    position = "auto",
+    scale    = 1,
+})
 
 ---------------
 --- STARTUP ---
