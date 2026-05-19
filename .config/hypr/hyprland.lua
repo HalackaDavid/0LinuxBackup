@@ -27,6 +27,20 @@ hl.env("NCORMediaPath", mediaPath)
 --------------
 require("utils/monitor-util")
 
+--
+-- get monitor name of ID 0
+--
+
+--local active_monitors = {}
+
+hl.on("monitor.added", function(monitor)
+    hl.notification.create({ text = "[+] " .. monitor.name, timeout = 10000 })
+end)
+
+hl.on("monitor.removed", function(monitor)
+    hl.notification.create({ text = "[-] " .. monitor.name, timeout = 10000 })
+end)   
+
 ---------------
 --- STARTUP ---
 ---------------
@@ -34,14 +48,6 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd(utilsPath .. "/monitor.util && " .. utilsPath .. "/wallpaper.util 1 && hyprctl dispatch workspace 1 && " .. terminal)
     hl.exec_cmd("hyprsunset")
 end)
-
-hl.on("monitor.added", function(monitor)
-    hl.notification.create({ text = "Monitor added: " .. monitor.name, timeout = 10000 })
-end)
-
-hl.on("monitor.removed", function(monitor)
-    hl.notification.create({ text = "Monitor removed: " .. monitor.name, timeout = 10000 })
-end)   
 
 -------------------
 --- KEYBINDINGS ---
