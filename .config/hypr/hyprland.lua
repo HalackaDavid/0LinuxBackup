@@ -39,27 +39,29 @@ hl.monitor({
     output   = "desc: BOE NE160QDM-NYM",
     mode     = "2560x1600@60",
     position = "0x0",
-    scale    = 1,
+    scale    = 1.25,
 })
 
-require("monitor-conf")
+--hl.on("monitorAdded", function (monitor)
+--    print("connected: " .. monitor.name)
+--end)
+--
+--hl.on("monitorRemoved", function (monitor)
+--    print("removed: " .. monitor.name)
+--end)
 
 ---------------
 --- STARTUP ---
 ---------------
 hl.on("hyprland.start", function () 
-    hl.exec_cmd(utilsPath .. "/monitor.util") 
-    hl.exec_cmd(utilsPath .. "/wallpaper.util 1")
-    hl.exec_cmd("hyprctl dispatch workspace 1")
-    hl.exec_cmd(terminal)
-    --hl.exec_cmd(utilsPath .. "/monitor.util && " .. utilsPath .. "/wallpaper.util 1 && hyprctl dispatch workspace 1 && " .. terminal)
+    hl.exec_cmd(utilsPath .. "/monitor.util && " .. utilsPath .. "/wallpaper.util 1 && hyprctl dispatch workspace 1 && " .. terminal)
     hl.exec_cmd("hyprsunset")
 end)
 
 --------------
 --- SOURCE ---
 --------------
---source = $configPath/monitor.conf
+require("monitor-conf")
 
 -------------------
 --- KEYBINDINGS ---
