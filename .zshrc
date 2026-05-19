@@ -249,7 +249,7 @@ alias wget='wget --hsts-file=/dev/null'
 alias neton='sudo systemctl start iwd'
 alias netoff='sudo systemctl stop iwd'
 alias bashF='rm ~/.bashrc ~/.bash_profile ~/.bash_logout ~/.profile ~/.bash_login ~/.bash_history 2>/dev/null'
-alias hyprdown='command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit'
+alias poweroff='hyprshutdown --post-cmd "shutdown -P 0"'
 alias hmon='(cd .config/hypr/utils && ./monitor.util && ./wallpaper.util 1)'
 
 alias ws='wpctl status'

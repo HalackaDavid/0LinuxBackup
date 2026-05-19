@@ -3,6 +3,7 @@
 -----------------
 local HOME = os.getenv("HOME")
 local mainMod = "SUPER"
+
 local configPath = HOME .. "/.config/hypr"
 local utilsPath = configPath .. "/utils"
 local mediaPath = HOME .. "/data/Media"
@@ -24,39 +25,7 @@ hl.env("NCORMediaPath", mediaPath)
 --------------
 -- MONITORS --
 --------------
-hl.monitor({
-    output = "",
-    mode     = "preferred",
-    position = "auto",
-    scale    = 1,
-})
-
-hl.monitor({
-    output   = "desc: LG Electronics LG ULTRAGEAR 0x0000B5F6",
-    mode     = "1920x1080@60",
-    position = "auto",
-    scale    = 1,
-})
-
-hl.monitor({
-    output   = "desc: BOE NE160QDM-NYM",
-    mode     = "2560x1600@60",
-    position = "0x0",
-    scale    = 1.25,
-})
-
--- Triggered when a monitor is connected and ready
-hl.on("monitor.added", function(monitor)
-    -- 'monitor' is a table with info like .name, .width, .height
-    hl.notification.create({ text = "Monitor added: " .. monitor.name, timeout = 10000 })
-    -- Add setup logic here (e.g., move workspaces, set wallpaper)
-end)
-
--- Triggered when a monitor is disconnected
-hl.on("monitor.removed", function(monitor)
-    hl.notification.create({ text = "Monitor removed: " .. monitor.name, timeout = 10000 })
-    -- Add cleanup logic here
-end)   
+require("utils/monitor-util")
 
 ---------------
 --- STARTUP ---
@@ -66,10 +35,13 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("hyprsunset")
 end)
 
---------------
---- SOURCE ---
---------------
-require("monitor-conf")
+hl.on("monitor.added", function(monitor)
+    hl.notification.create({ text = "Monitor added: " .. monitor.name, timeout = 10000 })
+end)
+
+hl.on("monitor.removed", function(monitor)
+    hl.notification.create({ text = "Monitor removed: " .. monitor.name, timeout = 10000 })
+end)   
 
 -------------------
 --- KEYBINDINGS ---
@@ -210,27 +182,3 @@ hl.config({
 --- TEST ---
 ------------
 --hl.notification.create({ text = "1290381093281-023981-20938-091283-091283-091283-092183-", timeout = 5000 })
-
---Function to serialize a table to a readable string
---function TTS(tbl)
---    local result = {}
---    for k, v in pairs(tbl) do
---        local key = (type(k) == "string") and string.format("%q", k) or ("["..tostring(k).."]")
---        local value = (type(v) == "table") and TTS(v) or tostring(v) -- Use tostring(v)
---        table.insert(result, key .. " = " .. value)
---    end
---    return "{ " .. table.concat(result, ", ") .. " }"
---end   
---
---hl.bind("SUPER + T", function()
---    local m1 = TTS(hl.get_monitors())
---    hl.notification.create({ text = m1, timeout = 5000 })
---
---    local monitor = TTS(hl.get_active_monitor())
---    if monitor then
---        local m2 = TTS(monitor)
---    else
---        local m2 = "No active monitor"
---    end   
---    hl.notification.create({ text = m2, timeout = 5000 })
---end)   
